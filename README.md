@@ -30,6 +30,8 @@ jupyter notebook
 
 ## APIs
 
+TODO: we should aim to drive this list from Smart API registry
+
 ### Live
 
  * Pharos https://pharos.nih.gov/ (Purple) - drug info

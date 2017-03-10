@@ -39,6 +39,7 @@ TODO: we should aim to drive this list from Smart API registry
  * BioLink https://api.monarchinitiative.org/api/ (Orange)
  * Biothings: MyGene (Orange)
  * Biothings: MyVariant (Orange)
+ * Wikidata SPARQL (Orange)
 
 ### Next
 

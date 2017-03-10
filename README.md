@@ -37,11 +37,12 @@ TODO: we should aim to drive this list from Smart API registry
  * Pharos https://pharos.nih.gov/ (Purple) - drug info
  * Ginas http://ginas.ncats.nih.gov (Purple) - substances
  * BioLink https://api.monarchinitiative.org/api/ (Orange)
- * Biothings (Orange)
+ * Biothings: MyGene (Orange)
+ * Biothings: MyVariant (Orange)
 
 ### Next
 
- * Exposure API (Green)
+ * Exposure API - scores for locations (Green)
  * Synthetic patient data API (Green)
  * Synthetic patient data API (Orange)
 

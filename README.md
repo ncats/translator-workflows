@@ -1,5 +1,10 @@
 # cq-notebooks
+
 Notebooks for answering competency questions
+
+Our goal here is to create a catalog of working examples that demonstrate how to access, transform, integrate and visualize the diverse data sources we intend to use for projects like Translator.
+
+We are currently using Jupyter notebooks as our means of documenting, prototyping, and sharing code. As some of these experiments mature into working prototype pipelines, we intend to extract this functionality from the notebooks and migrate it into a production pipeline.
 
 ## Workplan
 
@@ -13,7 +18,9 @@ Each row should link to a notebook demonstrating CQ answering (or lack of answer
 
 ## Running Locally
 
-### Setup
+### One-time Setup
+
+You will need Python (e.g., Python 3.5.2).
 
 ```
 virtualenv env
@@ -27,6 +34,7 @@ pip install jupyter ipython pandas requests
 source env/bin/activate
 jupyter notebook
 ```
+
 
 ## APIs
 

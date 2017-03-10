@@ -28,3 +28,21 @@ source env/bin/activate
 jupyter notebook
 ```
 
+## APIs
+
+### Live
+
+ * Pharos https://pharos.nih.gov/ (Purple) - drug info
+ * Ginas http://ginas.ncats.nih.gov (Purple) - substances
+ * BioLink https://api.monarchinitiative.org/api/ (Orange)
+ * Biothings (Orange)
+
+### Next
+
+ * Exposure API (Green)
+ * Synthetic patient data API (Green)
+ * Synthetic patient data API (Orange)
+
+### Hackathon
+
+ * Disease prediction (Grey)

@@ -51,7 +51,7 @@ TODO: we should aim to drive this list from Smart API registry
 
 ### Next
 
- * Exposure API - scores for locations (Green)
+ * Exposure API - scores for locations (Green) - https://exposures.renci.org/v1/ui/#!/default
  * Synthetic patient data API (Green)
  * Synthetic patient data API (Orange)
 

@@ -45,8 +45,10 @@ TODO: we should aim to drive this list from Smart API registry
  * Pharos https://pharos.nih.gov/ (Purple) - drug info
  * Ginas http://ginas.ncats.nih.gov (Purple) - substances
  * BioLink https://api.monarchinitiative.org/api/ (Orange)
- * Biothings: MyGene (Orange)
- * Biothings: MyVariant (Orange)
+ * BioThings API for genes: [MyGene.info](http://mygene.info) (Orange)
+ * BioThings API for variants: [MyVariant.info](http://myvariant.info) (Orange)
+ * BioThings API for drugs/Compounds: http://c.biothings.io (Orange)
+ * BioThings API for taxonomy: http://t.biothings.io (Orange)
  * Wikidata SPARQL (Orange)
 
 ### Next

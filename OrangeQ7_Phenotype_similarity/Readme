@@ -1,0 +1,8 @@
+What genes show high phenotypic similarity to those in set FAcore?
+
+HPO, MODs (via Monarch)
+
+a - retrieve ids of all orthologes of genes in set FAcore -> set Q7-1
+b - retrieve phenotypes of genes in set FAcore  and  Q7-1 (orthologs of FAcore)
+c - run phenosim analysis to generate ranked list of phenotypically similar genes across species
+d - retrieve human orthologs of top hits -> set Q7-FAx

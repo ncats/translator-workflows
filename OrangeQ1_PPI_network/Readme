@@ -1,0 +1,5 @@
+Q1: PPI network - What genes/proteins interact with genes/proteins in set FAcore?
+
+Data sources: BioGrid, STRING (via Monarch) 
+
+SubQueries: a - retrieve list of proteins that interact with FA genes/proteins, based on experimental evidence of binding -> set Q1-FAx

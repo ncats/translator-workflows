@@ -1,0 +1,9 @@
+What genes are co-expressed with those in set FAcore? 
+
+TCGA (all tissues) and GTEx (all tissues), and GDSC (cell lines).
+
+- retrieve gene expression data 
+- run analysis to identify co-expression clusters
+
+"- Blue team (Theo) took ownership of implementing this query, based on their expertise and data sources.
+- Need to define set of condistions under which co-expression/clustering  is assessed."

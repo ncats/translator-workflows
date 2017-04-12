@@ -3,3 +3,6 @@ Q1: PPI network - What genes/proteins interact with genes/proteins in set FAcore
 Data sources: BioGrid, STRING (via Monarch) 
 
 SubQueries: a - retrieve list of proteins that interact with FA genes/proteins, based on experimental evidence of binding -> set Q1-FAx
+
+Semantic Query: "a - SciGraph: NCBIGeneID  ->  RO_0002434 (interacts_with) -> ?NCBIGeneID <- OBAN:association_has_subject - OBAN:Association -> RO_0002558 (has_evidence) -> ECO:0000006 (experimetnal evidence)
+"

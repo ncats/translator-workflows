@@ -1,4 +1,4 @@
-### Orange CQ #2
+### Orange CQ#2
 
 **Query:**  What genes express proteins that are functionally similar to the 11 Fanconi Anemia core complex genes (set FA-core), based on GO annotations?
 
@@ -23,7 +23,7 @@ Output: GeneSetQ2 (functionally similar human genes based on cross-species GO-si
 
 --------
 
-*Note that the subqueries above can be parameterized in any number of ways in their implementation (e.g. select specific taxa  for cross-species expansion, facet on a MF or BP or CC subset of GO annotations, set different threshholds for GO-based similarity, selecting different knowledge sources or routes to retrieve a particular data type). Different combinations of parameters can be explored using different notebooks in this directory*
+*Note that the subqueries above can be parameterized in any number of ways in their implementation (e.g. select specific taxa  for cross-species expansion, facet on a MF or BP or CC subset of GO annotations, set different threshholds for GO-based similarity, selecting different knowledge sources or routes to retrieve a particular data type). Different combinations of parameters can be explored using different notebooks in this directory.*
 
 
 	

@@ -2,7 +2,7 @@
 
 **Query:**  What genes express proteins that are functionally similar to the primary Fanconi anemia genes (set FA-core), based on GO annotations?
 
-**Goal:** This query aims to expand the FA-core gene set based on GO functional similarity, in service of Task 1 in the St. Jude Life Cohort Demonstrator described [here](https://gist.github.com/mbrush/267432e0cd3fcc095ff1c256846f905f).
+**Goal:** This query aims to expand the FA-core gene set based on GO functional similarity, in service of Task 1 in the St. Jude Life Cohort Demonstrator described [here](https://github.com/NCATS-Tangerine/cq-notebooks/wiki/St.-Judes-FA-Demonstrator).
   
 **Data Types and Sources:**
 1. Gene-ortholog associations from Panther via BioLink API

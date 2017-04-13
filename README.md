@@ -38,7 +38,7 @@ jupyter notebook
 
 ## APIs
 
-[API development guidelines](/NCATS-Tangerine/cq-notebooks/blob/master/API_dev_guidelines.md)
+[API development guidelines](API_dev_guidelines.md)
 
 TODO: we should aim to drive this list from Smart API registry
 

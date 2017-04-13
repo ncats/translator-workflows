@@ -9,7 +9,7 @@
 2. Gene-protein associations from Ensembl via SciGraph (BioLink API or cypher query in Monarch API?)
 3. Functional annotations from GO via SciGraph (Biolink API) or via Wikidata (SPARQL API)
   
-**SubQueries/Tasks:**  
+**Sub-Queries/Tasks:**  
    
 Input: NCBIGene identifiers for 11 FA-core genes
   1. Retrieve gene ids of orthologes of FA-core genes  
@@ -22,7 +22,7 @@ Input: NCBIGene identifiers for 11 FA-core genes
 Output: gene set Q2 (functionally similar human genes based on cross-species GO-similarity analysis)
 
 
-Note that the subqueries above can be parameterized in any number of ways, and explored different notebooks in this directory (e.g. filter taxon selected for cross-species expansion, facet on a MF or BP or CC subset of GO annotations, threshhold set for filtering on GO-based similarity).
+Note that the subqueries above can be parameterized in any number of ways, with different permutations explored using different notebooks in this directory (e.g. filter taxon selected for cross-species expansion, facet on a MF or BP or CC subset of GO annotations, threshhold set for filtering on GO-based similarity).
 
 --------
 	

@@ -52,7 +52,13 @@ Add the relevant entity types below as well.
      > **Note:**
      > - see [more about InChIKey here](http://www.inchi-trust.org/technical-faq/#13).
          
-         
+   * **smiles**
+     > *type*: string
+     > *value*: A SMILES string, e.g., c1ccccc1C(=O)N
+
+     > **Note:**
+     > - inclusion of SMILES string avoids the need for a registry lookup, since InChIKey's are not decodable         
+
 ### API implementation
 
 #### Entity retrieval endpoint

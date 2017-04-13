@@ -4,9 +4,9 @@ This document summarizes the common guidelines we want to follow when developing
 
 Just a few quick notes first:
 
-* The response objects returned from an API should be the same entity type (a single object or a list of objects). See [entity types]() below.
-* Each entity type should have a defined "_id" field. See [entity types]() below.
-* An API should support both the query by _id, and batch query by a list of _id.
+* The response objects returned from an API should be the same entity type (a single object or a list of objects). See [entity types](#entity-types) below.
+* Each entity type should have a defined "_id" field. See [entity types](#entity-types) below.
+* An API should support both the query by _id, and batch query by a list of _id. See [API implementation](#api-implementation) below.
 
 
 ### Entity types
@@ -53,3 +53,29 @@ Add the relevant entity types below as well.
      > - see [more about InChIKey here](http://www.inchi-trust.org/technical-faq/#13).
          
          
+### API implementation
+
+#### Entity retrieval endpoint
+   This is **required**. At minimal, you need to implement an endpoint for entity retrieval.
+   
+   * URL pattern should be like /<entity_type>, e.g., /gene, or /v1/gene if versioning is used.
+   * GET request with an *id* URL parameter should return a single entity, e.g., /gene/1017 return gene object for 1017
+   * POST request to this endpoint should do a batch query with a passed list of ids. It returns a list of matched entities.
+     >POST parameter
+     > - ids:    a list of ids separated by comma, e.g., "ids=1017,1018"
+
+#### Entity query endpoint
+   This is **recommended**, often **required** depending on the use cases of your API.
+   
+   * URL pattern should be like /query, or /v1/query if versioning is used.
+   * GET request with *q* query parameter will perform a query with the input query term. e.g. /query?q=CDK2
+   * POST request with *q* parameter with comma-separated query terms will perform a batch query.
+     >POST parameter
+     > - q:    a list of query terms separated by comma, e.g. "q=CDK2,BTK"          
+     >
+   * Recommended query behavior is to support both simple query like "q=CDK2" and also fielded query like "q=symbol:CDK2", even with boolean expression 'q=name:"tumor suppressor" NOT name:receptor'.     
+   
+#### Notes
+  * More recommended API implementation guidelines can follow [BioThings API specs](http://biothings.io/specs)
+  * [MyGene.info](http://mygene.info) API can serve as an example API implementation. See [its API documentation](http://mygene.info/v3/api).
+  

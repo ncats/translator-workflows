@@ -4,7 +4,7 @@
 
 **Goal:** This query aims to expand the FA-core gene set based PPI network membership, in service of Task 1 in the St. Jude Life Cohort Demonstrator described [here](https://github.com/NCATS-Tangerine/cq-notebooks/wiki/St.-Judes-FA-Demonstrator).
   
-**Data Types and Sources:**
+**Data Types, Sources, and Routes:**
 1. Gene-ortholog associations from [Panther](http://www.pantherdb.org/), via SciGraph (BioLink [/bioentity/gene/{id}/homologs/](https://api.monarchinitiative.org/api/#!/bioentity/get_gene_homolog_associations))
 2. Protein-protein interactions from [BioGRID](https://thebiogrid.org/) and [STRING](http://string-db.org/), via SciGraph (BioLink [/bioentity/gene/{id}/interactions/](https://api.monarchinitiative.org/api/#!/bioentity/get_gene_interactions))
 
@@ -20,8 +20,8 @@ Input: NCBIGene identifiers for 11 FA-core genes
 
 Output: GeneSetQ1 (human genes encoding physical interactors with FA-core gene products)
 
+-----
 
-Note that the subqueries above can be parameterized in any number of ways in their implementation. Different combinations of parameters can be explored using different notebooks in this directory (e.g. using only direct interactions vs some set of nearest neighbors in a PPI network, filtering taxon selected for cross-species expansion, or which knowledge source is accessed for a particular data type).
+*Note that the subqueries above can be parameterized in various ways in their implementation (e.g. faceting specific taxa for cross-species expansion, using different network-based metrics to define 'interactors', selecting different knowledge sources or routes to retrieve a particular data type). Different combinations of parameters can be explored using different notebooks in this directory*
 
---------
 	

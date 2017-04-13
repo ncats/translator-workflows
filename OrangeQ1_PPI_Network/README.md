@@ -1,4 +1,4 @@
-### Orange CQ #1
+### Orange CQ#1
 
 **Query:**  What genes encode proteins that physically interact with proteins encoded by the 11 Fanconi Anemia core complex genes (set FA-core)? 
 
@@ -22,6 +22,6 @@ Output: GeneSetQ1 (human genes encoding physical interactors with FA-core gene p
 
 -----
 
-*Note that the subqueries above can be parameterized in various ways in their implementation (e.g. faceting specific taxa for cross-species expansion, using different network-based metrics to define 'interactors', selecting different knowledge sources or routes to retrieve a particular data type). Different combinations of parameters can be explored using different notebooks in this directory*
+*Note that the subqueries above can be parameterized in various ways in their implementation (e.g. faceting specific taxa for cross-species expansion, using different network-based metrics to define 'interactors', selecting different knowledge sources or routes to retrieve a particular data type). Different combinations of parameters can be explored using different notebooks in this directory.*
 
 	

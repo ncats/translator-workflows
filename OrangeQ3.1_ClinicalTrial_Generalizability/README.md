@@ -20,6 +20,8 @@ Discoveries made in one population may have limited success when applied to popu
 5. execute calculation of age range for the set of **ages** in Set2b for each diagnosis in Set1a -> Set3 (EHR id | condition | age range)
 6. execute calculation of Generalizability Index for Study Traits (GIST) score with Set1c and Set3 for an EHR population -> Set4 (clinical trial | EHR id | condition | GIST score)
 
+Citation for GIST score: [PMC4081748](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4081748)
+
 **Output:** Set of clinical trials and their EHR population-specific GIST scores
   
 GIST scores can be used to rank clinical trials when considering study populations for secondary analysis that are similar to an EHR population.

@@ -1,6 +1,7 @@
 ## Orange Team CQ1.2
 
-### Query:  What genes express proteins that are functionally similar to the 11 Fanconi Anemia core complex genes (set FA-core), based on GO annotations?
+### Query:  
+What genes express proteins that are functionally similar to the 11 Fanconi Anemia core complex genes (set FA-core), based on GO annotations?
 
 ### Goal:
 This query aims to expand the FA-core gene set based on GO functional similarity, in service of Task 1 in the St. Jude Life Demonstrator described [here](https://github.com/NCATS-Tangerine/cq-notebooks/wiki/St.-Judes-FA-Demonstrator).

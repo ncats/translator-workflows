@@ -8,8 +8,8 @@ This query aims to expand the FA-core gene set based on GO functional similarity
   
 ### Data Types, Sources, and Routes:
 1. **Gene-ortholog associations** - from Panther, via SciGraph (BioLink [/bioentity/gene/{id}/homologs/](https://api.monarchinitiative.org/api/#!/bioentity/get_gene_homolog_associations))
-2. **Gene-protein associations** -  from Ensembl, via SciGraph (BioLink API or Monarch API dynaimc cypher query?)
-3. **Functional annotations** - from GO, via SciGraph (Biolink API) or via Wikidata (SPARQL API)
+2. **Gene-protein associations** -  from Ensembl, via SciGraph ([BioLink API](https://api.monarchinitiative.org/api/) call or [Monarch API cypher query](https://scigraph-data-dev.monarchinitiative.org/scigraph/docs/#!/cypher/execute)?)
+3. **Functional annotations** - from GO, via SciGraph ([BioLink API](https://api.monarchinitiative.org/api/) or via Wikidata (SPARQL API)
   
 ### Sub-Queries/Tasks:
    

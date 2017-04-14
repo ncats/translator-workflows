@@ -9,7 +9,7 @@ Discoveries made in one population may have limited success when applied to popu
 ### Data Types, Sources, and Routes:
 1. **Clinical Trials** - from ClinicalTrials.gov [ClinicalTrials.gov API](https://aact-prod.herokuapp.com/connect)
 2. **EHR data** - from Synthetic data [JHU Synthetic data API]
-3. **MeSH term & ICD-9/ICD-10 connection?**
+3. **MeSH term & ICD-9/ICD-10 connection** - from UMLS [UMLS API](https://documentation.uts.nlm.nih.gov/rest/home.html)
   
 ### Sub-Queries/Tasks:
 **Input:** condition names (MeSH_terms are used in ClinicalTrials.gov) Set1a *NOTE: steps can be completed for Fanconi Anemia*

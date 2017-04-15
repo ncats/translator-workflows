@@ -1,7 +1,7 @@
 ## Orange Team CQ#3.2
 
 ### Query: 
-What is the representativeess of condition-specific signs and symptoms among EHR patient populations?
+What is the representativeness of condition-specific signs and symptoms among EHR patient populations?
 
 ### Goal:
 One heuristic used in clinical decision-making is representativeness (a patient's similarity to a particular known condition). The goal for this competency question is to assess the representativeness of published estimates of the frequency of signs and symptoms among patients with a condition in EHR patient populations.
@@ -19,11 +19,11 @@ One heuristic used in clinical decision-making is representativeness (a patient'
 3. retrieve **patients** from EHR that have condition(s) in Set1a -> Set2a (EHR id | patient id | condition | icd_code )
 4. retrieve condition **signs and symptoms** in Set1b for patients in Set2a -> Set2b (EHR id | patient id | condition | icd_code | sign or symptom | hp_term)
 5. execute calculation of **population frequency** for condition-specific **signs and symptoms** in Set2b -> Set3 (EHR id | condition | icd_code | sign or symptom | hp_term | EHR population frequency)
-6. execute comparison between published and EHR population frequencies -> Set4 (EHR id | condition | icd_code | sign or symptom | hp_term | EHR population frequency | orphanet or gard population frequency | differnce in population frequencies)
+6. execute comparison between published and EHR population frequencies -> Set4 (EHR id | condition | icd_code | sign or symptom | hp_term | EHR population frequency | orphanet or gard population frequency | difference in population frequencies)
 
-**Output:** Differnce between published frequencies of condition-specific signs and symptoms and frequencies occuring in an EHR population.
+**Output:** Difference between published frequencies of condition-specific signs and symptoms and frequencies occurring in an EHR population.
 
-This is a simple representativeness heuristic calculation with potential to be used to make first diagnostic impressions under simulated scenarios. Incremental adjustments can be made with synthetic data sets (e.g., changes in data missingness), which can be used as an education tool to better understand cognitive biases in clinical decision-making.
+This is a simple representativeness heuristic calculation with potential to be used to make first diagnostic impressions under simulated scenarios. Incremental adjustments can be made with synthetic data sets (e.g., changes in quantity of missing data), which can be used as an education tool to better understand cognitive biases in clinical decision-making.
 
 --------
 

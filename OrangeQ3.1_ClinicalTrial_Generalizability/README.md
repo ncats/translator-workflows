@@ -1,18 +1,18 @@
 ## Orange Team CQ#3.1
 
 ### Query: 
-How well do clinical trial populations generalize to EHR patient populations? (i.e., Compare the clinical trial population to the synthetic patient population)
+How well do clinical trial populations generalize to EHR patient populations?
   
 ### Goal:
-Discoveries made in one population may have limited success when applied to populations other than those that finding were made in. Thus, there is a need to quantify the generalizability of findings from clinical trials to EHR patient populations.
+Discoveries made in one population may have limited success when applied to populations other than those that finding were made in. The goal of this competency question is to quantify the generalizability of findings from clinical trials to EHR patient populations.
   
 ### Data Types, Sources, and Routes:
 1. **Clinical Trials** - from ClinicalTrials.gov, [ClinicalTrials.gov API](https://aact-prod.herokuapp.com/connect)
-2. **EHR data** - from Synthetic data, [JHU Synthetic data API]
-3. **MeSH term & ICD-9/ICD-10 connection** - from UMLS, [UMLS API](https://documentation.uts.nlm.nih.gov/rest/home.html)
+2. **EHR data** - from Synthetic data, [Synthetic data API], from OHDSI data, [OHDSI API](https://github.com/OHDSI/CommonDataModel/blob/master/OMOP%20CDM%20v5.pdf)
+3. **MeSH term and ICD-9/ICD-10 connection** - from UMLS, [UMLS API](https://documentation.uts.nlm.nih.gov/rest/home.html)
   
 ### Sub-Queries/Tasks:
-**Input:** condition names (MeSH_terms are used in ClinicalTrials.gov) Set1a *NOTE: steps can be completed for Fanconi Anemia*
+**Input:** condition names (MeSH_terms are used in ClinicalTrials.gov) Set1a, *NOTE: steps can be completed for Fanconi Anemia*
 
 1. retrieve **clinical trials** that recruit Set1a populations --> Set1b (clinical trial | condition | mesh_term), [CT.gov link for "Fanconi anemia"](https://www.clinicaltrials.gov/ct2/results?cond=%22Fanconi+anemia%22)
 2. retrieve **age range** from eligibility criteria or study results in Set1b --> Set1c (clinical trial | condition | mesh_term | age range)

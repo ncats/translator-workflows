@@ -8,8 +8,8 @@ We are currently using Jupyter notebooks as our means of documenting, prototypin
 
 ## Workplan
 
-For now, see the formalized query tab in:
-http://bit.ly/fanconi-cq
+For now, we are collecting orange-team queries here:
+http://bit.ly/orange_cq
 
 We may transfer these to github tickets later, and use github projects as a kanban-style way of organizing this.
 
@@ -52,6 +52,7 @@ TODO: we should aim to drive this list from Smart API registry
  * BioThings API for drugs/Compounds: http://c.biothings.io (Orange)
  * BioThings API for taxonomy: http://t.biothings.io (Orange)
  * Wikidata SPARQL (Orange)
+ * DGIdb API for drug-gene interactions: http://dgidb.genome.wustl.edu/api
 
 ### Next
 

@@ -4,7 +4,7 @@
 What genes and pathways are uniquely targeted by HSCT conditioning drugs that are well- vs poorly- tolerated by FA patients?
   
 ### Goal:
-FA patients tolerate certain Hematopoietic Stem Cell Transplant (HCST) pre-conditioning drugs poorly (e.g. fludarabine), while they tolerate others well (e.g. cyclophosphamide, busulfan). This set of queries aims to find genes/pathways that are differentially targeted by well- vs poorly- tolerated conditioning drugs. This results can help identify correlations between drug targets and HSCT treatment outcomes that may provide mechanistic insight into this phenomenon, and inform selection of better therapeutic regimens for FA patients. This CQ serves the larger HSCT Pre-Conditioning Demonstrator described [here](https://github.com/NCATS-Tangerine/cq-notebooks/wiki/HSCT-Pre-Conditioning-FA-Demonstrator).
+FA patients tolerate certain Hematopoietic Stem Cell Transplant (HCST) pre-conditioning drugs poorly (e.g. cyclophosphamide, busulfan), while they tolerate others well (e.g. fludarabine). Moreover, the dosages for conditioning drugs and irradiation are lowered for use in FA patients. This set of queries aims to find genes/pathways that are differentially targeted by well- vs poorly- tolerated conditioning drugs. This results can help identify correlations between drug targets and HSCT treatment outcomes that may provide mechanistic insight into this phenomenon, and inform selection of better therapeutic regimens for FA patients as well as for individuals with exagerated sensitivity to conditioning. This CQ serves the larger HSCT Pre-Conditioning Demonstrator described [here](https://github.com/NCATS-Tangerine/cq-notebooks/wiki/HSCT-Pre-Conditioning-FA-Demonstrator).
 
   
 ### Data Types, Sources, and Routes:

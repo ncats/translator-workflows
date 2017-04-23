@@ -4,11 +4,11 @@
 What is the representativeness of condition-specific signs and symptoms among EHR patient populations?
 
 ### Goal:
-One heuristic used in clinical decision-making is representativeness (a patient's similarity to a particular known condition). The goal for this competency question is to assess the representativeness of published estimates of the frequency of signs and symptoms among patients with a condition in EHR patient populations.
+One heuristic used in clinical decision-making is representativeness (a patient's similarity to a particular known condition). The goal for this competency question is to assess the representativeness of published estimates of the frequency of signs and symptoms among patients with a condition in EHR patient populations. This CQ is part of the larger Representativeness and Generalizability Demonstrator described [here](https://github.com/NCATS-Tangerine/cq-notebooks/wiki/Representativeness-and-Generalizability-Demonstrator).
 
 ### Data Types, Sources, and Routes:
 1. **EHR data** - from Synthetic data, [Synthetic data API]
-2. **Frequency of signs and symptoms for a condition** - from Orphanet?? GARD??,
+2. **Frequency of signs and symptoms for a condition** - from Orphanet?? GARD??, via SciGraph ([BioLink API](https://api.monarchinitiative.org/api/) call or [Monarch API cypher query](https://scigraph-data-dev.monarchinitiative.org/scigraph/docs/#!/cypher/execute)?)
 3. **HPO and ICD9/ICD10 connection** - from UMLS, [UMLS API](https://documentation.uts.nlm.nih.gov/rest/home.html)
 
 ### Sub-Queries/Tasks:

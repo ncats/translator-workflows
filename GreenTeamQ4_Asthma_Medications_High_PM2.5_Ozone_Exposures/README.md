@@ -10,6 +10,7 @@ Patients with asthma and high levels of exposure to airborne pollutants such as 
 
 ## Data Types, Sources, and Routes:
 Patient Data: Patient Data: Green Team HuSH+ Patient Data
+
 Exposure Data: PM2.5 and ozone exposure estimates from the Center for the Community Modeling and Assessment System (CMAS), UNC Institute for the Environment (raw sensor data from US EPA)
 
 **Input:** Data on HuSH+ patients with <=2 or >2 ED visits over 12-month period after diagnosis for 'asthma-like phenotype'; patient latitude and longitude

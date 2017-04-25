@@ -2,16 +2,15 @@
 
 ## Query:
 
-Among pediatric patients with an 'asthma-like phenotype', is exposure to PM2.5 and ozone associated with responsiveness to treatment? (In other words, are exposures higher in patients who are non-responsive to treatment than in patients who are responsive to treatment?)
+Among pediatric patients with an 'asthma-like phenotype', is exposure to particulate matter <=2.5 micrometers in diameter (PM2.5) and ozone associated with responsiveness to treatment? (In other words, are exposures higher in patients who are non-responsive to treatment than in patients who are responsive to treatment?)
 
 ## Goal:
 
-Patients with asthma are sensitive to airborne pollutants such as particulate matter <=2.5 micrometers in diameter (PM2.5) and ozone. Pediatric patients are even more sensitive than adult patients. This query should confirm our assertion and overall use case assumption that high environmental exposures are associated with poor clinical outcomes among patients with an 'asthma-like phenotype'. By so doing, the query will allow us to validate our exposure models and test the functionality of our system and approach.
+Patients with asthma are sensitive to airborne pollutants such as PM2.5 and ozone. This query should confirm our assertion and overall use case assumption that exposure to high levels of airborne pollutants is associated with poor clinical outcomes among patients with an 'asthma-like phenotype'. By so doing, the query will allow us to validate our exposure models and test the functionality of our system and approach.
 
 ## Data Types, Sources, and Routes:
 
 Patient Data: Green Team HuSH+ Patient Data
-(Important caveat: the existing HuSH+ patient data set is NOT restricted to pediatric patients; moreover, all dates, ages, and other PHI have been randomized and cannot be used for inference)
 Exposure Data: PM2.5 and ozone exposure estimates from the Center for the Community Modeling and Assessment System (CMAS), UNC Institute for the Environment (raw sensor data from US EPA)
 
 **Input:** HuSH+ patients with <=2 or >2 ED visits over 12-month period after diagnosis for 'asthma-like phenotype'; patient latitude and longitude

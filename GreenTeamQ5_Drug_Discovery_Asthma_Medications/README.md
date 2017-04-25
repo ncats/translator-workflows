@@ -1,4 +1,4 @@
-### Green Team Q5: Drug Discovery for New Medications for the Treatment of Asthma
+### Green Team Q5: Drug Discovery for New Asthma Medications
 
 ## Query:
 

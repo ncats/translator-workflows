@@ -10,6 +10,7 @@ Airborne pollutants such as PM2.5 and ozone can trigger asthma exacerbations; ho
 
 ## Data Types, Sources, and Routes:
 CTD: human proteins/genes
+
 KEGG, Reactome (via CTD): biological pathways
 
 **Input:** ‘PM2.5’ or ‘particulate matter’; ‘ozone’

@@ -10,7 +10,9 @@ Asthma can be difficult to treat, in part because the phenotype varies across pa
 
 ## Data Types, Sources, and Routes:
 CTD: human proteins/genes
+
 KEGG, Reactome (via CTD): biological pathways
+
 DrugBank: medications
 
 **Input:** ‘PM2.5’ or ‘particulate matter’; ‘ozone’

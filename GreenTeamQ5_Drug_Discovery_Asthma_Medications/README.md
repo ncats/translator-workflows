@@ -2,11 +2,10 @@
 
 ## Query:
 
-What is the protein (gene) target and biological pathway of medications currently prescribed to patients with an asthma-like phenotype who are responsive to treatment despite high levels of exposure to PM2.5 and ozone?
+What is the protein (gene) target and biological pathway of medications currently prescribed to patients with an asthma-like phenotype who are responsive to treatment despite high levels of exposure to particulate matter <=2 micrometers in diameter (PM2.5) and ozone?
 
 ## Goal:
-
-Patients with asthma who are exposed to high levels of PM2.5 and ozone have frequent asthma exacerbations and are typically difficult to treat. However, a subset of these patients are responsive to treatment, either because of unique biological characteristics (i.e., a distinct asthma ‘endotype’), or because the medications they are being treated with are highly effective, or both. This query aims to identify the mechanism of action and protein/gene targets of those medications that are highly effective in otherwise difficult to treat patients. As such, the query should provide mechanistic insight into the etiology and pathophysiology of asthma and allow us to further our efforts to delineate asthma ‘endotypes’. The query also should facilitate drug discovery through the identification of drug targets that might be investigated for drug repurposing or new drug development for the treatment of asthma.
+Understanding the mechanism of action of medications associated with responsive to treatment among patients who are typically difficult to treat should provide insight into the etiology and pathophysiology of asthma and also facilitate new drug discovery and development. This query aims to identify the protein/gene targets and biological pathways associated with medications that are effective in patients with asthma and high levels of exposure to PM2.5 and ozone. As such, the query should further efforts to delineate asthma ‘endotypes’. The query also should facilitate drug discovery for the treatment of asthma through the identification of drug targets that might be investigated for drug repurposing or new drug development.
 
 ## Data Types, Sources, and Routes:
 Patient Data: Patient Data: Green Team HuSH+ Patient Data
@@ -16,6 +15,8 @@ Exposure Data: PM2.5 and ozone exposure estimates from the Center for the Commun
 DrugBank: medication mechanism of action
 
 CTD: protein (gene) targets
+
+KEGG, Reactome: biological pathways
 
 **Input:** Data on HuSH+ patients with <=2 or >2 ED visits over 12-month period after diagnosis for 'asthma-like phenotype'; patient latitude and longitude
 
@@ -29,10 +30,13 @@ CTD: protein (gene) targets
 8. Rank the medications identified in (7)
 9. List the ‘mechanism of action’ for the medications identified in (8)
 10. List the protein (gene) targets for the medications identified in (8)
-11. Rank lists in (9) and (10)
+11. Identify commonalities in (9) and (10)
+12. Rank the list in (11)
+12. List the biological pathways for the protein (gene) targets in (12)
+13. Rank the list in (12)
 
 *Response to treatment defined as <=2 ED visits over 12-month period; 'diagnosis' refers to the diagnosis used in the CDWH query
 **"High" and "low" exposure scores to be defined under (Green Team Q1)
 
-**Output:** Ranked lists of (1) the mechanism of action (1) and the protein (gene) targets of FDA-approved medications that are effective in patients with asthma and high levels of exposure to airborne pollutants
+**Output:** Ranked lists of (1) the protein (gene) targets (1) and biological pathways of FDA-approved medications that are effective in patients with asthma and high levels of exposure to airborne pollutants
 

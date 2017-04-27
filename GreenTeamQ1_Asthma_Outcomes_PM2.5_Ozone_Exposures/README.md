@@ -6,7 +6,7 @@ Among pediatric patients with an 'asthma-like phenotype', is exposure to particu
 
 ## Goal:
 
-Patients with asthma are sensitive to airborne pollutants such as PM2.5 and ozone, and exposure to high levels of airborne pollutants often triggers asthma exacerbations. This query should confirm our assertion and overall use case assumption that exposure to high levels of airborne pollutants is associated with poor clinical outcomes among patients with an 'asthma-like phenotype'. By so doing, the query will allow us to validate our exposure models and test the functionality of our system and approach.
+Patients with asthma are sensitive to airborne pollutants such as PM2.5 and ozone, and exposure to high levels of airborne pollutants often triggers asthma exacerbations. This query should confirm our assertion and overall use case assumption that exposure to high levels of airborne pollutants is associated with poor clinical outcomes among patients with an 'asthma-like phenotype'. By so doing, the query should allow us to validate our exposure models and test the functionality of our system and approach.
 
 ## Data Types, Sources, and Routes:
 

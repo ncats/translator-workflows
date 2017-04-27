@@ -36,6 +36,7 @@ KEGG, Reactome: biological pathways
 13. Rank the list in (12)
 
 *Response to treatment defined as <=2 ED visits over 12-month period; 'diagnosis' refers to the diagnosis used in the CDWH query
+
 **"High" and "low" exposure scores to be defined under (Green Team Q1)
 
 **Output:** Ranked lists of (1) the protein (gene) targets (1) and biological pathways of FDA-approved medications that are effective in patients with asthma and high levels of exposure to airborne pollutants

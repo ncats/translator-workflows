@@ -28,8 +28,11 @@ Exposure Data: PM2.5 and ozone exposure estimates from the Center for the Commun
 
 
 *Clinic visit = outpatient visit
+
 **Responsiveness to treatment defined as <=2 (responsive) or >2 (non-responsive) ED visits over 12-month period after diagnosis for an 'asthma-like phenotype'
+
 ***Exposure scores are defined on a 5-point scale, with 1 indicating low and 5 indicating high; scores are based on established literature
+
 ****Data to be used to determine "high" and "low" exposure scores for subsequent queries
 
 **Output:** PM2.5 and ozone exposure scores over the 7- and 14-day period prior to an ED visit for a respiratory event or a clinic visit among patients with an asthma-like phenotype who are or who are not responsive to treatment

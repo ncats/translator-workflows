@@ -6,7 +6,7 @@ What medications are available that act on the protein (gene) targets and biolog
 
 ## Goal:
 
-Asthma can be difficult to treat, in part because the phenotype varies across patients and the disease is best considered a ‘syndrome’ with multiple underlying ‘endotypes’. Asthma exacerbations can be life threatening and result in hospitalization or even death. While numerous medications have received FDA approval for the treatment of asthma, there is a need to identify new treatments for patients who are not responsive to current medications. This query should allow us to identify existing medications that may be effective in preventing asthma exacerbations in response to exposure to PM2.5 and ozone. As such, the query should provide insight into drugs that may be repurposed for the treatment of asthma.
+Asthma exacerbations in response to airborne pollutants such as PM2.5 and ozone can be life threatening and result in hospitalization or even death. While numerous medications have received FDA approval for the treatment of asthma, a need exists for new treatments to prevent asthma exacerbations in response to exposure to airborne pollutants. This query should allow us to identify existing medications that may be effective in preventing asthma exacerbations in response to exposure to PM2.5 and ozone. As such, the query should provide insight into drugs that may be repurposed for the treatment of asthma.
 
 ## Data Types, Sources, and Routes:
 CTD: human proteins/genes

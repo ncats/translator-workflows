@@ -25,6 +25,7 @@ Exposure Data: PM2.5 and ozone exposure estimates from the Center for the Commun
 8. Rank list in (7)
 
 *Response to treatment defined as <=2 ED visits over 12-month period; 'diagnosis' refers to the diagnosis used in the CDWH query
+
 **"High" and "low" exposure scores to be defined under (Green Team Q1)
 
 **Output:** Ranked list of FDA-approved medications that are effective in patients with asthma and high levels of exposure to airborne pollutants

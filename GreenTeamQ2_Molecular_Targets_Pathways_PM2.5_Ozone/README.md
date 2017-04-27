@@ -6,7 +6,7 @@ What protein (gene) targets and biological pathways are activated or inhibited b
 
 ## Goal:
 
-Airborne pollutants such as PM2.5 and ozone can trigger asthma exacerbations; however, susceptibility varies among patients with asthma. This query should identify the molecular targets and biological pathways that are altered as a result of exposure to PM2.5 and ozone. As such, the query will provide us with mechanistic insight into the underlying etiology and pathophysiology of asthma.
+Airborne pollutants such as PM2.5 and ozone can trigger asthma exacerbations; however, susceptibility varies among patients with asthma, in part because asthma is best considered a 'syndrome' with multiple underlying 'endotypes'. This query should identify the molecular targets and biological pathways that are altered as a result of exposure to PM2.5 and ozone. As such, the query should provide mechanistic insight into the underlying etiology and pathophysiology of asthma.
 
 ## Data Types, Sources, and Routes:
 CTD: human proteins/genes

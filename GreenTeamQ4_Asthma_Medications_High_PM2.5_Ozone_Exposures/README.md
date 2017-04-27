@@ -6,7 +6,7 @@ Which medications are currently prescribed to pediatric patients with an asthma-
 
 ## Goal:
 
-Patients with asthma and high levels of exposure to airborne pollutants such as PM2.5 and ozone have frequent asthma exacerbations and are generally difficult to treat. However, a subset of these patients are responsive to treatment, either because of unique biological characteristics (i.e., a distinct asthma ‘endotype’), or because the medications they are being treated with are highly effective, or both. This query aims to identify medications associated with good clinical outcomes among patients with asthma and high PM2.5 and ozone exposures. As such, the query will provide clinical insight into treatment options for asthma, particularly for patients who are difficult to treat. The query also will allow us to begin to delineate asthma ‘endotypes’.
+Patients with asthma and high levels of exposure to airborne pollutants such as PM2.5 and ozone have frequent asthma exacerbations and are generally difficult to treat. However, a subset of these patients are responsive to treatment, either because of unique biological characteristics (i.e., a distinct asthma ‘endotype’), or because the medications they are being treated with are highly effective, or both. This query aims to identify medications associated with good clinical outcomes among patients with asthma and high PM2.5 and ozone exposures. As such, the query should provide clinical insight into treatment options for asthma, particularly for patients who are difficult to treat. The query also should further efforts to delineate asthma ‘endotypes’.
 
 ## Data Types, Sources, and Routes:
 Patient Data: Green Team HuSH+ Patient Data

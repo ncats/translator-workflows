@@ -20,7 +20,7 @@ Exposure Data: PM2.5 and ozone exposure estimates from the Center for the Commun
 3. List max daily PM2.5 exposure score per day for the 14-day period prior to each ED visit in (1)
 4. List max daily ozone exposure score per day for the 14-day period prior to each ED visit in (1)
 5. Calculate the 7- and 14-day PM2.5 and ozone exposure scores for each ED visit in (1)
-6. Identify patients in (2) with high low PM2.5 and ozone exposure scores**
+6. Identify patients in (2) with high and low PM2.5 and ozone exposure scores**
 7. List prescribed and administered medications for patients identified in (6) over the 12-month period after diagnosis of an asthma-like phenotype
 8. Rank list in (7)
 

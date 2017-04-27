@@ -16,11 +16,11 @@ Exposure Data: PM2.5 and ozone exposure estimates from the Center for the Commun
 **Input:** Data on HuSH+ patients with <=2 or >2 ED visits over 12-month period after diagnosis for 'asthma-like phenotype'; patient latitude and longitude
 
 1. List the date of ED visits for pediatric patients with an asthma-like phenotype
-2. Identify patients in (1) with <=2 ED visits over the 12-month period after diagnosis*
+2. Identify patients in (1) with <=2 or >2 ED visits over the 12-month period after diagnosis*
 3. List max daily PM2.5 exposure score per day for the 14-day period prior to each ED visit in (1)
 4. List max daily ozone exposure score per day for the 14-day period prior to each ED visit in (1)
 5. Calculate the 7- and 14-day PM2.5 and ozone exposure scores for each ED visit in (1)
-6. Identify patients in (2) with high PM2.5 and ozone exposure scores**
+6. Identify patients in (2) with high low PM2.5 and ozone exposure scores**
 7. List prescribed and administered medications for patients identified in (6) over the 12-month period after diagnosis of an asthma-like phenotype
 8. Rank list in (7)
 

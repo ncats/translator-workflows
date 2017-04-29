@@ -17,7 +17,7 @@ FA patients tolerate certain Hematopoietic Stem Cell Transplant (HCST) pre-condi
 **Input:** Two HSCT conditioning drug sets: **(1)** well-tolerated by FA patients (Set1d); **(2)** poorly-tolerated by FA patients (Set2d)
 
   1. Retrieve **proteins** targeted by set of well-tolerated HSCT conditioning drugs --> Set1p 
-  2. Retrieve **proteins** targeted by set of well-tolerated HSCT conditioning drugs --> Set2p  
+  2. Retrieve **proteins** targeted by set of poorly-tolerated HSCT conditioning drugs --> Set2p  
   3. Retrieve **genes** encoding proteins in Set1p vs Set2p --> Set1g, Set2g
   4. Retrieve **pathways** associated with genes in Set1g vs Set2g --> Set1pw, Set2pw
   5. Retreive other **genes** involved in pathways in Set1pw vs Set2pw --> Set1g', Set2g'

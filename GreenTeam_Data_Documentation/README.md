@@ -12,7 +12,7 @@ In contrast, the ‘HuSH+’ patient data set is comprised of clinical and admin
 2.	*dates (including birth dates) shifted by a random number of days (maximum of 50 days), with all dates for a given patient shifted by the same number of days*; and
 3.	*patients who are currently aged >89 years have been removed from the data set, per HIPAA guidelines on Protected Health Information*.
 
-An additional caveat is that the *age_in_years_num* variable (accessible in the full data set, but not the clinical service API) contains provider-entered data on patient age at each encounter and, as such, is subject to error.
+An additional caveat is that the *age_in_years_num* variable (accessible in the full data set, but not through clinical service API) contains provider-entered data on patient age at each encounter and, as such, is subject to error.
 
 The resultant HuSH+ data set is thus comprised of hypothetical patients with fictional drug exposures and health outcomes, but the data are representative of the types of relationships expected to be observed within real observational patient data sets. Because the HuSH+ data are only representative of hypothetical patients, drug exposures, and health outcomes, the data cannot be used for clinical interpretation, nor scientific inference nor discovery.
 

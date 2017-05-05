@@ -26,4 +26,17 @@ This simple query aims to expand the FA-core gene set based PPI network membersh
 
 *Note that the subqueries above can be parameterized in various ways in their implementation (e.g. faceting specific taxa for cross-species expansion, using different network-based metrics to define 'interactors', selecting different knowledge sources or routes to retrieve a particular data type). Different combinations of parameters can be explored using different notebooks in this directory.*
 
+### Stretch queries that include synthetic data
+ 
+ **Iput:** GeneSetQ1
+  1. Retrieve patients all patients with variants in GeneSetQ1 at <5% frequency
+  2. Filter patients for those with any of the following clinical variables:
+  	a. Bone Marrow Failure
+	b. Diagnosis of primary tumor of the type: HNSCC, Leukaemias (AML and acute monocytic leukaemia), Vulva, Brain, Esophagus, Breast, MDS, Skin SCC, Skin BCC, ovarian, pancreatic
+	c. Childhood cancer diagnosis <15yrs
+	d. Documented alcohol consumption
+	e. 
 	
+	
+ **Output** Patients with candidate variants that are causal in combinations or with alcohol exposure that lead to more common cancers and other Fanconi related phenotypes (such as bone marrow failure)
+ 

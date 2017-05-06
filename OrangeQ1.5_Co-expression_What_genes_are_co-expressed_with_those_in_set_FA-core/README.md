@@ -2,7 +2,7 @@
 ## OrangeQ1.5 Co-expression: 
 
 ### Query:
-What genes are co-expressed with those in set FA-core?
+What genes show similar regulatory motif signatures as FA-core genes?
 
 ### Goal:
 This query aims to expand the FA-core gene set based on upstream TF binding site motif patterns.

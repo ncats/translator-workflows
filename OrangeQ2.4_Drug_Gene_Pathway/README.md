@@ -6,10 +6,12 @@ What genes and pathways are uniquely targeted by HSCT conditioning drugs that ar
 ### Goal:
 FA patients tolerate certain Hematopoietic Stem Cell Transplant (HCST) pre-conditioning drugs at normal doses poorly (e.g. cyclophosphamide, busulfan), while they may tolerate others better (e.g. fludarabine). Moreover, the dosages for conditioning drugs and irradiation are lowered for use in FA patients. Response to some drugs is dependent on the specific FA gene mutated (e.g., core complex vs Brca2, SLX4) and possibly the specific mutation.  This set of queries aims to find genes/pathways that are differentially targeted by well- vs poorly- tolerated conditioning drugs. This results can help identify correlations between drug targets and HSCT treatment outcomes that may provide mechanistic insight into this phenomenon, and inform selection of better therapeutic regimens for FA patients as well as for individuals with exagerated sensitivity to conditioning. This CQ serves the larger HSCT Pre-Conditioning Demonstrator described [here](https://github.com/NCATS-Tangerine/cq-notebooks/wiki/HSCT-Pre-Conditioning-FA-Demonstrator).
 
-### Drugs to investigate (tentative)  
-Typical HSCT Conditioning drugs are:  cyclophosphamide, busulfan, cytarabine (cytosine arabinoside or ara-C), Carboplatin (CBDCA), Cytoxan (Cyclophosphamide),Etoposide (VP-16), Melphalan, fludarabine, Thiotepa, Topotecan  
-Drugs currently used at low dose in FA patients: cyclophosphamide, busulfan, fludarabine  
-Drugs not tolerated, no longer used in FA patients because of toxicity: (waiting for final list, and evidence basis from hem/onc consultants)
+### Drugs to investigate (will update as more info available)  
+Typical HSCT Conditioning drugs include:  cyclophosphamide, busulfan, cytarabine (cytosine arabinoside or ara-C), Carboplatin (CBDCA), Cytoxan (Cyclophosphamide),Etoposide (VP-16), Melphalan, fludarabine, Thiotepa, Topotecan  
+Drugs currently used at low dose in FA patients: cyclophosphamide (1/3 normal dose), busulfan (1/3 normal dose), fludarabine  
+Drugs not tolerated in FA patients because of toxicity: Carboplatin (CBDCA)  
+Drugs not used in FA because there is no literature: Melphalan Thiotepa  
+Drugs not used in FA but unknown why: Topotecan, Etoposide (VP-16)
 ### Data Types, Sources, and Routes:
 1. **Drug-Target Interactions** - from DGIdb, via [DGIdb API](http://dgidb.genome.wustl.edu/api)
 2. **Protein-Gene Associations** - from Ensembl, via SciGraph ([BioLink API](https://api.monarchinitiative.org/api/) call or [Monarch API cypher query](https://scigraph-data-dev.monarchinitiative.org/scigraph/docs/#!/cypher/execute)?)

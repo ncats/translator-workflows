@@ -38,5 +38,5 @@ This simple query aims to expand the FA-core gene set based PPI network membersh
 	e. 
 	
 	
- **Output:** Patients with candidate variants that are causal in combinations or with alcohol exposure that lead to more common cancers and other Fanconi related phenotypes (such as bone marrow failure)
+ **Output:** Patients with candidate variants that are causal in combinations or with alcohol exposure that lead to more common cancers and other Fanconi-related phenotypes, such as bone marrow failure and HNSCC
  

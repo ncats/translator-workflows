@@ -11,7 +11,8 @@ Typical HSCT Conditioning drugs include:  cyclophosphamide, busulfan, cytarabine
 Drugs currently used at low dose in FA patients: cyclophosphamide (1/3 normal dose), busulfan (1/3 normal dose), fludarabine  
 Drugs not tolerated in FA patients because of toxicity: Carboplatin (CBDCA)  
 Drugs not used in FA because there is no literature: Melphalan Thiotepa  
-Drugs not used in FA but unknown why: Topotecan, Etoposide (VP-16)
+Drugs not used in FA but unknown why: Topotecan, Etoposide (VP-16)  
+Note: not included drugs used primarily for HVGD (Methotrexate, Cyclosporin A,Tacrolimus (FK506), Mycophenolate mofetil (MMF),Rabbit anti-thymocyte globulin (ATG).
 ### Data Types, Sources, and Routes:
 1. **Drug-Target Interactions** - from DGIdb, via [DGIdb API](http://dgidb.genome.wustl.edu/api)
 2. **Protein-Gene Associations** - from Ensembl, via SciGraph ([BioLink API](https://api.monarchinitiative.org/api/) call or [Monarch API cypher query](https://scigraph-data-dev.monarchinitiative.org/scigraph/docs/#!/cypher/execute)?)

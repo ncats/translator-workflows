@@ -27,3 +27,5 @@ From here drugs used to treat HSCT that are seen significantly less often in FA 
 --------
 
 *Note that two major assumptions are made with the synthetic dataset: (a) FA is captured with an ICD code, and (b) drug prescriptions for the treatment of HSCT occurs at the same point in time that the procedure is recorded in the EHR.*
+*Note #2: Some drugs may be used for FA and non-FA conditioning protocols, howver the dose is much for FA patients. 
+

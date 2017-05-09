@@ -1,5 +1,5 @@
 
-## OrangeQ1.5 Co-expression: 
+## OrangeQ1.5 Regulatory_Motif_Signature: 
 
 ### Query:
 What genes show similar regulatory motif signatures as FA-core genes?

@@ -26,9 +26,9 @@ Note: not included drugs used primarily for HVGD (Methotrexate, Cyclosporin A,Ta
   2. Retrieve **proteins** targeted by set of poorly-tolerated HSCT conditioning drugs --> Set2p  
   3. Retrieve **genes** encoding proteins in Set1p vs Set2p --> Set1g, Set2g
   4. Retrieve **pathways** associated with genes in Set1g vs Set2g --> Set1pw, Set2pw
-  5. Retreive other **genes** involved in pathways in Set1pw vs Set2pw --> Set1g', Set2g'
+  5. Retrieve other **genes** involved in pathways in Set1pw vs Set2pw --> Set1g', Set2g'
   6. Execute set comparison analysis to return the set of **genes** that is uniquely targetd by poorly tolerated drugs
-  (i.e. effected directly or indirectly by poorly tolerated drugs, but not affected by well-tolerated drugs)
+  (i.e. affected directly or indirectly by poorly tolerated drugs, but not affected by well-tolerated drugs)
 
 **Output:** Set of genes that may be uniquely targeted by pre-conditioning drugs that are poorly tolerated by FA patients.
   

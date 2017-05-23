@@ -9,36 +9,65 @@ This query aims to expand the FA-core gene set based on upstream TF binding site
 
 ### Data Types, Sources, and Routes:
 1. Motifs from [JASPAR](http://jaspar.genereg.net/html/DOWNLOAD/bed_files/)
-2. Gene upstream regions from [UCSC](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/) 
-3. Gene-Gene associations generated from upstream motifs via __TBD__  rsn  
-    (1M RDF statements)
+2. Transcript upstream regions from [UCSC](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/)
+3. Transcript Gene associations from [NCBI](ftp://ftp.ncbi.nih.gov/gene/DATA/gene2refseq.gz)
+4. Gene-Gene associations generated from the above sources  
+(about a million RDF statements)
   
 ### Sub-Queries/Tasks:
    
 **Input:** NCBIGene identifiers for 26 FA-core genes (three symbols unresolved)  
-  1. Assemble Jaspar Motif BED dataset  
-  2. Assemble upstream region BED files for three extents [1k,2k,5k]  
-  3. Collapse RefSeq based upstream regions into NCBI Gene based regions    
-  4. Intersect Motif and NCBI regions to get ordered motifs associated with gene_start_regions  
-  5. Reduce ordered sequence of motifs per gene_start_site to partial ordered set of dimotifs per region
-  6. Pairwise compare and score all gene's sets of dimotifs
-  7. Semanticly model gene->region->motifset->motif and pairwise scoreing
-  8. Generate RDF for knowlege store
-  9. Load datastore and query
-
+  1. Assemble/merge Jaspar Motif BED dataset from constituant files    
+  2. Assemble upstream region BED files for three extents [1k,2k,5k] (from fasta deflines)  
+  3. Collapse RefSeq based upstream regions into NCBI Gene based upstream regions    
+  4. Intersect Motif and NCBI regions to get ordered motifs within gene start regions  
+  5. Reduce ordered sequence of motifs per gene start site to a partial ordered set of 'dimotifs' per region  
+  6. Pairwise compare and score all gene's start regions sets of dimotifs  
+  7. Semantically model gene->region->motifset->motif and pairwise scoring  
+  8. Format resulting data as RDF in the shape of the model for loading into a knowledge store  
+  9. Load (blazegraph) datastore and query for genes associations with FA genes.  
+ 10. Send resulting gene set to wet lab for  
+ 
 **Output:** GeneSetQ1.5 (human genes with similar affinities for TF's as FA-core genes)
   
-     currently ~380 genes showing GO enrichment for
-        cytoplasm|organelle
-        metabolic process
-        protein binding  
+Initial foray surfaced several hundeed genes showing GO enrichment for  
+--       cytoplasm|organelle  
+--       metabolic process  
+--       protein binding  
 
-Goals for the hackathon could include
+And enough Biomedical Researcher 'spot check' enthusiasm to warrent continueing.
 
-- to reduce this number of hits
-- make it tunable.  
+
 -----
+### At the Hackathon
+At the hackathon a machine to run blazegraph exposing the [dataset](file://translator.ncats.io/translator/Orange/jaspar.nt)
+only almost appeared so the basics for getting a local blazegraph up as a http accessible
+SPARQL endpoint are outlined in [LocalBlazeGraph.ipynb](file://LocalBlazeGraph.ipynb)
 
+_A persistant endpoint will appear on either NCATS or Monarch servers in the very near future._
+ 
+
+The very messy details on how the dataset was generated may be found [here](https://github.com/TomConlin/Jaspar_FA/blob/master/README.FA_genes_take2) but briefly,  
+motifs within gene start regions are considered as adjecent ordered pairs.  
+Sets of ordered pairs from different start regions are scored for similarity
+by considering the proportion of ordered pairs two regions have in common compared with the total number of order pairs the regions have together.  
+To avoid having too many associations I have arbitrairly discarded any which do not have at least one part in five in common.
+
+Our input is sets of gene symbols, some of which are historical or alternative
+names so the [MyGene](http://mygene.info/) api was called to return NCBIGene identifiers for the names.
+The sets of input genes and their current symbols are found [here](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/FA_gene_sets).
+ 
+This questions python [notebook](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/OrangeQ1.5_Regulatory_Motif_Signature/CQ1.5.ipynb)
+includes the scored set of genes associated with each of the input FA genes.
+ 
+
+
+
+
+
+
+
+---
 #### Running questions  
 
 If motifs (avg length 14bp) overlap, how should they be considered?

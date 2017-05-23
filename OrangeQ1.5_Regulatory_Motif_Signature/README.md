@@ -10,7 +10,7 @@ This query aims to expand the FA-core gene set based on upstream TF binding site
 ### Data Types, Sources, and Routes:
 1. Motifs from [JASPAR](http://jaspar.genereg.net/html/DOWNLOAD/bed_files/)
 2. Transcript upstream regions from [UCSC](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/)
-3. Transcript Gene associations from [NCBI](ftp://ftp.ncbi.nih.gov/gene/DATA/gene2refseq.gz)
+3. Transcript Gene associations from [NCBI](ftp://ftp.ncbi.nih.gov/gene/DATA/gene2refseq.gz)  
 4. Gene-Gene associations generated from the above sources  
 (about a million RDF statements)
   
@@ -35,14 +35,14 @@ Initial foray surfaced several hundred genes showing GO enrichment for
  - metabolic process  
  - protein binding  
 
-And enough Biomedical Researcher 'spot check' enthusiasm to warrant continuing.
+And enough BioMedical Researcher 'spot check' enthusiasm to warrant continuing.
 
 
 -----
 ### At the Hackathon
 At the hackathon a machine to run blazegraph exposing the [dataset](file://translator.ncats.io/translator/Orange/jaspar.nt)
 only almost appeared so the basics for getting a local blazegraph up as a http accessible
-SPARQL endpoint are outlined in [LocalBlazeGraph.ipynb](file://LocalBlazeGraph.ipynb)
+SPARQL endpoint are outlined in [LocalBlazeGraph.ipynb](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/OrangeQ1.5_Regulatory_Motif_Signature/LocalBlazeGraph.ipynb)
 
 _A persistent endpoint will appear on either NCATS or Monarch servers in the very near future._
  

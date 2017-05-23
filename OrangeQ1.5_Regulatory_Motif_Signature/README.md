@@ -57,7 +57,7 @@ Our input is sets of gene symbols, some of which are historical or alternative
 names so the [MyGene](http://mygene.info/) api was called to return NCBIGene identifiers for the names.
 The sets of input genes and their current symbols are found [here](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/FA_gene_sets).
  
-This questions python [notebook](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/OrangeQ1.5_Regulatory_Motif_Signature/CQ1.5.ipynb)
+This questions python notebook [CQ1.5.ipynb](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/OrangeQ1.5_Regulatory_Motif_Signature/CQ1.5.ipynb)
 includes the scored set of genes associated with each of the input FA genes.
  
 

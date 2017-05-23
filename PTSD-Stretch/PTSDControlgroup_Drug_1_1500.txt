@@ -1,0 +1,1501 @@
+drug_concept_id	drug_concept_name	personCount
+19041324	Acetaminophen 325 MG Oral Tablet [Tylenol]	22303
+40240688	Docusate Sodium 100 MG Oral Capsule	18501
+19079524	Sodium Chloride 0.154 MEQ/ML Injectable Solution	17753
+40231925	Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet	14525
+19070869	Ondansetron 2 MG/ML Injectable Solution	13449
+938330	Campylobacter jejuni IgM antibody level	13095
+19072321	Aluminum Hydroxide 40 MG/ML / Magnesium Hydroxide 40 MG/ML / Simethicone 4 MG/ML Oral Suspension	10798
+40163667	pneumococcal capsular polysaccharide type 1 vaccine 0.05 MG/ML / pneumococcal capsular polysaccharide type 10A vaccine 0.05 MG/ML / pneumococcal capsular polysaccharide type 11A vaccine 0.05 MG/ML / pneumococcal capsular polysaccharide type 12F vaccine 0.	10567
+43011850	heparin sodium, porcine 5000 UNT/ML Injectable Solution	8468
+40163500	Compression hosiery class II kneecap circular knit made to measure	8429
+19073712	Aspirin 81 MG Delayed Release Oral Tablet	8359
+19065567	Magnesium Hydroxide 80 MG/ML Oral Suspension	8150
+19123106	Esomeprazole 40 MG Delayed Release Oral Capsule [Nexium]	7629
+19135374	Calcium Chloride 0.0014 MEQ/ML / Potassium Chloride 0.004 MEQ/ML / Sodium Chloride 0.103 MEQ/ML / Sodium Lactate 0.028 MEQ/ML Injectable Solution	7597
+1560556	Glucose 500 MG/ML Injectable Solution	7443
+957134	Furosemide 10 MG/ML Injectable Solution	7365
+40231041	Glucose 0.4 MG/MG Oral Gel [Glutose]	7360
+19049904	Potassium Chloride 20 MEQ Extended Release Oral Tablet [Klor-Con]	7245
+19016865	Glucagon 1 MG Injection [GlucaGen]	7126
+19076324	Glucose 50 MG/ML Injectable Solution	6938
+19123989	Albuterol 0.83 MG/ML Inhalant Solution	6924
+19034073	Fentanyl 0.05 MG/ML Injectable Solution	6821
+40167213	Metoprolol Tartrate 25 MG Oral Tablet	6460
+19076330	Glucose 50 MG/ML / Sodium Chloride 0.0769 MEQ/ML Injectable Solution	6419
+19019073	Ibuprofen 600 MG Oral Tablet	6361
+40160974	0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe [Lovenox]	6109
+1113076	Ipratropium Bromide 0.2 MG/ML Inhalant Solution	5971
+40167259	POLYETHYLENE GLYCOL 3350 142 MG/ML Oral Solution	5935
+40169943	Morphine Sulfate 2 MG/ML Injectable Solution	5716
+1113346	Aspirin 81 MG Chewable Tablet	5655
+19078921	2 ML Metoclopramide 5 MG/ML Injection	5618
+40232448	Diphenhydramine Hydrochloride 25 MG Oral Tablet	5532
+1112892	Aspirin 325 MG Delayed Release Oral Tablet	5452
+40173071	1 ML Hydromorphone Hydrochloride 1 MG/ML Injection	5423
+19046742	Aspirin 325 MG Oral Tablet	5330
+40175218	Levothyroxine Sodium 0.05 MG Oral Tablet [Synthroid]	5173
+1567236	3 ML Insulin, Aspart, Human 100 UNT/ML Prefilled Syringe [NovoLog]	5164
+19074850	Cefazolin 20 MG/ML Injectable Solution	5100
+40232756	Oxycodone Hydrochloride 5 MG Oral Tablet	5062
+19041823	Bisacodyl 10 MG Rectal Suppository [Bisac-Evac]	5053
+19077546	Furosemide 20 MG Oral Tablet	4836
+19059056	Aspirin 81 MG Oral Tablet	4809
+993653	Magnesium Oxide 400 MG Oral Tablet	4728
+40175174	Levothyroxine Sodium 0.025 MG Oral Tablet	4710
+40174880	Levothyroxine Sodium 0.075 MG Oral Tablet	4683
+957136	Furosemide 40 MG Oral Tablet	4642
+1707773	Vancomycin 5 MG/ML Injectable Solution	4576
+1332419	Amlodipine 5 MG Oral Tablet	4563
+19093879	Magnesium Sulfate 4 MEQ/ML Injectable Solution	4524
+43011870	0.5 ML heparin sodium, porcine 10000 UNT/ML Cartridge	4521
+19020053	Acetaminophen 500 MG Oral Tablet	4513
+19075601	clopidogrel 75 MG Oral Tablet	4511
+40167218	Metoprolol Tartrate 50 MG Oral Tablet	4452
+19049335	Potassium Chloride 1.33 MEQ/ML Oral Solution	4364
+19078106	Hydrochlorothiazide 25 MG Oral Tablet	4356
+40174947	Levothyroxine Sodium 0.1 MG Oral Tablet [Synthroid]	4349
+40174888	Levothyroxine Sodium 0.075 MG Oral Tablet [Synthroid]	4326
+40221904	Acetaminophen 300 MG / Codeine Phosphate 30 MG Oral Tablet	4299
+40170012	Morphine Sulfate 4 MG/ML Injectable Solution	4211
+19077241	Famotidine 20 MG Oral Tablet	4194
+43011816	heparin sodium, porcine 100 UNT/ML Injectable Solution	4141
+19019072	Ibuprofen 400 MG Oral Tablet	4128
+19131157	dexpanthenol 2 MG/ML / Niacinamide 100 MG/ML / Riboflavin 2 MG/ML / Thiamine 100 MG/ML / Vitamin B6 2 MG/ML Injectable Solution	4040
+19080217	pantoprazole 40 MG Delayed Release Oral Tablet	3981
+40169766	Levothyroxine Sodium 0.1 MG Oral Tablet	3928
+19037061	Calcium Gluconate 100 MG/ML Injectable Solution	3896
+40231802	1 ML Diphenhydramine Hydrochloride 50 MG/ML Prefilled Syringe	3887
+19049340	Potassium Chloride 0.4 MEQ/ML Injectable Solution	3846
+19019419	Ondansetron 4 MG Oral Tablet	3840
+40163868	1 ML Ketorolac Tromethamine 30 MG/ML Prefilled Syringe	3814
+19122573	Esomeprazole 40 MG Injection [Nexium]	3813
+929889	lansoprazole 30 MG Delayed Release Oral Capsule	3757
+1746143	Piperacillin 200 MG/ML / tazobactam 25 MG/ML Injectable Solution	3727
+19123105	Esomeprazole 40 MG Delayed Release Oral Capsule	3722
+40175210	Levothyroxine Sodium 0.05 MG Oral Tablet	3646
+1539411	Clopixol 10mg tablets (Waymade Healthcare Plc) 100 tablet	3526
+19075034	Cephalexin 500 MG Oral Capsule	3496
+1127433	Acetaminophen 325 MG Oral Tablet	3485
+968985	Calcium Chloride 0.001 MEQ/ML / Glucose 50 MG/ML / Potassium Chloride 0.004 MEQ/ML / Sodium Chloride 0.103 MEQ/ML / Sodium Lactate 0.028 MEQ/ML Injectable Solution	3450
+19073093	Amlodipine 10 MG Oral Tablet	3361
+19041255	Acetaminophen 650 MG Rectal Suppository [Acephen]	3311
+19077343	ferrous sulfate 325 MG Delayed Release Oral Tablet	3308
+19093963	Magnesium Sulfate 0.163 MEQ/ML Injectable Solution	3160
+19036517	Propofol 10 MG/ML Injectable Suspension [Diprivan]	3093
+1545999	atorvastatin 20 MG Oral Tablet [Lipitor]	3087
+40163867	1 ML Ketorolac Tromethamine 15 MG/ML Prefilled Syringe	3052
+968477	3 ML Sodium Chloride 9 MG/ML Prefilled Syringe	3041
+40175009	Levothyroxine Sodium 0.125 MG Oral Tablet [Synthroid]	2997
+1539407	Simvastatin 40 MG Oral Tablet	2964
+19129446	1 ML Lorazepam 2 MG/ML Cartridge	2960
+1551170	Acute iritis	2959
+967434	Simethicone 80 MG Chewable Tablet	2959
+40163555	Warfarin Sodium 5 MG Oral Tablet [Coumadin]	2921
+19079322	Potassium Chloride 0.1 MEQ/ML Injectable Solution	2918
+19019418	Omeprazole 20 MG Delayed Release Oral Capsule	2888
+40167196	5 ML Metoprolol Tartrate 1 MG/ML Injection	2883
+40166830	24 HR metoprolol succinate 50 MG Extended Release Oral Tablet	2862
+19080128	Lisinopril 10 MG Oral Tablet	2858
+40226999	Lidocaine 0.05 MG/MG Medicated Patch [Lidoderm]	2855
+1836434	Sulfamethoxazole 800 MG / Trimethoprim 160 MG Oral Tablet	2854
+1746142	Piperacillin 40 MG/ML / tazobactam 5 MG/ML Injectable Solution	2834
+19093947	Magnesium Sulfate 0.325 MEQ/ML Injectable Solution	2801
+967825	Glucose 50 MG/ML / Sodium Chloride 0.154 MEQ/ML Injectable Solution	2786
+44818411	0.5 ML Influenza A virus vaccine, A-California-7-2009 (H1N1)-like virus 0.03 MG/ML / Influenza A virus vaccine, A-Victoria-361-2011 (H3N2)-like virus 0.03 MG/ML / Influenza B virus vaccine, B-Massachusetts-2-2012-like virus 0.03 MG/ML Prefilled Syringe [A	2784
+19078555	Regular Insulin, Human 100 UNT/ML Injectable Solution	2772
+19039742	Vancomycin 50 MG/ML Injectable Solution [Vancocin]	2755
+40164929	Metformin hydrochloride 500 MG Oral Tablet	2755
+40162494	Acetaminophen 500 MG / Hydrocodone Bitartrate 5 MG Oral Tablet	2753
+19073777	Azithromycin 250 MG Oral Tablet	2731
+19077513	Folic Acid 1 MG Oral Tablet	2669
+19132783	Calcium Carbonate 1250 MG / Cholecalciferol 200 UNT Oral Tablet	2659
+1154615	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler	2648
+19070371	Sodium Phosphate, Dibasic 59.3 MG/ML / Sodium Phosphate, Monobasic 161 MG/ML Enema	2645
+40164825	Influenza Virus Vaccine, Inactivated A-Brisbane-59-2007, IVR-148 (H1N1) strain 0.03 MG/ML / Influenza Virus Vaccine, Inactivated A-Uruguay-716-2007, NYMC X-175C (H3N2) strain 0.03 MG/ML / Influenza Virus Vaccine, Inactivated B-Brisbane-60-2008 strain 0.03	2609
+40166828	24 HR metoprolol succinate 25 MG Extended Release Oral Tablet	2577
+19078924	Midazolam 1 MG/ML Injectable Solution	2493
+40244026	Naloxone Hydrochloride 0.4 MG/ML Injectable Solution	2490
+1344176	Albumin Human, USP 50 MG/ML Injectable Solution	2487
+967905	Extra Strength Non-Aspirin	2484
+19074976	Ceftriaxone 20 MG/ML Injectable Solution	2471
+19019336	Nitroglycerin 0.4 MG Sublingual Tablet	2464
+40174972	Levothyroxine Sodium 0.112 MG Oral Tablet	2463
+19082706	Sodium Phosphate, Dibasic 142 MG/ML / Sodium Phosphate, Monobasic 276 MG/ML Injectable Solution	2442
+19077654	Glucose 5000 MG Chewable Tablet	2432
+1107882	Loratadine 10 MG Oral Tablet	2424
+953102	4848-18 CONTINUOUS EPIDURAL 18G TUOHY - regional anesthesia kit	2410
+40129954	Lanolin Topical Ointment	2391
+19049334	Potassium Chloride 0.2 MEQ/ML Injectable Solution	2368
+40174907	Levothyroxine Sodium 0.088 MG Oral Tablet	2333
+19074247	Bisacodyl 5 MG Delayed Release Oral Tablet	2283
+1326142	Oxytocin 0.02 UNT/ML Injectable Solution	2271
+19077344	ferrous sulfate 325 MG Oral Tablet	2267
+19027663	potassium phosphate 3 MMOL/ML Injectable Solution	2242
+987250	aspen .05g/mL INTRADERMAL; SUBCUTANEOUS INJECTION, SOLUTION	2235
+40175001	Levothyroxine Sodium 0.125 MG Oral Tablet	2218
+1790982	chlorhexidine gluconate 1.2 MG/ML Mouthwash	2216
+19080129	Lisinopril 20 MG Oral Tablet	2209
+19071700	Hyperammonemia	2190
+19078130	Sodium polystyrene sulfonate 250 MG/ML Oral Suspension [Kionex]	2180
+19049684	Potassium Chloride 10 MEQ Extended Release Oral Tablet	2170
+19019112	Chlordiazepoxide Hydrochloride 10 MG Oral Capsule	2143
+40241504	Dexamethasone phosphate 4 MG/ML Injectable Solution	2134
+1567232	Insulin, Aspart, Human 100 UNT/ML Injectable Solution [NovoLog]	2077
+40185304	Losartan Potassium 50 MG Oral Tablet	2041
+1545997	atorvastatin 10 MG Oral Tablet	2039
+19079658	Spironolactone 25 MG Oral Tablet	2009
+1707348	Metronidazole 5 MG/ML Injectable Solution	2005
+1551101	Dipyridamole 50 MG Oral Tablet	2002
+19019113	Chlordiazepoxide Hydrochloride 10 MG Oral Capsule	1989
+43526147	Dexmedetomidine 0.004 MG/ML Injectable Solution [Precedex]	1985
+1154109	Fentanyl 0.02 MG/ML Injectable Solution	1982
+1308251	Lisinopril 5 MG Oral Tablet	1982
+44818420	0.5 ML Influenza A virus vaccine, A-California-7-2009 (H1N1)-like virus 0.03 MG/ML / Influenza A virus vaccine, A-Victoria-361-2011 (H3N2)-like virus 0.03 MG/ML / Influenza B virus vaccine, B-Massachusetts-2-2012-like virus 0.03 MG/ML Prefilled Syringe [F	1977
+40161340	Norepinephrine 0.016 MG/ML Injectable Solution	1961
+19123104	Esomeprazole 20 MG Delayed Release Oral Capsule [Nexium]	1957
+1742256	Levofloxacin 5 MG/ML Injectable Solution	1942
+19134047	tramadol hydrochloride 50 MG Oral Tablet	1939
+766815	quetiapine 25 MG Oral Tablet [Seroquel]	1934
+19078557	Regular Insulin, Human 100 UNT/ML Injectable Solution [Humulin R]	1929
+40173060	Hydromorphone Hydrochloride 0.2 MG/ML Injectable Solution	1917
+1545959	atorvastatin 80 MG Oral Tablet	1917
+19127213	10 ML Sodium Chloride 9 MG/ML Prefilled Syringe	1913
+40173104	Hydromorphone Hydrochloride 2 MG/ML Injectable Solution	1897
+40168136	sennosides, USP 217 MG Oral Tablet	1896
+1545996	atorvastatin 40 MG Oral Tablet	1894
+40162515	Acetaminophen 325 MG / Hydrocodone Bitartrate 5 MG Oral Tablet	1853
+1309992	Amiodarone hydrochloride 200 MG Oral Tablet	1835
+40169761	Levofloxacin 25 MG/ML Injectable Solution	1812
+19078559	Insulin Glargine 100 UNT/ML Injectable Solution	1796
+1742255	Levofloxacin 500 MG Oral Tablet	1794
+19123592	atorvastatin 20 MG Oral Tablet	1787
+19134227	Witch Hazel 500 MG/ML Medicated Pad	1784
+40166824	24 HR metoprolol succinate 100 MG Extended Release Oral Tablet	1781
+19077548	gabapentin 300 MG Oral Capsule	1778
+19072269	Acetylcysteine 100 MG/ML Inhalant Solution	1776
+19077547	gabapentin 100 MG Oral Capsule	1766
+44818427	0.5 ML Influenza A virus vaccine, A-California-7-2009 (H1N1)-like virus 0.03 MG/ML / Influenza A virus vaccine, A-Victoria-361-2011 (H3N2)-like virus 0.03 MG/ML / Influenza B virus vaccine, B-Massachusetts-2-2012-like virus 0.03 MG/ML Prefilled Syringe [F	1766
+1545998	atorvastatin 10 MG Oral Tablet [Lipitor]	1763
+19123593	atorvastatin 40 MG Oral Tablet [Lipitor]	1763
+19115197	Amoxicillin 875 MG / Clavulanate 125 MG Oral Tablet	1748
+40175059	Levothyroxine Sodium 0.15 MG Oral Tablet [Synthroid]	1741
+42708391	Docusate Sodium 4 MG/ML Oral Solution	1740
+43012671	Ergocalciferol 50000 UNT Oral Capsule	1734
+19027427	Haloperidol 5 MG/ML Injectable Solution	1705
+19112920	Esomeprazole 40 MG Injection	1703
+40227012	Lidocaine Hydrochloride 10 MG/ML Injectable Solution	1701
+19023551	Omeprazole 40 MG Delayed Release Oral Capsule	1698
+40163535	Warfarin Sodium 2.5 MG Oral Tablet [Coumadin]	1674
+1551192	Prednisone 5 MG Oral Tablet	1669
+19019273	Naproxen 500 MG Oral Tablet	1663
+1560751	50 ML Glucose 500 MG/ML Prefilled Syringe	1661
+1396154	ferrous sulfate 300 MG Oral Tablet	1661
+19077763	Guaifenesin 20 MG/ML Oral Solution	1631
+906891	Ceftriaxone 100 MG/ML Injectable Solution	1611
+40221822	Dextromethorphan Hydrobromide 2 MG/ML / Guaifenesin 20 MG/ML Oral Solution	1606
+40173081	Hydromorphone Hydrochloride 10 MG/ML Injectable Solution	1603
+1326196	Oxytocin 0.06 UNT/ML Injectable Solution	1575
+798875	Clonazepam 0.5 MG Oral Tablet	1572
+40163473	Trazodone Hydrochloride 50 MG Oral Tablet	1558
+40166541	Tamsulosin hydrochloride 0.4 MG Oral Capsule [Flomax]	1555
+40163525	Warfarin Sodium 2 MG Oral Tablet [Coumadin]	1554
+40163554	Warfarin Sodium 5 MG Oral Tablet	1543
+19093967	100 ML Magnesium Sulfate 10 MG/ML Injection	1531
+1539463	Simvastatin 10 MG Oral Tablet	1529
+19011661	Polyvinyl Alcohol 0.014 ML/ML Ophthalmic Solution	1526
+19035115	Metronidazole 500 MG Oral Tablet [Flagyl]	1524
+19078558	Insulin, Aspart, Human 100 UNT/ML Injectable Solution	1524
+1518292	Dexamethasone 4 MG Oral Tablet	1511
+19080181	Methylprednisolone 62.5 MG/ML Injectable Solution	1495
+40227544	Diphenhydramine Hydrochloride 50 MG Oral Capsule [Banophen]	1487
+19036366	Calcium Carbonate 1500 MG / Cholecalciferol 400 UNT Oral Tablet	1476
+19079119	Nystatin 100000 UNT/ML Oral Suspension	1472
+1551123	Prednisone 50 MG Oral Tablet	1460
+19121909	Glycerin 2100 MG Rectal Suppository	1453
+45776408	Lidocaine 0.05 MG/MG Topical Ointment	1451
+40164897	Metformin hydrochloride 1000 MG Oral Tablet	1445
+19073094	Amlodipine 2.5 MG Oral Tablet	1441
+19072933	Alprazolam 0.25 MG Oral Tablet	1440
+40161137	Cefazolin 40 MG/ML Injectable Solution	1440
+19123351	Glucose 50 MG/ML / Potassium Chloride 0.02 MEQ/ML / Sodium Chloride 0.0769 MEQ/ML Injectable Solution	1434
+19073778	Azithromycin 100 MG/ML Injectable Solution	1426
+40173612	Alendronic acid 70 MG Oral Tablet	1417
+19076492	Digoxin 0.125 MG Oral Tablet [Lanoxin]	1396
+40232454	Diphenhydramine Hydrochloride 50 MG/ML Injectable Solution	1391
+40169220	120 ACTUAT Fluticasone propionate 0.05 MG/ACTUAT Nasal Inhaler	1375
+40166540	Tamsulosin hydrochloride 0.4 MG Oral Capsule	1371
+19028313	Ceftriaxone 350 MG/ML Injectable Solution	1369
+922804	Ciprofloxacin 500 MG Oral Tablet	1369
+40175050	Levothyroxine Sodium 0.15 MG Oral Tablet	1364
+1560553	Glucose 100 MG/ML Injectable Solution	1357
+40231804	12 HR Oxycodone Hydrochloride 10 MG Extended Release Oral Tablet	1350
+1771215	BARD URETHRAL CATHETER TRAY	1327
+40175291	POLYETHYLENE GLYCOL 3350 59 MG/ML / Potassium Chloride 0.01 MEQ/ML / Sodium Bicarbonate 0.02 MEQ/ML / Sodium Chloride 0.025 MEQ/ML / sodium sulfate 0.04 MEQ/ML Oral Solution [Golytely]	1315
+1346827	carvedilol 6.25 MG Oral Tablet [Coreg]	1289
+956877	Furosemide 80 MG Oral Tablet	1283
+19079028	Nitroglycerin 0.2 MG/ML Injectable Solution	1281
+45776083	0.5 ML Influenza A virus vaccine, A-California-7-2009 (H1N1)-like virus 0.03 MG/ML / Influenza A virus vaccine, A-Texas-50-2012 (H3N2)-like virus 0.03 MG/ML / Influenza B virus vaccine, B-Brisbane-60-2008-like virus 0.03 MG/ML / Influenza B virus vaccine,	1276
+1344175	Albumin Human, USP 250 MG/ML Injectable Solution	1273
+40185280	Losartan Potassium 25 MG Oral Tablet	1262
+40163492	Zolpidem tartrate 10 MG Oral Tablet	1259
+19006967	Hydrocortisone 100 MG Injection [Solu-Cortef]	1259
+19099840	Benzocaine 200 MG/ML Topical Spray	1251
+40174964	Levothyroxine Sodium 0.1 MG/ML Injectable Solution	1249
+19041463	Acetaminophen 500 MG Oral Tablet [Genebs]	1244
+1346991	carvedilol 3.125 MG Oral Tablet [Coreg]	1243
+42707671	Benzocaine 15 MG / Menthol 3.6 MG Oral Lozenge [Cepacol Sore Throat Pain Relief]	1242
+1383844	24 HR Isosorbide Mononitrate 30 MG Extended Release Oral Tablet [Imdur]	1241
+19018811	Atenolol 25 MG Oral Tablet	1237
+723042	Diazepam 5 MG Oral Tablet	1237
+1707772	Vancomycin 50 MG/ML Injectable Solution	1226
+739209	Sertraline 50 MG Oral Tablet	1225
+1314008	5-Hydroxytryptophan measurement	1221
+19036004	Calcium Carbonate 1250 MG Oral Tablet	1216
+19023636	Citalopram 20 MG Oral Tablet	1210
+40175077	Levothyroxine Sodium 0.175 MG Oral Tablet	1201
+1308221	Lisinopril 40 MG Oral Tablet	1190
+40175400	Enema syringe Higginson's plastic	1173
+19123103	Esomeprazole 20 MG Delayed Release Oral Capsule	1165
+19019630	Diatrizoate 300 MG/ML Injectable Solution	1163
+19069200	Ascorbic Acid 500 MG Oral Tablet	1158
+778765	Cyclobenzaprine hydrochloride 10 MG Oral Tablet	1156
+40232754	Oxycodone Hydrochloride 5 MG Oral Capsule	1152
+902807	Chlorpheniramine 0.4 MG/ML / Codeine Phosphate 2 MG/ML / Pseudoephedrine 6 MG/ML Oral Solution	1138
+19023368	montelukast 10 MG Oral Tablet	1129
+19019074	Ibuprofen 800 MG Oral Tablet	1126
+961050	Benzalkonium Chloride 1.3 MG/ML Medicated Pad	1121
+19057271	Lorazepam 2 MG/ML Injectable Solution	1106
+19075602	Clotrimazole 10 MG/ML Topical Cream	1098
+19044756	Vitamin K 1 10 MG/ML Injectable Solution	1094
+19078928	Milrinone 0.2 MG/ML Injectable Solution	1088
+43013021	bacitracin zinc 0.5 UNT/MG Topical Ointment	1088
+19078461	Ibuprofen 200 MG Oral Tablet	1081
+19135253	Calcium Citrate 1500 MG / Cholecalciferol 250 UNT Oral Tablet	1080
+40174776	Hydralazine Hydrochloride 20 MG/ML Injectable Solution	1076
+19018935	Digoxin 0.125 MG Oral Tablet	1069
+40168991	pantoprazole 40 MG Injection [Protonix]	1066
+19102189	Omeprazole 20 MG Delayed Release Oral Tablet	1055
+1346828	carvedilol 12.5 MG Oral Tablet [Coreg]	1051
+19075380	Ciprofloxacin 500 MG Oral Tablet	1050
+40165710	Esomeprazole 2.67 MG/ML Oral Suspension [Nexium]	1047
+40169245	14 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair]	1038
+40163511	Warfarin Sodium 1 MG Oral Tablet [Coumadin]	1037
+19078530	insulin human, isophane 100 UNT/ML Injectable Suspension [Humulin N]	1036
+19034804	Methylprednisolone 40 MG Injection [A-MethaPred]	1020
+42709116	potassium phosphate 155 MG / Sodium Phosphate, Dibasic 852 MG / Sodium Phosphate, Monobasic 130 MG Oral Tablet [K-Phos Neutral]	1019
+19073215	Ampicillin 250 MG/ML / Sulbactam 125 MG/ML Injectable Solution	1019
+1308250	Acetaminophen 300 MG / Oxycodone Hydrochloride 2.5 MG Oral Tablet [Perloxx 2.5/300]	1016
+19074672	Captopril 12.5 MG Oral Tablet	1012
+19126665	Sodium Chloride 0.111 MEQ/ML Nasal Spray	1012
+1742254	Levofloxacin 250 MG Oral Tablet	1011
+19127677	Mineral Oil 0.15 MG/MG / Petrolatum 0.83 MG/MG Ophthalmic Ointment	1007
+1786652	Cephalexin 500 MG Oral Tablet	1006
+19112761	tiotropium 0.018 MG/ACTUAT Inhalant Powder	1002
+1518261	Betamethasone valerate 0.1% ointment 20% in Emulsifying ointment (Special Order)	996
+19019272	Naproxen 250 MG Oral Tablet	988
+1707346	Metronidazole 500 MG Oral Tablet	985
+40175294	POLYETHYLENE GLYCOL 3350 60 MG/ML / Potassium Chloride 0.01 MEQ/ML / Sodium Bicarbonate 0.02 MEQ/ML / Sodium Chloride 0.025 MEQ/ML / sodium sulfate 0.04 MEQ/ML Oral Solution	977
+40173099	Hydromorphone Hydrochloride 2 MG Oral Tablet [Dilaudid]	970
+40222796	Meclizine Hydrochloride 25 MG Oral Tablet	966
+19027493	Famotidine 10 MG/ML Injectable Solution	965
+40163567	Warfarin Sodium 7.5 MG Oral Tablet [Coumadin]	964
+40169902	Morphine Sulfate 10 MG/ML Injectable Solution	939
+40160990	0.6 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe [Lovenox]	936
+19035072	Nitroglycerin 0.02 MG/MG Topical Ointment [Nitro-Bid]	936
+40226998	Lidocaine Hydrochloride 0.05 MG/MG Transdermal Patch	934
+40240992	Levothyroxine Sodium 0.02 MG/ML Injectable Solution	929
+19072176	Acetaminophen 32 MG/ML Oral Solution	925
+19122432	sennosides, USP 17.2 MG Oral Tablet	922
+19022750	carvedilol 12.5 MG Oral Tablet	921
+1755040	Endarterectomy of superior mesenteric artery and patch repair of superior mesenteric artery NEC	920
+40169706	Labetalol hydrochloride 5 MG/ML Injectable Solution	914
+1328689	Diltiazem Hydrochloride 30 MG Oral Tablet	914
+19072270	Acetylcysteine 200 MG/ML Inhalant Solution	913
+19114557	alteplase 1 MG/ML Injectable Solution [Cathflo Activase]	909
+40165245	Rosuvastatin calcium 10 MG Oral Tablet	905
+725178	1 ML Naloxone Hydrochloride 0.4 MG/ML Cartridge	904
+19082350	24 HR Isosorbide Mononitrate 30 MG Extended Release Oral Tablet	902
+19008572	Hydrocortisone 10 MG/ML Topical Cream	902
+739207	Sertraline 100 MG Oral Tablet	901
+40160992	0.8 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe [Lovenox]	897
+42708743	Docusate Sodium 10 MG/ML Oral Suspension	897
+42902746	Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler	895
+40231639	sennosides, USP 1.76 MG/ML Oral Solution [Senokot]	887
+40169977	Morphine Sulfate 25 MG/ML Injectable Solution	885
+19022749	carvedilol 6.25 MG Oral Tablet	884
+711586	Cephalexin 25 MG/ML Oral Suspension	884
+797632	Citalopram 10 MG Oral Tablet	873
+939534	Sodium Bicarbonate 1 MEQ/ML Injectable Solution	872
+1836433	Sulfamethoxazole 400 MG / Trimethoprim 80 MG Oral Tablet	872
+19019003	Fluconazole 200 MG Oral Tablet	861
+19019114	Lorazepam 2 MG Oral Tablet	853
+40169883	Morphine Sulfate 1 MG/ML Injectable Solution	850
+19058319	Purified Protein Derivative of Tuberculin 50 UNT/ML Injectable Solution [Tubersol]	850
+1309995	Amiodarone hydrochloride 50 MG/ML Injectable Solution	845
+19076659	Dobutamine 2 MG/ML Injectable Solution	845
+904827	{28 (drospirenone 0.25 MG / Estradiol 0.5 MG Oral Tablet) } Pack [Angeliq 0.25/0.5 28 Day]	843
+19049106	Potassium Chloride 20 MEQ Extended Release Oral Tablet	843
+19079171	Ondansetron 8 MG Oral Tablet	836
+19098474	ezetimibe 10 MG Oral Tablet [Zetia]	835
+40175026	Levothyroxine Sodium 0.137 MG Oral Tablet	831
+42799675	Dopamine Hydrochloride 1.6 MG/ML Injectable Solution	831
+40167202	Metoprolol Tartrate 100 MG Oral Tablet	820
+19121580	tiotropium 0.018 MG/ACTUAT Inhalant Powder [Spiriva]	817
+40174811	Hydralazine Hydrochloride 25 MG Oral Tablet	814
+1709202	meropenem 50 MG/ML Injectable Solution	814
+1154192	montelukast 10 MG Oral Tablet [Singulair]	807
+1322190	Canadian Hampshire pig	806
+1136682	benzonatate 100 MG Oral Capsule	806
+40169221	120 ACTUAT Fluticasone propionate 0.05 MG/ACTUAT Nasal Inhaler [Flonase]	800
+40232435	Diphenhydramine Hydrochloride 2.5 MG/ML Oral Solution	799
+40184727	Loperamide Hydrochloride 2 MG Oral Capsule	794
+1167323	Allopurinol 100 MG Oral Tablet	794
+19137328	Thiamine 100 MG Oral Tablet	793
+40227057	Lidocaine Hydrochloride 20 MG/ML Mucous Membrane Topical Solution	788
+1328691	Diltiazem Hydrochloride 5 MG/ML Injectable Solution	785
+1518258	Dexamethasone 0.5 MG Oral Tablet	783
+43011826	heparin sodium, porcine 1000 UNT/ML Injectable Solution	782
+40175249	Nalbuphine Hydrochloride 10 MG/ML Injectable Solution	773
+19075953	Vitamin B 12 1 MG Oral Tablet	772
+907020	24 HR Etodolac 400 MG Extended Release Oral Tablet	772
+19028193	Isopropyl Alcohol 0.7 ML/ML Medicated Pad	771
+40162311	Diclofenac Sodium 0.01 MG/MG Topical Gel	761
+40223895	Miconazole Nitrate 0.02 MG/MG Topical Ointment [Critic-Aid Clear]	760
+40175394	Pravastatin Sodium 20 MG Oral Tablet	760
+19003514	2 ML Digoxin 0.25 MG/ML Injection	759
+939510	Aldosterone recumbent measurement	754
+40185276	Losartan Potassium 100 MG Oral Tablet	750
+19132782	Calcium Carbonate 1500 MG / Cholecalciferol 200 UNT Oral Tablet	750
+1154108	Fentanyl 0.01 MG/ML Injectable Solution	749
+19002487	Mupirocin 0.02 MG/MG Topical Ointment [Bactroban]	744
+922802	Ciprofloxacin 500 MG Oral Tablet	724
+1742284	Levofloxacin 750 MG Oral Tablet	724
+19077638	Glipizide 5 MG Oral Tablet	724
+1308877	valsartan 160 MG Oral Tablet [Diovan]	723
+19073187	Amoxicillin 500 MG Oral Capsule	716
+19031564	Clonazepam 1 MG Oral Tablet [Klonopin]	716
+19129406	Rubella Virus Vaccine Live (Wistar RA 27-3 Strain) 2000 UNT/ML Injectable Solution	715
+19047039	carvedilol 25 MG Oral Tablet [Coreg]	715
+40175107	Levothyroxine Sodium 0.2 MG Oral Tablet [Synthroid]	715
+19132737	Simethicone 66.7 MG/ML Oral Suspension [Genasyme]	714
+40163534	Warfarin Sodium 2.5 MG Oral Tablet	713
+1308876	valsartan 80 MG Oral Tablet [Diovan]	712
+42800464	0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.01 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vacci	707
+19112613	lansoprazole 6 MG/ML Injectable Solution	700
+1346990	carvedilol 3.125 MG Oral Tablet	700
+40228214	cetirizine hydrochloride 10 MG Oral Tablet	697
+715940	apraclonidine 5 MG/ML Ophthalmic Solution [Iopidine]	696
+40160971	0.3 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe [Lovenox]	690
+40174765	Hydralazine Hydrochloride 10 MG Oral Tablet	689
+715965	Escitalopram 10 MG Oral Tablet [Lexapro]	688
+1506576	Methylprednisolone 125 MG/ML Injectable Solution [A-MethaPred]	687
+19019331	24 HR Nifedipine 30 MG Extended Release Oral Tablet	685
+40227049	Lidocaine Hydrochloride 20 MG/ML Injectable Solution	682
+40168126	Psyllium 14.2 MG/ML Oral Suspension [Metamucil]	681
+1717503	Ampicillin 250 MG/ML Injectable Solution	676
+1395073	Chlorthalidone 25 MG Oral Tablet	675
+19023193	sennosides, USP 15 MG Oral Tablet	670
+40168654	Clonidine Hydrochloride 0.1 MG Oral Tablet	669
+40222663	Hydroxyzine Hydrochloride 25 MG Oral Tablet	665
+1703064	valganciclovir 450 MG Oral Tablet [Valcyte]	664
+19010270	Tacrolimus 1 MG Oral Capsule [Prograf]	664
+968005	Acyclovir sodium 500mg powder	662
+19095165	Cholecalciferol 1000 UNT Oral Tablet	662
+19022781	carvedilol 25 MG Oral Tablet	660
+40166274	Insulin Lispro 100 UNT/ML Injectable Solution [Humalog]	660
+40165762	Enalapril Maleate 10 MG Oral Tablet	659
+722071	Capacity building - National Public Health Classification	658
+40232444	Diphenhydramine Hydrochloride 25 MG Oral Capsule	658
+766924	quetiapine 50 MG Oral Tablet [Seroquel]	655
+1507838	Vasopressin (USP) 20 UNT/ML Injectable Solution	649
+1713694	Amoxicillin 500 MG / Clavulanate 125 MG Oral Tablet	648
+766820	Cholestyramine 4g suspension	645
+1101556	{12 (Acetaminophen 500 MG / Chlorpheniramine Maleate 2 MG / Phenylephrine Hydrochloride 5 MG Oral Tablet [Contac Cold and Flu Maximum Strength]) / 16 (Acetaminophen 500 MG / Phenylephrine Hydrochloride 5 MG Oral Tablet [Contac Cold and Flu Non Drowsy Maxi	644
+40235770	Petrolatum 0.44 MG/MG Topical Ointment [DermaPhor]	644
+907016	24 HR Cyclobenzaprine hydrochloride 30 MG Extended Release Oral Capsule [Amrix]	643
+920332	avobenzone, octinoxate, octisalate, octocrylene 20mg/mL / 27mg/mL / 30mg/mL / 60mg/mL TOPICAL CREAM [lumene time freeze firming day spf 15 sunscreen broad spectrum]	642
+954692	latanoprost 0.05 MG/ML Ophthalmic Solution [Xalatan]	637
+40222779	Meclizine Hydrochloride 12.5 MG Oral Tablet	632
+19031629	lansoprazole 30 MG Delayed Release Oral Capsule [Prevacid]	631
+19077375	Finasteride 5 MG Oral Tablet	630
+40169770	Levothyroxine Sodium 0.2 MG Oral Tablet	629
+19072381	Albuterol 0.09 MG/ACTUAT Inhalant Solution	624
+1799140	Injection of hydrocortisone acetate into shoulder joint	619
+1154621	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [Proventil]	618
+40169683	Labetalol hydrochloride 100 MG Oral Tablet	612
+1396013	ferrous gluconate 300 MG Oral Tablet	611
+19121242	Omega-3 Acid Ethyl Esters (USP) 1000 MG Oral Capsule	607
+19079497	Sertraline 25 MG Oral Tablet	606
+42799671	Dopamine Hydrochloride 0.8 MG/ML Injectable Solution	603
+19080125	latanoprost 0.05 MG/ML Ophthalmic Solution	603
+19021150	Ascorbic Acid 250 MG Oral Tablet	601
+40171446	24 HR Isosorbide Mononitrate 60 MG Extended Release Oral Tablet [Imdur]	600
+19072159	Acetaminophen 32 MG/ML Oral Suspension	597
+40225159	Oxymetazoline hydrochloride 0.5 MG/ML Nasal Spray	597
+40164848	Ketorolac Tromethamine 15 MG/ML Injectable Solution [Toradol]	595
+19121184	Calcium Carbonate 648 MG Oral Tablet	595
+43011889	3 ML heparin sodium, porcine 10 UNT/ML Prefilled Syringe	589
+40169689	Labetalol hydrochloride 200 MG Oral Tablet	589
+19077682	Glyburide 5 MG Oral Tablet	589
+19076493	Digoxin 0.25 MG Oral Tablet [Lanoxin]	588
+19077607	Gentamicin Sulfate (USP) 0.8 MG/ML Injectable Solution	587
+40226969	Lidocaine Hydrochloride 0.02 MG/MG Topical Gel	584
+19029025	celecoxib 200 MG Oral Capsule	580
+752209	Prochlorperazine 5 MG/ML Injectable Solution	579
+19019696	Ranitidine 150 MG Oral Capsule	579
+40165789	Enalapril Maleate 5 MG Oral Tablet	578
+19122121	Insulin	578
+19133574	24 HR Diltiazem Hydrochloride 120 MG Extended Release Oral Capsule	577
+19067796	Acetaminophen 300 MG / Codeine 30 MG Oral Tablet [Tylenol with Codeine #3]	577
+752095	Prochlorperazine 10 MG Oral Tablet	575
+905237	mometasone furoate 0.05 MG/ACTUAT Nasal Spray	571
+950641	24 HR Bupropion Hydrochloride 300 MG Extended Release Tablet	568
+19074492	Calcitriol 0.00025 MG Oral Capsule	567
+1154062	72 HR Fentanyl 0.025 MG/HR Transdermal Patch	566
+766816	Cetirizine Hydrochloride 10 mg/1 TABLET [Cetirizine Hydrochloride]	566
+19059823	Cholecalciferol 1000 UNT Oral Capsule	563
+40165246	Rosuvastatin calcium 10 MG Oral Tablet [Crestor]	561
+40174937	Levothyroxine Sodium 0.1 MG Oral Capsule	561
+19072934	Alprazolam 0.5 MG Oral Tablet	561
+19021041	Doxycycline 100 MG Oral Capsule	561
+19018909	Diazepam 2 MG Oral Tablet	561
+40164946	Metformin hydrochloride 850 MG Oral Tablet	558
+40165253	Rosuvastatin calcium 20 MG Oral Tablet	558
+19133622	Diltiazem Hydrochloride 60 MG Oral Tablet	555
+19004039	Benzalkonium Chloride 1.3 MG/ML Medicated Liquid Soap	555
+19009409	Calcium Carbonate 600 MG / Vitamin D 200 UNT Oral Capsule	554
+19133280	Cyclobenzaprine hydrochloride 5 MG Oral Tablet	553
+19077550	gabapentin 600 MG Oral Tablet	550
+19019271	Naproxen 375 MG Oral Tablet	549
+40166448	Oxybutynin chloride 5 MG Oral Tablet	549
+1334460	Qinchuan cattle	542
+40166144	0.5 ML influenza A-California-7-2009-(H1N1)v-like virus vaccine 0.03 MG/ML Prefilled Syringe	541
+939832	50 ML Sodium Bicarbonate 1 MEQ/ML Prefilled Syringe	538
+40232700	Acute generalized pustular flare of preexisting plaque psoriasis	538
+40163209	Phenytoin sodium 100 MG Extended Release Oral Capsule [Dilantin]	537
+19018787	Allopurinol 300 MG Oral Tablet	537
+1334459	Ramipril 2.5 MG Oral Capsule	534
+19077463	Fluoxetine 20 MG Oral Capsule	534
+40238254	Divalproex Sodium 500 MG Delayed Release Oral Tablet	532
+40160995	1 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe	532
+1717708	valacyclovir 500 MG Oral Tablet	532
+1314006	Atenolol 100 MG Oral Tablet	531
+997997	50 ML Clindamycin 12 MG/ML Injection [Cleocin]	530
+40163460	Trazodone Hydrochloride 100 MG Oral Tablet	529
+942384	echinacea (angustifolia), baptisia tinctoria, chelidonium majus, hydrastis canadensis, phytolacca de... 1[hp_X]/mL / 3[hp_X]/mL / 6[hp_X]/mL / 8[hp_X]/mL / 12[hp_X]/mL / 30[hp_X]/mL ORAL LIQUID [vaxosode]	529
+19104281	Sodium Bicarbonate 0.15 MEQ/ML Injectable Solution	528
+19127381	0.5 ML darbepoetin alfa 0.2 MG/ML Prefilled Syringe [Aranesp]	528
+1526476	ezetimibe 10 MG Oral Tablet	528
+19075954	Vitamin B 12 1 MG/ML Injectable Solution	527
+19077636	Glipizide 10 MG Oral Tablet	524
+1150347	meloxicam 15 MG Oral Tablet	518
+19044609	Zinc Sulfate 220 MG Oral Capsule	516
+992673	Chlorothiazide 500 MG Injection	515
+19098166	Escitalopram 20 MG Oral Tablet	513
+19019332	24 HR Nifedipine 60 MG Extended Release Oral Tablet	503
+40160996	1 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe [Lovenox]	503
+19033409	Lisinopril 40 MG Oral Tablet [Prinivil]	501
+19106768	Hydrochlorothiazide 12.5 MG Oral Tablet	498
+40175208	Levothyroxine Sodium 0.05 MG Oral Capsule	497
+19040856	4 ML Norepinephrine 1 MG/ML Injection [Levophed]	496
+1118088	celecoxib 200 MG Oral Capsule [Celebrex]	492
+19080793	24 HR Glipizide 10 MG Extended Release Oral Tablet	491
+968304	Potassium Chloride 0.02 MEQ/ML / Sodium Chloride 0.154 MEQ/ML Injectable Solution	491
+19127954	sevelamer carbonate 800 MG Oral Tablet [Renvela]	488
+19114106	Citric Acid 66.8 MG/ML / sodium citrate 100 MG/ML Oral Solution	487
+1150351	Lauromacrogol 400 80mg/2ml solution for injection ampoules	486
+19125041	sitagliptin 100 MG Oral Tablet	482
+1115067	Naproxen 500 MG Delayed Release Oral Tablet	482
+19077609	Gentamicin Sulfate (USP) 1.2 MG/ML Injectable Solution	481
+922806	Ciprofloxacin 500 MG Oral Tablet	479
+40223609	Vancomycin 6 MG/ML Injectable Solution	478
+19022486	Hydrochlorothiazide 12.5 MG Oral Capsule	478
+19074934	cefpodoxime 200 MG Oral Tablet	475
+997899	Clindamycin 300 MG Oral Capsule	472
+40163510	Warfarin Sodium 1 MG Oral Tablet	471
+19077930	Haloperidol 5 MG Oral Tablet	470
+40168888	benztropine mesylate 1 MG Oral Tablet	469
+40160973	0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe	467
+19133566	24 HR Diltiazem Hydrochloride 240 MG Extended Release Oral Capsule	467
+19127610	Dexamethasone 0.5 MG Oral Tablet	467
+40173132	Hydromorphone Hydrochloride 4 MG Oral Tablet [Dilaudid]	467
+40238221	Docusate Sodium 100 MG Oral Tablet	467
+1560524	Glucose	466
+40234684	Mineral Oil 1000 MG/ML Enema [Fleet Mineral Oil]	465
+40163524	Warfarin Sodium 2 MG Oral Tablet	462
+19077242	Famotidine 8 MG/ML Oral Suspension	462
+715235	Baclofen 10 MG Oral Tablet	461
+19096678	valsartan 160 MG Oral Tablet	461
+1736892	linezolid 600 MG Oral Tablet	461
+1551122	Prednisone 2.5 MG Oral Tablet	461
+1125393	Acetaminophen 650 MG Oral Tablet	460
+19073791	Aztreonam 333 MG/ML Injectable Solution	459
+1703065	valganciclovir 450 MG Oral Tablet	457
+40169247	14 ACTUAT Fluticasone propionate 0.5 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair]	457
+1112839	Aspirin 300 MG Rectal Suppository	454
+953113	Famotidine 40 MG Oral Tablet	453
+19016799	olanzapine 5 MG Oral Tablet [Zyprexa]	451
+40165254	Rosuvastatin calcium 20 MG Oral Tablet [Crestor]	450
+950664	pregabalin 300mg/1 ORAL CAPSULE [lyrica]	448
+19008724	silver sulfadiazine 10 MG/ML Topical Cream	448
+19058398	Insulin Lispro 100 UNT/ML Injectable Solution	448
+19132804	Calcium Carbonate 1250 MG / Cholecalciferol 125 UNT Oral Tablet	446
+1332442	Amlodipine 10 MG Oral Tablet [Norvasc]	444
+40242522	8 HR Acetaminophen 650 MG Extended Release Oral Tablet	442
+19020398	ferrous gluconate 324 MG Oral Tablet	442
+40223768	Donepezil hydrochloride 10 MG Oral Tablet	441
+1736888	linezolid 2 MG/ML Injectable Solution [Zyvox]	440
+19034324	Cosyntropin 0.25 MG/ML Injectable Solution [Cortrosyn]	437
+19096438	sodium citrate 40 MG/ML Injectable Solution	437
+42708661	Docusate Sodium 50 MG Oral Capsule [Colace]	437
+19133570	24 HR Diltiazem Hydrochloride 180 MG Extended Release Oral Capsule	435
+919532	Gentamicin Sulfate (USP) 40 MG/ML Injectable Solution	433
+906933	Acetaminophen 325 MG / tramadol hydrochloride 37.5 MG Oral Tablet	433
+40163924	24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet	432
+1856650	BP screening - first call	432
+19133040	Psyllium 14.2 MG/ML Oral Suspension	432
+40169929	Morphine Sulfate 15 MG Oral Tablet	430
+941477	terconazole 4 MG/ML Vaginal Cream	427
+40228087	Triamcinolone Acetonide 1 MG/ML Topical Cream	425
+798876	Clonazepam 1 MG Oral Tablet	421
+19079834	Vancomycin 125 MG Oral Capsule	420
+836718	Temazepam 15 MG Oral Capsule	420
+40173098	Hydromorphone Hydrochloride 2 MG Oral Tablet	419
+40236824	Phenazopyridine hydrochloride 100 MG Oral Tablet	417
+1307089	Metoprolol 50 MG 24 Hour Extended Release Tablet	413
+40163770	Fosphenytoin sodium 75 MG/ML Injectable Solution	412
+19080068	Isoetharine 2 MG/ML Inhalant Solution	411
+19114219	ammonium lactate 120 MG/ML Topical Cream	411
+19074181	Betamethasone 0.5 MG/ML / Clotrimazole 10 MG/ML Topical Cream	410
+19078861	Metformin 500 MG Oral Tablet	410
+19132479	Benzocaine 200 MG/ML Mucosal Spray [Hurricaine]	410
+975505	Echinacea purpurea extract 7.35 MG / Eucalyptus oil 6 MG / Menthol 10 MG Lozenge	409
+19075002	Cefuroxime 500 MG Oral Tablet	408
+19023563	Simvastatin 80 MG Oral Tablet	408
+19126059	carbamide peroxide 65 MG/ML Otic Solution	405
+40174878	Levothyroxine Sodium 0.075 MG Oral Capsule	404
+40163244	Phenytoin sodium 50 MG/ML Injectable Solution	404
+40242563	COLLAGENASE 0.25 UNT/MG Topical Ointment [Santyl]	403
+19047064	olanzapine 2.5 MG Oral Tablet [Zyprexa]	403
+19078552	insulin human, isophane 100 UNT/ML Injectable Suspension	402
+19102681	Polysaccharide iron complex 150 MG Oral Capsule [Ferrex-150]	402
+711589	Cochlear implant system connector	401
+40162381	Econazole Nitrate 10 MG/ML Topical Cream	400
+19077342	ferrous sulfate 60 MG/ML Oral Solution	400
+43526395	prednisolone acetate 10 MG/ML Ophthalmic Suspension	400
+19079990	24 HR Glipizide 5 MG Extended Release Oral Tablet	399
+1308851	Allevyn Gentle Border dressing 7.5cm x 7.5cm (Smith & Nephew Healthcare Ltd) 1 dressing	399
+1754995	Fluconazole 100 MG Oral Tablet	398
+1113041	200 ACTUAT Ipratropium Bromide 0.017 MG/ACTUAT Metered Dose Inhaler	398
+1742258	Levofloxacin 500 MG Oral Tablet [Levaquin]	397
+1717707	valacyclovir 1000 MG Oral Tablet	395
+19102836	aripiprazole 5 MG Oral Tablet [Abilify]	394
+1734134	Azithromycin 500 MG Oral Tablet	394
+19078344	Hydrocortisone 25 MG/ML Topical Cream	392
+40165773	Enalapril Maleate 20 MG Oral Tablet	392
+40221871	24 HR Bupropion Hydrochloride 150 MG Extended Release Oral Tablet	390
+40174825	Hydralazine Hydrochloride 50 MG Oral Tablet	390
+19018781	Acetazolamide 250 MG Oral Tablet	389
+19075394	Citalopram 40 MG Oral Tablet	387
+19074558	Calcium Carbonate 500 MG Chewable Tablet	387
+19077549	gabapentin 400 MG Oral Capsule	386
+40165257	Rosuvastatin calcium 40 MG Oral Tablet	385
+1395774	ferric oxide, saccharated 20 MG/ML Injectable Solution	385
+40233964	Triamcinolone Acetonide 0.001 MG/MG Topical Ointment	384
+40166827	24 HR metoprolol succinate 200 MG Extended Release Oral Tablet [Toprol]	378
+1383869	24 HR Isosorbide Mononitrate 60 MG Extended Release Oral Tablet	378
+40164135	Brimonidine tartrate 1.5 MG/ML Ophthalmic Solution [Alphagan]	377
+722067	Paroxetine 10 MG Oral Tablet	377
+711585	Cephalexin 25 MG/ML Oral Suspension	374
+40165261	Rosuvastatin calcium 5 MG Oral Tablet	372
+715966	Escitalopram 20 MG Oral Tablet [Lexapro]	372
+19044952	MAGNESIUM GLUCONATE 500 MG Oral Tablet [Magtrate]	372
+1304794	0.4 ML darbepoetin alfa 0.1 MG/ML Prefilled Syringe [Aranesp]	371
+40169243	14 ACTUAT Fluticasone propionate 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair]	371
+1325642	0.6 ML pegfilgrastim 10 MG/ML Prefilled Syringe [Neulasta]	371
+1551193	Prednisone 1 MG/ML Oral Solution	371
+19019050	Diatrizoate Meglumine 660 MG/ML / Sodium Diatrizoate 100 MG/ML Injectable Solution	370
+711620	5 ML Levetiracetam 100 MG/ML Injection	369
+19019306	24 HR Nicotine 0.583 MG/HR Transdermal Patch	369
+19019309	Nifedipine 10 MG Oral Capsule	368
+40168892	2 ML benztropine mesylate 1 MG/ML Injection	368
+19100691	Isosorbide Dinitrate 10 MG Oral Tablet	368
+955434	Ethanol 0.98 ML/ML Injectable Solution	368
+19039813	Vasopressin (USP) 20 UNT/ML Injectable Solution [Pitressin]	367
+1192220	Levalbuterol 0.21 MG/ML Inhalant Solution [Xopenex]	366
+715300	2-Hydroxysebacate	366
+19075032	Cephalexin 250 MG Oral Capsule	361
+951553	calcium acetate 667 MG Oral Capsule [Phoslo]	361
+19076658	Dobutamine 1 MG/ML Injectable Solution	361
+1748981	Advagraf 0.5mg modified-release capsules (Mawdsley-Brooks & Company Ltd) 50 capsule	361
+19034351	Filgrastim 0.3 MG/ML Injectable Solution [Neupogen]	360
+19098138	Budesonide 0.25 MG/ML Inhalant Solution	359
+40238246	Divalproex Sodium 250 MG Delayed Release Oral Tablet	359
+42902745	Fluticasone propionate 0.5 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler	358
+19057128	Oxytocin 10 UNT/ML Injectable Solution	358
+1754996	Fluconazole 150 MG Oral Tablet	358
+19008723	Mupirocin 0.02 MG/MG Topical Ointment	356
+19014880	Azathioprine 50 MG Oral Tablet	355
+40226837	Epinephrine 0.01 MG/ML / Lidocaine Hydrochloride 10 MG/ML Injectable Solution	354
+40164847	1 ML Ketorolac Tromethamine 15 MG/ML Injection	353
+19004693	Risperidone 1 MG Oral Tablet [Risperdal]	353
+751247	Lithium Carbonate 300 MG Oral Capsule	352
+19079527	Sodium Chloride 1000 MG Oral Tablet	352
+736019	Benzyl Alcohol 0.09 MG/ML / Sodium Chloride 0.154 MEQ/ML Injectable Solution	351
+19045362	Acetaminophen 750 MG / Hydrocodone 7.5 MG Oral Tablet [Vicodin ES]	350
+40231811	12 HR Oxycodone Hydrochloride 20 MG Extended Release Oral Tablet [Oxycontin]	350
+40166826	24 HR metoprolol succinate 200 MG Extended Release Oral Tablet	349
+742303	arnica montana 6[hp_C]/1 ORAL TABLET [arnica recovery]	348
+19125049	sitagliptin 50 MG Oral Tablet	348
+1504621	Fluticasone furoate 27.5micrograms/dose nasal spray 120 dose	348
+42874113	alpha-Tocopherol Acetate 30 UNT / Ascorbic Acid 120 MG / Calcium Carbonate 200 MG / Cholecalciferol 400 UNT / Cupric oxide 2 MG / Docusate Sodium 50 MG / Folic Acid 1 MG / Iron Carbonyl 90 MG / Magnesium Oxide 30 MG / Niacinamide 20 MG / Pyridoxine Hydroc	347
+19076175	2 ML Dexmedetomidine 0.1 MG/ML Injection	346
+766923	quetiapine 50 MG Oral Tablet	346
+1113079	200 ACTUAT Ipratropium Bromide 0.017 MG/ACTUAT Metered Dose Inhaler [Atrovent]	345
+40163540	Warfarin Sodium 3 MG Oral Tablet	345
+19022826	mycophenolate mofetil 500 MG Oral Tablet	345
+19004034	mycophenolate mofetil 500 MG Injection	344
+40162606	Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet	344
+19126425	Cholecalciferol 50000 UNT Oral Capsule	343
+19079465	rosiglitazone 4 MG Oral Tablet	342
+1836452	Sulfamethoxazole 80 MG/ML / Trimethoprim 16 MG/ML Injectable Solution	341
+19079712	Tacrolimus 0.5 MG Oral Capsule	341
+40162717	Amitriptyline Hydrochloride 25 MG Oral Tablet	340
+19076592	Diphenhydramine 25 MG Oral Capsule	339
+19076953	Erythromycin 0.005 MG/MG Ophthalmic Ointment	339
+19028828	diphtheria toxoid vaccine, inactivated 4 UNT/ML / tetanus toxoid vaccine, inactivated 4 UNT/ML Injectable Suspension	339
+19075604	Clotrimazole 10 MG/ML Topical Solution	339
+1154063	72 HR Fentanyl 0.05 MG/HR Transdermal Patch	339
+40243198	10 ML Atropine Sulfate 0.1 MG/ML Prefilled Syringe	338
+19019042	Furosemide 10 MG/ML Oral Solution	338
+40165335	Ursodiol 300 MG Oral Capsule	337
+40175172	Levothyroxine Sodium 0.025 MG Oral Capsule	337
+1322185	clopidogrel 75 MG Oral Tablet [Plavix]	335
+19077929	Haloperidol 1 MG Oral Tablet	335
+19072961	alteplase 1 MG/ML Injectable Solution	335
+997996	50 ML Clindamycin 18 MG/ML Injection [Cleocin]	333
+19019307	24 HR Nicotine 0.875 MG/HR Transdermal Patch	333
+19010403	Mupirocin 0.02 MG/MG Nasal Ointment [Bactroban]	332
+19026511	Hydrocortisone 0.01 MG/MG Topical Ointment	332
+40165767	Enalapril Maleate 2.5 MG Oral Tablet	332
+1134771	Acetaminophen 325 MG / butalbital 50 MG / Caffeine 40 MG Oral Tablet	331
+40232217	Pseudoephedrine Hydrochloride 30 MG Oral Tablet	331
+19076374	Diazepam 5 MG/ML Injectable Solution	330
+40228967	Dextromethorphan Hydrobromide 2 MG/ML / Guaifenesin 20 MG/ML Oral Solution [Robitussin DM]	330
+1738542	Doxycycline 100 MG Oral Tablet	328
+19012592	Mycophenolic Acid 360 MG Delayed Release Oral Tablet [Myfortic]	328
+40168664	Clonidine Hydrochloride 0.2 MG Oral Tablet	327
+40162587	Acetaminophen 33.3 MG/ML / Hydrocodone Bitartrate 0.5 MG/ML Oral Solution	327
+1340161	Captopril 25 MG Oral Tablet	327
+42707627	rocuronium bromide 10 MG/ML Injectable Solution	327
+19018937	Digoxin 0.25 MG Oral Tablet	327
+19133515	docosahexaenoic acid 200 MG / Eicosapentaenoic Acid 300 MG / Vitamin E 1 UNT Oral Capsule	325
+1797515	Ciprofloxacin 250 MG Oral Tablet	325
+1555142	Fludrocortisone 0.1 MG Oral Tablet	325
+19079776	Timolol 5 MG/ML Ophthalmic Solution	325
+19121383	Betamethasone 3 MG/ML / Betamethasone acetate 3 MG/ML Injectable Suspension	325
+19017556	quetiapine 200 MG Oral Tablet [Seroquel]	323
+19004082	Simvastatin 20 MG Oral Tablet [Zocor]	323
+19035112	Metronidazole 250 MG Oral Tablet [Flagyl]	322
+19077574	Ganciclovir 500 MG Injection	322
+40163312	Propranolol Hydrochloride 10 MG Oral Tablet	321
+1178665	Indomethacin 25 MG Oral Capsule	320
+40163546	Warfarin Sodium 4 MG Oral Tablet	319
+1501700	Acetaminophen 650 MG / Hydrocodone Bitartrate 10 MG Oral Tablet	319
+715298	duloxetine 30 MG Delayed Release Oral Capsule [Cymbalta]	319
+19072240	Acetazolamide 500 MG Injection	319
+42902748	Budesonide 0.16 MG/ACTUAT / formoterol fumarate 0.0045 MG/ACTUAT Metered Dose Inhaler	319
+19068758	linezolid 600 MG Oral Tablet [Zyvox]	316
+902489	Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet	315
+789581	Aldomet 500mg tablets (Sigma Pharmaceuticals Plc)	313
+40232707	Oxycodone Hydrochloride 10 MG Oral Tablet	311
+19127526	0.3 ML darbepoetin alfa 0.2 MG/ML Prefilled Syringe [Aranesp]	311
+40184217	Hydrochlorothiazide 25 MG / Losartan Potassium 100 MG Oral Tablet	311
+1154536	Albuterol 0.21 MG/ML Inhalant Solution	310
+40165065	200 ML Nicardipine hydrochloride 0.1 MG/ML Injection [Cardene]	308
+40163518	Warfarin Sodium 10 MG Oral Tablet	308
+40169695	Labetalol hydrochloride 300 MG Oral Tablet	307
+19077577	Gemfibrozil 600 MG Oral Tablet	307
+40169924	Morphine Sulfate 15 MG Extended Release Oral Tablet	307
+40162472	Acetaminophen 500 MG / Hydrocodone Bitartrate 5 MG Oral Capsule	306
+920340	Acetaminophen 356.4 MG / Caffeine 30 MG / dihydrocodeine bitartrate 16 MG Oral Capsule [Trezix]	306
+966010	72 HR Scopolamine 0.0139 MG/HR Transdermal Patch [Transderm Scop]	305
+19026476	Ketoconazole 20 MG/ML Topical Cream	304
+743793	24 HR venlafaxine 75 MG Extended Release Oral Capsule [Effexor]	304
+1516978	insulin detemir 100 UNT/ML Injectable Solution	304
+19112758	Mycophenolic Acid 360 MG Delayed Release Oral Tablet	303
+19010291	Tacrolimus 5 MG Oral Capsule [Prograf]	303
+19019333	24 HR Nifedipine 90 MG Extended Release Oral Tablet	303
+19020131	Bisacodyl 10 MG Rectal Suppository	302
+19077659	Glyburide 2.5 MG Oral Tablet	302
+715301	Actreen set catheter male 8Ch HO6208E (B.Braun Medical Ltd)	301
+40240035	olopatadine 1 MG/ML Ophthalmic Solution	301
+19077579	Gentamicin Sulfate (USP) 0.001 MG/MG Topical Ointment	299
+40184293	Insulin, Aspart Protamine, Human 70 UNT/ML / Insulin, Aspart, Human 30 UNT/ML Injectable Suspension [NovoLog Mix]	299
+40223779	Donepezil hydrochloride 5 MG Oral Tablet [Aricept]	299
+19096677	valsartan 320 MG Oral Tablet	296
+19077738	Granisetron 1 MG Oral Tablet	296
+19131111	60 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [Ventolin]	294
+1331241	Option Bi-Form ileostomy bag with filter, midi BFV-4340K 40mm Opaque (Oakmed Ltd)	294
+766819	quetiapine 100 MG Oral Tablet	293
+40166455	Penicillin G Potassium 1000000 UNT/ML Injectable Solution	293
+19003315	Famotidine 20 MG Oral Tablet [Pepcid]	293
+19022948	irbesartan 150 MG Oral Tablet	292
+19016821	olanzapine 10 MG Oral Tablet [Zyprexa]	291
+19101553	Levetiracetam 1000 MG Oral Tablet	291
+1308879	valsartan 40 MG Oral Tablet [Diovan]	291
+19080040	Haloperidol 2 MG Oral Tablet	290
+19056978	Calcium Carbonate 1500 MG Oral Tablet	289
+40163333	Propranolol Hydrochloride 20 MG Oral Tablet	289
+19073188	Amoxicillin 500 MG Oral Tablet	288
+1310218	Warfarin 5 MG Oral Tablet	288
+919346	Gentamicin Sulfate (USP) 1 MG/ML Topical Cream	288
+929953	lansoprazole 15 MG Delayed Release Oral Capsule	288
+19102840	palonosetron 0.05 MG/ML Injectable Solution [Aloxi]	287
+19058574	Calcium Citrate 950 MG Oral Tablet	286
+932777	Bumetanide 0.25 MG/ML Injectable Solution	285
+40185298	0.6 ML Methylnaltrexone bromide 20 MG/ML Injection [Relistor]	285
+970283	Spironolactone 50 MG Oral Tablet	283
+1703836	Acyclovir 50 MG/ML Injectable Solution	281
+40237530	24 HR Divalproex Sodium 500 MG Extended Release Oral Tablet [Depakote]	281
+19033604	Etomidate 2 MG/ML Injectable Solution [Amidate]	281
+19067557	Ramipril 10 MG Oral Capsule [Altace]	280
+715294	duloxetine 20 MG Delayed Release Oral Capsule	280
+19077637	24 HR Glipizide 2.5 MG Extended Release Oral Tablet	280
+1337111	12 HR ranolazine 500 MG Extended Release Oral Tablet	278
+43013349	Aluminum Hydroxide 0.012 MG/MG Topical Ointment	278
+40244448	rivaroxaban 20 MG Oral Tablet	278
+40163566	Warfarin Sodium 7.5 MG Oral Tablet	277
+743717	24 HR venlafaxine 150 MG Extended Release Oral Capsule	277
+40223078	Codeine Phosphate 15 MG Oral Tablet	276
+19133853	Ketorolac Tromethamine 10 MG Oral Tablet	275
+1539406	MARY KAY TINTED LIP BALM SUNSCREEN SPF 15 MANGO - octinoxate, octocrylene, oxybenzone, zinc oxide lipstick	275
+19135599	Desmopressin Acetate 0.004 MG/ML Injectable Solution [DDAVP]	275
+19122148	duloxetine 30 MG Delayed Release Oral Capsule	275
+1551100	2 way foley all silicone catheter male 14Ch 5774 5ml-10ml balloon (Mediplus Ltd)	274
+40236839	Phenazopyridine hydrochloride 200 MG Oral Tablet	274
+19137329	Thiamine 100 MG/ML Injectable Solution	274
+42708517	60 ACTUAT Budesonide 0.16 MG/ACTUAT / formoterol fumarate 0.0045 MG/ACTUAT Metered Dose Inhaler [Symbicort]	274
+1551099	Prednisone	273
+19079138	1 ML Octreotide 0.1 MG/ML Injection	273
+1103320	Disulfiram 500 MG Oral Tablet	269
+40184084	Hydroxychloroquine Sulfate 200 MG Oral Tablet	269
+1307046	Metoprolol	269
+40166320	Methadone Hydrochloride 10 MG Oral Tablet	268
+40222092	Bupropion Hydrochloride 75 MG Oral Tablet	268
+1799141	Levothyroxine sodium 114microgram / Liothyronine 27microgram tablets (Special Order) 1 tablet	267
+40233393	Ascorbic Acid 100 MG / Biotin 0.15 MG / Calcium Pantothenate 5 MG / Folic Acid 1 MG / Niacin 20 MG / pyridoxine 10 MG / Riboflavin 1.7 MG / Thiamine Mononitrate 1.5 MG / Vitamin B 12 0.006 MG Oral Capsule [Nephrocaps]	267
+1125360	Acetaminophen 500 MG Oral Capsule	267
+19072205	Acetaminophen 33.3 MG/ML Oral Solution	266
+19131640	Cholecalciferol 2000 UNT Oral Capsule	265
+19112586	Mirtazapine 7.5 MG Oral Tablet	265
+19133750	Calcium Carbonate 1250 MG / Cholecalciferol 400 UNT Chewable Tablet	265
+40221947	Acetaminophen 325 MG / Codeine Phosphate 30 MG Oral Capsule	264
+40229192	200 ML Amiodarone hydrochloride 1.8 MG/ML Injection [Nexterone]	263
+19075375	Ciprofloxacin 2 MG/ML Injectable Solution	263
+19128380	olanzapine 5 MG Disintegrating Oral Tablet [Zyprexa]	260
+1304797	0.4 ML darbepoetin alfa 0.5 MG/ML Prefilled Syringe [Aranesp]	259
+40223932	Miconazole Nitrate 20 MG/ML Topical Cream	259
+19078786	Thyroxine 0.1 MG Oral Tablet [Synthroid]	258
+40237529	24 HR Divalproex Sodium 500 MG Extended Release Oral Tablet	258
+40160991	0.8 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe	258
+19075302	Cholecalciferol 400 UNT Oral Tablet	258
+19044924	zolpidem 5 MG Oral Tablet [Ambien]	258
+40222060	Bupropion Hydrochloride 100 MG Oral Tablet	257
+19019308	24 HR Nicotine 0.292 MG/HR Transdermal Patch	256
+19076899	Epinephrine 1 MG/ML Injectable Solution	256
+19080243	rofecoxib 25 MG Oral Tablet	256
+40221860	12 HR Bupropion Hydrochloride 150 MG Extended Release Oral Tablet [Budeprion]	255
+19077928	Haloperidol 0.5 MG Oral Tablet	255
+1502119	Lorazepam 0.5 MG Oral Tablet	255
+961167	Amoxicillin 50 MG/ML Oral Suspension	253
+725180	beech pollen extract 10000 UNT/ML Injectable Solution	253
+19039383	Hydrocortisone 10 MG Oral Tablet [Cortef]	252
+19040768	Misoprostol 0.1 MG Oral Tablet [Cytotec]	252
+19019339	Norethindrone 0.35 MG Oral Tablet	252
+40169231	120 ACTUAT Fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]	251
+781062	24 HR Guanfacine 2 MG Extended Release Oral Tablet	251
+19126352	Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray	250
+19135597	Desmopressin Acetate 0.004 MG/ML Injectable Solution	249
+19078314	Hydrocortisone 25 MG/ML Rectal Cream	249
+40229190	100 ML Amiodarone hydrochloride 1.5 MG/ML Injection [Nexterone]	249
+974201	Chlorphenamine 2mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)	249
+40223778	Donepezil hydrochloride 5 MG Oral Tablet	248
+19074522	Calcium Carbonate 250 MG/ML Oral Suspension	248
+1304799	0.42 ML darbepoetin alfa 0.06 MG/ML Prefilled Syringe [Aranesp]	248
+19127005	Sodium Chloride 0.513 MEQ/ML Inhalant Solution	247
+1597773	glimepiride 4 MG Oral Tablet	247
+19037482	Sucralfate 1000 MG Oral Tablet [Carafate]	247
+40163504	Zolpidem tartrate 6.25 MG Extended Release Oral Tablet	247
+1597772	glimepiride 2 MG Oral Tablet	246
+1353578	Vitamin B6 50 MG Oral Tablet	246
+19006208	lamotrigine 25 MG Oral Tablet [Lamictal]	245
+19072325	Aluminum Hydroxide 45 MG/ML / Magnesium Hydroxide 40 MG/ML / Simethicone 5 MG/ML Oral Suspension	244
+19129541	pantoprazole 40 MG Oral Granules [Protonix]	243
+40223290	Ampicillin 40 MG/ML Injectable Solution	243
+961306	Buprenorphine 8 MG / Naloxone 2 MG Sublingual Tablet [Suboxone]	243
+40238017	Valproic Acid 50 MG/ML Oral Solution	242
+19009601	Folic Acid 0.4 MG Oral Capsule	242
+1344995	Iloprost 0.01 MG/ML Inhalant Solution [Ventavis]	242
+40223815	Fexofenadine hydrochloride 180 MG Oral Tablet	241
+19073585	Ascorbic Acid 100 MG/ML Oral Solution	240
+904598	ammonium lactate 120 MG/ML Topical Cream	239
+40182871	Esmolol hydrochloride 10 MG/ML Injectable Solution [Brevibloc]	239
+42902666	Fluticasone propionate 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler	239
+19078925	Midazolam 5 MG/ML Injectable Solution	239
+19019116	Lovastatin 20 MG Oral Tablet	238
+1504672	Methimazole 5 MG Oral Tablet	238
+1310347	Cyclophosphamide 20 MG/ML Injectable Solution	238
+40168812	Nystatin 100 UNT/MG Topical Ointment	237
+43011909	Aspirin 25 MG / Dipyridamole 200 MG Oral Capsule [Aggrenox]	236
+1781735	Atovaquone 150 MG/ML Oral Suspension [Mepron]	236
+19041503	Acetaminophen 500 MG Oral Tablet [Tylenol]	235
+43560606	Miconazole Nitrate 0.02 MG/MG Topical Powder [Zeasorb]	235
+19126405	Ranitidine 15 MG/ML Oral Solution	235
+19079182	Oxacillin 167 MG/ML Injectable Solution	235
+40222688	Hydroxyzine Hydrochloride 50 MG Oral Tablet	235
+19071252	travoprost 0.04 MG/ML Ophthalmic Solution	235
+1703743	Acyclovir 800 MG Oral Tablet	234
+40221874	24 HR Bupropion Hydrochloride 300 MG Extended Release Oral Tablet	233
+40165258	Rosuvastatin calcium 40 MG Oral Tablet [Crestor]	233
+19019044	Hydrochlorothiazide 50 MG Oral Tablet	233
+19032676	Thyroxine 0.15 MG Oral Tablet [Synthroid]	232
+19018786	Acyclovir 200 MG Oral Capsule	231
+942382	torsemide 10 MG Oral Tablet	231
+40163921	24 HR Metformin hydrochloride 1000 MG Extended Release Oral Tablet	229
+904549	24 HR Nitroglycerin 0.2 MG/HR Transdermal Patch	229
+19006207	lamotrigine 100 MG Oral Tablet [Lamictal]	229
+40175390	Pravastatin Sodium 10 MG Oral Tablet	228
+1310001	Abnormal breathing or swallowing due to dentofacial dysfunction	228
+19112640	Fenofibrate 145 MG Oral Tablet	228
+40169230	120 ACTUAT Fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler	228
+1112807	Aspirin	227
+1734168	Azithromycin 33.3 MG/ML Extended Release Suspension	226
+1734107	Azithromycin 250 MG Oral Capsule	226
+40184730	Loperamide Hydrochloride 2 MG Oral Tablet	226
+1518259	Dexamethasone 1 MG Oral Tablet	226
+40162315	Diclofenac Sodium 0.03 MG/MG Topical Gel	225
+1836449	Sulfamethoxazole 40 MG/ML / Trimethoprim 8 MG/ML Oral Suspension	225
+19034807	Methylprednisolone 62.5 MG/ML Injectable Solution [Solu-Medrol]	225
+19034012	Prednisone 5 MG Oral Tablet [Orasone]	225
+19019335	Nitroglycerin 0.3 MG Sublingual Tablet	225
+40174999	Levothyroxine Sodium 0.125 MG Oral Capsule	225
+40162672	Amitriptyline Hydrochloride 10 MG Oral Tablet	225
+40222930	midodrine hydrochloride 5 MG Oral Tablet	224
+1760097	Amoxicillin 875 MG / clavulanate potassium 125 MG Oral Tablet [Augmentin 875-mg]	224
+40221901	Acetaminophen 300 MG / Codeine Phosphate 15 MG Oral Tablet	224
+19004061	mycophenolate mofetil 250 MG Oral Capsule [Cellcept]	224
+1347386	irbesartan 150 MG Oral Tablet [Avapro]	223
+40173137	1 ML Hydromorphone Hydrochloride 4 MG/ML Injection	223
+19124112	Glucose 50 MG/ML / Sodium Chloride 0.0342 MEQ/ML Injectable Solution	223
+40163383	sevelamer hydrochloride 800 MG Oral Tablet	223
+40160989	0.6 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe	223
+19098477	aripiprazole 10 MG Oral Tablet [Abilify]	222
+1113102	ARNICA E PL. TOTA 30 - arnica e pl. tota 30 pellet	222
+19004694	Risperidone 2 MG Oral Tablet [Risperdal]	221
+1154193	montelukast 5 MG Chewable Tablet [Singulair]	221
+40058036	fluticasone 0.05 MG/ACTUAT Nasal Spray [Flonase]	221
+19125045	sitagliptin 25 MG Oral Tablet	221
+19078825	Meclizine 25 MG Oral Tablet	221
+1307088	ISOTRIDECYL ISONONANOATE	221
+40184187	Hydrochlorothiazide 12.5 MG / Losartan Potassium 50 MG Oral Tablet	220
+40222636	Hydroxyzine Hydrochloride 10 MG Oral Tablet	219
+19030822	Clindamycin 150 MG/ML Injectable Solution	218
+40174291	liothyronine sodium 0.005 MG Oral Tablet	217
+40223502	Cilastatin 5 MG/ML / Imipenem 5 MG/ML Injectable Solution [Primaxin]	216
+40222694	Hydroxyzine Hydrochloride 50 MG/ML Injectable Solution	216
+1539462	Simvastatin 5 MG Oral Tablet	216
+19079160	Ondansetron 0.8 MG/ML Oral Solution	215
+40241189	Ticagrelor 90 MG Oral Tablet [Brilinta]	214
+40222834	Memantine hydrochloride 10 MG Oral Tablet	214
+721760	acetaminophen, dextromethorphan hydrobromide, doxylamine succinate 15mg/1 / 325mg/1 / 6.25mg/1 ORAL CAPSULE, LIQUID FILLED [nite-time cold and flu multi-symptom relief]	214
+1344910	Carboplatin 10 MG/ML Injectable Solution [Paraplatin]	213
+718670	Aspergillus flavus allergenic extract 10000 UNT/ML Injectable Solution	212
+1782543	isoniazid 300 MG Oral Tablet	212
+19033627	Isosorbide Dinitrate 20 MG Oral Tablet	212
+19058193	Granisetron 1 MG/ML Injectable Solution	212
+19057064	Aluminum Hydroxide 80 MG/ML / Magnesium Hydroxide 80 MG/ML / Simethicone 8 MG/ML Oral Suspension	212
+19019004	Fluconazole 50 MG Oral Tablet	212
+40231916	Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet	212
+40243494	Carboxymethylcellulose Sodium 5 MG/ML Ophthalmic Solution	211
+40166816	24 HR Glipizide 5 MG Extended Release Oral Tablet [Glucotrol]	211
+1326437	Digoxin 0.05 MG/ML Oral Solution	211
+19079293	pioglitazone 30 MG Oral Tablet	211
+19123171	pregabalin 50 MG Oral Capsule [Lyrica]	211
+19021102	mycophenolate mofetil 250 MG Oral Capsule	211
+974200	ACTI/VAC-B1 -M48	211
+919427	Gentamicin Sulfate (USP) 1 MG/ML Injectable Solution	210
+1506426	Methylprednisolone 4 MG Oral Tablet	209
+19102510	Ciprofloxacin 3 MG/ML / Dexamethasone 1 MG/ML Otic Suspension	209
+19113528	Water 1000 MG/ML Injectable Solution	209
+40163493	Zolpidem tartrate 10 MG Oral Tablet [Ambien]	209
+1771170	Cefazolin 225 MG/ML Injectable Solution [Ancef]	209
+19006685	Azithromycin 250 MG Oral Capsule [Zithromax]	208
+19101573	nebivolol 5 MG Oral Tablet	208
+798877	Ampicillin 25 MG/ML Oral Suspension	208
+975169	Hydrocortisone 20 MG Oral Tablet	208
+19127952	sevelamer carbonate 800 MG Oral Tablet	208
+40162359	Diclofenac Sodium 75 MG Delayed Release Oral Tablet	208
+40241334	rivaroxaban 10 MG Oral Tablet [Xarelto]	208
+19075343	ciclopirox 80 MG/ML Topical Solution	208
+1154343	Albuterol	207
+19025865	Rifampin 300 MG Oral Capsule [Rifadin]	207
+40175404	Pravastatin Sodium 80 MG Oral Tablet	207
+40242057	Dibasic potassium phosphate 1.66 MEQ/ML / Monobasic potassium phosphate 1.65 MEQ/ML Injectable Solution	207
+19005965	Ondansetron 4 MG Disintegrating Oral Tablet	206
+19133621	Diltiazem Hydrochloride 90 MG Oral Tablet	206
+40222920	midodrine hydrochloride 10 MG Oral Tablet [Proamatine]	206
+19102771	aprepitant 125 MG Oral Capsule [Emend]	205
+40165709	Esomeprazole 1.33 MG/ML Oral Suspension [Nexium]	205
+1396301	Ascorbic Acid 500 MG / ferrous sulfate 525 MG / Folic Acid 0.8 MG Extended Release Oral Tablet	204
+19075605	Clotrimazole 10 MG Oral Lozenge	204
+40181424	20 ML amphotericin B liposomal 5 MG/ML Injection	204
+19010371	Losartan 50 MG Oral Tablet [Cozaar]	204
+19033317	Lidocaine 25 MG/ML / Prilocaine 25 MG/ML Topical Cream [EMLA]	204
+19098327	1 ML darbepoetin alfa 0.06 MG/ML Injection [Aranesp]	204
+743795	24 HR venlafaxine 37.5 MG Extended Release Oral Capsule [Effexor]	203
+19030163	Ciprofloxacin 500 MG Oral Tablet [Cipro]	203
+1525216	pioglitazone 15 MG Oral Tablet [Actos]	203
+19134083	cyclosporine, modified 25 MG Oral Capsule [Neoral]	203
+19102835	Levetiracetam 100 MG/ML Oral Solution [Keppra]	203
+40222835	Memantine hydrochloride 10 MG Oral Tablet [Namenda]	202
+40175215	Levothyroxine Sodium 0.05 MG Oral Tablet [Levothroid]	201
+42708660	Docusate Sodium 50 MG Oral Capsule	201
+40169216	120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler	201
+19122492	Naproxen 375 MG Delayed Release Oral Tablet	201
+19123167	pregabalin 25 MG Oral Capsule [Lyrica]	201
+1348267	anastrozole 1 MG Oral Tablet	200
+43560451	Albuterol 0.833 MG/ML / Ipratropium Bromide 0.167 MG/ML Inhalant Solution	200
+1322189	clopidogrel 300 MG Oral Tablet	200
+1567201	Insulin, Aspart Protamine, Human 70 UNT/ML / Insulin, Aspart, Human 30 UNT/ML Injectable Suspension	200
+40160970	0.3 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe	200
+40164134	Brimonidine tartrate 1.5 MG/ML Ophthalmic Solution	199
+956876	Furosemide 8 MG/ML Oral Solution	198
+40167435	buspirone hydrochloride 15 MG Oral Tablet	197
+19010522	cyclosporine, modified 100 MG Oral Capsule	197
+43011980	heparin sodium, porcine 1 UNT/ML Injectable Solution	197
+19102213	aripiprazole 5 MG Oral Tablet	196
+19075955	Vitamin B 12 0.1 MG Oral Tablet	196
+1334494	Ramipril 10 MG Oral Capsule	196
+40169235	120 ACTUAT Fluticasone propionate 0.22 MG/ACTUAT Metered Dose Inhaler [Flovent]	196
+19041252	Acetaminophen 325 MG Rectal Suppository [Acephen]	195
+40227595	Acetaminophen 300 MG / Oxycodone Hydrochloride 2.5 MG Oral Tablet	195
+734396	pregabalin 50 MG Oral Capsule	195
+19078781	Levetiracetam 750 MG Oral Tablet	194
+40160985	24 HR quetiapine 50 MG Extended Release Oral Tablet	194
+19071493	quetiapine 300 MG Oral Tablet [Seroquel]	194
+40163384	sevelamer hydrochloride 800 MG Oral Tablet [RenaGel]	194
+40228154	dabigatran etexilate 150 MG Oral Capsule	193
+19045071	Ergocalciferol 8000 UNT/ML Oral Solution	193
+40166814	24 HR Glipizide 10 MG Extended Release Oral Tablet [Glucotrol]	193
+19076734	dorzolamide 20 MG/ML Ophthalmic Solution	193
+1525221	Actreen Lite Cath catheter male olive Tiemann tip 8Ch 228108E (B.Braun Medical Ltd) 30 catheter	193
+19102522	Aspirin 81 MG Delayed Release Oral Capsule	193
+19098359	1 ML paricalcitol 0.002 MG/ML Injection [Zemplar]	192
+42800035	0.65 ML Varicella-Zoster Virus Vaccine Live (Oka-Merck) strain 29800 UNT/ML Injection [Zostavax]	192
+1344243	0.3 ML Epinephrine 1 MG/ML Auto-Injector	191
+734356	200 ML Ropivacaine hydrochloride 2 MG/ML Injection [Naropin]	190
+40221859	12 HR Bupropion Hydrochloride 150 MG Extended Release Oral Tablet	190
+40223953	Miconazole Nitrate 20 MG/ML Vaginal Cream	190
+40178233	Ampicillin 20 MG/ML / Sulbactam 10 MG/ML Injectable Solution	189
+19027805	Bacitracin 0.4 UNT/MG / Neomycin 0.0035 MG/MG / Polymyxin B 5 UNT/MG Topical Ointment	189
+42707472	4 ML Labetalol hydrochloride 5 MG/ML Cartridge	189
+19102734	Escitalopram 5 MG Oral Tablet [Lexapro]	187
+1307091	HEPTYL UNDECYLENATE	187
+19079154	olanzapine 5 MG Oral Tablet	187
+40164130	Brimonidine tartrate 1 MG/ML Ophthalmic Solution	187
+19047694	dorzolamide 20 MG/ML / Timolol 5 MG/ML Ophthalmic Solution [Cosopt]	187
+40236481	Methylphenidate Hydrochloride 5 MG Oral Tablet	186
+19077639	Immunoglobulin G, Human 100 MG/ML Injectable Solution	186
+1154380	Albuterol 1 MG/ML Inhalant Solution	186
+19042968	Benzocaine 140 MG/ML / butamben 20 MG/ML / Tetracaine 20 MG/ML Topical Spray [Cetacaine]	185
+40166362	Methadone Hydrochloride 5 MG Oral Tablet	185
+1301154	Benzalkonium Chloride 1.3 MG/ML / Benzocaine 50 MG/ML [Orajel Single Dose Cold Sore]	185
+40173815	Chlordiazepoxide Hydrochloride 25 MG Oral Capsule	184
+19099839	Benzocaine 200 MG/ML Mucosal Spray	184
+40162729	Amitriptyline Hydrochloride 50 MG Oral Tablet	184
+1107966	Loratadine 10 MG Oral Capsule	184
+19078603	insulin human, isophane 70 UNT/ML / Regular Insulin, Human 30 UNT/ML Injectable Suspension	183
+932749	Bumetanide 1 MG Oral Tablet	183
+923714	Omeprazole 1.33 MG/ML Oral Suspension	183
+1103359	24 HR Tramadol Hydrochloride 200 MG Extended Release Tablet [Ryzolt]	183
+19095036	Cefoxitin 40 MG/ML Injectable Solution	182
+1192247	Levalbuterol 0.103 MG/ML Inhalant Solution [Xopenex]	182
+42901674	Phenytoin 25 MG/ML Oral Suspension	181
+1308874	valsartan 40 MG Oral Tablet	181
+40162563	Acetaminophen 21.7 MG/ML / Hydrocodone Bitartrate 0.5 MG/ML Oral Solution	181
+19123173	pregabalin 75 MG Oral Capsule [Lyrica]	181
+40223893	Miconazole Nitrate 0.02 MG/MG Topical Ointment	181
+19076530	dimethicone 15 MG/ML Topical Cream	181
+722069	Bethanechol Chloride 5 MG Oral Tablet [Urecholine]	181
+19010126	docosahexaenoic acid 200 MG / Eicosapentaenoic Acid 300 MG / Vitamin E 1 UNT Oral Capsule [Sea-Omega]	180
+1154030	72 HR Fentanyl 0.075 MG/HR Transdermal Patch	179
+1136687	benzonatate 200 MG Oral Capsule	179
+19102504	Levetiracetam 100 MG/ML Oral Solution	179
+19131348	Cholecalciferol 2000 UNT Oral Tablet	179
+40243436	1 ML Atropine Sulfate 1 MG/ML Injection	179
+42707286	Phenylephrine Hydrochloride 10 MG/ML Injectable Solution	179
+40222677	Hydroxyzine Hydrochloride 25 MG/ML Injectable Solution	178
+19073732	Atovaquone 150 MG/ML Oral Suspension	178
+19074978	Ceftriaxone 40 MG/ML Injectable Solution	177
+43011896	3 ML heparin sodium, porcine 100 UNT/ML Prefilled Syringe	177
+1309800	Arundo pliniana root extract	177
+19075843	COLLAGENASE 0.25 UNT/MG Topical Ointment	177
+40169944	Morphine Sulfate 2 MG/ML Oral Solution	177
+40163948	24 HR carvedilol phosphate 10 MG Extended Release Oral Capsule	177
+1525220	Dead on arrival at hospital	177
+904492	Acyclovir 800 MG Oral Tablet	176
+975168	Hydrocortisone 10 MG Oral Tablet	176
+941478	terconazole 8 MG/ML Vaginal Cream	176
+1703691	Acyclovir 400 MG Oral Tablet	176
+715295	duloxetine 20 MG Delayed Release Oral Capsule [Cymbalta]	176
+19102518	Daptomycin 500 MG Injection	176
+19121195	72 HR Fentanyl 0.012 MG/HR Transdermal Patch	176
+1525217	pioglitazone 30 MG Oral Tablet [Actos]	176
+40173999	Sotalol Hydrochloride 80 MG Oral Tablet [Sorine]	175
+19112671	pregabalin 75 MG Oral Capsule	175
+19009551	Rabbit anti-human T-lymphocyte globulin 5 MG/ML Injectable Solution	175
+715962	Escitalopram 5 MG Oral Tablet	175
+19039286	Hydrocortisone 5 MG Oral Tablet [Cortef]	175
+904996	ammonium lactate 120 MG/ML Topical Lotion [Lac-Hydrin]	174
+1378385	Paclitaxel 6 MG/ML Injectable Solution	174
+19031829	Losartan 25 MG Oral Tablet [Cozaar]	174
+1513105	Raloxifene 60 MG Oral Tablet	173
+1036233	Sucralfate 1000 MG Oral Tablet	173
+19074697	Carbamazepine 200 MG Oral Tablet	173
+19005929	Metoclopramide 1 MG/ML Oral Solution	173
+1363058	Doxazosin 2 MG Oral Tablet	173
+40167443	buspirone hydrochloride 5 MG Oral Tablet	172
+40241333	rivaroxaban 10 MG Oral Tablet	172
+19074220	bimatoprost 0.3 MG/ML Ophthalmic Solution	171
+989485	Dutasteride 0.5 MG Oral Capsule	171
+911065	Temazepam 15 MG Oral Capsule	171
+19044757	0.5 ML Vitamin K 1 2 MG/ML Injection	171
+40224805	1 ML medroxyprogesterone acetate 150 MG/ML Injection	170
+963359	Glycopyrrolate 0.2 MG/ML Injectable Solution	170
+1329477	Dinoprostone 10 MG Drug Implant [Cervidil]	170
+19029092	Adenosine 3 MG/ML Injectable Solution	170
+40231806	12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet	169
+19010551	Cyclosporine 0.5 MG/ML Ophthalmic Suspension	169
+1554073	Propylthiouracil 50 MG Oral Tablet	169
+1750562	Clarithromycin 500 MG Oral Tablet	169
+742304	Fenoldopam 10 MG/ML Injectable Solution [Corlopam]	168
+40171884	Verapamil hydrochloride 240 MG Extended Release Oral Tablet	168
+19011786	Metronidazole 0.0075 MG/MG Vaginal Gel	168
+40168884	benztropine mesylate 0.5 MG Oral Tablet	168
+1315944	docetaxel 40 MG/ML Injectable Solution	167
+42800173	hydrocortisone acetate 25 MG Rectal Suppository	167
+19039961	dexlansoprazole 60 MG Delayed Release Oral Capsule	167
+19029479	Fluoxetine 10 MG Oral Capsule [Prozac]	166
+19095939	Calcium Carbonate 1250 MG Oral Tablet [OsCal 500]	166
+19030536	Clarithromycin 500 MG Oral Tablet [Biaxin]	166
+1154660	200 ACTUAT Albuterol 0.09 MG/ACTUAT / Ipratropium Bromide 0.018 MG/ACTUAT Metered Dose Inhaler	166
+1301168	1 ML Epoetin Alfa 40000 UNT/ML Injection [Procrit]	165
+1396016	ferrous gluconate 325 MG Oral Tablet	165
+40164972	Megestrol Acetate 40 MG/ML Oral Suspension	165
+19011853	Ascorbic Acid 1000 MG Oral Tablet	165
+792000	Accidentally cut or pierced by machinery	164
+1363057	Doxazosin 1 MG Oral Tablet	164
+19125519	Estrogens, Conjugated (USP) 0.625 MG/ML Vaginal Cream	164
+40163342	Propranolol Hydrochloride 40 MG Oral Tablet	164
+19125353	1.3 ML aripiprazole 7.5 MG/ML Injection [Abilify]	164
+40166002	Glyburide 5 MG / Metformin hydrochloride 500 MG Oral Tablet	163
+40184184	Hydrochlorothiazide 12.5 MG / Losartan Potassium 100 MG Oral Tablet	163
+19047552	dolasetron mesylate 20 MG/ML Injectable Solution [Anzemet]	162
+1502116	Lorazepam 0.5 MG Oral Tablet	162
+974199	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	162
+40227019	Lidocaine Hydrochloride 10 MG/ML Injectable Solution [Xylocaine]	162
+19019301	Niacin 500 MG Oral Tablet	162
+19019236	Nadolol 20 MG Oral Tablet	162
+743752	venlafaxine 75 MG Oral Tablet	161
+19037481	Sucralfate 100 MG/ML Oral Suspension [Carafate]	161
+19034327	Prednisone 50 MG Oral Tablet [Deltasone]	161
+1037007	Bricklayer and concreter - Royal Engineers	161
+40163818	rifaximin 550 MG Oral Tablet [XIFAXAN]	161
+19044710	Cisatracurium 2 MG/ML Injectable Solution [Nimbex]	160
+19007332	Methotrexate 2.5 MG Oral Tablet	160
+40180873	Terbinafine hydrochloride 10 MG/ML Topical Cream	159
+1518293	Dexamethasone 6 MG Oral Tablet	159
+1363059	Doxazosin 4 MG Oral Tablet	159
+40177143	0.2 ML Dalteparin Sodium 25000 UNT/ML Prefilled Syringe [Fragmin]	159
+722070	Bethanechol Chloride 10 MG Oral Tablet [Urecholine]	159
+19123095	Immunoglobulin G, Human 100 MG/ML Injectable Solution [Gammagard]	159
+19011852	Ascorbic Acid 500 MG Oral Capsule	158
+40169988	Morphine Sulfate 30 MG Extended Release Oral Tablet	158
+987273	American basswood pollen extract 100 MG/ML Injectable Solution	158
+40165389	Vecuronium Bromide 1 MG/ML Injectable Solution	158
+1304646	1 ML darbepoetin alfa 0.06 MG/ML Injection	157
+19131831	EGG YOLK PHOSPHOLIPIDS 12 MG/ML / Glycerin 22.5 MG/ML / Soybean Oil 200 MG/ML Injectable Suspension [Intralipid]	157
+752129	Prochlorperazine 25 MG Rectal Suppository [Compro]	157
+19038462	basiliximab 4 MG/ML Injectable Solution	157
+40165262	Rosuvastatin calcium 5 MG Oral Tablet [Crestor]	156
+19030686	Epoetin Alfa 10000 UNT/ML Injectable Solution [Epogen]	156
+19059326	Glucose 100 MG/ML / Sodium Chloride 0.154 MEQ/ML Injectable Solution	156
+40167431	buspirone hydrochloride 10 MG Oral Tablet	156
+766842	quetiapine 200 MG Oral Tablet	155
+40223153	168 HR Clonidine 0.00417 MG/HR Transdermal Patch [Catapres-TTS-1]	155
+19035045	Metoclopramide 10 MG Oral Tablet [Reglan]	155
+752205	BENZOYL PEROXIDE 50 mg/g GEL [BENZOYL PEROXIDE]	155
+40174970	Levothyroxine Sodium 0.112 MG Oral Capsule	154
+40175048	Levothyroxine Sodium 0.15 MG Oral Capsule	154
+1742257	Levofloxacin 250 MG Oral Tablet [Levaquin]	154
+42898767	Calcium Carbonate 1500 MG / Cholecalciferol 800 UNT Oral Tablet	154
+19079498	sildenafil 50 MG Oral Tablet	154
+40238008	O/E - BP reading normal	154
+19038547	Sumatriptan 25 MG Oral Tablet [Imitrex]	153
+1118087	celecoxib 100 MG Oral Capsule [Celebrex]	153
+42903191	Budesonide 0.08 MG/ACTUAT / formoterol fumarate 0.0045 MG/ACTUAT Metered Dose Inhaler	153
+40227543	Diphenhydramine Hydrochloride 50 MG Oral Capsule	153
+19057569	Vancomycin 50 MG/ML Oral Solution	153
+1718059	Caspofungin acetate 50 MG Injection	153
+1797275	Cilastatin 5 MG/ML / Imipenem 5 MG/ML Injectable Solution	153
+40166135	24 HR Oxybutynin chloride 5 MG Extended Release Oral Tablet	152
+19069199	lamotrigine 25 MG Oral Tablet	152
+1334492	Ramipril 5 MG Oral Tablet	152
+19010433	lamotrigine 200 MG Oral Tablet [Lamictal]	152
+19028123	Petrolatum 1 MG/MG Topical Ointment	151
+19129540	pantoprazole 40 MG Oral Granules	151
+40229229	Atropine Sulfate 0.0194 MG / Hyoscyamine Sulfate 0.1037 MG / Phenobarbital 16.2 MG / Scopolamine Hydrobromide 0.0065 MG Oral Tablet	150
+19079626	Sodium polystyrene sulfonate 250 MG/ML Oral Suspension	150
+40163817	rifaximin 550 MG Oral Tablet	150
+19057996	50 ML Oxacillin 40 MG/ML Injection	150
+19096595	Budesonide 0.125 MG/ML Inhalant Solution	150
+40244449	rivaroxaban 20 MG Oral Tablet [Xarelto]	150
+1113072	200 ACTUAT Ipratropium Bromide 0.018 MG/ACTUAT Metered Dose Inhaler	150
+967012	{6 (Ascorbic Acid 100 MG / Biotin 0.3 MG / Calcium Carbonate 100 MG / Calcium Pantothenate 7 MG / Folic Acid 1 MG / Niacin 25 MG / Pyridoxine Hydrochloride 30 MG / Riboflavin 5 MG / Succinic Acid 150 MG / Thiamine hydrochloride 5 MG / Vitamin B 12 0.01 MG	149
+40223260	Ampicillin 10 MG/ML Injectable Solution	149
+40174494	risedronate sodium 35 MG Oral Tablet	149
+40225935	Bupivacaine Hydrochloride 1.25 MG/ML / Fentanyl 0.002 MG/ML Injectable Solution	149
+19002273	Hydrocortisone 0.025 MG/MG Topical Ointment	148
+19036771	quinapril 20 MG Oral Tablet [Accupril]	148
+40162452	24 HR tolterodine tartrate 4 MG Extended Release Oral Capsule [Detrol]	148
+902429	CAREONE LUBRICANT - polyethylene glycol, propylene glycol solution, gel forming / drops	148
+19074932	cefpodoxime 100 MG Oral Tablet	148
+40166468	Racepinephrine 22.5 MG/ML Inhalant Solution [S-2]	148
+40174905	Levothyroxine Sodium 0.088 MG Oral Capsule	148
+42799685	250 ML Dopamine Hydrochloride 3.2 MG/ML Injection	148
+19071491	ferric oxide, saccharated 20 MG/ML Injectable Solution [Venofer]	148
+1314275	rituximab 10 MG/ML Injectable Solution	148
+948637	Polymyxin B 10000 UNT/ML / Trimethoprim 1 MG/ML Ophthalmic Solution	148
+19008700	Ketoconazole 20 MG/ML Medicated Shampoo	147
+19098328	1 ML darbepoetin alfa 0.1 MG/ML Injection [Aranesp]	147
+40166825	24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]	146
+907121	Betamethasone 0.284 MG/ML / Gentamicin Sulfate (USP) 0.57 MG/ML Topical Spray [GentaVed]	146
+19078784	Thyroxine 0.112 MG Oral Tablet	146
+19133562	24 HR Diltiazem Hydrochloride 300 MG Extended Release Oral Capsule	145
+42708748	Docusate Sodium 40 MG / Ferrous fumarate 150 MG Extended Release Oral Tablet	145
+40184712	Loperamide Hydrochloride 0.2 MG/ML Oral Solution	145
+907015	Metolazone 10 MG Oral Tablet	145
+19010024	Mannitol 200 MG/ML Injectable Solution [Osmitrol]	144
+19036829	10 ML Calcium Chloride 100 MG/ML Prefilled Syringe	144
+40163285	Rabeprazole sodium 20 MG Delayed Release Oral Tablet	144
+743721	24 HR venlafaxine 75 MG Extended Release Oral Capsule	144
+19123000	Calcium Carbonate 250 MG Chewing Gum	144
+19027388	Enalaprilat 1.25 MG/ML Injectable Solution	144
+40243340	Atropine Sulfate 0.025 MG / Diphenoxylate Hydrochloride 2.5 MG Oral Tablet	143
+40223834	Fexofenadine hydrochloride 60 MG Oral Tablet	143
+40226429	bimatoprost 0.1 MG/ML Ophthalmic Solution	143
+19037427	torsemide 100 MG Oral Tablet [Demadex]	143
+19095325	Cholestyramine Resin 66.7 MG/ML Oral Suspension	143
+1310213	American elderberry extract	142
+922570	Azathioprine adverse reaction	142
+42901706	Phenytoin 50 MG Chewable Tablet [Dilantin]	142
+19009384	insulin human, isophane 70 UNT/ML / Regular Insulin, Human 30 UNT/ML Injectable Suspension [Humulin]	142
+42708515	60 ACTUAT Budesonide 0.08 MG/ACTUAT / formoterol fumarate 0.0045 MG/ACTUAT Metered Dose Inhaler [Symbicort]	142
+19075153	Chlorothiazide 50 MG/ML Oral Suspension	142
+19131794	2 ML Sodium Chloride 9 MG/ML Prefilled Syringe	141
+19003319	Misoprostol 0.2 MG Oral Tablet [Cytotec]	141
+19112569	ezetimibe 10 MG / Simvastatin 40 MG Oral Tablet	141
+961082	Ranitidine 300 MG Oral Tablet	141
+40168669	Clonidine Hydrochloride 0.3 MG Oral Tablet	141
+40244444	rivaroxaban 15 MG Oral Tablet	141
+40163891	2 ML Ketorolac Tromethamine 30 MG/ML Prefilled Syringe	140
+40180076	1 ML Promethazine Hydrochloride 25 MG/ML Injection	140
+19078956	mycophenolate mofetil 200 MG/ML Oral Suspension	140
+19075392	Cisplatin 1 MG/ML Injectable Solution	140
+718128	clopidogrel bisulfate 75mg/1 ORAL TABLET, FILM COATED	140
+705108	BORDERED GAUZE 2"X2"	140
+1140650	Aureobacterium saperdae	140
+40241188	Ticagrelor 90 MG Oral Tablet	139
+751249	{21 (Desogestrel 0.15 MG / Ethinyl Estradiol 0.02 MG Oral Tablet) / 5 (Ethinyl Estradiol 0.01 MG Oral Tablet) / 2 (Inert Ingredients 1 MG Oral Tablet) } Pack [Kimidess 28 Day]	139
+40241977	azelaic acid 5 MG / Cupric oxide 1.5 MG / Folic Acid 0.5 MG / Niacinamide 600 MG / pyridoxine 5 MG / Zinc Oxide 10 MG Oral Tablet	139
+1154064	72 HR Fentanyl 0.1 MG/HR Transdermal Patch	138
+19098478	aripiprazole 15 MG Oral Tablet [Abilify]	138
+40221856	12 HR Bupropion Hydrochloride 100 MG Extended Release Oral Tablet	138
+19079462	Risperidone 1 MG Oral Tablet	138
+40174309	liothyronine sodium 0.025 MG Oral Tablet	137
+19079300	Chemically-induced lipidosis	137
+781130	ALLANTOIN .2 g/40g CREAM [BIOWHITE BEAUTY SERUM]	137
+19077401	Fluconazole 40 MG/ML Oral Suspension	137
+19121182	sildenafil 20 MG Oral Tablet	136
+19041196	Acetaminophen 120 MG Rectal Suppository [Acephen]	136
+1714304	voriconazole 200 MG Oral Tablet [Vfend]	136
+1351153	coenzyme Q10 100 MG Oral Capsule	136
+797437	gabapentin 50 MG/ML Oral Solution [Neurontin]	136
+40083830	Ranitidine 150 MG Oral Tablet [Zantac 150]	136
+1547508	rosiglitazone 2 MG Oral Tablet	135
+961168	Ranitidine 75 MG Oral Tablet	135
+1763294	Rifampin 60 MG/ML Injectable Solution	135
+40163720	prasugrel 10 MG Oral Tablet	135
+19075603	Clotrimazole 10 MG/ML Vaginal Cream	135
+1589573	Levonorgestrel 1.5 MG Oral Tablet	134
+44814413	Raloxifene Hydrochloride 60 MG Oral Tablet [Evista]	134
+19133905	Penicillin V Potassium 500 MG Oral Tablet	134
+1154535	Albuterol 0.417 MG/ML Inhalant Solution	134
+948079	pantoprazole 20 MG Delayed Release Oral Tablet	134
+19095115	Mineral Oil 1000 MG/ML Oral Solution	133
+1126872	Acetaminophen 100 MG/ML Oral Suspension	133
+40243759	Doxorubicin Hydrochloride 2 MG/ML Injectable Solution	133
+40237528	24 HR Divalproex Sodium 250 MG Extended Release Oral Tablet [Depakote]	133
+785821	Atropine 1mg/1ml solution for injection ampoules (A A H Pharmaceuticals Ltd) 10 ampoule	133
+19019111	Lithium Carbonate 300 MG Oral Tablet	133
+742268	topiramate 50 MG Oral Tablet	132
+19075001	Cefuroxime 250 MG Oral Tablet	132
+40226840	Epinephrine 0.01 MG/ML / Lidocaine Hydrochloride 20 MG/ML Injectable Solution	132
+19096752	Olmesartan medoxomil 40 MG Oral Tablet	132
+19009594	Vitamin E 400 UNT Oral Capsule	132
+19044785	0.5 ML Vitamin K 1 2 MG/ML Prefilled Syringe	132
+19098329	darbepoetin alfa 0.2 MG/ML Injectable Solution [Aranesp]	132
+1310037	Amiodarone hydrochloride 100 MG Oral Tablet	132
+19023424	repaglinide 1 MG Oral Tablet	132
+40173131	Hydromorphone Hydrochloride 4 MG Oral Tablet	132
+1308216	Lisinopril	131
+40227598	Acetaminophen 300 MG / Oxycodone Hydrochloride 5 MG Oral Tablet	131
+1525218	pioglitazone 45 MG Oral Tablet [Actos]	131
+1115171	Naproxen sodium 220 MG Oral Tablet	131
+19096740	Olmesartan medoxomil 20 MG Oral Tablet	131
+19018850	Chlorthalidone 50 MG Oral Tablet	130
+40166131	24 HR Oxybutynin chloride 10 MG Extended Release Oral Tablet	130
+1353265	Vitamin B6 25 MG Oral Tablet	130
+19076145	Dexamethasone 10 MG/ML Injectable Solution	130
+19023454	Hydrochlorothiazide 12.5 MG / valsartan 160 MG Oral Tablet	130
+42800385	Albumin Human, USP 200 MG/ML Injectable Solution [Flexbumin]	129
+19070310	prednisolone 3 MG/ML Oral Solution	129
+1551924	Fenofibrate 48 MG Oral Tablet	129
+19079153	olanzapine 15 MG Oral Tablet	129
+1036232	Phenytoin sodium 100 MG Extended Release Capsule [Dilantin]	129
+19036828	Calcium Chloride 0.68 MEQ/ML Injectable Solution	129
+951535	Mupirocin 20 MG/ML Topical Cream [Bactroban]	129
+40164947	Metformin hydrochloride 850 MG Oral Tablet [Glucophage]	129
+19076660	Dobutamine 4 MG/ML Injectable Solution	129
+19102773	moxifloxacin 5 MG/ML Ophthalmic Solution [Vigamox]	128
+40174539	{4 (risedronate sodium 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35 4-Week]	128
+751250	24 HR Nicotine 0.583 MG/HR Transdermal Patch	128
+929924	lansoprazole 15 MG Disintegrating Oral Tablet	128
+19019334	Nimodipine 30 MG Oral Capsule	128
+19098164	voriconazole 200 MG Injection	128
+19123159	pregabalin 100 MG Oral Capsule [Lyrica]	128
+40165076	10 ML Nicardipine hydrochloride 2.5 MG/ML Injection	128
+19126627	Sodium Chloride 1.2 MEQ/ML Inhalant Solution	128
+42709103	Lactulose 83.3 MG/ML Oral Solution	128
+19019117	Lovastatin 40 MG Oral Tablet	127
+40164505	Clobetasol Propionate 0.0005 MG/MG Topical Ointment	127
+40162346	Diclofenac Sodium 50 MG Delayed Release Oral Tablet	127
+975193	Hydrocortisone 5 MG Oral Tablet	127
+19068728	Risperidone 0.25 MG Oral Tablet [Risperdal]	126
+19019413	Nortriptyline 50 MG Oral Capsule	126
+797619	Citalopram 20 MG Oral Tablet [Celexa]	126
+40228158	dabigatran etexilate 150 MG Oral Capsule [Pradaxa]	126
+19073874	Bacitracin 0.5 UNT/MG / Polymyxin B 10 UNT/MG Topical Ointment	126
+1506430	dextromethorphan hbr, guaifenesin, phenylephrine 10mg/10mL / 20mg/10mL / 200mg/10mL ORAL LIQUID [tussin multi symptom cold cf adult]	126
+19019412	Nortriptyline 10 MG Oral Capsule	125
+19027625	Polymyxin B 250000 UNT/ML Injectable Solution	125
+40169234	120 ACTUAT Fluticasone propionate 0.22 MG/ACTUAT Metered Dose Inhaler	125
+40236805	Calcium Citrate 315 MG / Vitamin D 250 UNT Oral Tablet	125
+766851	Consultation with patient and representative	125
+43013030	apixaban 5 MG Oral Tablet	125
+19027807	Calamine 80 MG/ML Topical Lotion	125
+19077571	gabapentin 800 MG Oral Tablet	125
+723020	Ampicillin 50 MG/ML Oral Suspension	125
+991732	alpha 1-proteinase inhibitor, human 50 MG/ML Injectable Solution	124
+1115129	Naproxen sodium 550 MG Oral Tablet	124
+40174772	Hydralazine Hydrochloride 100 MG Oral Tablet	124
+40171917	Verapamil hydrochloride 80 MG Oral Tablet	124
+40226963	Lidocaine Hydrochloride 0.005 MG/MG Topical Gel	124
+40223155	168 HR Clonidine 0.00833 MG/HR Transdermal Patch [Catapres-TTS-2]	124
+45776040	Succinylcholine Chloride 20 MG/ML Injectable Solution [Anectine]	124
+1707780	Annual diabetic blood test	124
+42903913	Latex	123
+19074493	Calcitriol 0.0005 MG Oral Capsule	123
+19020369	dimethicone 20 MG/ML Topical Lotion	122
+40164138	Brimonidine tartrate 2 MG/ML / Timolol 5 MG/ML Ophthalmic Solution	122
+1344245	10 ML Epinephrine 0.1 MG/ML Prefilled Syringe	122
+19022782	olanzapine 2.5 MG Oral Tablet	122
+19127938	{7 (Ethinyl Estradiol 0.025 MG / norgestimate 0.18 MG Oral Tablet) / 7 (Ethinyl Estradiol 0.025 MG / norgestimate 0.215 MG Oral Tablet) / 7 (Ethinyl Estradiol 0.025 MG / norgestimate 0.25 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Or	122
+19134116	tramadol hydrochloride 50 MG Disintegrating Oral Tablet	122
+40169775	Levothyroxine Sodium 0.3 MG Oral Tablet	122
+19073186	Amoxicillin 80 MG/ML Oral Suspension	122
+19040761	Sumatriptan 50 MG Oral Tablet [Imitrex]	122
+40179684	Chlorpromazine hydrochloride 25 MG/ML Injectable Solution	122
+40174364	ibandronic acid 150 MG Oral Tablet	121
+1501496	thyroid (USP) 60 MG Oral Tablet	121
+1341302	Terazosin 5 MG Oral Capsule	121
+40163496	Zolpidem tartrate 12.5 MG Extended Release Oral Tablet	121
+1125392	Acetaminophen 650 MG Rectal Suppository	121
+40164950	MICAFUNGIN SODIUM 50 MG Injection	121
+736021	Actreen Glys set catheter male 18Ch 226218E (B.Braun Medical Ltd)	120
+19066057	Aspirin 25 MG / Dipyridamole 200 MG Oral Capsule	120
+998001	Adolescent care assessment	120
+42708170	24 HR Metformin hydrochloride 1000 MG / sitagliptin 50 MG Extended Release Oral Tablet	119
+757759	aripiprazole 2 MG Oral Tablet [Abilify]	119
+40164516	Clobetasol Propionate 0.5 MG/ML Topical Cream	119
+19027462	Hydrocortisone 10 MG/ML / Neomycin 3.5 MG/ML / Polymyxin B 10000 UNT/ML Otic Solution	119
+19022949	irbesartan 300 MG Oral Tablet	118
+970282	Spironolactone 100 MG Oral Tablet	118
+955641	Fendrix 20micrograms/0.5ml vaccine suspension for injection pre-filled syringes (GlaxoSmithKline UK Ltd)	118
+19038321	benzonatate 100 MG Oral Capsule [Tessalon Perles]	118
+19098325	1 ML darbepoetin alfa 0.025 MG/ML Injection [Aranesp]	118
+19102471	moxifloxacin 5 MG/ML Ophthalmic Solution	118
+19122391	Ranitidine 25 MG Effervescent Oral Tablet	117
+785875	NEOMYCIN AND POLYMYXIN B SULFATES AND DEXAMETHASONE - neomycin sulfate, polymyxin b sulfate and dexamethasone suspension	117
+40171501	24 HR Verapamil hydrochloride 120 MG Extended Release Oral Tablet	117
+19122412	Saccharomyces boulardii lyo 250 MG Oral Capsule	117
+40233210	120 ACTUAT Triamcinolone Acetonide 0.055 MG/ACTUAT Nasal Inhaler	117
+743720	Betamethasone valerate 0.1% cream	117
+40244445	rivaroxaban 15 MG Oral Tablet [Xarelto]	117
+40224789	medroxyprogesterone acetate 10 MG Oral Tablet	117
+19125848	Calcium Citrate 315 MG / Cholecalciferol 200 UNT Oral Tablet	116
+19078824	50 ML Mannitol 250 MG/ML Injection	116
+19075033	Cephalexin 50 MG/ML Oral Suspension	116
+19008026	Naproxen 250 MG Oral Tablet [Naprosyn]	116
+19023425	repaglinide 0.5 MG Oral Tablet	116
+1367571	Heparin	115
+19123155	Petrolatum, White 1 MG/MG Topical Ointment	115
+974620	Cephalexin 500 MG Oral Tablet	114
+757690	aripiprazole 10 MG Oral Tablet	114
+929519	12 HR Acetazolamide 500 MG Extended Release Oral Capsule	114
+751362	Lithium Carbonate 150 MG Oral Capsule	114
+19074673	Captopril 50 MG Oral Tablet	114
+40174914	Levothyroxine Sodium 0.088 MG Oral Tablet [Synthroid]	113
+755739	Dyphylline 40 MG/ML / Guaifenesin 20 MG/ML Oral Solution	113
+19004695	Risperidone 3 MG Oral Tablet [Risperdal]	113
+19126697	Sodium Chloride 0.111 MEQ/ML Nasal Solution	113
+19079155	olanzapine 7.5 MG Oral Tablet	113
+1334461	Ramipril 2.5 MG Oral Tablet	113
+19122414	Saccharomyces boulardii 250 MG Oral Capsule [Florastor]	113
+1165632	12 HR Guaifenesin 600 MG Extended Release Oral Tablet	113
+19075341	ciclopirox 7.7 MG/ML Topical Cream	113
+19126634	tamsulosin 0.4 MG Oral Capsule [Flomax]	113
+40169222	3 ML liraglutide 6 MG/ML Pen Injector	113
+19033681	24 HR Isosorbide Mononitrate 120 MG Extended Release Oral Tablet [Imdur]	113
+40162451	24 HR tolterodine tartrate 4 MG Extended Release Oral Capsule	113
+40234727	Nystatin 100000 UNT/ML / Triamcinolone Acetonide 1 MG/ML Topical Cream	113
+43011897	5 ML heparin sodium, porcine 100 UNT/ML Prefilled Syringe	113
+710723	Acetaminophen 325 MG / Oxycodone 5 MG Oral Tablet [Endocet 5/325]	112
+19035279	Nitroglycerin 0.4 MG Sublingual Tablet [Nitrostat]	112
+19057842	Filgrastim 0.3 MG/ML Injectable Solution	112
+19036750	quinapril 10 MG Oral Tablet [Accupril]	112
+19073871	Bacitracin 0.5 UNT/MG Ophthalmic Ointment	112
+40163560	Warfarin Sodium 6 MG Oral Tablet	112
+19038853	thyroid (USP) 30 MG Oral Tablet [Armour Thyroid]	112
+19029024	celecoxib 100 MG Oral Capsule	111
+40166158	Amylases 120000 UNT / Endopeptidases 76000 UNT / Lipase 24000 UNT Delayed Release Oral Capsule [Creon]	111
+961460	Amprolium	111
+907267	Urea 0.5 MG/MG Topical Gel	111
+1741402	terbinafine 250 MG Oral Tablet	111
+1503297	Metformin	111
+19023200	Daclizumab 5 MG/ML Injectable Solution	111
+1539403	Simvastatin	111
+19073189	Amoxicillin 875 MG Oral Tablet	110
+19078140	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	110
+911101	Bethanechol Chloride 25 MG Oral Tablet	110
+1154337	Pseudoephedrine 30 MG Oral Tablet	110
+1711761	Dapsone 100 MG Oral Tablet	110
+766821	Juzo Attractive class 1 (18-21mmHg) thigh length closed toe with silicone top band lymphoedema garment standard size II Cinnamon (Juzo UK Ltd) 2 device	110
+1597761	glimepiride 1 MG Oral Tablet	109
+778736	Cyclobenzaprine hydrochloride 7.5 MG Oral Tablet	109
+19133435	Aspirin 325 MG Oral Tablet [Ascriptin]	109
+1901269	Ibuprofen 800 MG Oral Tablet	109
+19135604	Desmopressin Acetate 0.01 MG/ACTUAT Nasal Spray [DDAVP]	109
+19057272	Lorazepam 4 MG/ML Injectable Solution	109
+19076958	Erythromycin 250 MG Delayed Release Oral Tablet	109
+19133614	Diltiazem Hydrochloride 120 MG Oral Tablet	108
+1395060	Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet	108
+19035661	Calcitriol 0.001 MG/ML Oral Solution	108
+40223757	Docusate Sodium 50 MG / sennosides, USP 8.6 MG Oral Tablet	108
+1713370	Amoxicillin 50 MG/ML Oral Suspension	108
+705110	Absorbable synthetic suture 1.5gauge 45cm length with 19mm curved reverse cutting needle 24 suture	108
+19006231	gabapentin 100 MG Oral Capsule [Neurontin]	108
+40169238	120 ACTUAT fluticasone furoate 0.0275 MG/ACTUAT Nasal Inhaler	107
+40168532	Acetaminophen 300 MG / butalbital 50 MG / Caffeine 40 MG Oral Capsule	107
+19080617	Calcium Carbonate 600 MG / Vitamin D 125 UNT Oral Tablet	107
+19076593	Diphenhydramine 50 MG Oral Capsule	106
+40228212	cetirizine hydrochloride 10 MG Oral Capsule	106
+19073873	Bacitracin 0.5 UNT/MG / Polymyxin B 10 UNT/MG Ophthalmic Ointment	106
+711588	Cochlear implant system sound processor off-ear holder	106
+40163901	200 ACTUAT Azelastine hydrochloride 0.137 MG/ACTUAT Nasal Inhaler	105
+19036450	24 HR Nifedipine 60 MG Extended Release Oral Tablet [Procardia]	105
+1589509	Levonorgestrel 0.75 MG Oral Tablet	105
+40164141	Brimonidine tartrate 2 MG/ML Ophthalmic Solution	105
+40171671	Benazepril hydrochloride 20 MG Oral Tablet	105
+19004895	Fluoxetine 20 MG Oral Capsule [Prozac]	105
+1305124	eprinomectin 50 MG/ML [Longrange]	104
+19074977	Ceftriaxone 250 MG Injection	104
+989878	Lidocaine	104
+1547510	Haemochromatosis	104
+42898194	12 HR Dextromethorphan Hydrobromide 28 MG / Guaifenesin 600 MG Extended Release Oral Tablet	104
+1383850	24 HR Isosorbide Mononitrate 120 MG Extended Release Oral Tablet	104
+1742291	Levofloxacin 25 MG/ML Oral Solution	103
+19108285	Cholecalciferol 400 UNT Oral Capsule	103
+19073183	Amoxicillin 250 MG Oral Capsule	103
+40180065	Promethazine Hydrochloride 25 MG Oral Tablet	103
+42707562	Phenylephrine Hydrochloride 25 MG/ML Ophthalmic Solution	103
+1735950	Revision of interposition anastomosis of esophagus	103
+1308972	Ibuprofen 20 MG/ML Oral Suspension	103
+19012531	Estrogens, Conjugated (USP) 0.625 MG Oral Tablet [Premarin]	102
+1124957	Oxycodone	102
+755700	Agreia	102
+19124247	Hydrochlorothiazide 25 MG / valsartan 320 MG Oral Tablet	102
+40222863	Memantine hydrochloride 5 MG Oral Tablet [Namenda]	102
+923115	Ofloxacin 3 MG/ML Otic Solution	101
+40234404	Diphenhydramine Hydrochloride 50 MG Oral Tablet	101
+43012433	21 DAY Ethinyl Estradiol 0.000625 MG/HR / Etonogestrel 0.005 MG/HR Vaginal Ring [NuvaRing]	101
+40223157	168 HR Clonidine 0.0125 MG/HR Transdermal Patch [Catapres-TTS-3]	101
+1113672	Children's Dimetapp Fever and Sore Throat	101
+916006	Abscess in epidural space of thoracic spine	101
+40173557	Amikacin Sulfate 250 MG/ML Injectable Solution [Amikin]	101
+40166326	Methadone Hydrochloride 10 MG/ML Injectable Solution	101
+1597759	glimepiride 1 MG Oral Tablet [Amaryl]	100
+19073526	argatroban 100 MG/ML Injectable Solution	100
+40166330	Methadone Hydrochloride 2 MG/ML Oral Solution	100
+40164098	Azelastine hydrochloride 0.5 MG/ML Ophthalmic Solution	100
+40177141	0.2 ML Dalteparin Sodium 12500 UNT/ML Prefilled Syringe [Fragmin]	100
+42708144	Flurbiprofen sodium 0.3 MG/ML Ophthalmic Solution	100
+19129192	{4 (Amoxicillin 500 MG Oral Capsule [Trimox]) / 2 (Clarithromycin 500 MG Oral Tablet [Biaxin]) / 2 (lansoprazole 30 MG Delayed Release Oral Capsule [Prevacid]) } Pack [Prevpac]	99
+19122479	aripiprazole 2 MG Oral Tablet	99
+1309237	2 ML Adenosine 3 MG/ML Prefilled Syringe [Adenocard]	99
+40171863	Verapamil hydrochloride 180 MG Extended Release Oral Tablet	99
+40237993	Valproic Acid 100 MG/ML Injectable Solution	99
+19029027	Lisinopril 30 MG Oral Tablet	99
+938301	Cod liver oil liquid	99
+19019238	Nadolol 40 MG Oral Tablet	99
+19057624	Cholecalciferol 5000 UNT Oral Capsule	99
+1516770	Legal rehab. measures	99
+42800159	guar gum 12.5 MG/ML Oral Suspension [Nutrisource]	98
+19058077	Calcium Citrate 1040 MG Oral Tablet	98
+19012705	Water 1000 MG/ML Irrigation Solution	98
+736053	Iron-Dextran Complex 50 MG/ML Injectable Solution	97
+40239218	Linagliptin 5 MG Oral Tablet	97
+19077462	Fluoxetine 10 MG Oral Capsule	97
+1163945	Guaifenesin 200 MG Oral Tablet	97
+19002364	Fluocinonide 0.5 MG/ML Topical Cream	97
+19102846	Ciprofloxacin 3 MG/ML / Dexamethasone 1 MG/ML Otic Suspension [Ciprodex]	97
+19128377	olanzapine 10 MG Disintegrating Oral Tablet [Zyprexa]	97
+1526479	ezetimibe 10 MG / Simvastatin 20 MG Oral Tablet	97
+19098326	1 ML darbepoetin alfa 0.04 MG/ML Injection [Aranesp]	97
+19102170	Ramipril 10 MG Oral Tablet	97
+40242344	potassium nitrate 250 MG/ML / Silver Nitrate 750 MG/ML Medicated Pad	96
+19123359	Glucose 50 MG/ML / Potassium Chloride 0.02 MEQ/ML / Sodium Chloride 0.154 MEQ/ML Injectable Solution	96
+40222924	midodrine hydrochloride 2.5 MG Oral Tablet	96
+997892	Clindamycin 150 MG Oral Capsule	96
+19077498	fluvastatin 40 MG Oral Capsule	96
+19031625	lamotrigine 150 MG Oral Tablet [Lamictal]	96
+40240039	olopatadine 2 MG/ML Ophthalmic Solution	96
+19046745	Cefuroxime 90 MG/ML Injectable Solution [Kefurox]	96
+1360067	fulvestrant 50 MG/ML Prefilled Syringe [Faslodex]	96
+1742434	tigecycline 50 MG Injection	96
+19019937	torsemide 100 MG Oral Tablet	95
+19077653	Glucose 4000 MG Chewable Tablet	95
+1397152	bevacizumab 25 MG/ML Injectable Solution	95
+19066370	Magnesium Oxide 600 MG Oral Capsule	95

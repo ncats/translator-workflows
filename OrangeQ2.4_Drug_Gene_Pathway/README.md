@@ -28,12 +28,24 @@ Note: not included drugs used primarily for HVGD (Methotrexate, Cyclosporin A,Ta
   4. Retrieve **pathways** associated with genes in Set1g vs Set2g --> Set1pw, Set2pw
   5. Retrieve other **genes** involved in pathways in Set1pw vs Set2pw --> Set1g', Set2g'
   6. Execute set comparison analysis to return the set of **genes** that is uniquely targetd by poorly tolerated drugs
-  (i.e. affected directly or indirectly by poorly tolerated drugs, but not affected by well-tolerated drugs)
+  (i.e. affected directly or indirectly by poorly tolerated drugs, but not affected by well-tolerated drugs) --> GeneSetQ2.4
 
 **Output:** Set of genes that may be uniquely targeted by pre-conditioning drugs that are poorly tolerated by FA patients.
   
 From here a number of follow up analyses are possible - e.g. GO term enrichment analysis to identify processes/functions uniquely affected under each condition, and correlating this with pathways/functions that are compromised in FA.
 
---------
-
 *Note that the subqueries above can be parameterized in any number of ways in their implementation (e.g. select subsets of specific pathways to expand on, or specific subset of genes within each pathway to expand to, or different sources or routes for data used in the queries). Different combinations of parameters can be explored using different notebooks in this directory.*
+
+-------
+
+### Stretch queries that include synthetic data
+ 
+ **Input:** GeneSetQ2.4 (generated from workflow above)
+  1. Retrieve patients all patients with variants in GeneSetQ2.4 at <5% frequency (check Gnomad, correct for racial/regional background)
+  2. Filter patients for those with any of the following clinical variables:
+  	a. Bone Marrow Failure
+	b. Diagnosis of primary tumor of the type: HNSCC, Leukaemias (AML and acute monocytic leukaemia), Vulva, Brain, Esophagus, Breast, MDS, Skin SCC, Skin BCC, ovarian, pancreatic
+	c. Childhood cancer diagnosis <15yrs
+	d. Documented alcohol consumption
+	
+ **Output:** Patients with candidate variants that are causal in combinations or with alcohol exposure that lead to more common cancers and other Fanconi-related phenotypes, such as bone marrow failure and HNSCC

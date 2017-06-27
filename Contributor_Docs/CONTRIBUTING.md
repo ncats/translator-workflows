@@ -1,8 +1,9 @@
+# Contributing to Orange Team CQ Notebooks
 This document describes the Orange Team process and artifacts for creating, documenting, and implementing Competency Questions (CQs) for the NCATS-Translator project.
 
 ----------------------
 
-### I. CQ Development Process
+### I. CQ Development Overview
 Competency questions (CQs) in the domain of Fanconi Anemia (FA) are developed to help prioritize data ingest, inform data modeling, and guide architecture decisions. Query development to date has followed the four step process:  
 **Stage** -> **Document** -> **Implement** - **Track**.
 

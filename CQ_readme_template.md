@@ -1,8 +1,8 @@
 **Use the readme below for "Orange Team CQ1.1" as an examplar and template for creation of new CQ readme files.**
 
-- **Required fields** inclue a query _Name_, and the query itself.  
-- **Recommended fields** include the _Goal_ of the query and any context to help understtand its utility and purpose.  
-- **Optional fields**  include _Proposed Data Types, Sources, and Access Endpoints_, and _Proposed Subqueries and Tasks_. These are particularly useful in allowing a domain expert to suggest sources and workflows to a developerr who will actually implement the notebook. 
+- **Required fields** inclue a query _Name_, and the _Query_ itself.  
+- **Recommended fields** include the _Goal_ of the query and any context to help understand its utility and purpose, and _Proposed Data Types, Sources, and Access Endpoints_.
+- **Optional fields**  include _Proposed Subqueries and Tasks_, and _Stretch Queries_. These are particularly useful in allowing a domain expert to suggest sources and workflows to the developer who will implement the notebook. 
 
 --------------------------
 
@@ -39,9 +39,8 @@ This simple query aims to expand the FA-core gene set based PPI network membersh
   1. Retrieve patients all patients with variants in GeneSetQ1 at <5% frequency (check Gnomad, correct for racial/regional background)
   2. Filter patients for those with any of the following clinical variables:  
   	a. Bone Marrow Failure  
-	  b. Diagnosis of primary tumor of the type: HNSCC, Leukaemias (AML and acute monocytic leukaemia), Vulva, Brain, Esophagus, Breast, MDS, Skin SCC, Skin BCC, ovarian, pancreatic  
-	  c. Childhood cancer diagnosis <15yrs  
-  	d. Documented alcohol consumption    
+	b. Childhood cancer diagnosis <15yrs  
+  	c. Documented alcohol consumption    
  
  **Output:** Patients with candidate variants that are causal in combinations or with alcohol exposure that lead to more common cancers and other Fanconi-related phenotypes, such as bone marrow failure and HNSCC
  

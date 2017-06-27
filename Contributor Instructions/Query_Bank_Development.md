@@ -10,8 +10,8 @@ Part of the query refinement task is assessing suitability of the query for benc
 - Once a particular query is ready for implementation, a developer can take ownership and move the work to Github (i.e make a readme file, a create a cq-status ticket, and begin a Jupyter notebook).
 
 
-### Benchmark CQ Spreadsheet Column Definitions
-- **ID:**  A prefixed numerical identifier for the query ('QB' = query bank) 
+### Benchmark Query Bank Spreadsheet Column Definitions
+- **ID:**  A prefixed numerical identifier for the query
 - **Original Query:** The original query as written in the matrix spreadsheet is copied into this column.
 - **Refined Query:** The original query is re-written in more precise language, and scoped for benchmarking purposes.
 

@@ -1,8 +1,14 @@
-**Use the readme below for "Orange Team CQ1.1" as an examplar and template for creation of new CQ readme files.**
+### Use the readme below for "Orange Team CQ1.1" as an examplar and template for creation of new CQ readme files.
 
-- **Required fields** inclue a query _Name_, and the _Query_ itself.  
-- **Recommended fields** include the _Goal_ of the query and any context to help understand its utility and purpose, and _Proposed Data Types, Sources, and Access Endpoints_.
-- **Optional fields**  include _Proposed Subqueries and Tasks_, and _Stretch Queries_. These are particularly useful in allowing a domain expert to suggest sources and workflows to the developer who will implement the notebook. 
+### Required fields:
+- **Name** the query
+-  **Query** specified as plain-text.  
+### Recommended fields:
+ - **Goal**: states purposeof  query in cntext of  larger demonstrator  or query set 
+ - **Proposed Data Types, Sources, and Access Endpoints**: suggestions to notebook implementor from query developer or domain expert
+### Optional fields
+ - **Proposed Subqueries and Tasks**: These are particularly useful in allowing a domain expert to suggest sources and workflows to the developer who will implement the notebook (but not relevant for the elemental benchmark queries)
+- **Stretch Queries**: suggestions for follow-on queries or analyses to extend the scope of the primary query.
 
 --------------------------
 

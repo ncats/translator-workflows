@@ -1,3 +1,5 @@
+# Orange Team Query Bank Development
+
 ### Overview
 Benchmarking CQs are 'elemental' queries that can be executed to assess the scope, content, and evolution of data in the Translator system over time.  A set of benchmark queries is being staged in the [**Benchmark Query Bank**](https://docs.google.com/spreadsheets/d/1wbP1Ykryibcan2ZgZTOmnGp9WjcRE7nNig3akiq0PuY/edit#gid=1337100562) spreadsheet, seeded by queries from the original [**Mechanistic CQ Matrix**](https://docs.google.com/spreadsheets/d/1wbP1Ykryibcan2ZgZTOmnGp9WjcRE7nNig3akiq0PuY/edit#gid=234309826). Matrix queries are first refined into clear, precise, elemental questions. Next, knowledge sources and access endpoints required to address each question are identified and evaluated. Finally, the questions are translated into one or more 'executable' formats (e.g. an API call, cypher or sparql query). 
 

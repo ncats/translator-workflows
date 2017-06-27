@@ -14,11 +14,11 @@ Competency questions (CQs) in the domain of Fanconi Anemia (FA) are developed to
   
 4. **Tracking** of status, ownership, and issues is done with a separate Github ticket for each implemented CQ in the cq-notebooks repository. 
 
-When a CQ is ready for implementation, a new directory and readme file is added to the cq-notebooks repo, and a Github ticket with a `"cq-status"` label created to track its progress.  As developers implement notebook(s) for this query, this ticket should be updated to report status, challenges and lessons learned, and final outcomes. 
+When a CQ is ready for implementation, a new directory and readme file is added to the cq-notebooks repo, and a Github ticket with a `"notebook-status"` label created to track its progress.  As developers implement notebook(s) for this query, this ticket should be updated to report status, challenges and lessons learned, and final outcomes. 
 
 Edits to the cq-notebooks and documents can be pushed directly by authorized users  to the Github repo (i.e. no need to fork and make a PR).
 
-A **CQ-readme template** is located [here](____).  A **CQ-issue template** is located [here](____).
+A **CQ-readme template** is located [here](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/Contributor%20Instructions/cq_readme_template.md).  A **notebook status ticket template** is located [here](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/Contributor%20Instructions/notebook_status_ticket_template.md).
 
 ----------------------
 

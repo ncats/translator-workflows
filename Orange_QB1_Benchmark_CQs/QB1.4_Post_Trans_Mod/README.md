@@ -32,10 +32,21 @@ You can also get the same information from the [proteins endpoint](http://www.eb
 These do not contain any information about the functional significance of the PTMS. This information is often in text ("Phosphorylation by CHEK1 and CHEK2 regulates interaction with RAD51 ... etc ... "). It does contain evidence code to differentiate between experimentally supported and computationally predicted sites.
 
 **iPTMnet**
+
 iPTMnet (can) contain more [information](http://research.bioinformatics.udel.edu/iptmnet/about).
+But... None of the download links work!!!
 
 For [BRCA2](http://research.bioinformatics.udel.edu/iptmnet/entry/P51587/) it contains information about: PTM Enzyme (enzyme performing the PTM), additional PTMs from other sources,
 PTM-dependent PPI, and Proteoform PPIs.
+
+Completeness assessment (compared to text from uniprot summary):
+
+- "Phosphorylated by ATM upon irradiation-induced DNA damage" : No
+- "Phosphorylation by CHEK1 and CHEK2 regulates interaction with RAD51": "Phosphorylation	P51587 (BRCA2)	S3291	Q06609 (RAD51)	inhibitedassociation	efip	22084686" and "T3387	Phosphorylation	O14757 (CHEK1)" and "T3387	Phosphorylation	O96017 (CHEK2)". These entries aren't explicity linked though..
+- "Phosphorylation at Ser-3291 by CDK1 and CDK2 is low in S phase when recombination is active, but increases as cells progress towards mitosis; this phosphorylation prevents homologous recombination-dependent repair during S phase and G2 by inhibiting RAD51 binding.": "S3291	Phosphorylation	P06493 (CDK1)", "S3291	Phosphorylation	P24941 (CDK2)", "Phosphorylation	P51587 (BRCA2)	S3291	Q06609 (RAD51)	inhibitedassociation". This complex relationship isn't captured though
+- "Ubiquitinated in the absence of DNA damage; this does not lead to proteasomal degradation. In contrast, ubiquitination in response to DNA damage leads to proteasomal degradation": It has Ubiquitination sites listed, but no outcome or response is indicated.
+
+
 
 
 

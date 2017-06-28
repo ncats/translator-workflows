@@ -51,18 +51,14 @@ Completeness assessment (compared to text from uniprot summary):
 
 
 ### Proposed Data Types, Sources, and Access Endpoints:
-  1. ...
-  2. ...
+  1. Uniprot Proteins endpoint: http://www.ebi.ac.uk/proteins/api/doc/
+  2. iPTMnet: http://research.bioinformatics.udel.edu/iptmnet (No programmatic access, download links down. Sent email inquiring Jun 28th 2017)
   
 ### Proposed Sub-Queries/Tasks:
    
-**Input:** 
-  1. ...
-  2. ...
+  1. Retrieve PTMs on BRCA2, including: PTM type (phosphoserine, phosphorylation, etc.), location/residue, determination method (ECO), evidence (PubMed Id)
+  2. Retrieve PTM enzymes, PTM-dependent PPIs (not possible at the moment)
   3. ...
 
-**Output:**
-
- -----
  
  ### Stretch Queries

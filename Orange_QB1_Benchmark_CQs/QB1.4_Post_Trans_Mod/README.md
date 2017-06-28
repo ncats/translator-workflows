@@ -29,7 +29,7 @@ where evidence 4 is:
 
 You can also get the same information from the [proteins endpoint](http://www.ebi.ac.uk/proteins/api/doc/) [here](https://www.ebi.ac.uk/proteins/api/features?offset=0&size=100&accession=P51587&categories=PTM).
 
-These do not contain any information about the functional significance of the PTMS. This information is often in text ("Phosphorylation by CHEK1 and CHEK2 regulates interaction with RAD51 ... etc ... "). It does contain evidence code to differentiate between experimentally supported and computationally predicted sites.
+These do not contain any information about the functional significance of the PTMS. This information is often in text ("Phosphorylation by CHEK1 and CHEK2 regulates interaction with RAD51 ... etc ... "). It does contain evidence code to differentiate between experimentally supported and computationally predicted sites. Sometimes, the description containes text like "Phosphoserine; by CDK1 and CDK2", so the PTM enzyme can possibly be parsed out.
 
 **iPTMnet**
 

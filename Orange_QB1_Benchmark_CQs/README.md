@@ -56,11 +56,11 @@ https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Orange_Demonstrator_
 - [ ] Outcomes documented (in this ticket)
 
 ### Primary Knowledge Sources Used:
-- BioGrid
-- STRING
+- (e.g. BioGrid)
+- (e.g. STRING)
 
 ### APIs Used:
-- Biolink (BioGrid, STRING)
+- (e.g. Biolink - for BioGrid, STRING)
 
 ### Notes:
 

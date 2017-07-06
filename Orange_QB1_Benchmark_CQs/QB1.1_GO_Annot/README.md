@@ -32,4 +32,4 @@ A benchmarking query to assess information in the Translator system about GO ann
 
  
  ### Stretch Queries
-1
+  1. 

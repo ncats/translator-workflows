@@ -7,7 +7,7 @@ What GO term annotations are made to FA core  genes?
 A benchmarking query to assess information in the Translator system about GO annotations for human FA core genes.
 
 ### Proposed Data Types, Sources, and Access Endpoints:
-  1. Human GO annotations obtained from Monarch API.
+  1. Human GO annotations obtained from BioLink API.
   
 ### Proposed Sub-Queries/Tasks:
   1. BioLink API REST query for GO annotations
@@ -32,4 +32,7 @@ A benchmarking query to assess information in the Translator system about GO ann
 
  
  ### Stretch Queries
-  1. 
+  1. Report GO clusters which contain FA genes.
+  2. Compute GO enrichment for FA genes.
+  3. Report GO enrichments for clusters with FA genes.
+  4. Similarly, for gene expression, gene fitness, protein interactions, ribosome profiling, etc.

@@ -6,12 +6,12 @@ What genes encode proteins that physically interact with proteins encoded by the
 ### Goal:
 This simple query aims to expand the FA-core gene set based PPI network membership, in service of Task 1 in the St. Jude Life Demonstrator described [here](https://github.com/NCATS-Tangerine/cq-notebooks/wiki/St.-Judes-FA-Demonstrator).
   
-### Data Types, Sources, and Routes:
+### Possible Data Types, Sources, and Routes:
 1. Gene-ortholog associations from [Panther](http://www.pantherdb.org/), via SciGraph (BioLink [/bioentity/gene/{id}/homologs/](https://api.monarchinitiative.org/api/#!/bioentity/get_gene_homolog_associations))
 2. Protein-protein interactions from [BioGRID](https://thebiogrid.org/) and [STRING](http://string-db.org/), via SciGraph (BioLink [/bioentity/gene/{id}/interactions/](https://api.monarchinitiative.org/api/#!/bioentity/get_gene_interactions))
 
   
-### Sub-Queries/Tasks:
+### Possible Sub-Queries/Tasks:
    
 **Input:** NCBIGene identifiers for 11 FA-core genes
   1. Retrieve orthologes of FA-core genes and add to human FA-core set  
@@ -40,3 +40,7 @@ This simple query aims to expand the FA-core gene set based PPI network membersh
 	
  **Output:** Patients with candidate variants that are causal in combinations or with alcohol exposure that lead to more common cancers and other Fanconi-related phenotypes, such as bone marrow failure and HNSCC
  
+-----
+
+### Outcomes
+(e.g. results of the analysis, challenges encountered, lessons learned)

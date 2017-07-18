@@ -58,7 +58,7 @@ names so the [MyGene](http://mygene.info/) api was called to return NCBIGene ide
 The sets of input genes and their current symbols are found [here](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/FA_gene_sets).
  
 This questions python notebook [CQ1.5.ipynb](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/OrangeQ1.5_Regulatory_Motif_Signature/CQ1.5.ipynb)
-includes the scored set of genes associated with each of the input FA genes.
+includes the scored set of genes with HGNC symols associated with each of the input FA genes.
  
 
 

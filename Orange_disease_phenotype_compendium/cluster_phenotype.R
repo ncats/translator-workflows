@@ -40,8 +40,8 @@ mypalette <- rev(brewer.pal(6, "Blues"))
 
 
 
-clusterall_100 <- heatmap(data.matrix(data_great0)[1:100,1:100], distfun = function(x) dist(x, method="binary"), scale="none")
-save(clusterall_100, file="human_disease_phenotype_matrix_great0_clusterall_100_100.Rdata")
+clusterall_100_all <- heatmap(data.matrix(data_great0)[1:100,], distfun = function(x) dist(x, method="binary"), scale="none")
+save(clusterall_100_all, file="human_disease_phenotype_matrix_great0_clusterall_100_all.Rdata")
 
 
 clusterall <- heatmap(data.matrix(data_great0), distfun = function(x) dist(x, method="binary"), scale="none")
@@ -50,8 +50,8 @@ save(clusterall, file="human_disease_phenotype_matrix_great0_clusterall.Rdata")
 
 load("human_GO_annotation_matrix_great1_clusterall.Rdata")
 
-pdf("human_GO_annotation_matrix_great1_hcl.pdf", height = 20, width = 11)
-eval(clusterall$call)
+pdf("human_disease_phenotype_matrix_great0_clusterall_100_alll.pdf", height = 20, width = 11)
+eval(clusterall_100_all$call)
 dev.off(2)
 
 png("human_GO_annotation_matrix_great1_hcl.png", height = 1000, width = 800)

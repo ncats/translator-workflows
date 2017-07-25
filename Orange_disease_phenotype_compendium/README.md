@@ -1,4 +1,4 @@
-## Orange Team Orange_disease_phenotype_compendium
+## Orange Team disease phenotype compendium
 
 
 ### Query:  

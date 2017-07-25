@@ -1,4 +1,4 @@
-## Orange Team CQ1.2
+## Orange Team human gene x GO term data compendium
 
 ### Query:  
 Retrieve all data for human genes and their associated GO terms. Organize the data into a data compendium and output to a file ready for downstream analysis.

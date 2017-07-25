@@ -12,7 +12,7 @@ This query is to obtain all available data on human diseases and their associate
   
 ### Sub-Queries/Tasks:
    
-**Input:** NCBIGene identifiers for 11 FA-core genes
+**Input:** Taxon 9606
   1. Retrieve all phenotype associations for all human diseases 
   2. Create data dictionary 
   3. Populate data frame from dictionary 

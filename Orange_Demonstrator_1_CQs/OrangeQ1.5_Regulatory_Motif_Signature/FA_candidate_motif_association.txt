@@ -1,0 +1,361 @@
+candidate_effector_proteins set has (4) genes with hits
+
+		   SLX4 (67) associations
+EIF3E 	 http://www.ncbi.nlm.nih.gov/gene/3646 0.25
+AREL1 	 http://www.ncbi.nlm.nih.gov/gene/9870 0.25
+N6AMT1 	 http://www.ncbi.nlm.nih.gov/gene/29104 0.25
+IKZF2 	 http://www.ncbi.nlm.nih.gov/gene/22807 0.25
+PTGES3L 	 http://www.ncbi.nlm.nih.gov/gene/100885848 0.25
+PSPC1 	 http://www.ncbi.nlm.nih.gov/gene/55269 0.25
+RAB14 	 http://www.ncbi.nlm.nih.gov/gene/51552 0.25
+CCDC127 	 http://www.ncbi.nlm.nih.gov/gene/133957 0.25
+RBFOX2 	 http://www.ncbi.nlm.nih.gov/gene/23543 0.25
+SMG6 	 http://www.ncbi.nlm.nih.gov/gene/23293 0.25
+NPRL3 	 http://www.ncbi.nlm.nih.gov/gene/8131 0.25
+RAB35 	 http://www.ncbi.nlm.nih.gov/gene/11021 0.25
+FAM227A 	 http://www.ncbi.nlm.nih.gov/gene/646851 0.25
+EIF3G 	 http://www.ncbi.nlm.nih.gov/gene/8666 0.25
+RNF19A 	 http://www.ncbi.nlm.nih.gov/gene/25897 0.25
+POU4F1 	 http://www.ncbi.nlm.nih.gov/gene/5457 0.25
+MAD1L1 	 http://www.ncbi.nlm.nih.gov/gene/8379 0.25
+ZBTB17 	 http://www.ncbi.nlm.nih.gov/gene/7709 0.25
+NOB1 	 http://www.ncbi.nlm.nih.gov/gene/28987 0.25
+MBD1 	 http://www.ncbi.nlm.nih.gov/gene/4152 0.25
+TXNDC9 	 http://www.ncbi.nlm.nih.gov/gene/10190 0.25
+UNC93B1 	 http://www.ncbi.nlm.nih.gov/gene/81622 0.25
+TMEM184B 	 http://www.ncbi.nlm.nih.gov/gene/25829 0.25
+ZNF287 	 http://www.ncbi.nlm.nih.gov/gene/57336 0.25
+ARHGEF39 	 http://www.ncbi.nlm.nih.gov/gene/84904 0.25
+ZC3H8 	 http://www.ncbi.nlm.nih.gov/gene/84524 0.25
+PRKAR2A 	 http://www.ncbi.nlm.nih.gov/gene/5576 0.25
+EID2B 	 http://www.ncbi.nlm.nih.gov/gene/126272 0.25
+C10orf88 	 http://www.ncbi.nlm.nih.gov/gene/80007 0.25
+HIRIP3 	 http://www.ncbi.nlm.nih.gov/gene/8479 0.25
+SIRT6 	 http://www.ncbi.nlm.nih.gov/gene/51548 0.25
+UBE2V1 	 http://www.ncbi.nlm.nih.gov/gene/7335 0.25
+PPM1F 	 http://www.ncbi.nlm.nih.gov/gene/9647 0.25
+
+WDR46 	 http://www.ncbi.nlm.nih.gov/gene/9277 0.2
+ZNF329 	 http://www.ncbi.nlm.nih.gov/gene/79673 0.2
+MEA1 	 http://www.ncbi.nlm.nih.gov/gene/4201 0.2
+MIS18A 	 http://www.ncbi.nlm.nih.gov/gene/54069 0.2
+HEATR5B 	 http://www.ncbi.nlm.nih.gov/gene/54497 0.2
+SUGP2 	 http://www.ncbi.nlm.nih.gov/gene/10147 0.2
+TMEM161B 	 http://www.ncbi.nlm.nih.gov/gene/153396 0.2
+SOS2 	 http://www.ncbi.nlm.nih.gov/gene/6655 0.2
+MEIS2 	 http://www.ncbi.nlm.nih.gov/gene/4212 0.2
+DHRS13 	 http://www.ncbi.nlm.nih.gov/gene/147015 0.2
+TOLLIP 	 http://www.ncbi.nlm.nih.gov/gene/54472 0.2
+SAYSD1 	 http://www.ncbi.nlm.nih.gov/gene/55776 0.2
+EEF1D 	 http://www.ncbi.nlm.nih.gov/gene/1936 0.2
+UNKL 	 http://www.ncbi.nlm.nih.gov/gene/64718 0.2
+VPS13C 	 http://www.ncbi.nlm.nih.gov/gene/54832 0.2
+FBXW5 	 http://www.ncbi.nlm.nih.gov/gene/54461 0.2
+STRADA 	 http://www.ncbi.nlm.nih.gov/gene/92335 0.2
+STK32C 	 http://www.ncbi.nlm.nih.gov/gene/282974 0.2
+DENND6A 	 http://www.ncbi.nlm.nih.gov/gene/201627 0.2
+NARFL 	 http://www.ncbi.nlm.nih.gov/gene/64428 0.2
+FAM58A 	 http://www.ncbi.nlm.nih.gov/gene/92002 0.2
+MRPS33 	 http://www.ncbi.nlm.nih.gov/gene/51650 0.2
+CDCA3 	 http://www.ncbi.nlm.nih.gov/gene/83461 0.2
+BNIP3 	 http://www.ncbi.nlm.nih.gov/gene/664 0.2
+TMEM203 	 http://www.ncbi.nlm.nih.gov/gene/94107 0.2
+MPHOSPH6 	 http://www.ncbi.nlm.nih.gov/gene/10200 0.2
+ASCC1 	 http://www.ncbi.nlm.nih.gov/gene/51008 0.2
+C10orf111 	 http://www.ncbi.nlm.nih.gov/gene/221060 0.2
+CCDC93 	 http://www.ncbi.nlm.nih.gov/gene/54520 0.2
+PRELID3B 	 http://www.ncbi.nlm.nih.gov/gene/51012 0.2
+CCDC96 	 http://www.ncbi.nlm.nih.gov/gene/257236 0.2
+SDHB 	 http://www.ncbi.nlm.nih.gov/gene/6390 0.2
+TWF2 	 http://www.ncbi.nlm.nih.gov/gene/11344 0.2
+CXorf38 	 http://www.ncbi.nlm.nih.gov/gene/159013 0.2
+
+
+		   PALB2 (21) associations
+C16orf46 	 http://www.ncbi.nlm.nih.gov/gene/123775 0.333333
+PGAP3 	 http://www.ncbi.nlm.nih.gov/gene/93210 0.333333
+FBXW9 	 http://www.ncbi.nlm.nih.gov/gene/84261 0.333333
+
+LRRC47 	 http://www.ncbi.nlm.nih.gov/gene/57470 0.25
+C2orf68 	 http://www.ncbi.nlm.nih.gov/gene/388969 0.25
+FAAP100 	 http://www.ncbi.nlm.nih.gov/gene/80233 0.25   FAGENE
+LYSMD1 	 http://www.ncbi.nlm.nih.gov/gene/388695 0.25
+PPID 	 http://www.ncbi.nlm.nih.gov/gene/5481 0.25
+MUT 	 http://www.ncbi.nlm.nih.gov/gene/4594 0.25
+NTHL1 	 http://www.ncbi.nlm.nih.gov/gene/4913 0.25
+FBXW2 	 http://www.ncbi.nlm.nih.gov/gene/26190 0.25
+DPM3 	 http://www.ncbi.nlm.nih.gov/gene/54344 0.25
+
+MCAT 	 http://www.ncbi.nlm.nih.gov/gene/27349 0.2
+RGL2 	 http://www.ncbi.nlm.nih.gov/gene/5863 0.2
+OTUD7B 	 http://www.ncbi.nlm.nih.gov/gene/56957 0.2
+WDR27 	 http://www.ncbi.nlm.nih.gov/gene/253769 0.2
+TMEM230 	 http://www.ncbi.nlm.nih.gov/gene/29058 0.2
+ZNF384 	 http://www.ncbi.nlm.nih.gov/gene/171017 0.2
+KIAA0825 	 http://www.ncbi.nlm.nih.gov/gene/285600 0.2
+EMC7 	 http://www.ncbi.nlm.nih.gov/gene/56851 0.2
+LRRC41 	 http://www.ncbi.nlm.nih.gov/gene/10489 0.2
+
+
+   		XRCC2 (9) associations
+PEX11A 	 http://www.ncbi.nlm.nih.gov/gene/8800 0.333333
+PDRG1 	 http://www.ncbi.nlm.nih.gov/gene/81572 0.333333
+COPS2 	 http://www.ncbi.nlm.nih.gov/gene/9318 0.333333
+
+ZNF347 	 http://www.ncbi.nlm.nih.gov/gene/84671 0.25
+SMC1A 	 http://www.ncbi.nlm.nih.gov/gene/8243 0.25
+
+PRKN 	 http://www.ncbi.nlm.nih.gov/gene/5071 0.2
+ATP5G3 	 http://www.ncbi.nlm.nih.gov/gene/518 0.2
+RNF122 	 http://www.ncbi.nlm.nih.gov/gene/79845 0.2
+MAGI1 	 http://www.ncbi.nlm.nih.gov/gene/9223 0.2
+
+
+   		BRIP1 (7) associations
+ABL2 	 http://www.ncbi.nlm.nih.gov/gene/27 1
+ 	 	 http://www.ncbi.nlm.nih.gov/gene/109504726 1
+
+TMEM53 	 http://www.ncbi.nlm.nih.gov/gene/79639 0.5
+
+LMBR1L 	 http://www.ncbi.nlm.nih.gov/gene/55716 0.333333
+
+GOLGB1 	 http://www.ncbi.nlm.nih.gov/gene/2804 0.25
+
+ATP5E 	 http://www.ncbi.nlm.nih.gov/gene/514 0.2
+ISOC2 	 http://www.ncbi.nlm.nih.gov/gene/79763 0.2
+
+############################################################
+candidate_associated_proteins set has (3) genes with hits
+
+   		CENPX (31) associations
+IARS 	 http://www.ncbi.nlm.nih.gov/gene/3376 0.2
+TBCCD1 	 http://www.ncbi.nlm.nih.gov/gene/55171 0.2
+EPHB4 	 http://www.ncbi.nlm.nih.gov/gene/2050 0.2
+FMN1 	 http://www.ncbi.nlm.nih.gov/gene/342184 0.2
+CYB5RL 	 http://www.ncbi.nlm.nih.gov/gene/606495 0.2
+HYI 	 http://www.ncbi.nlm.nih.gov/gene/81888 0.2
+ROGDI 	 http://www.ncbi.nlm.nih.gov/gene/79641 0.2
+FUCA1 	 http://www.ncbi.nlm.nih.gov/gene/2517 0.2
+FKBP3 	 http://www.ncbi.nlm.nih.gov/gene/2287 0.2
+KLHL25 	 http://www.ncbi.nlm.nih.gov/gene/64410 0.2
+NUP43 	 http://www.ncbi.nlm.nih.gov/gene/348995 0.2
+DHX57 	 http://www.ncbi.nlm.nih.gov/gene/90957 0.2
+RBM23 	 http://www.ncbi.nlm.nih.gov/gene/55147 0.2
+PDK4 	 http://www.ncbi.nlm.nih.gov/gene/5166 0.2
+ZNF550 	 http://www.ncbi.nlm.nih.gov/gene/162972 0.2
+CCDC153 	 http://www.ncbi.nlm.nih.gov/gene/283152 0.2
+LZIC 	 http://www.ncbi.nlm.nih.gov/gene/84328 0.2
+PPIL1 	 http://www.ncbi.nlm.nih.gov/gene/51645 0.2
+RRN3 	 http://www.ncbi.nlm.nih.gov/gene/54700 0.2
+C16orf87 	 http://www.ncbi.nlm.nih.gov/gene/388272 0.2
+PGK2 	 http://www.ncbi.nlm.nih.gov/gene/5232 0.2
+HLA-DMA 	 http://www.ncbi.nlm.nih.gov/gene/3108 0.2
+RABL3 	 http://www.ncbi.nlm.nih.gov/gene/285282 0.2
+VPS52 	 http://www.ncbi.nlm.nih.gov/gene/6293 0.2
+CYP39A1 	 http://www.ncbi.nlm.nih.gov/gene/51302 0.2
+ZFAT 	 http://www.ncbi.nlm.nih.gov/gene/57623 0.2
+RTBDN 	 http://www.ncbi.nlm.nih.gov/gene/83546 0.2
+XRN1 	 http://www.ncbi.nlm.nih.gov/gene/54464 0.2
+ZNF20 	 http://www.ncbi.nlm.nih.gov/gene/7568 0.2
+SLC26A6 	 http://www.ncbi.nlm.nih.gov/gene/65010 0.2
+ALDH4A1 	 http://www.ncbi.nlm.nih.gov/gene/8659 0.2
+
+   		FAAP100 (30) associations
+C16orf46 	 http://www.ncbi.nlm.nih.gov/gene/123775 0.5
+PGAP3 	 http://www.ncbi.nlm.nih.gov/gene/93210 0.5
+FBXW9 	 http://www.ncbi.nlm.nih.gov/gene/84261 0.5
+
+NTHL1 	 http://www.ncbi.nlm.nih.gov/gene/4913 0.333333
+PPID 	 http://www.ncbi.nlm.nih.gov/gene/5481 0.333333
+MUT 	 http://www.ncbi.nlm.nih.gov/gene/4594 0.333333
+LRRC41 	 http://www.ncbi.nlm.nih.gov/gene/10489 0.333333
+DPM3 	 http://www.ncbi.nlm.nih.gov/gene/54344 0.333333
+LYSMD1 	 http://www.ncbi.nlm.nih.gov/gene/388695 0.333333
+LRRC47 	 http://www.ncbi.nlm.nih.gov/gene/57470 0.333333
+FBXW2 	 http://www.ncbi.nlm.nih.gov/gene/26190 0.333333
+C2orf68 	 http://www.ncbi.nlm.nih.gov/gene/388969 0.333333
+
+WDR27 	 http://www.ncbi.nlm.nih.gov/gene/253769 0.25
+OTUD7B 	 http://www.ncbi.nlm.nih.gov/gene/56957 0.25
+TMEM230 	 http://www.ncbi.nlm.nih.gov/gene/29058 0.25
+ZNF384 	 http://www.ncbi.nlm.nih.gov/gene/171017 0.25
+RGL2 	 http://www.ncbi.nlm.nih.gov/gene/5863 0.25
+PALB2 	 http://www.ncbi.nlm.nih.gov/gene/79728 0.25   FAGENE 
+KIAA0825 	 http://www.ncbi.nlm.nih.gov/gene/285600 0.25  
+EMC7 	 http://www.ncbi.nlm.nih.gov/gene/56851 0.25
+MCAT 	 http://www.ncbi.nlm.nih.gov/gene/27349 0.25
+
+SF3B6 	 http://www.ncbi.nlm.nih.gov/gene/51639 0.2
+STAU1 	 http://www.ncbi.nlm.nih.gov/gene/6780 0.2
+CYB561A3 	 http://www.ncbi.nlm.nih.gov/gene/220002 0.2
+TAF12 	 http://www.ncbi.nlm.nih.gov/gene/6883 0.2
+MED19 	 http://www.ncbi.nlm.nih.gov/gene/219541 0.2
+C7orf49 	 http://www.ncbi.nlm.nih.gov/gene/78996 0.2
+RPS6 	 http://www.ncbi.nlm.nih.gov/gene/6194 0.2
+CAGE1 	 http://www.ncbi.nlm.nih.gov/gene/285782 0.2
+KNOP1 	 http://www.ncbi.nlm.nih.gov/gene/400506 0.2
+
+
+   		FAAP20 (30) associations
+ANKRD18A 	 http://www.ncbi.nlm.nih.gov/gene/253650 0.5
+MATN3 	 http://www.ncbi.nlm.nih.gov/gene/4148 0.5
+CHST15 	 http://www.ncbi.nlm.nih.gov/gene/51363 0.5
+GPR20 	 http://www.ncbi.nlm.nih.gov/gene/2843 0.5
+
+BCAT2 	 http://www.ncbi.nlm.nih.gov/gene/587 0.333333
+RPS27L 	 http://www.ncbi.nlm.nih.gov/gene/51065 0.333333
+UNKL 	 http://www.ncbi.nlm.nih.gov/gene/64718 0.333333
+KIAA0895L 	 http://www.ncbi.nlm.nih.gov/gene/653319 0.333333
+NAA10 	 http://www.ncbi.nlm.nih.gov/gene/8260 0.333333
+
+ZNF414 	 http://www.ncbi.nlm.nih.gov/gene/84330 0.25
+CEACAM1 	 http://www.ncbi.nlm.nih.gov/gene/634 0.25
+DBNDD1 	 http://www.ncbi.nlm.nih.gov/gene/79007 0.25
+MYO1A 	 http://www.ncbi.nlm.nih.gov/gene/4640 0.25
+PTGIR 	 http://www.ncbi.nlm.nih.gov/gene/5739 0.25
+PRTFDC1 	 http://www.ncbi.nlm.nih.gov/gene/56952 0.25
+AMT 	 http://www.ncbi.nlm.nih.gov/gene/275 0.25
+MYH7 	 http://www.ncbi.nlm.nih.gov/gene/4625 0.25
+BEGAIN 	 http://www.ncbi.nlm.nih.gov/gene/57596 0.25
+SFRP5 	 http://www.ncbi.nlm.nih.gov/gene/6425 0.25
+HSD17B11 	 http://www.ncbi.nlm.nih.gov/gene/51170 0.25
+ZSCAN10 	 http://www.ncbi.nlm.nih.gov/gene/84891 0.25
+C16orf47 	 http://www.ncbi.nlm.nih.gov/gene/388289 0.25
+CD70 	 http://www.ncbi.nlm.nih.gov/gene/970 0.25
+AGMO 	 http://www.ncbi.nlm.nih.gov/gene/392636 0.25
+VWCE 	 http://www.ncbi.nlm.nih.gov/gene/220001 0.25
+
+C8orf59 	 http://www.ncbi.nlm.nih.gov/gene/401466 0.2
+MIF4GD 	 http://www.ncbi.nlm.nih.gov/gene/57409 0.2
+ANXA2 	 http://www.ncbi.nlm.nih.gov/gene/302 0.2
+SP6 	 http://www.ncbi.nlm.nih.gov/gene/80320 0.2
+LHB 	 http://www.ncbi.nlm.nih.gov/gene/3972 0.2
+
+################################################################
+candidate_core_complex set has (5) genes with hits
+
+   		UBE2T (28) associations
+ZNF680 	 http://www.ncbi.nlm.nih.gov/gene/340252 1
+ANP32A 	 http://www.ncbi.nlm.nih.gov/gene/8125 1
+ZNF675 	 http://www.ncbi.nlm.nih.gov/gene/171392 1
+ILF2 	 http://www.ncbi.nlm.nih.gov/gene/3608 1
+TMEM160 	 http://www.ncbi.nlm.nih.gov/gene/54958 1
+
+PDIA6 	 http://www.ncbi.nlm.nih.gov/gene/10130 0.5
+CFAP43 	 http://www.ncbi.nlm.nih.gov/gene/80217 0.5
+CDR2 	 http://www.ncbi.nlm.nih.gov/gene/1039 0.5
+DHCR24 	 http://www.ncbi.nlm.nih.gov/gene/1718 0.5
+ULK4 	 http://www.ncbi.nlm.nih.gov/gene/54986 0.5
+CKB 	 http://www.ncbi.nlm.nih.gov/gene/1152 0.5
+TYSND1 	 http://www.ncbi.nlm.nih.gov/gene/219743 0.5
+
+RHOF 	 http://www.ncbi.nlm.nih.gov/gene/54509 0.333333
+MPP7 	 http://www.ncbi.nlm.nih.gov/gene/143098 0.333333
+ATG2A 	 http://www.ncbi.nlm.nih.gov/gene/23130 0.333333
+ALS2CR12 	 http://www.ncbi.nlm.nih.gov/gene/130540 0.333333
+TECPR1 	 http://www.ncbi.nlm.nih.gov/gene/25851 0.333333
+
+ZNF77 	 http://www.ncbi.nlm.nih.gov/gene/58492 0.25
+KANSL2 	 http://www.ncbi.nlm.nih.gov/gene/54934 0.25
+SLC43A2 	 http://www.ncbi.nlm.nih.gov/gene/124935 0.25
+GOLGB1 	 http://www.ncbi.nlm.nih.gov/gene/2804 0.25
+ANKRD9 	 http://www.ncbi.nlm.nih.gov/gene/122416 0.25
+DEDD2 	 http://www.ncbi.nlm.nih.gov/gene/162989 0.25
+TFDP2 	 http://www.ncbi.nlm.nih.gov/gene/7029 0.25
+
+BUB1 	 http://www.ncbi.nlm.nih.gov/gene/699 0.2
+MRPL51 	 http://www.ncbi.nlm.nih.gov/gene/51258 0.2
+C12orf76 	 http://www.ncbi.nlm.nih.gov/gene/400073 0.2
+CCDC148 	 http://www.ncbi.nlm.nih.gov/gene/130940 0.2
+
+
+   		FANCA (36) associations
+TBCCD1 	 http://www.ncbi.nlm.nih.gov/gene/55171 0.25
+LRRC24 	 http://www.ncbi.nlm.nih.gov/gene/441381 0.25
+CYB5RL 	 http://www.ncbi.nlm.nih.gov/gene/606495 0.25
+HYI 	 http://www.ncbi.nlm.nih.gov/gene/81888 0.25
+NDUFAB1 	 http://www.ncbi.nlm.nih.gov/gene/4706 0.25
+NUP43 	 http://www.ncbi.nlm.nih.gov/gene/348995 0.25
+ROCK1 	 http://www.ncbi.nlm.nih.gov/gene/6093 0.25
+STMN4 	 http://www.ncbi.nlm.nih.gov/gene/81551 0.2
+ZNF20 	 http://www.ncbi.nlm.nih.gov/gene/7568 0.25
+PAXIP1 	 http://www.ncbi.nlm.nih.gov/gene/22976 0.25
+PPIL1 	 http://www.ncbi.nlm.nih.gov/gene/51645 0.25
+PGK2 	 http://www.ncbi.nlm.nih.gov/gene/5232 0.25
+IL17RD 	 http://www.ncbi.nlm.nih.gov/gene/54756 0.25
+SMARCD3 	 http://www.ncbi.nlm.nih.gov/gene/6604 0.25
+ALDH4A1 	 http://www.ncbi.nlm.nih.gov/gene/8659 0.25
+PDK4 	 http://www.ncbi.nlm.nih.gov/gene/5166 0.25
+DHX57 	 http://www.ncbi.nlm.nih.gov/gene/90957 0.25
+
+IARS 	 http://www.ncbi.nlm.nih.gov/gene/3376 0.2
+CCDC191 	 http://www.ncbi.nlm.nih.gov/gene/57577 0.2
+TMEM161A 	 http://www.ncbi.nlm.nih.gov/gene/54929 0.2
+AIFM1 	 http://www.ncbi.nlm.nih.gov/gene/9131 0.2
+TTLL6 	 http://www.ncbi.nlm.nih.gov/gene/284076 0.2
+SLC16A1 	 http://www.ncbi.nlm.nih.gov/gene/6566 0.2
+LIG4 	 http://www.ncbi.nlm.nih.gov/gene/3981 0.2
+KDM5C 	 http://www.ncbi.nlm.nih.gov/gene/8242 0.2
+C3orf18 	 http://www.ncbi.nlm.nih.gov/gene/51161 0.2
+CLCC1 	 http://www.ncbi.nlm.nih.gov/gene/23155 0.2
+RBM23 	 http://www.ncbi.nlm.nih.gov/gene/55147 0.2
+ATAD2 	 http://www.ncbi.nlm.nih.gov/gene/29028 0.2
+KIF14 	 http://www.ncbi.nlm.nih.gov/gene/9928 0.2
+SPTLC2 	 http://www.ncbi.nlm.nih.gov/gene/9517 0.2
+ZFAT 	 http://www.ncbi.nlm.nih.gov/gene/57623 0.2
+GANAB 	 http://www.ncbi.nlm.nih.gov/gene/23193 0.2
+EBPL 	 http://www.ncbi.nlm.nih.gov/gene/84650 0.2
+NUP62CL 	 http://www.ncbi.nlm.nih.gov/gene/54830 0.2
+BORCS6 	 http://www.ncbi.nlm.nih.gov/gene/54785 0.2
+
+
+   		FANCL (7) associations
+IGF2BP2 	 http://www.ncbi.nlm.nih.gov/gene/10644 0.333333
+CSTF2T 	 http://www.ncbi.nlm.nih.gov/gene/23283 0.25
+MED14 	 http://www.ncbi.nlm.nih.gov/gene/9282 0.25
+
+TTC33 	 http://www.ncbi.nlm.nih.gov/gene/23548 0.2
+STAG1 	 http://www.ncbi.nlm.nih.gov/gene/10274 0.2
+TRIM33 	 http://www.ncbi.nlm.nih.gov/gene/51592 0.2
+SEPHS1 	 http://www.ncbi.nlm.nih.gov/gene/22929 0.2
+
+   		FANCC (21) associations
+WWTR1 	 http://www.ncbi.nlm.nih.gov/gene/25937 0.25
+TGFBR3 	 http://www.ncbi.nlm.nih.gov/gene/7049 0.25
+ALX3 	 http://www.ncbi.nlm.nih.gov/gene/257 0.25
+CD163L1 	 http://www.ncbi.nlm.nih.gov/gene/283316 0.25
+SLC7A8 	 http://www.ncbi.nlm.nih.gov/gene/23428 0.25
+MAPK10 	 http://www.ncbi.nlm.nih.gov/gene/5602 0.25
+ANXA11 	 http://www.ncbi.nlm.nih.gov/gene/311 0.25
+PLAGL1 	 http://www.ncbi.nlm.nih.gov/gene/5325 0.25
+KRT39 	 http://www.ncbi.nlm.nih.gov/gene/390792 0.25
+GSTA1 	 http://www.ncbi.nlm.nih.gov/gene/2938 0.25
+FCRL4 	 http://www.ncbi.nlm.nih.gov/gene/83417 0.25
+TKTL2 	 http://www.ncbi.nlm.nih.gov/gene/84076 0.25
+NPHS1 	 http://www.ncbi.nlm.nih.gov/gene/4868 0.25
+PCYT1B 	 http://www.ncbi.nlm.nih.gov/gene/9468 0.25
+AMELY 	 http://www.ncbi.nlm.nih.gov/gene/266 0.25
+PEG3 	 http://www.ncbi.nlm.nih.gov/gene/5178 0.25
+TOMM5 	 http://www.ncbi.nlm.nih.gov/gene/401505 0.25
+
+DDAH1 	 http://www.ncbi.nlm.nih.gov/gene/23576 0.2
+GSTA2 	 http://www.ncbi.nlm.nih.gov/gene/2939 0.2
+SMC1B 	 http://www.ncbi.nlm.nih.gov/gene/27127 0.2
+C1orf198 	 http://www.ncbi.nlm.nih.gov/gene/84886 0.2
+
+	   	FANCB (13) associations
+
+SEMA6A 	 http://www.ncbi.nlm.nih.gov/gene/57556 0.333333
+GPR157 	 http://www.ncbi.nlm.nih.gov/gene/80045 0.333333
+LARGE1 	 http://www.ncbi.nlm.nih.gov/gene/9215 0.333333
+GPAM 	 http://www.ncbi.nlm.nih.gov/gene/57678 0.333333
+FYCO1 	 http://www.ncbi.nlm.nih.gov/gene/79443 0.333333
+TMEM134 	 http://www.ncbi.nlm.nih.gov/gene/80194 0.333333
+KCNJ10 	 http://www.ncbi.nlm.nih.gov/gene/3766 0.333333
+PLXND1 	 http://www.ncbi.nlm.nih.gov/gene/23129 0.333333
+GGT7 	 http://www.ncbi.nlm.nih.gov/gene/2686 0.333333
+SLC35E2 	 http://www.ncbi.nlm.nih.gov/gene/9906 0.333333
+
+RNF126 	 http://www.ncbi.nlm.nih.gov/gene/55658 0.25
+RBM39 	 http://www.ncbi.nlm.nih.gov/gene/9584 0.25
+RHBDF2 	 http://www.ncbi.nlm.nih.gov/gene/79651 0.25

@@ -4,7 +4,7 @@ Benchmarking queries are being collaboratively developed and staged for implemen
 
 In addition to the README file, a **Github issue** should be created for each notebook to track status, ownership, and outcomes.  Instructions and a template for these tickets are [here](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/Contributor_Docs/notebook_status_ticket_template.md), and a template is also included below.
 
-More information about Benchmarking Query staging and development processes can be found in the Contributor Documentation [here](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/Contributor_Docs/Query_Bank_Development.md). General information about Translator CQ development can be found [here](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/Contributor_Docs/CONTRIBUTING.md).
+More information about Benchmarking Query staging and development processes can be found in the Contributor Documentation [here](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/Contributor_Docs/Query_Bank_CQ_Development.md). General information about Translator CQ development can be found [here](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/Contributor_Docs/CONTRIBUTING.md).
     
 
 -----

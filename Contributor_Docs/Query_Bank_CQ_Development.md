@@ -6,7 +6,7 @@ Benchmarking CQs are 'elemental' queries that can be executed to assess the scop
 Part of the query refinement task is assessing suitability of the query for benchmarking purposes. Questions that are too complex for this use case can be recast as one or more simpler retrieval/filtering level queries and kept in this spreadsheet. The original query can be copied into the [**Complex Query Bank**](https://docs.google.com/spreadsheets/d/1wbP1Ykryibcan2ZgZTOmnGp9WjcRE7nNig3akiq0PuY/edit#gid=1363545460) spreadsheet where it can be further specified and staged for implementation. Any new/additional complex queries that come to  mind can be recorded in this sheet as well.
 
 ### Workplan
-- General CQ development practices are defined [here](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/CONTRIBUTING.md). 
+- General CQ development practices are defined [here](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/Contributor_Docs/CONTRIBUTING.md). 
 - Translator team members can work asynchronously to curate and prepare queries in the Query Bank spreadsheets. 
 - In addition, we hold weekly calls to discuss queries and progress (Thursdays, 2PM PT, http://bit.ly/devzoom). 
 - Once a particular query is ready for implementation, a developer can take ownership and move the work to Github (i.e make a readme file, a create a cq-status ticket, and begin a Jupyter notebook).

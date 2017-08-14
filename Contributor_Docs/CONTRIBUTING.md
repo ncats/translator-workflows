@@ -7,7 +7,7 @@ This document describes the Orange Team process and artifacts for creating, docu
 Competency questions (CQs) in the domain of Fanconi Anemia (FA) are developed to help prioritize data ingest, inform data modeling, and guide architecture decisions. Query development to date has followed the four step process:  
 **Stage** -> **Document** -> **Implement** - **Track**.
 
-1. **Staging** occurs in the spreadsheets [here](https://docs.google.com/spreadsheets/d/1wbP1Ykryibcan2ZgZTOmnGp9WjcRE7nNig3akiq0PuY/edit#gid=19786600) where CQs are defined, discussed, and formalized in preparation for implementation in Jupyter notebooks. _Staging in these spreadsheets is not required,  but has been useful for collaborative development and discussion of CQs before their implementation_.
+1. **Staging** occurs in the spreadsheets [here](https://docs.google.com/spreadsheets/d/1wbP1Ykryibcan2ZgZTOmnGp9WjcRE7nNig3akiq0PuY/edit#gid=19786600) where CQs are defined, discussed, and formalized in preparation for implementation in Jupyter notebooks. See Section II below for a description of the different sheets in this document.  _Staging in these spreadsheets is not required,  but has been useful for collaborative development and discussion of CQs before their implementation_.
   
 2. **Documentation** is captured in Github readme files in the cq-notebook repo [here](https://github.com/NCATS-Tangerine/cq-notebooks).  A separate directory and readme file is created for each CQ.  Readme files *minimally* record the free-text query along with any relevant context or significance, and may additionally suggest sources and execution tasks (in particular when a domain expert wants to make suggestions for an implementing developer).  
 

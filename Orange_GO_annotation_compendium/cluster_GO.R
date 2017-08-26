@@ -12,7 +12,7 @@ hamming.distance <- function(x,y){
 
 #setwd("~/Documents/VIMSS/ontology/NCATS/notebooks/cq-notebooks/Orange_GO_annotation_compendium/")
 
-data <- read.csv("human_disease_phenotype_matrix.txt",sep="\t",row.names=1,header=T)
+data <- read.csv("human_GO_annotation_matrix_great1.txt",sep="\t",row.names=1,header=T)
 range <- range(data.matrix(data))
 range
 dim(data)
@@ -35,8 +35,8 @@ data_great1<- data.matrix(data)[-remrows, ]
 
 dim(data_rowgreat1)
 
-mypalette <- rev(brewer.pal(6, "Blues"))
-#mypalette <- c(mypalette, brewer.pal(6, "YlOrBr"))
+#mypalette <- rev(brewer.pal(6, "Blues"))
+mypalette <- c(mypalette, brewer.pal(6, "YlOrBr"))
 
 
 
@@ -92,6 +92,13 @@ dev.off(2)
 clusterall2 <- heatmap.2(data.matrix(data), distfun = function(x) dist(x, method="binary"),  Rowv=hr, Colv=hc, scale="none", col=mypalette)
 save(clusterall2, file="human_GO_annotation_matrix_great1_clusterall2.Rdata")
 
+png("human_GO_annotation_matrix_great1_hcl.png", height = 1200, width = 1000)
+eval(clusterall2$call)
+#heatmap(data.matrix(data), Rowv=as.dendrogram(hr), Colv=as.dendrogram(hc),
+#          scale="none", density.info="density", trace="none")
+
+#heatmap(cluster_part)
+dev.off(2)
 
 
 clusterall2 <- heatmap.2(data.matrix(data), distfun = function(x) dist(x, method="binary"),  Rowv=hr, Colv=hc, scale="none", col=mypalette)

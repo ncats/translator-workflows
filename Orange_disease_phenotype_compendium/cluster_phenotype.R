@@ -27,11 +27,16 @@ rowsums <- rowSums(data.matrix(data))
 
 remrows <- which(rowsums == 0)
 remrows1 <- which(rowsums == 1)
+remrows_less1 <- which(rowsums <= 1)
 
 remcols <- which(colsums == 0)
 remcols1 <- which(colsums == 1)
 remcols2 <- which(colsums == 2)
+remcols_less1 <- which(colsums <= 1)
+
 data_great0 <- data.matrix(data)[, -remcols]
+
+data_great1_great1 <- data.matrix(data)[-remrows_less1, remcols_less1]
 
 dim(data_great0)
 
@@ -66,27 +71,27 @@ dev.off(2)
 #row_hamming <- outer(t(data.matrix(data)), t(data.matrix(data)), hamming.distance)
 
 ###uses amap hcluster
-hr <- hcluster(t(data.matrix(data_great0)), method="binary", link="complete",nbproc=4)
-save(hr, file="hr_dis_phe.Rdata")
-hc <- hcluster(data.matrix(data_great0), method="binary", link="complete",nbproc=4)
-save(hc, file="hc_dis_phe.Rdata")
+hr_great1_great1 <- hcluster(t(data.matrix(data_great1_great1)), method="binary", link="complete",nbproc=4)
+save(hr, file="hr_great1_great1_dis_phe.Rdata")
+hc_great1_great1  <- hcluster(data.matrix(data_great1_great1), method="binary", link="complete",nbproc=4)
+save(hc, file="hc_great1_great1_dis_phe.Rdata")
 
 #hr <- hclust(as.dist(1-cor(t(y), method="pearson")), method="complete")
 #hc <- hclust(as.dist(1-cor(y, method="spearman")), method="complete")
 
-cluster_heatmap2 <- heatmap.2(data.matrix(data_great0), Rowv=as.dendrogram(hr), Colv=as.dendrogram(hc),
+cluster_heatmap2 <- heatmap.2(data.matrix(data_great1_great1), Rowv=as.dendrogram(hc_great1_great1), Colv=as.dendrogram(hr_great1_great1),
          scale="none", density.info="density", trace="none")
 
-cluster_heatmap2 <- heatmap.2(data.matrix(data_great0),
-                              scale="none", density.info="density", trace="none")
-save(cluster_heatmap2, file="human_disease_phenotype_matrix_great0_clusterall_heatmap2.Rdata")
+#cluster_heatmap2 <- heatmap.2(data.matrix(data_great0),
+#                              scale="none", density.info="density", trace="none")
+save(cluster_heatmap2, file="human_disease_phenotype_matrix_great1_great1_clusterall_heatmap2.Rdata")
 
 
-cluster_heatmap <- heatmap(data.matrix(data), Rowv=hr, Colv=hc,
-                             scale="none", density.info="density", trace="none")
+#cluster_heatmap <- heatmap(data.matrix(data), Rowv=hr, Colv=hc,
+#                             scale="none", density.info="density", trace="none")
 
-pdf("human_disease_phenotype_matrix_great1_hcl.pdf", height = 11, width = 8.5)
-eval(cluster$call)
+png("human_disease_phenotype_matrix_great1_great1_hcl.png", height = 1200, width = 1000)
+eval(cluster_heatmap2$call)
 #heatmap(data.matrix(data), Rowv=as.dendrogram(hr), Colv=as.dendrogram(hc),
 #          scale="none", density.info="density", trace="none")
 

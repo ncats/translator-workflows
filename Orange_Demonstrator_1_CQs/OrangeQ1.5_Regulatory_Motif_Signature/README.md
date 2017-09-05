@@ -42,7 +42,7 @@ And enough BioMedical Researcher 'spot check' enthusiasm to warrant continuing.
 ### At the Hackathon
 At the hackathon a machine to run blazegraph exposing the [dataset](file://translator.ncats.io/translator/Orange/jaspar.nt)
 only almost appeared so the basics for getting a local blazegraph up as a http accessible
-SPARQL endpoint are outlined in [LocalBlazeGraph.ipynb](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/OrangeQ1.5_Regulatory_Motif_Signature/LocalBlazeGraph.ipynb)
+SPARQL endpoint are outlined in [LocalBlazeGraph.ipynb](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/Orange_Demonstrator_1_CQs/OrangeQ1.5_Regulatory_Motif_Signature/LocalBlazeGraph.ipynb)
 
 _A persistent endpoint will appear on either NCATS or Monarch servers in the very near future._
  

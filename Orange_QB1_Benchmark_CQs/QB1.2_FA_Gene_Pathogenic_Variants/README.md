@@ -1,7 +1,7 @@
 ## Orange QB1.2_FA_Gene_Pathogenic_Variants
 
 ### Query:
-What variants are pathogenic, and for what conditions? (i.e. cause or contribute to pathogenic outcomes)
+What core FA gene variants are pathogenic, and for what conditions? (i.e. cause or contribute to pathogenic outcomes)
 
 ### Goal:
 A benchmarking query to assess information in the Translator system about pathogenicity of variants in human FA core genes.

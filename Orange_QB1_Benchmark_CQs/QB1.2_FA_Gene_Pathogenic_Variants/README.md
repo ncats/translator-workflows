@@ -12,7 +12,7 @@ A benchmarking query to assess information in the Translator system about pathog
   
 ### Proposed Sub-Queries/Tasks:
 
-  "
+  
 **Input:** 
 
 

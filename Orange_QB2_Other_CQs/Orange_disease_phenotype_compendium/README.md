@@ -1,4 +1,4 @@
-## Orange Team disease x phenotype compendium
+## QB2.2 Disease x phenotype compendium
 
 
 ### Query:  

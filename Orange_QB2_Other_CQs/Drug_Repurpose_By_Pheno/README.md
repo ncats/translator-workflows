@@ -4,7 +4,7 @@
 For Drug X that treats Disease Y, find other diseases Drug X might be re-purposed for based on phenotype similarity with Disease Y.
 
 ### Goals:
-1. This query requires traversing a  path of associations served by two different beacons Ii.e. each beacon provides part of the knowledge graph required an answer).  Specifically, drug indication data from Wikidata, and disease-phenotype data from Monarch/Biolink.  It will test the ability of different approaches (traditional notebooks and k-beacons) to make the joins required to answer such a query.
+1. This query requires traversing a  path of associations served by two different beacons (i.e. each beacon provides part of the knowledge graph required an answer).  Specifically, drug indication data from Wikidata, and disease-phenotype data from Monarch/Biolink.  It will test the ability of different approaches (traditional notebooks and k-beacons) to make the joins required to answer such a query.
 
 ### Proposed Data Types, Sources, and Access Endpoints:
 1. Wikidata (Drug indications)

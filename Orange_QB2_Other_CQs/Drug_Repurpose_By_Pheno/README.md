@@ -1,7 +1,7 @@
 ## QB2.3 Drug_Repurpose_By_Phenotype 
 
 ### Query:
-For Drug X, find other diseases it might be re-purposed for based on phenotype similarity with the drugs primary indication.
+For Drug X, find other diseases it might be re-purposed for based on phenotype similarity with the disese that is the drug's primary indication.
 
 ### Goals:
 1. This query requires traversing associations across two beacons, which each serve part of the knowledge graph required to answer the question.  Specifically, Drug indication data from Wikidata, and disease-phenotype data from Monarch/Biolink.  It will test the ability of different approaches (traditional notebooks and k-beacons) to make the joins required to answer such a query.

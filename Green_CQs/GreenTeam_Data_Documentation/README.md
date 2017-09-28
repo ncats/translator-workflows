@@ -9,7 +9,7 @@ a. Any inferences based on date/time and location (geocode) CANNOT be made using
 
 b. All other inferences MUST consider date/time and location as potentially hidden covariates.
 
-## Green Team Clinical Data Service: HuSH+ Patient Data API
+## Green Team Clinical Data Service: Real-world Patient Data vs HuSH+ Patient Data
 
 The Green Team’s Clinical Data Service API provides defined access to clinical data on ~16,000 ‘HuSH+’ patients with an ‘asthma-like’ phenotype. Users can select input parameters, and the service returns select output based on the input parameters. The input parameters are: sex; race; and location or type of visit (inpatient, outpatient, emergency). Based on the input parameters, the service returns the following output parameters: a list of patients by ID, birth date, sex, race, latitude/longitude location of primary residence; an array of diagnostic ICD code, dates of encounters and location of encounters, medications prescribed/administered at each encounter; and dates of diagnoses and diagnostic ICD codes.
 

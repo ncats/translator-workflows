@@ -22,5 +22,13 @@ A benchmarking query to assess information in the Translator system about protei
 **Input:** FA Gene X  (used FANCC and BRCA2 as exemplars):
    
 **Output:** Set of drugs interacting with FA gene(s) and the type of interaction (inhibitor/activator/etc)
-  
+
+### Outcomes:
+No interactors found using IUPHAR.
+
+### To Do:
+Explore other resources, including: 
+1. [Drugbank](https://www.drugbank.ca) ([example](https://www.drugbank.ca/biodb/bio_entities/BE0000123)) (in biothings.drug)
+2. [DGIdb](http://dgidb.org/)
+3. [BindingDB](https://www.bindingdb.org/bind/index.jsp)
   

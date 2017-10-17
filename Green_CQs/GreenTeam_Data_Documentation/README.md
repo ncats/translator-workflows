@@ -23,13 +23,17 @@ The **‘real-world’ patient data set** is comprised of real observational dat
 
 *2.	age_in_years_num variable is entered by provider at each visit and thus is not as reliable as calculating age from birth date and date of visit;*
 
-*3.	location of encounter (clinic, ED, inpatient) treats ED visits as inpatient visits if a patient first admits to the ED and is later transferred to the inpatient ward;*
+*3.	Medications include both administered and prescribed;*
 
-*4.	Medications include both administered and prescribed; and*
+*4.	Medications are not standardized, so all possible formulations, generic/brand names, dosages, and doses are represented; and*
 
-*5.	Medications are not standardized, so all possible formulations, generic/brand names, dosages, and doses are represented.*
+*5.	CDWH data are structured using the i2b2 data model, and certain variables are lost or transformed when EPIC EMR data are pulled into i2b2, for example:*
 
-In contrast, the **‘HuSH+’ patient data set** is comprised of clinical and administrative data on ~16,000 hypothetical patients. The HuSH+ data set was created using the real patient data set, but it is completely compliant with §164.514(b) of [HIPAA, 'Safe Harbor' method for patient de-identification of medical records](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification). Specifically, the HuSH+ patient data set has had:
+*a. The location variable (clinic, ED, inpatient) treats ED visits as inpatient visits if a patient first admits to the ED and is later transferred to the inpatient ward;* and
+
+*b. The parental_smoking_status variable has been dropped.*
+
+The **‘HuSH+’ patient data set** is comprised of clinical and administrative data on ~16,000 hypothetical patients. The HuSH+ data set was created using the real patient data set, but it is completely compliant with §164.514(b) of [HIPAA, 'Safe Harbor' method for patient de-identification of medical records](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification). Specifically, the HuSH+ patient data set has had:
 
 *1.	real patient identifiers (including geocodes) replaced with random patient identifiers;*
 

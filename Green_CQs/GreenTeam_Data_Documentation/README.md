@@ -29,9 +29,9 @@ The **‘real-world’ patient data set** is comprised of real observational dat
 
 *5.	CDWH data are structured using the i2b2 data model, and certain variables are lost or transformed when EPIC EMR data are pulled into i2b2, for example:*
 
-*a. The location variable (clinic, ED, inpatient) treats ED visits as inpatient visits if a patient first admits to the ED and is later transferred to the inpatient ward;* and
+*a. location variable (clinic, ED, inpatient) treats ED visits as inpatient visits if a patient first admits to the ED and is later transferred to the inpatient ward;* and
 
-*b. The parental_smoking_status variable has been dropped.*
+*b. parental_smoking_status variable has been dropped.*
 
 The **‘HuSH+’ patient data set** is comprised of clinical and administrative data on ~16,000 hypothetical patients. The HuSH+ data set was created using the real patient data set, but it is completely compliant with §164.514(b) of [HIPAA, 'Safe Harbor' method for patient de-identification of medical records](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification). Specifically, the HuSH+ patient data set has had:
 

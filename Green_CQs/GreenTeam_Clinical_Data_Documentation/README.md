@@ -78,7 +78,7 @@ ICD9	481.%	pneumonia
 ICD9	482.%	pneumonia
 ICD9	483.%	pneumonia
 ICD9	484.%	pneumonia
-IC9	485.%	pneumonia
+ICD9	485.%	pneumonia
 ICD9	486.%	pneumonia
 ICD10	J12.%	pneumonia
 ICD10	J13.%	pneumonia

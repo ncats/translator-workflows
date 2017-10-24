@@ -66,7 +66,7 @@ ___
 
 **Diagnostic codes for asthma and asthma-like conditions**
 ICD9	493.%	asthma
-ICD10	345.%	asthma
+ICD10	J45.%	asthma
 ICD9	464.%	croup
 ICD10	J05.%	croup
 ICD9	496.%	reactive airway

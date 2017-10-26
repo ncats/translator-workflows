@@ -160,5 +160,5 @@ Endotype 3: The patient(s) is predicted to have >2 ED/inpatient visits for respi
 
 post_ed ~ age_at_visit + sex + race + visit_type + pre_ed + icd_codes + despm_yda + deso_7da
 
-Clinical data: Please see Green Team Clinical Data Documentation
+Clinical data: Please see [Green Team Clinical Data Documentation](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Clinical_Data_Documentation)
 

@@ -1,7 +1,9 @@
 ## KARA WILL FORMAT AND UPDATE THIS README FILE DURING THE HACKATHON
 
 ## ‘Endotype’ API*
- 
+
+[Endotype API](http://tweetsie.med.unc.edu/CLINICAL_EXPOSURE/age/${age}/sex/${sex}/race/${race}/location/${location)
+
 **Note that we are using the term ‘endotype’ very loosely. Specifically, we are viewing ‘endotype’ as a combination of ‘phenotype’ (external, observed features), ‘endotype’ (internal, not observed features), and likely clinical outcomes (as determined by initial model M0 = recursive partitioning and decision trees). In this sense, a more appropriate term, perhaps, is ‘feature set’ or 'feature vector'.**
 
 Input	{

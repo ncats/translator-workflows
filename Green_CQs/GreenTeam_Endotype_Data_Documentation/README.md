@@ -79,7 +79,7 @@ The final output is a list of ‘endotypes’, their descriptions, evidence in s
 
 *Note that we are using the term ‘endotype’ very loosely. Specifically, we are viewing ‘endotype’ as a combination of ‘phenotype’ (external, observed features), ‘endotype’ (internal, not observed features), and likely clinical outcomes (as determined by initial model M0 = recursive partitioning and decision trees). In this sense, a more appropriate term, perhaps, is ‘feature set’.
 
-Inputs
+**Inputs**
 
 Clinical data: Please see Green Team Clinical Data Documentation
 
@@ -138,7 +138,7 @@ M0 = General R-part model: Recursive partitioning and decision tree
 
 post_ed ~ inout_cd + pre_ed + sex_cd + race_cd + age + icd + despm_yda + deso_7da
 
-Output
+**Output**
 
 Endotype classifications:
 

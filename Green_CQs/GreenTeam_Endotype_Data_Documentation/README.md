@@ -107,6 +107,7 @@ lat, lon
 
 latitude, longitude (patient geocode)
 
+For HuSH+ data, patient geocode is random latitude, longitude
 visit_type
 
 Inpatient

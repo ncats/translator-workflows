@@ -47,9 +47,7 @@ Input	{
  ]
 }
 
-This may represent an individual patient or an aggregate profile across a cohort
 
-Model: For now, only one model type is offered (M0), but additional models will be added as they become available
 
 Output	[
 
@@ -79,7 +77,6 @@ endtotype_description: "..."
 
 Output identifies an opaque id for a class within the endotype classification scheme
 
-The final output is a list of ‘endotypes’, their descriptions, evidence in support of the endotype assertions, and associated time intervals
 
 **Inputs**
 
@@ -141,6 +138,10 @@ M0 = General R-part model: Recursive partitioning and decision tree
 post_ed ~ inout_cd + pre_ed + sex_cd + race_cd + age + icd + despm_yda + deso_7da
 
 **Output**
+
+Output identifies an opaque id for a class within the endotype classification scheme
+
+The final output is a list of ‘endotypes’, their descriptions, evidence in support of the endotype assertions, and associated time intervals
 
 Endotype classifications:
 

@@ -3,7 +3,7 @@
 ## SUMMARY OF KEY POINTS:
 1. Real-world patient data comprise data on ~160,000 patients with an ‘asthma-like’ phenotype; the data can be used for scientific inference, but caveats pertain to multiple aspects of the data, including geocodes; IRB approval is required for access
 
-2. HuSH+ patient data comprise hypothetical data on ~16,000 patients with an ‘asthma-like’ phenotype; the data can be used to a limited extent for scientific inference, but critical caveats pertain; a fully executed DUA is required for access
+2. [HuSH+ patient data](http://tweetsie.med.unc.edu/CLINICAL_EXPOSURE/age/${age}/sex/${sex}/race/${race}/location/${locationcomprise) hypothetical data on ~16,000 patients with an ‘asthma-like’ phenotype; the data can be used to a limited extent for scientific inference, but critical caveats pertain; a fully executed DUA is required for access
 
 a. Any inferences based on date/time and location (geocode) CANNOT be made using the HuSH+ patient data; and
 

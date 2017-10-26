@@ -150,7 +150,7 @@ Endotype 1: The patient(s) is predicted to have 1 ED/inpatient visit for respira
 Endotype 2: The patient(s) is predicted to have 2 ED/inpatient visits for respiratory events over the 12-month period after the visit; and
 Endotype 3: The patient(s) is predicted to have >2 ED/inpatient visits for respiratory events over the 12-month period after the visit.
 
-General R-part model M0:
+**General R-part model M0:**
 
 post_ed ~ age_at_visit + sex + race + visit_type + pre_ed + icd_codes + despm_yda + deso_7da
 

@@ -1,12 +1,8 @@
-## KARA WILL FORMAT AND UPDATE THIS README FILE DURING THE HACKATHON. THE DOCUMENTATION BELOW IS GOOD ENOUGH FOR NOW.
+## KARA WILL FORMAT AND UPDATE THIS README FILE DURING THE HACKATHON
 
 ## ‘Endotype’ API*
  
 **Note that we are using the term ‘endotype’ very loosely. Specifically, we are viewing ‘endotype’ as a combination of ‘phenotype’ (external, observed features), ‘endotype’ (internal, not observed features), and likely clinical outcomes (as determined by initial model M0 = recursive partitioning and decision trees). In this sense, a more appropriate term, perhaps, is ‘feature set’ or 'feature vector'.**
-
-Direction	
-
-Format	Notes
 
 Input	{
  
@@ -75,9 +71,6 @@ endtotype_description: "..."
 ...
 ]
 
-Output identifies an opaque id for a class within the endotype classification scheme
-
-
 **Inputs**
 
 Clinical data: Please see [Green Team Clinical Data Documentation](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Clinical_Data_Documentation)
@@ -112,12 +105,14 @@ time period of interest
 
 lat, lon
 
-patient geocode, latitude and longitude
+latitude, longitude (patient geocode)
 
 visit_type
 
 Inpatient
+
 Outpatient
+
 ED
 
 icd_codes
@@ -125,8 +120,11 @@ icd_codes
 ICD code(s) at date of visit
 
 exposures
+	
 	exposures_type
+	
 	value
+	
 	units
 
 PM2.5 or ozone exposures in relation to 7-day period before date of visit
@@ -146,12 +144,16 @@ The final output is a list of ‘endotypes’, their descriptions, evidence in s
 Endotype classifications:
 
 Outcome variable: post_ed
+
 Post_ED = 0, 1, 2, >2 ED or inpatient visits for asthma-like condition over year after current visit
 
-Endotype 0: The patient(s) is predicted to have 0 ED/inpatient visits for respiratory events over the 12-month period after the visit;
-Endotype 1: The patient(s) is predicted to have 1 ED/inpatient visit for respiratory events over the 12-month period after the visit;
-Endotype 2: The patient(s) is predicted to have 2 ED/inpatient visits for respiratory events over the 12-month period after the visit; and
-Endotype 3: The patient(s) is predicted to have >2 ED/inpatient visits for respiratory events over the 12-month period after the visit.
+Endotype 0: The patient(s) is predicted to have 0 ED/inpatient visits for respiratory events over the 12-month period after the visit
+
+Endotype 1: The patient(s) is predicted to have 1 ED/inpatient visit for respiratory events over the 12-month period after the visit
+
+Endotype 2: The patient(s) is predicted to have 2 ED/inpatient visits for respiratory events over the 12-month period after the visit
+
+Endotype 3: The patient(s) is predicted to have >2 ED/inpatient visits for respiratory events over the 12-month period after the visit
 
 **General R-part model M0:**
 

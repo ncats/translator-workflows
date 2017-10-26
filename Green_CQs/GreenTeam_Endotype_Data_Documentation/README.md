@@ -81,7 +81,7 @@ The final output is a list of ‘endotypes’, their descriptions, evidence in s
 
 **Inputs**
 
-Clinical data: Please see Green Team Clinical Data Documentation
+Clinical data: Please see [Green Team Clinical Data Documentation](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Clinical_Data_Documentation)
 
 date_of_birth
 

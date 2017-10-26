@@ -2,7 +2,11 @@
 
 ## ‘Endotype’ API*
  
-Direction	Format	Notes
+**Note that we are using the term ‘endotype’ very loosely. Specifically, we are viewing ‘endotype’ as a combination of ‘phenotype’ (external, observed features), ‘endotype’ (internal, not observed features), and likely clinical outcomes (as determined by initial model M0 = recursive partitioning and decision trees). In this sense, a more appropriate term, perhaps, is ‘feature set’ or 'feature vector'.**
+
+Direction	
+
+Format	Notes
 
 Input	{
  
@@ -76,8 +80,6 @@ endtotype_description: "..."
 Output identifies an opaque id for a class within the endotype classification scheme
 
 The final output is a list of ‘endotypes’, their descriptions, evidence in support of the endotype assertions, and associated time intervals
-
-*Note that we are using the term ‘endotype’ very loosely. Specifically, we are viewing ‘endotype’ as a combination of ‘phenotype’ (external, observed features), ‘endotype’ (internal, not observed features), and likely clinical outcomes (as determined by initial model M0 = recursive partitioning and decision trees). In this sense, a more appropriate term, perhaps, is ‘feature set’.
 
 **Inputs**
 

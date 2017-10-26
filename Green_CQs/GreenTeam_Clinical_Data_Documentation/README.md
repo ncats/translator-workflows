@@ -9,7 +9,7 @@ a. Any inferences based on date/time and location (geocode) CANNOT be made using
 
 b. All other inferences MUST consider date/time and location as potentially hidden covariates.
 
-[Clinical Data API](https://app.swaggerhub.com/apis/kfecho/Clinical-Data/1.0.0)
+[Clinical Data API](https://translator.ncats.io/)
 
 ## Green Team Clinical Data Service: Real-world Patient Data vs HuSH+ Patient Data
 

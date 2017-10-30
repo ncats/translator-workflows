@@ -12,7 +12,7 @@
  
  race
 
- model_type: “M0”
+ model_type:
  
  visits: [
    
@@ -73,21 +73,23 @@ endtotype_description: "..."
 
 **Inputs: Descriptions**
 
-Clinical data: Please see [Green Team Clinical Data Documentation](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Clinical_Data_Documentation)
+*Clinical data:* Please see [Green Team Clinical Data Documentation](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Clinical_Data_Documentation)
 
-date_of_birth (e.g., 2017-10-04)
+*date_of_birth* (e.g., 2017-10-04)
 
 For HuSH+ data, patient date of birth is shifted by +/- 50 days
 
-sex
+*sex*
 
 Male (e.g., "M")
+
 Female (e.g., "F)
+
 Unknown*
 
 *Excluded from R-part model
 
-race
+*race*
 
 1 WHITE OR CAUCASIAN
 
@@ -107,11 +109,11 @@ race
 
 9 OTHER RACE
 
-time
+*time*
 
 time period of interest (e.g., "2017-10-04 21:12:29")
 
-latitude, longitude (patient geocode for primary home residence)
+*lat, lon* (latitude, longitude or patient geocode for primary home residence)
 
 lat (e.g., "20"),
 
@@ -119,7 +121,7 @@ lon (e.g., "20",
 
 For HuSH+ data, patient geocode is random latitude, longitude
 
-visit_type
+*visit_type*
 
 INPATIENT
 
@@ -127,11 +129,11 @@ OUTPATIENT
 
 EMERGENCY
 
-icd_codes
+*icd_codes*
 
 ICD code(s) at date of visit (e.g., "ICD9:V12", "ICD10:J45")
 
-exposures
+*exposures*
 	
 	exposures_type (e.g., "pm25")
 	
@@ -143,7 +145,7 @@ PM2.5 or ozone exposures in relation to 7-day period before date of visit
 
 Please see [GreenTeam_Socioenvironmental_Data_Documentation)](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Socioenvironmental_Data_Documentation)
 
-model_type
+*model_type*
 
 M0 = General R-part model: Recursive partitioning and decision tree
 
@@ -155,7 +157,7 @@ Output identifies an opaque id for a class within the endotype classification sc
 
 The final output is a list of ‘endotypes’, their descriptions, evidence in support of the endotype assertions, and associated time intervals (e.g., all "string")
 
-Endotype classifications:
+*Endotype classifications:*
 
 Outcome variable: post_ed
 
@@ -175,5 +177,5 @@ Recursive partitioning and decision trees
 
 post_ed ~ age_at_visit + sex + race + visit_type + pre_ed + icd_codes + despm_yda + deso_7da
 
-Clinical data: Please see [Green Team Clinical Data Documentation](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Clinical_Data_Documentation)
+*Clinical data:* Please see [Green Team Clinical Data Documentation](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Clinical_Data_Documentation)
 

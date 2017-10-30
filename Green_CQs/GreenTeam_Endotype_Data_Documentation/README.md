@@ -33,10 +33,10 @@
       {
   	
 	exposure_type
-  	
+	
 	value
-      
-      	units
+	
+	units
 
       }
       ...

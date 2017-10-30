@@ -73,7 +73,7 @@ endtotype_description: "..."
 
 **Inputs: Descriptions**
 
-*Clinical data:* Please see [Green Team Clinical Data Documentation](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Clinical_Data_Documentation)
+*Clinical data:* Please see [GreenTeam_Clinical_Data_Documentation](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Clinical_Data_Documentation)
 
 *date_of_birth* (e.g., 2017-10-04)
 
@@ -143,7 +143,7 @@ ICD code(s) at date of visit (e.g., "ICD9:V12", "ICD10:J45")
 
 PM2.5 or ozone exposures in relation to 7-day period before date of visit
 
-Please see [GreenTeam_Socioenvironmental_Data_Documentation)](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Socioenvironmental_Data_Documentation)
+Please see [GreenTeam_Socioenvironmental_Data_Documentation](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Socioenvironmental_Data_Documentation)
 
 *model_type*
 

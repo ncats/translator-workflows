@@ -1,12 +1,10 @@
-## KARA WILL FORMAT AND UPDATE THIS README FILE DURING THE HACKATHON
-
 ## ‘Endotype’ API*
 
-[Endotype API](http://tweetsie.med.unc.edu/CLINICAL_EXPOSURE/age/${age}/sex/${sex}/race/${race}/location/${location)
+[Endotype API](http://translator.ncats.io)
 
 **Note that we are using the term ‘endotype’ very loosely. Specifically, we are viewing ‘endotype’ as a combination of ‘phenotype’ (external, observed features), ‘endotype’ (internal, not observed features), and likely clinical outcomes (as determined by initial model M0 = recursive partitioning and decision trees). In this sense, a more appropriate term, perhaps, is ‘feature set’ or 'feature vector'.**
 
-Input	{
+**Input**	{
  
  date_of_birth
  
@@ -14,7 +12,7 @@ Input	{
  
  race
 
- model_type: “M0”
+ model_type:
  
  visits: [
    
@@ -28,15 +26,17 @@ Input	{
    
    visit_type:
 
-[ "INPATIENT" |          "OUTPATIENT" |
-"EMERGENCY" ]
-
     icd_codes
-      exposures: [
+
+	exposures: [
+      
       {
-  		exposure_type
-  	  value
-      units
+  	
+	exposure_type
+	
+	value
+	
+	units
 
       }
       ...
@@ -45,9 +45,7 @@ Input	{
  ]
 }
 
-
-
-Output	[
+**Output**	[
 
 {
 
@@ -73,78 +71,93 @@ endtotype_description: "..."
 ...
 ]
 
-**Inputs**
+**Inputs: Descriptions**
 
-Clinical data: Please see [Green Team Clinical Data Documentation](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Clinical_Data_Documentation)
+*Clinical data:* Please see [GreenTeam_Clinical_Data_Documentation](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Clinical_Data_Documentation)
 
-date_of_birth
+*date_of_birth* (e.g., 2017-10-04)
 
 For HuSH+ data, patient date of birth is shifted by +/- 50 days
 
-sex
+*sex*
 
-1 Male
-2 Female
-3 Unknown*
+Male (e.g., "M")
+
+Female (e.g., "F)
+
+Unknown*
 
 *Excluded from R-part model
 
-race
+*race*
 
 1 WHITE OR CAUCASIAN
+
 2 BLACK OR AFRICAN AMERICAN
+
 3 AMERICAN INDIAN OR ALASKA NATIVE
+
 4 ASIAN
+
 5 NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER
+
 6 OTHER/HISPANIC
+
 7 PATIENT REFUSED
+
 8 UNKNOWN
+
 9 OTHER RACE
 
-time
+*time*
 
-time period of interest
+time period of interest (e.g., "2017-10-04 21:12:29")
 
-lat, lon
+*lat, lon* (latitude, longitude or patient geocode for primary home residence)
 
-latitude, longitude (patient geocode)
+lat (e.g., "20"),
+
+lon (e.g., "20",
 
 For HuSH+ data, patient geocode is random latitude, longitude
-visit_type
 
-Inpatient
+*visit_type*
 
-Outpatient
+INPATIENT
 
-ED
+OUTPATIENT
 
-icd_codes
+EMERGENCY
 
-ICD code(s) at date of visit
+*icd_codes*
 
-exposures
+ICD code(s) at date of visit (e.g., "ICD9:V12", "ICD10:J45")
+
+*exposures*
 	
-	exposures_type
+	exposures_type (e.g., "pm25")
 	
-	value
+	units (e.g., "")
 	
-	units
+	value (e.g., "2")
 
 PM2.5 or ozone exposures in relation to 7-day period before date of visit
 
-model_type
+Please see [GreenTeam_Socioenvironmental_Data_Documentation](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Socioenvironmental_Data_Documentation)
+
+*model_type*
 
 M0 = General R-part model: Recursive partitioning and decision tree
 
 post_ed ~ inout_cd + pre_ed + sex_cd + race_cd + age + icd + despm_yda + deso_7da
 
-**Output**
+**Output: Descriptions**
 
 Output identifies an opaque id for a class within the endotype classification scheme
 
-The final output is a list of ‘endotypes’, their descriptions, evidence in support of the endotype assertions, and associated time intervals
+The final output is a list of ‘endotypes’, their descriptions, evidence in support of the endotype assertions, and associated time intervals (e.g., all "string")
 
-Endotype classifications:
+*Endotype classifications:*
 
 Outcome variable: post_ed
 
@@ -160,7 +173,9 @@ Endotype 3: The patient(s) is predicted to have >2 ED/inpatient visits for respi
 
 **General R-part model M0:**
 
+Recursive partitioning and decision trees
+
 post_ed ~ age_at_visit + sex + race + visit_type + pre_ed + icd_codes + despm_yda + deso_7da
 
-Clinical data: Please see [Green Team Clinical Data Documentation](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Clinical_Data_Documentation)
+*Clinical data:* Please see [Green Team Clinical Data Documentation](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Green_CQs/GreenTeam_Clinical_Data_Documentation)
 

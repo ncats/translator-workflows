@@ -1,0 +1,1 @@
+# A README file and related documentation on Green Team's socioenvironmental data sources can be found on [Green Team's Exposures API GitHub site](https://github.com/RENCI/nih-exposures-api/tree/master/exposure-docs).

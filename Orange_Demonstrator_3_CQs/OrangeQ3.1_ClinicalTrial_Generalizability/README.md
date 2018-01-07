@@ -4,7 +4,7 @@
 How well do clinical trial populations generalize to EHR patient populations?
   
 ### Goal:
-Discoveries made in one population may have limited success when applied to populations other than those that finding were made in. The goal of this competency question is to quantify the generalizability of findings from clinical trials to EHR patient populations. This CQ is part of the larger Representativeness and Generalizability Demonstrator described [here](https://github.com/NCATS-Tangerine/cq-notebooks/wiki/Representativeness-and-Generalizability-Demonstrator).
+Discoveries made in one population may have limited success when applied to populations other than those that finding were made in. The goal of this competency question is to quantify the generalizability of findings from clinical trials to EHR patient populations. This CQ is part of the larger Representativeness and Generalizability Demonstrator described [here](https://github.com/NCATS-Tangerine/cq-notebooks/wiki/Demonstrator-3:-EHR-Population-Generalizability).
   
 ### Data Types, Sources, and Routes:
 1. **Clinical Trials** - from ClinicalTrials.gov, [ClinicalTrials.gov API](https://aact-prod.herokuapp.com/connect)

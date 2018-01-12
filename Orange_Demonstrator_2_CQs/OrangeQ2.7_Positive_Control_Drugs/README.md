@@ -4,7 +4,7 @@
 What HSCT conditioning agents are seen significantly less often in EHR FA populations?
   
 ### Goal:
-FA patients tolerate certain Hematopoietic Stem Cell Transplant (HCST) pre-conditioning drugs poorly. This set of queries aims to find drugs used to treat HCST, but that are used less often in FA patients. The output of this query might be used as input (i.e., potentially poor-tolerated drugs) for [CQ#2.4](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/OrangeQ2.4_Drug_Gene_Pathway).
+FA patients tolerate certain Hematopoietic Stem Cell Transplant (HCST) pre-conditioning drugs poorly. This set of queries aims to find drugs used to treat HCST, but that are used less often in FA patients. The output of this query might be used as input (i.e., potentially poor-tolerated drugs) for [CQ#2.4](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Orange_Demonstrator_2_CQs/OrangeQ2.4_Drug_Gene_Pathway).
   
 ### Data Types, Sources, and Routes:
 1. **Drugs indicated to treat HCST** - from DrugBank [DrugBank API]?
@@ -22,7 +22,7 @@ FA patients tolerate certain Hematopoietic Stem Cell Transplant (HCST) pre-condi
 
 **Output:** Set of drugs and their EHR population-specific p-values for the Fisher's exact test.
   
-From here drugs used to treat HSCT that are seen significantly less often in FA patients can be used as input for other analyses e.g., [CQ#2.4](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/OrangeQ2.4_Drug_Gene_Pathway).
+From here drugs used to treat HSCT that are seen significantly less often in FA patients can be used as input for other analyses e.g., [CQ#2.4](https://github.com/NCATS-Tangerine/cq-notebooks/tree/master/Orange_Demonstrator_2_CQs/OrangeQ2.4_Drug_Gene_Pathway).
 
 --------
 

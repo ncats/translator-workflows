@@ -16,9 +16,9 @@ FA patients tolerate certain Hematopoietic Stem Cell Transplant (HCST) pre-condi
 **Input:** procedure names in Set 1a and condition name in Set2a, *NOTE: steps can be completed for HCST procedures and Fanconi Anemia*
 
   1. retrieve **drugs** used to treat HSCT --> Set1b (cpt code | cui)
-  2. retrieve **patients** from EHR that have procedure in Set1a and drug prescription in Set1b -> Set2b (EHR id | patient id | cpt code | cui | rxnorm code ) 
-  3. retrieve **condition** in 2a from EHR in Set2b -> Set2c (EHR id | patient id | cpt code | cui | rxnorm code | condition yes/no) 
-  4. execute **Fisher's exact test** for each drug to compare two independent population proportions (i.e., FA vs non-FA patients) --> Set3 (EHR id | cpt code | cui | rxnorm code | p-value)
+  2. retrieve frequency of **patients** from EHR that have co-occurrence of procedure in Set1a and drug prescription in Set1b -> Set2b 
+  3. retrieve frequency of **condition** in 2a from EHR that have co-occurence of each drug in Set2b -> Set2c
+  4. execute **Fisher's exact test** for each drug to compare two independent population proportions (i.e., FA vs non-FA patients) --> Set3
 
 **Output:** Set of drugs and their EHR population-specific p-values for the Fisher's exact test.
   

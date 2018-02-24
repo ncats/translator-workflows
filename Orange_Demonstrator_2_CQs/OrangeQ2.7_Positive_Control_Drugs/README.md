@@ -17,11 +17,10 @@ FA patients tolerate certain Hematopoietic Stem Cell Transplant (HCST) pre-condi
 ### Sub-Queries/Tasks:
    
 **Input:** procedure names in Set 1a and condition names in Set2a, *NOTE: steps can be completed for HCST procedures and Fanconi Anemia*
-
-  1. retrieve **drugs** used with **procedures** in Set1a --> Set1b
-  2. retrieve frequency of **patients** from EHR that have co-occurrence of **procedures** in Set1a and **drugs** in Set1b -> Set2b
-  3. retrieve frequency of **patients** from EHR that have co-occurrence of **conditions** in Set2a and **drugs** in Set1b -> Set2c
-  4. execute Fisher's exact test for **drugs** in Set1b to compare two independent patient subpopulation proportions (e.g., FA vs non-FA patients) --> Set3
+1. retrieve **drugs** used with **procedures** in Set1a --> Set1b
+2. retrieve frequency of **patients** from EHR that have co-occurrence of **procedures** in Set1a and **drugs** in Set1b -> Set2b
+3. retrieve frequency of **patients** from EHR that have co-occurrence of **conditions** in Set2a and **drugs** in Set1b -> Set2c
+4. execute Fisher's exact test for **drugs** in Set1b to compare two independent patient subpopulation proportions (e.g., FA vs non-FA patients) --> Set3
 
 **Output:** Set of drugs and their EHR subpopulation-specific p-values for the Fisher's exact test.
   

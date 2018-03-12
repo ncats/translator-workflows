@@ -10,15 +10,14 @@ What compensatory mutations in FA core  genes confer resistance to chemotherapeu
 A benchmarking query to assess information in the Translator system about variants and their effects.
 
 ### Notes:
-If CIViC's 'Predictive' variant associations address this question, it is supported now by WD and will soon be by Monarch.
 Civic classified these types of associations as "Resistance or Non-Response", so the results will include both.
 See for example [here](https://civic.genome.wustl.edu/events/genes/7/summary/variants/186/summary/evidence/1776/summary#evidence).
 
 
 ### Proposed Data Types, Sources, and Access Endpoints:
-  1. Wikidata, sparql endpoint
-
-### Proposed Sub-Queries/Tasks:
-  1.
- 
-### Stretch Queries
+  1. Civic
+  2. clinvar
+  3. pharmgkb
+  
+## For more details see:
+https://docs.google.com/presentation/d/1f73frSQoPQiIzee7iZZQMS9ej95gOidV3LUIB3oxFpk/edit?usp=sharing

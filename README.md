@@ -51,6 +51,7 @@ TODO: we should aim to drive this list from Smart API registry
  * BioThings API for taxonomy: http://t.biothings.io (Orange)
  * Wikidata SPARQL (Orange)
  * DGIdb API for drug-gene interactions: http://dgidb.genome.wustl.edu/api
+ * Jaspar SPARQL endpoint: https://tfbsmotif.ncats.io/blazegraph/#query 
 
 ### Next
 

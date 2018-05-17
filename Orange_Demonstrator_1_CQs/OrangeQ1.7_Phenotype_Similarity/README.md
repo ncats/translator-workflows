@@ -1,10 +1,10 @@
 ## Orange Team CQ#1.7
 
 ### Query: 
-What genes show high phenotypic similarity to the 11 Fanconi Anemia core complex genes (set FA-core)?
+What genes show high phenotypic similarity to the 27 Fanconi Anemia genes?
 
 ### Goal:
-This query aims to expand the FA-core gene set based on phenotype similarity, in service of Task 1 in the St. Jude Life Demonstrator described [here](https://github.com/NCATS-Tangerine/cq-notebooks/wiki/St.-Judes-FA-Demonstrator).
+This query aims to expand the FA gene set based on phenotype similarity, in service of Task 1 in the St. Jude Life Demonstrator described [here](https://github.com/NCATS-Tangerine/cq-notebooks/wiki/St.-Judes-FA-Demonstrator).
   
 ### Data Types, Sources, and Routes:
 1. **Gene-ortholog associations** - from Panther, via SciGraph (BioLink [/bioentity/gene/{id}/homologs/](https://api.monarchinitiative.org/api/#!/bioentity/get_gene_homolog_associations))
@@ -12,8 +12,8 @@ This query aims to expand the FA-core gene set based on phenotype similarity, in
   
 ### Sub-Queries/Tasks:
    
-**Input:** NCBIGene identifiers for 11 human FA-core genes
-  1. Retrieve orthologes of FA-core genes and add to human FA-core set  
+**Input:** NCBIGene identifiers for 27 human FA genes
+  1. Retrieve orthologes of FA-core genes and add to human FA set  
   2. Retrieve phenotype terms associated genes in this set  
   3. Execute PhenoSim analysis to return ranked list of phenotypically similar genes  
   4. Select subset of genes meeting some defined threshhold  

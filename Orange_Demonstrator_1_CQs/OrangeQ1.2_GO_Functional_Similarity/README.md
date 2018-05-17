@@ -14,10 +14,10 @@ This query aims to expand the FA-core gene set based on GO functional similarity
 ### Sub-Queries/Tasks:
    
 **Input:** NCBIGene identifiers for 11 FA-core genes
-  1. Retrieve orthologes of FA-core genes and add to human FA-core set  
+  1. Retrieve orthologs of FA-core genes and add to human FA-core set  
   2. Retrieve proteins encoded by genes in this cross-species set   
   3. Retrieve GO terms annotated to these proteins  
-  4. Execute analysis to return ranked list of funcionally similar proteins 
+  4. Execute analysis to return ranked list of functionally similar proteins 
   5. Select subset of proteins meeting some defined threshhold  
   6. Retrieve genes that encode these proteins  
   7. Retrieve human orthologs of all non-human genes in this set  

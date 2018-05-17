@@ -20,6 +20,9 @@ Note: not included drugs used primarily for HVGD (Methotrexate, Cyclosporin A,Ta
   
 ### Sub-Queries/Tasks:
    
+`Drugs -> Proteins/Genes -> Pathways -> Proteins/Genes`
+   
+   
 **Input:** Two HSCT conditioning drug sets: **(1)** well-tolerated by FA patients (Set1d); **(2)** poorly-tolerated by FA patients (Set2d)
 
   1. Retrieve **proteins** targeted by set of well-tolerated HSCT conditioning drugs --> Set1p 

@@ -9,13 +9,25 @@ class BioLinkWrapper(object):
             'fetch_objects': 'true',
         }
 
-    def get_gene(self, gene_curie):
+    def disease2genes(self, disease_curie):
+        params = {}
+        url = '{0}bioentity/disease/{1}/genes'.format(self.endpoint, disease_curie)
+        response = requests.get(url, params)
+        return response.json()
+
+    def disease2phenotypes(self, disease_curie):
+        params = {}
+        url = '{0}bioentity/disease/{1}/phenotypes'.format(self.endpoint, disease_curie)
+        response = requests.get(url, params)
+        return response.json()
+
+    def gene(self, gene_curie):
         params = {}
         url = '{0}bioentity/gene/{1}'.format(self.endpoint, gene_curie)
         response = requests.get(url, params)
         return response.json()
 
-    def get_orthologs(self, gene_curie, orth_taxon_name=None):
+    def gene2orthologs(self, gene_curie, orth_taxon_name=None):
         taxon_map = {
             'mouse': 'NCBITaxon:10090',
             'rat': 'NCBITaxon:10116',
@@ -28,46 +40,40 @@ class BioLinkWrapper(object):
         response = requests.get(url, params)
         return "".join(response.json()['objects'])
 
-    def get_phenotypes(self, gene_curie):
+    def gene2phenotypes(self, gene_curie):
         url = '{}bioentity/gene/{}/phenotypes/'.format(self.endpoint, gene_curie)
         response = requests.get(url)
         return response.json()
 
-    def get_diseases(self, gene_curie):
+    def gene2diseases(self, gene_curie):
         url = '{}bioentity/gene/{}/diseases/'.format(self.endpoint, gene_curie)
         response = requests.get(url)
         return response.json()
 
-    def get_interactions(self, gene_curie):
+    def gene_interactions(self, gene_curie):
         url = '{}bioentity/gene/{}/interactions/'.format(self.endpoint, gene_curie)
         response = requests.get(url)
         return response.json()
 
-    def get_functions(self, gene_curie):
+    def gene2functions(self, gene_curie):
         url = '{}bioentity/gene/{}/function/'.format(self.endpoint, gene_curie)
         response = requests.get(url)
         return response.json()
 
-    def get_disease_models(self, disease_curie):
+    def disease_models(self, disease_curie):
         url = '{}/bioentity/disease/{}/models/'.format(self.endpoint, disease_curie)
         response = requests.get(url)
         return response.json()
 
-    def get_all_phenotypes_for_taxon(self, taxon_curie):
+    def taxon2phenotypes(self, taxon_curie):
         # get phenotypes associated with taxid
         url = "mart/gene/phenotype/{}".format(self.endpoint, taxon_curie)
         response = requests.get(url)
         return response.json()
 
-    def get_gene_function(self, gene_curie):
-        # get function associated with gene
-        url = "{}bioentity/gene/{}/function/".format(self.endpoint, gene_curie)
-        response = requests.get(url, params=self.params)
-        return response.json()
-
     def parse_gene_functions(self, curie):
         function_list = list()
-        functions = self.get_gene_function(gene_curie=curie)
+        functions = self.gene2functions(gene_curie=curie)
         if 'associations' in functions.keys():
             for assoc in functions['associations']:
                 function_list.append(assoc['object']['label'])
@@ -77,5 +83,9 @@ class BioLinkWrapper(object):
     def get_orthoglog_gene_set(self, gene_set, orth_taxon_name):
         orth_set = []
         for gene in gene_set:
-            orth_set.append(self.get_orthologs(gene_curie=gene, orth_taxon_name=orth_taxon_name))
+            orth_set.append(self.gene2orthologs(gene_curie=gene, orth_taxon_name=orth_taxon_name))
         return orth_set
+
+    @staticmethod
+    def return_objects(assoc_package):
+        return assoc_package['objects']

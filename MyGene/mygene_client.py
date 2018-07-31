@@ -3,12 +3,7 @@ from pprint import pprint
 
 
 class QueryMyGene(object):
-    mg_config = {
-        'base_url': 'https://mygene.info/v3/query',
-        'base_params': {
-            'fields': 'all',
-        }
-    }
+    base_url = 'https://mygene.info/v3/query'
 
     def __init__(self, curie, taxon=None):
         self.curie = curie
@@ -29,9 +24,10 @@ class QueryMyGene(object):
             curie = '{0}{1}'.format(taxon_map[self.taxon], self.trimmed_curie())
         q_params = {
             'q': curie,
+            'fields': 'all',
         }
-        QueryMyGene.mg_config['base_params'].update(q_params)
-        hit = requests.get(url=QueryMyGene.mg_config['base_url'], params=QueryMyGene.mg_config['base_params'])
+
+        hit = requests.get(url=QueryMyGene.base_url, params=q_params)
         hit = hit.json()
 
         if 'hits' in hit.keys() and len(hit['hits']) == 1:
@@ -48,5 +44,19 @@ class QueryMyGene(object):
                 return [uniprot['Swiss-Prot']]
             else:
                 return None
+
+    def ec2entrez(self):
+        hits = []
+        q_params = {
+            'q': 'ec:{}'.format(self.curie),
+            'fields': 'all',
+        }
+        results = requests.get(url=QueryMyGene.base_url, params=q_params)
+        data = results
+        for dat in data.json()['hits']:
+            hits.append(dat['entrezgene'])
+        return hits
+
+
 
 

@@ -1,7 +1,7 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 from MyGene.mygene_client import QueryMyGene
 from pprint import pprint
-
+from UniProt.uniprot_sparql_wrapper import UniProtSparql
 
 class RheaMethods(object):
     def __init__(self):
@@ -72,11 +72,11 @@ class RheaMethods(object):
         reactions = self.get_all_reactions_that_produce_compound(chebi=chebi)
         for reaction in reactions['results']['bindings']:
             ec = reaction['ecNumber']['value'].split('/')[-1]
-            mg = QueryMyGene(curie=ec)
+            ups = UniProtSparql()
             output = {
                 'input': chebi,
                 'type': 'products',
-                'genes': mg.ec2entrez(),
+                'proteins': ups.ec2uniprot(ec=ec),
                 'ec': ec,
                 'rheaid': reaction['reaction']['value'],
                 'reaction': reaction['reactionEquation']['value'],
@@ -89,11 +89,11 @@ class RheaMethods(object):
         reactions = self.get_all_reactions_that_consume_compound(chebi=chebi)
         for reaction in reactions['results']['bindings']:
             ec = reaction['ecNumber']['value'].split('/')[-1]
-            mg = QueryMyGene(curie=ec)
+            ups = UniProtSparql()
             output = {
                 'input': chebi,
                 'type': 'substrates',
-                'genes': mg.ec2entrez(),
+                'proteins': ups.ec2uniprot(ec=ec),
                 'ec': ec,
                 'rheaid': reaction['reaction']['value'],
                 'reaction': reaction['reactionEquation']['value'],

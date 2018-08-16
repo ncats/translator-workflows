@@ -11,7 +11,13 @@ class QueryMyGene(object):
         self.package = ''
 
     def trimmed_curie(self):
-        return self.curie.split(':')[1]
+        curie = ''
+        if 'HGNC' in self.curie:
+            curie = self.curie.replace('HGNC', 'hgnc')
+        else:
+            curie = self.curie.split(':')[1]
+
+        return curie
 
     def query_mygene(self):
         taxon_map = {
@@ -36,14 +42,17 @@ class QueryMyGene(object):
             print('No MyGene Record for {}'.format(self.curie))
 
     def parse_uniprot(self):
-        uniprot = self.package['uniprot']
-        if 'Swiss-Prot' in uniprot.keys():
-            if isinstance(uniprot['Swiss-Prot'], list):
-                return uniprot['Swiss-Prot']
-            elif isinstance(uniprot['Swiss-Prot'], str):
-                return [uniprot['Swiss-Prot']]
-            else:
-                return None
+        if 'uniprot' in self.package.keys():
+            uniprot = self.package['uniprot']
+            if 'Swiss-Prot' in uniprot.keys():
+                if isinstance(uniprot['Swiss-Prot'], list):
+                    return uniprot['Swiss-Prot']
+                elif isinstance(uniprot['Swiss-Prot'], str):
+                    return [uniprot['Swiss-Prot']]
+                else:
+                    return None
+        else:
+            return None
 
     def ec2entrez(self):
         hits = []
@@ -54,9 +63,10 @@ class QueryMyGene(object):
         results = requests.get(url=QueryMyGene.base_url, params=q_params)
         data = results
         for dat in data.json()['hits']:
-            hits.append(dat['entrezgene'])
+            hits.append(QueryMyGene.add_prefix(prefix='NCBIGene', identifier=dat['entrezgene']))
         return hits
 
-
-
+    @staticmethod
+    def add_prefix(prefix, identifier):
+        return '{0}:{1}'.format(prefix, identifier)
 

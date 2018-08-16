@@ -1,11 +1,8 @@
-import pandas as pd
-
-from BioLink.biolink_client import BioLinkWrapper
 from MyGene.mygene_client import QueryMyGene
 from ontobio.ontol_factory import OntologyFactory
 from ontobio.io.gafparser import GafParser
 from ontobio.assoc_factory import AssociationSetFactory
-from pprint import pprint
+
 
 
 class FunctionalSim(object):

@@ -87,7 +87,7 @@ class SimScoreMatch:
         s = []
         for m in self.match['matches']:
             s.append("{} -> {} <- {}".format(m['a']['label'], m['lcs']['label'], m['b']['label']))
-        return ";".join(s)
+        return "\n".join(s)
 
 
 class test_SimSearchWrapper:

@@ -36,6 +36,8 @@ class BioLinkWrapper(object):
             'mouse': 'NCBITaxon:10090',
             'rat': 'NCBITaxon:10116',
             'zebrafish': 'NCBITaxon:7955',
+            'fly': 'NCBITaxon:7227',
+            'worm': 'NCBITaxon:6239'
         }
         params = {}
         if orth_taxon_name:

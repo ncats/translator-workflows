@@ -1,5 +1,4 @@
 import requests
-from pprint import pprint
 
 
 class BioLinkWrapper(object):
@@ -8,6 +7,11 @@ class BioLinkWrapper(object):
         self.params = {
             'fetch_objects': 'true',
         }
+
+    def get_obj(self, obj_id):
+        url = '{0}bioentity/{1}'.format(self.endpoint, obj_id)
+        response = requests.get(url)
+        return response.json()
 
     def disease2genes(self, disease_curie):
         params = {}
@@ -38,7 +42,7 @@ class BioLinkWrapper(object):
             params['homolog_taxon'] = taxon_map[orth_taxon_name]
         url = '{}bioentity/gene/{}/homologs/'.format(self.endpoint, gene_curie)
         response = requests.get(url, params)
-        return "".join(response.json()['objects'])
+        return response.json()
 
     def gene2phenotypes(self, gene_curie):
         url = '{}bioentity/gene/{}/phenotypes/'.format(self.endpoint, gene_curie)

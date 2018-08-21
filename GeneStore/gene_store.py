@@ -4,6 +4,7 @@ import pandas as pd
 class FanconiGeneImporter(object):
     sets = {
         'fa_core': 'FA_1_core_complex.txt',
+        'fa_all': 'FA_4_all_genes.txt'
     }
     gh_config = {
         "base_url": "https://raw.githubusercontent.com/NCATS-Tangerine/cq-notebooks/master/FA_gene_sets/",

@@ -47,12 +47,28 @@ class QueryMyGene(object):
         """
         Trim a given curie to get its identifier
         """
-        if 'HGNC' in curie:
-            # MyGeneInfo supports HGNC curies
-            curie = curie.replace('HGNC', 'hgnc')
-        else:
-            # If any other curie, then trim the curie to its identifier
-            curie = curie.split(':')[1]
+
+        # curie_map derived from http://docs.mygene.info/en/latest/doc/query_service.html?highlight=mgi#scrolling-queries
+        curie_map = {
+            'NCBIGene': 'entrezgene',
+            'UniProtKB': 'uniprot',
+            'GO': 'go',
+            'HGNC': 'hgnc',
+            'MGI': 'mgi:MGI\\\\',
+            'RGD': 'rgd',
+            'FlyBase': 'flybase',
+            'WormBase': 'wormbase',
+            'ZFIN': 'zfin',
+            'Xenbase': 'xenbase',
+            'TAIR': 'tair'
+        }
+
+        if ':' in curie:
+            curie_split = curie.split(':')
+            prefix = curie_split[0]
+            if prefix in curie_map.keys():
+                curie = "{}:{}".format(curie_map[prefix], ':'.join(curie_split[1:]))
+
         return curie
 
     @staticmethod

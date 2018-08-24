@@ -28,7 +28,10 @@ class SimSearchWrapper:
 class SimSearchResult:
     def __init__(self, d):
         self.d = d
-        self.matches = [SimScoreMatch(x) for x in self.d['b']]
+        self.matches = []
+        if 'b' in self.d:
+            for x in self.d['b']:
+                self.matches.append(SimScoreMatch(x))
 
     def get_results(self):
         results = [(x.get_id(), x.get_score(), x.get_label(), x.explain_match()) for x in self.matches]

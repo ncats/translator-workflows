@@ -1,72 +1,79 @@
 import requests
 from pprint import pprint
-
+import mygene
+import json
 
 class QueryMyGene(object):
-    base_url = 'https://mygene.info/v3/query'
 
-    def __init__(self, curie, taxon=None):
-        self.curie = curie
-        self.taxon = taxon
-        self.package = ''
+    def __init__(self, url='https://mygene.info/v3'):
+        self.url = url
+        self.my_gene = mygene.MyGeneInfo(url)
 
-    def trimmed_curie(self):
-        curie = ''
-        if 'HGNC' in self.curie:
-            curie = self.curie.replace('HGNC', 'hgnc')
-        else:
-            curie = self.curie.split(':')[1]
-
-        return curie
-
-    def query_mygene(self):
+    def query_mygene(self, curie, fields='all', taxon=None):
+        """
+        Get an entrez gene for a given curie
+        """
+        hit = None
         taxon_map = {
             'mouse': r'mgi:MGI\\:',
             'rat': 'rgd:',
             'zfin': 'zfin:',
         }
-        curie = self.trimmed_curie()
-        if self.taxon:
-            curie = '{0}{1}'.format(taxon_map[self.taxon], self.trimmed_curie())
-        q_params = {
-            'q': curie,
-            'fields': 'all',
-        }
+        curie = QueryMyGene.trim_curie(curie)
+        if taxon:
+            curie = '{0}{1}'.format(taxon_map[taxon], curie)
 
-        hit = requests.get(url=QueryMyGene.base_url, params=q_params)
-        hit = hit.json()
-
-        if 'hits' in hit.keys() and len(hit['hits']) == 1:
-            self.package = hit['hits'][0]
+        results = self.my_gene.query(q=curie, fields=fields)
+        if results is None or 'hits' not in results:
+            print('No MyGene Record for {}'.format(curie))
         else:
-            print('No MyGene Record for {}'.format(self.curie))
+            hit = results['hits'][0]
 
-    def parse_uniprot(self):
-        if 'uniprot' in self.package.keys():
-            uniprot = self.package['uniprot']
-            if 'Swiss-Prot' in uniprot.keys():
-                if isinstance(uniprot['Swiss-Prot'], list):
-                    return uniprot['Swiss-Prot']
-                elif isinstance(uniprot['Swiss-Prot'], str):
-                    return [uniprot['Swiss-Prot']]
-                else:
-                    return None
-        else:
-            return None
+        return hit
 
-    def ec2entrez(self):
+    def ec2entrez(self, curie, fields='all'):
+        """
+        Get all entrez genes for a given ec identifier
+        """
         hits = []
-        q_params = {
-            'q': 'ec:{}'.format(self.curie),
-            'fields': 'all',
-        }
-        results = requests.get(url=QueryMyGene.base_url, params=q_params)
-        data = results
-        for dat in data.json()['hits']:
-            hits.append(QueryMyGene.add_prefix(prefix='NCBIGene', identifier=dat['entrezgene']))
+        curie = "ec:{}".format(curie)
+        results = self.my_gene.query(q=curie, fields=fields)
+        for result in results:
+            hits.append(QueryMyGene.add_prefix(prefix='NCBIGene', identifier=result['entrezgene']))
         return hits
 
     @staticmethod
+    def trim_curie(curie):
+        """
+        Trim a given curie to get its identifier
+        """
+        if 'HGNC' in curie:
+            # MyGeneInfo supports HGNC curies
+            curie = curie.replace('HGNC', 'hgnc')
+        else:
+            # If any other curie, then trim the curie to its identifier
+            curie = curie.split(':')[1]
+        return curie
+
+    @staticmethod
+    def parse_uniprot(results):
+        """
+        Extract only UniProt results
+        """
+        uniprot_results = None
+        if 'uniprot' in results.keys():
+            uniprot = results['uniprot']
+            if 'Swiss-Prot' in uniprot.keys():
+                if isinstance(uniprot['Swiss-Prot'], list):
+                    uniprot_results = uniprot['Swiss-Prot']
+                elif isinstance(uniprot['Swiss-Prot'], str):
+                    uniprot_results = [uniprot['Swiss-Prot']]
+        return uniprot_results
+
+    @staticmethod
     def add_prefix(prefix, identifier):
+        """
+        Add prefix to a given identifier
+        """
         return '{0}:{1}'.format(prefix, identifier)
 

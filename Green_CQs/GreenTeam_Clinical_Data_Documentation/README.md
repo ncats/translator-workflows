@@ -9,7 +9,7 @@ a. Any inferences based on date/time and location (geocode) CANNOT be made using
 
 b. All other inferences MUST consider date/time and location as potentially hidden covariates.
 
-3. ICEES (Integrated Clinical and Environmental Exposures Service) provides access to deidentified data on all patients with an ‘asthma-like’ phenotype; the data can be used to a limited extent for scientific inference, but critical caveats pertain to the data. There are no restrictions on data access.
+3. ICEES (Integrated Clinical and Environmental Exposures Service) provides access to deidentified data on all patients with an ‘asthma-like’ phenotype. The data can be used to a limited extent for scientific inference, but critical caveats pertain to the data. There are no restrictions on data access.
 
 a. All feature variables have been binned or recoded, and the underlying integrated feature tables have been designed to present either patient- or visit-level data over specific 'study' periods (currently defined as calendar years).
 

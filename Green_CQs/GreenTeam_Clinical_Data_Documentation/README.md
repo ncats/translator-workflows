@@ -17,8 +17,6 @@ b. All inferences must be made in respect to the binning strategy, 'study' desig
 
 **We kindly request that Translator team members provide proper attribution for any products (e.g., manuscripts, podium presentations, software) derived from work related to Green Team's clinical datasets. Attribution should include acknowledgement of the funder (NCATS Biomedical Data Translator Program, OT3TR002020) and all Green Team members who contributed to the work.**
 
-[Clinical Data API](https://translator.ncats.io/)
-
 ## Green Team Clinical Data Service: Fully Identified Patient Data, HuSH+ Patient Data, ICEES
 
 For the NCATS Biomedical Translator project, Green Team has created three sets of patient data: (1) **fully identified patient data**; (2) **HuSH+ (HIPAA Safe Harbor Plus) patient data**; and (3)**ICEES (Integrated Clinical and Environmental Exposures Service)**.
@@ -86,6 +84,8 @@ ICEES can be used for scientific inference and discovery, although important cav
 *4. All inferences must be made with respect to the the binning strategy, 'study' design, and type of integrated feature table.* 
 
 *Access to ICEES is open to all Translator team members and is not subject to regulatory constraints.*
+
+**[ICEES API](https://icees.renci.org/apidocs/)**
 
 ## Green Team's Asthma-like Cohort
 

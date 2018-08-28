@@ -5,15 +5,15 @@
 
 2. HuSH+ (HIPAA Safe Harbor Plus) patient data comprise deidentified data on ~16,000 patients with an ‘asthma-like’ phenotype. The data can be used to a limited extent for scientific inference, but critical caveats pertain to the data. A fully executed DUA is required for access.
 
-....a. Any inferences based on date/time and location (geocode) CANNOT be made using the HuSH+ patient data because dates/times have been shifted and geocodes were randomly assigned.
+....a. Any inferences based on date/time and location (geocode) CANNOT be made using the HuSH+ patient data because dates/times have been shifted and geocodes were randomly assigned...
 
-....b. All other inferences MUST consider date/time and location as potentially hidden covariates.
+....b. All other inferences MUST consider date/time and location as potentially hidden covariates...
 
 3. ICEES (Integrated Clinical and Environmental Exposures Service) provides access to deidentified data on all patients with an ‘asthma-like’ phenotype. The data can be used to a limited extent for scientific inference, but critical caveats pertain to the data. There are no restrictions on data access.
 
-....a. All feature variables have been binned or recoded, and the underlying integrated feature tables have been designed to present either patient- or visit-level data over specific 'study' periods (currently defined as calendar years).
+....a. All feature variables have been binned or recoded, and the underlying integrated feature tables have been designed to present either patient- or visit-level data over specific 'study' periods (currently defined as calendar years)...
 
-....b. All inferences must be made in respect to the binning strategy, 'study' design, and type of integrated feature table.
+....b. All inferences must be made in respect to the binning strategy, 'study' design, and type of integrated feature table...
 
 **We kindly request that Translator team members provide proper attribution for any products (e.g., manuscripts, podium presentations, software) derived from work related to Green Team's clinical datasets. Attribution should include acknowledgement of the funder (NCATS Biomedical Data Translator Program, OT3TR002020) and all Green Team members who contributed to the work.**
 
@@ -35,9 +35,9 @@ The **fully identified patient dataset** is comprised of real observational data
 
 *5.	CDWH data are structured using the i2b2 data model, and certain variables are lost or transformed when EPIC EMR data are pulled into i2b2, for example:*
 
-....*a. location variable (outpatient, inpatient, ED) treats ED visits as inpatient visits if a patient first admits to the ED and is later transferred to the inpatient ward;* and
+....*a. location variable (outpatient, inpatient, ED) treats ED visits as inpatient visits if a patient first admits to the ED and is later transferred to the inpatient ward;* and..
 
-....*b. parental_smoking_status variable has been dropped.*
+....*b. parental_smoking_status variable has been dropped.*..
 
 *Access to the fully identified patient dataset requries CITI Training and an IRB-approved protocol.*
 

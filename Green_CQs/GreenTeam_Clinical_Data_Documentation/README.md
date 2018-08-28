@@ -81,7 +81,7 @@ ICEES can be used for scientific inference and discovery, although important cav
 
 *3. The integrated feature tables are designed to provide access to either patient-level data or visit-level data.*
 
-*4. All inferences must be made with respect to the the binning strategy, 'study' design, and type of integrated feature table.* 
+*4. All inferences must be made with respect to the binning strategy, 'study' design, and type of integrated feature table.* 
 
 *Access to ICEES is open to all Translator team members and is not subject to regulatory constraints.*
 

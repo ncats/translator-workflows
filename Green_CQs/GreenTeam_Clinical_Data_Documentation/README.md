@@ -1,35 +1,39 @@
 ## IN ORDER TO ACCURATELY AND RESPONSIBLY USE GREEN TEAM’S CLINICAL DATA SERVICE, YOU MUST READ THE ENTIRE TEXT BELOW.
 
 ## SUMMARY OF KEY POINTS:
-1. Fully identified patient data comprise data on ~160,000 patients with an ‘asthma-like’ phenotype; the data can be used for scientific inference, but caveats pertain to multiple aspects of the data, including geocodes; IRB approval is required for access.
+1. Fully identified patient data comprise data on ~160,000 patients with an ‘asthma-like’ phenotype. The data can be used for scientific inference, but caveats pertain to multiple aspects of the data, including geocodes. IRB approval is required for access.
 
-2. HuSH+ (HIPAA Safe Harbor Plus) patient data hypothetical data on ~16,000 patients with an ‘asthma-like’ phenotype; the data can be used to a limited extent for scientific inference, but critical caveats pertain; a fully executed DUA is required for access.
+2. HuSH+ (HIPAA Safe Harbor Plus) patient data comprise deidentified data on ~16,000 patients with an ‘asthma-like’ phenotype. The data can be used to a limited extent for scientific inference, but critical caveats pertain to the data. A fully executed DUA is required for access.
 
-a. Any inferences based on date/time and location (geocode) CANNOT be made using the HuSH+ patient data; and
+a. Any inferences based on date/time and location (geocode) CANNOT be made using the HuSH+ patient data because dates/times have been shifted and geocodes were randomly assigned.
 
 b. All other inferences MUST consider date/time and location as potentially hidden covariates.
 
-3. We kindly request that Translator team members provide proper attribution for any products (e.g., manuscripts, podium presentations, software) deriving from work related to the HuSH+ patient dataset. Attribution should include acknowledgement of the funder (NCATS Biomedical Data Translator Program, OT3TR002020) and all Green Team members who contributed to the work.
+3. ICEES (Integrated Clinical and Environmental Exposures Service) provides access to deidentified data on all patients with an ‘asthma-like’ phenotype; the data can be used to a limited extent for scientific inference, but critical caveats pertain to the data. There are no restrictions on data access.
+
+a. All feature variables have been binned or recoded, and the underlying integrated feature tables have been designed to present either patient- or visit-level data over specific 'study' periods (currently defined as calendar years).
+
+b. All inferences must be made in respect to the binning strategy, 'study' design, and type of integrated feature table.
+
+**We kindly request that Translator team members provide proper attribution for any products (e.g., manuscripts, podium presentations, software) derived from work related to Green Team's clinical datasets. Attribution should include acknowledgement of the funder (NCATS Biomedical Data Translator Program, OT3TR002020) and all Green Team members who contributed to the work.**
 
 [Clinical Data API](https://translator.ncats.io/)
 
-## Green Team Clinical Data Service: Fully identified Patient Data vs HuSH+ Patient Data
+## Green Team Clinical Data Service: Fully Identified Patient Data, HuSH+ Patient Data, ICEES
 
-The Green Team’s Clinical Data Service API provides defined access to clinical data on ~16,000 HuSH+ patients with an ‘asthma-like’ phenotype. Users can select input parameters, and the service returns select output based on the input parameters. The input parameters are: sex; race; and location or type of visit (inpatient, outpatient, emergency). Based on the input parameters, the service returns the following output parameters: a list of patients by ID, birth date, sex, race, latitude/longitude location of primary residence; an array of diagnostic ICD code, dates of encounters and location of encounters, medications prescribed/administered at each encounter; and dates of diagnoses and diagnostic ICD codes.
+For the NCATS Biomedical Translator project, Green Team has created three sets of patient data: (1) **fully identified patient data**; (2) **HuSH+ (HIPAA Safe Harbor Plus) patient data**; and (3)**ICEES (Integrated Clinical and Environmental Exposures Service)**.
 
-Importantly, users must understand the definition of HuSH+ patient data and the limitations of the data in order to appropriately use the clinical service API and accurately interpret the output.
+## Fully Identified Patient Dataset
 
-For the NCATS Biomedical Translator project, the Green Team has created two sets of patient data: (1) **fully identified patient data**; and (2) **HuSH+ (HIPAA Safe Harbor Plus) patient data**.
+The **fully identified patient dataset** is comprised of real observational data on ~160,000 patients with an ‘asthma-like’ phenotype (defined below) from UNC Health Care System’s Carolina Data Warehouse for Health (CDWH). As such, the data can be used for clinical interpretation, scientific inference, and discovery. Important caveats are listed below.
 
-The **fully identified patient dataset** is comprised of real observational data on ~160,000 patients with an ‘asthma-like’ phenotype (defined below) from UNC Health Care System’s Carolina Data Warehouse for Health (CDWH). As such, the data can be used for clinical interpretation, scientific inference, and discovery. Important caveats include:
+*1.	Geocodes represent patient home location in Feb 2016; discussions are underway with the CDWH Oversight Commmittee regarding a more regular batch upload and treatment of historical data.*
 
-*1.	Geocodes represent patient home location in Feb 2016; discussion are underway with CDWH regarding a more regular batch upload and treatment of historical data;*
+*2.	age_in_years_num variable is entered by the provider at each visit and thus is not as reliable as calculating age from birth date and date of visit.*
 
-*2.	age_in_years_num variable is entered by provider at each visit and thus is not as reliable as calculating age from birth date and date of visit;*
+*3.	Medications include both administered and prescribed.*
 
-*3.	Medications include both administered and prescribed;*
-
-*4.	Medications are not standardized, so all possible formulations, generic/brand names, dosages, and doses are represented; and*
+*4.	Medications are not standardized, so all possible formulations, generic/brand names, dosages, and doses are represented.*
 
 *5.	CDWH data are structured using the i2b2 data model, and certain variables are lost or transformed when EPIC EMR data are pulled into i2b2, for example:*
 
@@ -37,21 +41,57 @@ The **fully identified patient dataset** is comprised of real observational data
 
 *b. parental_smoking_status variable has been dropped.*
 
-The **HuSH+ patient dataset** is comprised of clinical and administrative data on ~16,000 hypothetical patients. The HuSH+ dataset was created using the fully identified dataset, but it is completely compliant with §164.514(b) of [HIPAA, 'Safe Harbor' method for patient de-identification of medical records](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification). Specifically, the HuSH+ patient dataset has had:
+*Access to the fully identified patient dataset requries CITI Training and an IRB-approved protocol.*
 
-*1.	real patient identifiers (including geocodes) replaced with random patient identifiers;*
+## HuSH+ Patient Dataset
 
-*2.	dates (including birth dates) shifted by a random number of days (maximum of 50 days), with all dates for a given patient shifted by the same number of days; and*
+The **HuSH+ patient dataset** is comprised of real observational data on ~16,000 hypothetical patients with an asthma-like phenotype (defined below). The HuSH+ dataset was created using the fully identified patient dataset, but it is completely compliant with §164.514(b) of [HIPAA, 'Safe Harbor' method for patient de-identification of medical records](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification). Specifically, the HuSH+ patient dataset has achieved HIPAA compliance through the following operations.
 
-*3.	patients who are currently aged >89 years have been removed from the data set, per HIPAA guidelines on Protected Health Information.*
+*1.	Real patient identifiers (including geocodes) were replaced with random patient identifiers.*
 
-The resultant HuSH+ dataset is thus comprised of hypothetical patients with fictional drug exposures and health outcomes, but the data are representative of the types of relationships expected to be observed within real observational patient data sets. Because the HuSH+ data are only representative of hypothetical patients, drug exposures, and health outcomes, the data can not be used for clinical interpretation. The data can be used, to a limited extent, for scientific inference and discovery, although important caveats must be considered. The main considerations when working with HuSH+ data are:
+*2.	Dates (including birth dates) were shifted by a random number of days (maximum of 50 days), with all dates for a given patient shifted by the same number of days.*
 
-*1.	Any inferences based on date/time and location (geocode) CANNOT be made using the HuSH+ patient data; and*
+*3.	Patients aged >89 years were removed from the dataset, per HIPAA guidelines on Protected Health Information.*
+
+The resultant HuSH+ dataset is thus comprised of hypothetical patients with fictional drug exposures and health outcomes, but the data are representative of the types of relationships expected to be observed within real observational patient data sets. Because the HuSH+ data are only representative of hypothetical patients, drug exposures, and health outcomes, the data can not be used for clinical interpretation. The HuSH+ data can be used for scientific inference and discovery, although important caveats must be considered. The main considerations when working with HuSH+ data outlined below.
+
+*1.	Any inferences based on date/time and location (geocode) CANNOT be made using the HuSH+ patient data.
 
 *2.	All other inferences MUST consider date/time and location as potentially hidden covariates.*
 
-As noted, the fully identified patient dataset from which the HuSH+ patient data set was created is derived from UNC’s CDWH and contains clinical and administrative data on all patients with an ‘asthma-like’ phenotype. Patients with an asthma-like phenotype were identified as follows:[1]
+*Access to the HuSH+ patient dataset requires a fully executed DUA.*
+
+## ICEES
+
+**ICEES** offers access to real observational clinical data on all patients in the CDWH with an asthma-like phenotype (defined below), but the data additionally contain data derived from several public databases on chemical exposures (e.g., airborne pollutants) and sociological exposures (e.g., estimated household income). The exposures data have been integrated with the clinical data at the patient and visit level. Like the HuSH+ dataset, the ICEES clinical data were derived from the fully identified patient dataset, but the data have been 'binned' or recoded in order to protect patient privacy while also providing open access to the data via a Translator API and maintaining compliance with §164.514(b) of [HIPAA, 'Safe Harbor' method for patient de-identification of medical records](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification).
+
+ICEES is designed to offer four basic functionalities (also see this [slide deck](https://drive.google.com/open?id=1KvlbmQH3MPbtoFiHG7Ia2z1UbR4lw_xH).
+
+*1. Cohort discovery: users define a cohort using any number of defined feature variables as input parameters, and the service returns a sample size.*
+
+*2. Feature-rich cohort discovery: users select a predefined cohort as the input parameter, and the service returns a profile of that cohort in terms of all feature variables.*
+
+*3. Hypothesis-driven 2 x 2 feature associations: users select a predefined cohort and two feature variables, and the service returns a 2 x 2 feature table with a corresponding Chi Square statistic and P value.*
+
+*4. Exploratory 1 X N feature associations: users select a predefined cohort and a feature variable of interest, and the service returns a 1 x N feature table with corrected Chi Square statistics and associated P values.*
+
+ICEES can be used for scientific inference and discovery, although important caveats must be considered. The main considerations when working with ICEES are outlined below.
+
+*1. All feature variables have been binned or recoded (see [template for patient-level tables](https://docs.google.com/spreadsheets/d/1g-FkrlohWUv1MWbXUhclw3ZC_gsQu2PzxcwpzrnLub8/edit?usp=sharing) and [template for visit-level tables](https://drive.google.com/open?id=1ED0Val7kTkmAsxc26TqhvxlM7wsCzh7c_NnJXiiNMJw).
+
+*2. The integrated feature tables are designed for different 'study' periods (currently defined as calendar years).
+
+*3. The integrated feature tables are designed to provide access to either patient-level data or visit-level data.
+
+*4. All inferences must be made with respect to the the binning strategy, 'study' design, and type of integrated feature table. 
+
+*Access to ICEES is open to all Translator team members and is not subject to regulatory constraints.
+
+## Green Team's Asthma-like Cohort
+
+**Asthma-like cohort**: At present, all three clinical datasets that Green Team has created to support the Translator program are derived from UNC’s CDWH. At present, the clinical datasets are restricted to patients with an ‘asthma-like’ phenotype, although we are expanding ICEES to include additional patient cohorts (e.g., obesity, diabetes, drug-induced liver injury).
+
+Patients with an asthma-like phenotype were defined as follows:[1]
 
 *1.	Patients with a diagnostic code of ‘asthma’ and prescribed or administered medications that are typically used to treat asthma;*
 
@@ -61,7 +101,11 @@ As noted, the fully identified patient dataset from which the HuSH+ patient data
 
 *4.	Patients with a diagnostic code for a respiratory condition other than asthma and frequent ED visits with albuterol nebulizer administered.*
 
-**Note that the fully identified CDWH patient dataset is available only to IRB-approved members of Green Team; however, the HuSH+ patient dataset is open to all Translator team members via the Green Team’s clinical service API and a signed and fully executed Data Use Agreement. We kindly request that Translator team members provide proper attribution for any products (e.g., manuscripts, podium presentations, software) deriving from work related to the HuSH+ patient dataset. Attribution should include acknowledgement of the funder (NCATS Biomedical Data Translator Program, OT3TR002020) and all Green Team members who contributed to the work.**
+## General Comments on Regulatory Constraints and Acknowledgements
+
+**Note that Green Team's clinical datasets are subject to various regulatory constraints, depending on the specific dataset. The fully identified patient dataset is available only to IRB-approved members of Green Team. The HuSH+ patient dataset is available to Translator team members via a fully executed, institutional Data Use Agreement. ICEES is open to all Translator team members via Green Team's ICEES API; ICEES is not subject to any additional regulatory constraints.**
+
+**We kindly request that Translator team members provide proper attribution for any products (e.g., manuscripts, podium presentations, software) derived from work related to Green Team's clinical datasets. Attribution should include acknowledgement of the funder (NCATS Biomedical Data Translator Program, OT3TR002020) and all Green Team members who contributed to the work.**
 
 
 ___

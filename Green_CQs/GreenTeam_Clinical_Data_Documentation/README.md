@@ -55,7 +55,7 @@ The **HuSH+ patient dataset** is comprised of real observational data on ~16,000
 
 The resultant HuSH+ dataset is thus comprised of hypothetical patients with fictional drug exposures and health outcomes, but the data are representative of the types of relationships expected to be observed within real observational patient data sets. Because the HuSH+ data are only representative of hypothetical patients, drug exposures, and health outcomes, the data can not be used for clinical interpretation. The HuSH+ data can be used for scientific inference and discovery, although important caveats must be considered. The main considerations when working with HuSH+ data outlined below.
 
-*1.	Any inferences based on date/time and location (geocode) CANNOT be made using the HuSH+ patient data.
+*1.	Any inferences based on date/time and location (geocode) CANNOT be made using the HuSH+ patient data.*
 
 *2.	All other inferences MUST consider date/time and location as potentially hidden covariates.*
 
@@ -77,15 +77,15 @@ ICEES is designed to offer four basic functionalities (also see this [slide deck
 
 ICEES can be used for scientific inference and discovery, although important caveats must be considered. The main considerations when working with ICEES are outlined below.
 
-*1. All feature variables have been binned or recoded (see [template for patient-level tables](https://docs.google.com/spreadsheets/d/1g-FkrlohWUv1MWbXUhclw3ZC_gsQu2PzxcwpzrnLub8/edit?usp=sharing) and [template for visit-level tables](https://drive.google.com/open?id=1ED0Val7kTkmAsxc26TqhvxlM7wsCzh7c_NnJXiiNMJw).
+*1. All feature variables have been binned or recoded (see [template for patient-level tables](https://docs.google.com/spreadsheets/d/1g-FkrlohWUv1MWbXUhclw3ZC_gsQu2PzxcwpzrnLub8/edit?usp=sharing) and [template for visit-level tables](https://drive.google.com/open?id=1ED0Val7kTkmAsxc26TqhvxlM7wsCzh7c_NnJXiiNMJw).*
 
-*2. The integrated feature tables are designed for different 'study' periods (currently defined as calendar years).
+*2. The integrated feature tables are designed for different 'study' periods (currently defined as calendar years).*
 
-*3. The integrated feature tables are designed to provide access to either patient-level data or visit-level data.
+*3. The integrated feature tables are designed to provide access to either patient-level data or visit-level data.*
 
-*4. All inferences must be made with respect to the the binning strategy, 'study' design, and type of integrated feature table. 
+*4. All inferences must be made with respect to the the binning strategy, 'study' design, and type of integrated feature table.* 
 
-*Access to ICEES is open to all Translator team members and is not subject to regulatory constraints.
+*Access to ICEES is open to all Translator team members and is not subject to regulatory constraints.*
 
 ## Green Team's Asthma-like Cohort
 

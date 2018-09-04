@@ -63,7 +63,7 @@ The resultant HuSH+ dataset is thus comprised of hypothetical patients with fict
 
 **ICEES** offers access to real observational clinical data on all patients in the CDWH with an asthma-like phenotype (defined below). The data additionally contain data derived from several public databases on chemical exposures (e.g., airborne pollutants) and sociological exposures (e.g., estimated household income). The exposures data have been integrated with the clinical data at the patient and visit level. Like the HuSH+ dataset, the ICEES clinical data were derived from the fully identified patient dataset, but the data have been 'binned' or recoded in order to protect patient privacy while also providing open access to the data via a Translator API and maintaining compliance with §164.514(b) of [HIPAA, 'Safe Harbor' method for patient de-identification of medical records](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification).
 
-ICEES is designed to offer four basic functionalities (also see this [slide deck](https://drive.google.com/open?id=1rRmywmR3yl7iArvlPPE6o3kEwuXlYjoi)).
+ICEES is designed to offer four basic functionalities (also see [slide deck](https://drive.google.com/open?id=12TgOZMFkWQLMhjZeN4RVzdxvlt1VYcO8)).
 
 *1. Cohort discovery: users define a cohort using any number of defined feature variables as input parameters, and the service returns a sample size.*
 
@@ -75,7 +75,7 @@ ICEES is designed to offer four basic functionalities (also see this [slide deck
 
 ICEES can be used for scientific inference and discovery, although important caveats must be considered. The main considerations when working with ICEES are outlined below.
 
-*1. All feature variables have been binned or recoded (see [template for patient-level tables](https://docs.google.com/spreadsheets/d/1g-FkrlohWUv1MWbXUhclw3ZC_gsQu2PzxcwpzrnLub8/edit?usp=sharing) and [template for visit-level tables](https://drive.google.com/open?id=1ED0Val7kTkmAsxc26TqhvxlM7wsCzh7c_NnJXiiNMJw)).*
+*1. All feature variables have been binned or recoded (see [templates](https://drive.google.com/open?id=12TgOZMFkWQLMhjZeN4RVzdxvlt1VYcO8)).*
 
 *2. The integrated feature tables are designed for different 'study' periods (currently defined as calendar years).*
 

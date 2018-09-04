@@ -67,7 +67,7 @@ ICEES is designed to offer four basic functionalities (also see this [slide deck
 
 *1. Cohort discovery: users define a cohort using any number of defined feature variables as input parameters, and the service returns a sample size.*
 
-*2. Feature-rich cohort discovery: users select a predefined cohort as the input parameter, and the service returns a profile of that cohort in terms of all feature variables.*
+*2. Feature-rich cohort discovery: users select a predefined cohort as the input parameter, and the service returns a profile of that cohort in terms of the available feature variables.*
 
 *3. Hypothesis-driven 2 x 2 feature associations: users select a predefined cohort and two feature variables, and the service returns a 2 x 2 feature table with a corresponding Chi Square statistic and P value.*
 

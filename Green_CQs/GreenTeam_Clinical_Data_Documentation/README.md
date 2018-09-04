@@ -35,7 +35,7 @@ The **fully identified patient dataset** is comprised of real observational data
 
 *5.	CDWH data are structured using the i2b2 data model, and certain variables are lost or transformed when EPIC EMR data are pulled into i2b2, for example:*
 
-  *a. location variable (outpatient, inpatient, ED) treats ED visits as inpatient visits if a patient first admits to the ED and is later transferred to the inpatient ward;* and
+  *a. location variable (outpatient, inpatient, ED, ED to inpatient) does not always include data on initial admissions to ED and later transfers to inpatient ward;* and
 
   *b. parental_smoking_status variable has been dropped.*
 
@@ -63,7 +63,7 @@ The resultant HuSH+ dataset is thus comprised of hypothetical patients with fict
 
 **ICEES** offers access to real observational clinical data on all patients in the CDWH with an asthma-like phenotype (defined below). The data additionally contain data derived from several public databases on chemical exposures (e.g., airborne pollutants) and sociological exposures (e.g., estimated household income). The exposures data have been integrated with the clinical data at the patient and visit level. Like the HuSH+ dataset, the ICEES clinical data were derived from the fully identified patient dataset, but the data have been 'binned' or recoded in order to protect patient privacy while also providing open access to the data via a Translator API and maintaining compliance with §164.514(b) of [HIPAA, 'Safe Harbor' method for patient de-identification of medical records](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification).
 
-ICEES is designed to offer four basic functionalities (also see this [slide deck](https://drive.google.com/open?id=1KvlbmQH3MPbtoFiHG7Ia2z1UbR4lw_xH).
+ICEES is designed to offer four basic functionalities (also see this [slide deck](https://drive.google.com/open?id=1rRmywmR3yl7iArvlPPE6o3kEwuXlYjoi)).
 
 *1. Cohort discovery: users define a cohort using any number of defined feature variables as input parameters, and the service returns a sample size.*
 
@@ -75,7 +75,7 @@ ICEES is designed to offer four basic functionalities (also see this [slide deck
 
 ICEES can be used for scientific inference and discovery, although important caveats must be considered. The main considerations when working with ICEES are outlined below.
 
-*1. All feature variables have been binned or recoded (see [template for patient-level tables](https://docs.google.com/spreadsheets/d/1g-FkrlohWUv1MWbXUhclw3ZC_gsQu2PzxcwpzrnLub8/edit?usp=sharing) and [template for visit-level tables](https://drive.google.com/open?id=1ED0Val7kTkmAsxc26TqhvxlM7wsCzh7c_NnJXiiNMJw).*
+*1. All feature variables have been binned or recoded (see [template for patient-level tables](https://docs.google.com/spreadsheets/d/1g-FkrlohWUv1MWbXUhclw3ZC_gsQu2PzxcwpzrnLub8/edit?usp=sharing) and [template for visit-level tables](https://drive.google.com/open?id=1ED0Val7kTkmAsxc26TqhvxlM7wsCzh7c_NnJXiiNMJw)).*
 
 *2. The integrated feature tables are designed for different 'study' periods (currently defined as calendar years).*
 
@@ -89,7 +89,7 @@ ICEES can be used for scientific inference and discovery, although important cav
 
 ## Green Team's Asthma-like Cohort
 
-**Asthma-like cohort**: At present, all three clinical datasets that Green Team has created to support the Translator program are derived from UNC’s CDWH. At present, the clinical datasets are restricted to patients with an ‘asthma-like’ phenotype, although we are expanding ICEES to include additional patient cohorts (e.g., obesity, diabetes, drug-induced liver injury).
+**Asthma-like cohort**: All three clinical datasets that Green Team has created to support the Translator program are derived from UNC’s CDWH. At present, the clinical datasets are restricted to patients with an ‘asthma-like’ phenotype, although we are expanding ICEES to include additional patient cohorts (e.g., pain, obesity, diabetes, drug-induced liver injury).
 
 Patients with an asthma-like phenotype were defined as follows:[1]
 

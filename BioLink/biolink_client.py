@@ -1,5 +1,5 @@
 import requests
-
+from collections import defaultdict
 
 class BioLinkWrapper(object):
     def __init__(self):
@@ -66,6 +66,16 @@ class BioLinkWrapper(object):
         response = requests.get(url)
         return response.json()
 
+    def gene2tissue_expression(self, gene_curie):
+        url = '{}bioentity/gene/{}/expression/anatomy/'.format(self.endpoint, gene_curie)
+        response = requests.get(url)
+        return response.json()
+
+    def tissue2gene_expression(self, tissue_curie):
+        url = '{}bioentity/anatomy/{}/genes/'.format(self.endpoint, gene_curie)
+        response = requests.get(url)
+        return response.json()
+
     def disease_models(self, disease_curie):
         url = '{}/bioentity/disease/{}/models/'.format(self.endpoint, disease_curie)
         response = requests.get(url)
@@ -92,6 +102,29 @@ class BioLinkWrapper(object):
             orth_set.append(self.gene2orthologs(gene_curie=gene, orth_taxon_name=orth_taxon_name))
         return orth_set
 
+
+    @staticmethod
+    def parse_sources(sources):
+        return [x.split('/')[-1].rstrip('.ttl') for x in sources]
+
+    @staticmethod
+    def parse_association(input_curie, association, invert_subject_object=False):
+        hit_id = association['object']['id']
+        hit_label = association['object']['label']
+        if invert_subject_object:
+            hit_id = association['subject']['id']
+            hit_label = association['subject']['label']
+        parsed_association = {
+            'input': input_curie,
+            'hit_id': hit_id,
+            'hit_label': hit_label,
+            'sources': BioLinkWrapper.parse_sources(association['provided_by']),
+        }
+        return parsed_association
+
     @staticmethod
     def return_objects(assoc_package):
         return assoc_package['objects']
+
+
+

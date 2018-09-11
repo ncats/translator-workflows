@@ -11,7 +11,7 @@ class CTDWrapper(object):
         return results.json()
 
     def chem2gene(self, chem_curie, params=None):
-        call = '{0}TD_chem_gene_ixns_ChemicalID/{1}/'.format(self.url, chem_curie)
+        call = '{0}CTD_chem_gene_ixns_ChemicalID/{1}/'.format(self.url, chem_curie)
         results = requests.get(call, params)
         return results.json()
 

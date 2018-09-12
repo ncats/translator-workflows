@@ -15,7 +15,7 @@
 
   b. All inferences must be made in respect to the binning strategy, 'study' design, and type of integrated feature table.
 
-**We kindly request that Translator team members provide proper attribution for any products (e.g., manuscripts, podium presentations, software) derived from work related to Green Team's clinical datasets. Attribution should include acknowledgement of the funder (NCATS Biomedical Data Translator Program, OT3TR002020), North Carolina Translational and Clinical Sciences (NC TraCS) Institute (NCATS CTSA Program, UL1TR002489), and all Green Team members who contributed to the work.**
+**We kindly request that Translator team members provide proper attribution for any products (e.g., manuscripts, podium presentations, software) derived from work related to Green Team's clinical datasets. Attribution should include acknowledgement of the funder (NCATS Biomedical Data Translator Program, OT3TR002020), North Carolina Translational and Clinical Sciences (NC TraCS) Institute (NCATS CTSA Program, UL1TR002489), UNC Hospitals and Health Care System, and all Green Team members who contributed to the work.**
 
 ## Green Team Clinical Data Service: Fully Identified Patient Data, HuSH+ Patient Data, ICEES
 

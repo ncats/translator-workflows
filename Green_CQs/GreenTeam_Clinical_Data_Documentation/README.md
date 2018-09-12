@@ -15,7 +15,7 @@
 
   b. All inferences must be made in respect to the binning strategy, 'study' design, and type of integrated feature table.
 
-**We kindly request that Translator team members provide proper attribution for any products (e.g., manuscripts, podium presentations, software) derived from work related to Green Team's clinical datasets. Attribution should include acknowledgement of the funder (National Center for Advancing Translational Sciences [NCATS], Biomedical Data Translator Program award, OT3TR002020 and OT2TR002514), the North Carolina Translational and Clinical Sciences (NC TraCS) Institute (NCATS Center for Translational Science Award, UL1TR002489), UNC Hospitals and Health Care System, and all Green Team members who contributed to the work.**
+**We kindly request that Translator team members provide proper attribution for any products (e.g., manuscripts, podium presentations, software) derived from work related to Green Team's clinical datasets. Attribution should include acknowledgement of the funder (National Center for Advancing Translational Sciences [NCATS], Biomedical Data Translator Program awards, OT3TR002020 and OT2TR002514), the North Carolina Translational and Clinical Sciences (NC TraCS) Institute (NCATS Center for Translational Science Award, UL1TR002489), UNC Hospitals and Health Care System, and all Green Team members who contributed to the work.**
 
 ## Green Team Clinical Data Service: Fully Identified Patient Data, HuSH+ Patient Data, ICEES
 
@@ -105,7 +105,7 @@ Patients with an asthma-like phenotype were defined as follows:[1]
 
 **Note that Green Team's clinical datasets are subject to various regulatory constraints, depending on the specific dataset. The fully identified patient dataset is available only to IRB-approved members of Green Team. The HuSH+ patient dataset is available to Translator team members via a fully executed, institutional Data Use Agreement. ICEES is open to all Translator team members via Green Team's ICEES API; ICEES is not subject to any additional regulatory constraints.**
 
-**We kindly request that Translator team members provide proper attribution for any products (e.g., manuscripts, podium presentations, software) derived from work related to Green Team's clinical datasets. Attribution should include acknowledgement of the funder (National Center for Advancing Translational Sciences [NCATS], Biomedical Data Translator Program award, OT3TR002020 and OT2TR002514), the North Carolina Translational and Clinical Sciences (NC TraCS) Institute (NCATS Center for Translational Science Award, UL1TR002489), UNC Hospitals and Health Care System, and all Green Team members who contributed to the work.**
+**We kindly request that Translator team members provide proper attribution for any products (e.g., manuscripts, podium presentations, software) derived from work related to Green Team's clinical datasets. Attribution should include acknowledgement of the funder (National Center for Advancing Translational Sciences [NCATS], Biomedical Data Translator Program awards, OT3TR002020 and OT2TR002514), the North Carolina Translational and Clinical Sciences (NC TraCS) Institute (NCATS Center for Translational Science Award, UL1TR002489), UNC Hospitals and Health Care System, and all Green Team members who contributed to the work.**
 
 
 ___

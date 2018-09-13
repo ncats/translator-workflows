@@ -1,10 +1,8 @@
-from functools import reduce
 import pandas as pd
 from BioLink import biolink_client
 from SimSearch.simsearch_client import SimSearchWrapper
 from Modules.generic_similarity import GenericSimilarity
 from typing import List, Union, TextIO
-from pprint import pprint
 
 
 class PhenotypeSimilarity(GenericSimilarity):

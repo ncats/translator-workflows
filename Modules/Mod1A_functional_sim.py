@@ -6,10 +6,7 @@ from typing import List, Union, TextIO
 class FunctionalSimilarity(GenericSimilarity):
     def __init__(self, associations:AssociationSet=None):
         GenericSimilarity.__init__(self, associations=associations)
-
         self.gene_set = []
-        self.identifier_map = {}
-
 
     def load_associations(self,
                           ontology_name:str='go',

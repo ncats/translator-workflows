@@ -1,5 +1,5 @@
 import requests
-from collections import defaultdict
+
 
 class BioLinkWrapper(object):
     def __init__(self):
@@ -108,14 +108,15 @@ class BioLinkWrapper(object):
         return [x.split('/')[-1].rstrip('.ttl') for x in sources]
 
     @staticmethod
-    def parse_association(input_curie, association, invert_subject_object=False):
+    def parse_association(input_id, input_label, association, invert_subject_object=False):
         hit_id = association['object']['id']
         hit_label = association['object']['label']
         if invert_subject_object:
             hit_id = association['subject']['id']
             hit_label = association['subject']['label']
         parsed_association = {
-            'input': input_curie,
+            'input_id': input_id,
+            'input_label': input_label,
             'hit_id': hit_id,
             'hit_label': hit_label,
             'sources': BioLinkWrapper.parse_sources(association['provided_by']),

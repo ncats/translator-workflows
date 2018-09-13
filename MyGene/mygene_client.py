@@ -1,7 +1,7 @@
 import requests
 from pprint import pprint
 import mygene
-import json
+
 
 class QueryMyGene(object):
 

@@ -1,6 +1,6 @@
 from CTD.CTD_wrapper import CTDWrapper
 import pandas as pd
-from pprint import pprint
+
 
 class ChemicalGeneInteractions(object):
     def __init__(self):

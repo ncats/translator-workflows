@@ -1,10 +1,6 @@
 from MyGene.mygene_client import QueryMyGene
-from ontobio.ontol_factory import OntologyFactory
-from ontobio.io.gafparser import GafParser
-from ontobio.assoc_factory import AssociationSetFactory
 from ontobio.assocmodel import AssociationSet
 from .generic_similarity import GenericSimilarity
-from pprint import pprint
 from typing import List, Union, TextIO
 
 class FunctionalSimilarity(GenericSimilarity):
@@ -44,7 +40,7 @@ class FunctionalSimilarity(GenericSimilarity):
             })
 
 
-    def compute_similarity(self, lower_bound:float=0.7, upper_bound:float=1.0) -> List[dict]:
-        results = self.compute_jaccard(self.gene_set, lower_bound, upper_bound)
+    def compute_similarity(self, lower_bound:float=0.7) -> List[dict]:
+        results = self.compute_jaccard(self.gene_set, lower_bound)
         return results
 

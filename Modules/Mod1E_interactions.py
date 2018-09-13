@@ -2,7 +2,6 @@ from BioLink.biolink_client import BioLinkWrapper
 
 
 class GeneInteractions(object):
-
     def __init__(self):
         self.blw = BioLinkWrapper()
         self.gene_set = None
@@ -15,4 +14,4 @@ class GeneInteractions(object):
         for gene in self.gene_set:
             interactions = self.blw.gene_interactions(gene_curie=gene)
             for assoc in interactions['associations']:
-                self.interactions.append(self.blw.parse_association(input_curie=gene, association=assoc))
+                self.interactions.append(self.blw.parse_association(input_id=gene, input_label=None, association=assoc))

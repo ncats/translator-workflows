@@ -1,6 +1,6 @@
 import requests
 import pandas as pd
-from pprint import pprint
+
 
 class SimSearchWrapper:
     SIMSEARCH_API = "https://monarchinitiative.org/simsearch/phenotype"

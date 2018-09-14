@@ -1,15 +1,18 @@
 import requests
 from pprint import pprint
 import mygene
-import json
+
 
 class QueryMyGene(object):
 
-    def __init__(self, url='https://mygene.info/v3'):
-        self.url = url
-        self.my_gene = mygene.MyGeneInfo(url)
+    def __init__(self,):
+        self.my_gene = mygene.MyGeneInfo()
 
-    def query_mygene(self, curie, fields='all', taxon=None):
+    def all_gene_map(self, species, fields, gene_set):
+        all_genes = self.my_gene.querymany(gene_set, species=species, fields=fields)
+        return all_genes
+
+    def query_mygene(self, curie, fields='all', taxon=None, taxon_name='human'):
         """
         Get an entrez gene for a given curie
         """
@@ -23,11 +26,11 @@ class QueryMyGene(object):
         if taxon:
             curie = '{0}{1}'.format(taxon_map[taxon], curie)
 
-        results = self.my_gene.query(q=curie, fields=fields)
+        results = self.my_gene.query(q=curie, fields=fields, species=taxon_name)
         if results is None or 'hits' not in results:
             print('No MyGene Record for {}'.format(curie))
         else:
-            hit = results['hits'][0]
+            hit = results['hits']
 
         return hit
 

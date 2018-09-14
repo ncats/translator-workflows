@@ -5,7 +5,7 @@ import pandas as pd
 class SimSearchWrapper:
     SIMSEARCH_API = "https://monarchinitiative.org/simsearch/phenotype"
 
-    def get_phenotypically_similar_genes(self, phenotypes, taxon):
+    def get_phenotypically_similar_genes(self, input_gene, phenotypes, taxon):
         """
 
         :param phenotypes: list of phenotype curies
@@ -22,20 +22,27 @@ class SimSearchWrapper:
         data = {'input_items': " ".join(phenotypes), "target_species": taxon}
         r = requests.post(self.SIMSEARCH_API, data=data, headers=headers)
         d = r.json()
-        return SimSearchResult(d)
+        return SimSearchResult(input_gene, d)
 
 
 class SimSearchResult:
-    def __init__(self, d):
+    def __init__(self, input_gene, d):
         self.d = d
+        self.input_gene = input_gene
         self.matches = []
         if 'b' in self.d:
             for x in self.d['b']:
                 self.matches.append(SimScoreMatch(x))
 
     def get_results(self):
-        results = [(x.get_id(), x.get_score(), x.get_label(), x.explain_match()) for x in self.matches]
-        return pd.DataFrame(results, columns=["id", "score", "label", "explanation"])
+        results = list()
+        for smatch in self.matches:
+            try:
+                results.append((self.input_gene, smatch.get_id(), smatch.get_score(), smatch.get_label(), smatch.explain_match()))
+            except Exception as e:
+                print(e, smatch)
+
+        return pd.DataFrame(results, columns=["input_id", "id", "score", "label", "explanation"])
 
     def explain_match(self, _id):
         match = [m for m in self.matches if m.get_id() == _id][0]

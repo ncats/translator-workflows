@@ -2,9 +2,9 @@ import graphviz as gv
 
 
 class PathGraph(object):
-    def __init__(self, input_disease):
-        self.input_curie = input_disease[0]
-        self.input_label = input_disease[1]
+    def __init__(self, input_curie, input_label):
+        self.input_curie = input_curie
+        self.input_label = input_label
         self.path_graph = gv.Digraph(name="Workflow II {} Implementation".format(self.input_label))
         self.single_node((self.input_curie, self.input_label))
 

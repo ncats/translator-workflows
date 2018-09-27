@@ -1,27 +1,45 @@
 from BioLink.biolink_client import BioLinkWrapper
 from mygene import MyGeneInfo
 import pandas as pd
-
+from pprint import pprint
 
 class LookUp(object):
 
     def __init__(self):
         self.blw = BioLinkWrapper()
         self.mg = MyGeneInfo()
+        self.input_object = ''
+        self.meta = {
+            'data_type': 'disease',
+            'input_type': {
+                'complexity': 'single',
+                'id_type': ['MONDO', 'DO', 'OMIM'],
+            },
+            'output_type': {
+                'complexity': 'set',
+                'id_type': 'HGNC'
+            },
+            'taxon': 'human',
+            'limit': None,
+            'source': 'Monarch Biolink',
+            'predicate': 'blm:gene associated with condition'
+        }
+        print("""Mod O DiseaseGeneLookup metadata:""")
+        pprint(self.meta)
 
-    def input_object_lookup(self, input_curie):
-        input_object = self.blw.get_obj(obj_id=input_curie)
-        return {
+    def load_input_object(self, input_object):
+        input_object = self.blw.get_obj(obj_id=input_object['input'])
+        self.input_object = {
             'id': input_object['id'],
             'label': input_object['label'],
             'description': input_object['description'],
         }
+        pprint(self.input_object)
 
-    def disease_geneset_lookup(self, disease2genes_object):
-        input_disease_object = self.input_object_lookup(input_curie=disease2genes_object['id'])
-        input_disease_id = input_disease_object['id']
-        input_disease_label = input_disease_object['label']
-        input_gene_set = self.blw.disease2genes(input_disease_id)
+    def disease_geneset_lookup(self):
+        input_disease_id = self.input_object['id']
+        input_disease_label = self.input_object['label']
+        input_gene_set = self.blw.disease2genes(input_disease_id, limit=1000)
         input_gene_set = [self.blw.parse_association(input_disease_id, input_disease_label, x) for x in input_gene_set['associations']]
         for input_gene in input_gene_set:
             igene_mg = self.mg.query(input_gene['hit_id'].replace('HGNC', 'hgnc'), species='human', entrezonly=True,
@@ -33,7 +51,6 @@ class LookUp(object):
         input_genes_df['sources'] = input_genes_df['sources'].str.join(', ')
         input_genes_df = input_genes_df.groupby(
             ['input_id', 'input_label', 'hit_id', 'hit_label', 'ncbi'])['sources'].apply(', '.join).reset_index()
-
         return input_genes_df
 
 

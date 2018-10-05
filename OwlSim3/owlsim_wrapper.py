@@ -1,5 +1,6 @@
 import requests
 
+
 class SimSearch(object):
 
     def __init__(self):

@@ -3,9 +3,12 @@ from MyGene.mygene_client import QueryMyGene
 from pprint import pprint
 from UniProt.uniprot_sparql_wrapper import UniProtSparql
 
+
 class RheaMethods(object):
     def __init__(self):
         self.endpoint = SPARQLWrapper('https://sparql.rhea-db.org/sparql')
+        self.mygene = QueryMyGene()
+        self.ups = UniProtSparql()
 
     def execute_query(self, query):
         self.endpoint.setQuery(query)
@@ -34,21 +37,21 @@ class RheaMethods(object):
 
     def get_all_reactions_that_consume_compound(self, chebi):
         query = '''PREFIX rh:<http://rdf.rhea-db.org/>
-        SELECT ?reaction ?reactionEquation  ?ecNumber ?chebi_id  ?curatedOrder WHERE {
-          ?reaction rdfs:subClassOf rh:Reaction;
-                        rh:status rh:Approved;
-                        rh:ec ?ecNumber;
-                        rh:directionalReaction ?directional_reaction.
-                        
-          ?directional_reaction rh:status rh:Approved;
-                    rh:equation ?reactionEquation;
-                    rh:substrates ?substrateside.
-          ?substrateside rh:curatedOrder ?curatedOrder;
-                         rh:contains ?substrates.
-          ?substrates rh:compound ?small_molecule.
-          ?small_molecule rh:accession '%s';
-                          rh:accession ?chebi_id.
-        }
+        SELECT ?reaction ?reactionEquation  ?ecNumber ?chebi_id  ?curatedOrder ?substrates WHERE {
+              ?reaction rdfs:subClassOf rh:Reaction;
+                            rh:status rh:Approved;
+                            rh:ec ?ecNumber;
+                            rh:directionalReaction ?directional_reaction.
+                            
+              ?directional_reaction rh:status rh:Approved;
+                        rh:equation ?reactionEquation;
+                        rh:substrates ?substrateside.
+              ?substrateside rh:curatedOrder ?curatedOrder;
+                             rh:contains ?substrates.
+              ?substrates rh:compound ?small_molecule.
+              ?small_molecule rh:accession '%s';
+                              rh:accession ?chebi_id.
+            }
         ''' % (chebi)
         return self.execute_query(query)
 
@@ -77,34 +80,43 @@ class RheaMethods(object):
         for reaction in reactions['results']['bindings']:
             if reaction['curatedOrder'] == 2:
                 ec = reaction['ecNumber']['value'].split('/')[-1]
-                ups = UniProtSparql()
+
                 output = {
                     'input': chebi,
                     'type': 'products',
-                    'proteins': ups.ec2uniprot(ec=ec),
+                    'proteins': self.ups.ec2uniprot(ec=ec),
                     'ec': ec,
                     'rheaid': reaction['reaction']['value'],
                     'reaction': reaction['reactionEquation']['value'],
                 }
                 outputs.append(output)
-            return outputs
+        return outputs
 
     def substrate2gene(self, chebi):
         outputs = []
         reactions = self.get_all_reactions_that_consume_compound(chebi=chebi)
         for reaction in reactions['results']['bindings']:
-            pprint(reaction)
             ec = reaction['ecNumber']['value'].split('/')[-1]
-            ups = UniProtSparql()
             output = {
                 'input': chebi,
                 'type': 'substrates',
-                'proteins': ups.ec2uniprot(ec=ec),
+                'proteins': self.ups.ec2uniprot(ec=ec),
                 'ec': ec,
                 'rheaid': reaction['reaction']['value'],
                 'reaction': reaction['reactionEquation']['value'],
             }
             outputs.append(output)
         return outputs
+
+    def gene2product(self, ncbigene):
+        mg = self.mygene.query_mygene(curie=ncbigene)
+        uniprot = ''
+        if len(mg) == 1:
+            uniprot = "".join(self.mygene.parse_uniprot(mg[0]))
+        ec = self.ups.uniprot2ec(uniprot)
+
+
+
+
 
 

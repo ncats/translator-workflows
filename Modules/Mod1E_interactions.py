@@ -7,7 +7,6 @@ class GeneInteractions(object):
     def __init__(self):
         self.blw = BioLinkWrapper()
         self.gene_set = []
-        self.interactions = []
         self.input_object = ''
         self.meta = {
             'input_type': {
@@ -47,9 +46,22 @@ class GeneInteractions(object):
                 print(gene, e)
 
     def get_interactions(self):
+        results = []
         for gene in self.gene_set:
             interactions = self.blw.gene_interactions(gene_curie=gene['sim_input_curie'])
             for assoc in interactions['associations']:
-                self.interactions.append(self.blw.parse_association(input_id=gene['sim_input_curie'],
-                                                                    input_label=None,
-                                                                    association=assoc))
+                interaction = self.blw.parse_association(input_id=gene['sim_input_curie'],
+                                                          input_label=gene['symbol'],
+                                                          association=assoc)
+                results.append({
+                    'input_curie': interaction['input_id'],
+                    'input_label': interaction['input_label'],
+                    'hit_name': interaction['hit_label'],
+                    'hit_curie': interaction['hit_id'],
+                    'hit_score': None,
+                })
+
+
+        return results
+
+

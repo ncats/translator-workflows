@@ -15,6 +15,7 @@ class BioLinkWrapper(object):
 
     def disease2genes(self, disease_curie):
         params = {}
+        params.update(self.params)
         url = '{0}bioentity/disease/{1}/genes'.format(self.endpoint, disease_curie)
         response = requests.get(url, params)
         return response.json()
@@ -42,42 +43,47 @@ class BioLinkWrapper(object):
         params = {}
         if orth_taxon_name:
             params['homolog_taxon'] = taxon_map[orth_taxon_name]
-        url = '{}bioentity/gene/{}/homologs/'.format(self.endpoint, gene_curie)
+        url = '{}bioentity/gene/{}/homologs'.format(self.endpoint, gene_curie)
         response = requests.get(url, params)
         return response.json()
 
+    def phenotype2genes(self, phenotype_curie):
+        url = '{}bioentity/phenotype/{}/genes'.format(self.endpoint, phenotype_curie)
+        response = requests.get(url)
+        return response.json()
+
     def gene2phenotypes(self, gene_curie):
-        url = '{}bioentity/gene/{}/phenotypes/'.format(self.endpoint, gene_curie)
+        url = '{}bioentity/gene/{}/phenotypes'.format(self.endpoint, gene_curie)
         response = requests.get(url)
         return response.json()
 
     def gene2diseases(self, gene_curie):
-        url = '{}bioentity/gene/{}/diseases/'.format(self.endpoint, gene_curie)
+        url = '{}bioentity/gene/{}/diseases'.format(self.endpoint, gene_curie)
         response = requests.get(url)
         return response.json()
 
     def gene_interactions(self, gene_curie):
-        url = '{}bioentity/gene/{}/interactions/'.format(self.endpoint, gene_curie)
+        url = '{}bioentity/gene/{}/interactions'.format(self.endpoint, gene_curie)
         response = requests.get(url)
         return response.json()
 
     def gene2functions(self, gene_curie):
-        url = '{}bioentity/gene/{}/function/'.format(self.endpoint, gene_curie)
+        url = '{}bioentity/gene/{}/function'.format(self.endpoint, gene_curie)
         response = requests.get(url)
         return response.json()
 
     def gene2tissue_expression(self, gene_curie):
-        url = '{}bioentity/gene/{}/expression/anatomy/'.format(self.endpoint, gene_curie)
+        url = '{}bioentity/gene/{}/expression/anatomy'.format(self.endpoint, gene_curie)
         response = requests.get(url)
         return response.json()
 
     def tissue2gene_expression(self, tissue_curie):
-        url = '{}bioentity/anatomy/{}/genes/'.format(self.endpoint, gene_curie)
+        url = '{}bioentity/anatomy/{}/genes'.format(self.endpoint, gene_curie)
         response = requests.get(url)
         return response.json()
 
     def disease_models(self, disease_curie):
-        url = '{}/bioentity/disease/{}/models/'.format(self.endpoint, disease_curie)
+        url = '{}/bioentity/disease/{}/models'.format(self.endpoint, disease_curie)
         response = requests.get(url)
         return response.json()
 
@@ -127,5 +133,9 @@ class BioLinkWrapper(object):
     def return_objects(assoc_package):
         return assoc_package['objects']
 
+    @staticmethod
+    def filter_on_predicate(package, predicate):
+        package['associations'] = [x for x in package['associations'] if x['relation']['label'] == predicate]
+        return package
 
 

@@ -7,7 +7,7 @@ class SimSearchWrapper:
 
     def get_phenotypically_similar_genes(self, input_gene, phenotypes, taxon):
         """
-
+        :param input_gene: gene with phenotypes
         :param phenotypes: list of phenotype curies
         :param taxon: an ncbi taxid (e.g. "10090")
         :param return_all:
@@ -20,7 +20,7 @@ class SimSearchWrapper:
             'Accept': 'application/json, text/javascript, */*; q=0.01',
         }
         data = {'input_items': " ".join(phenotypes), "target_species": taxon}
-        r = requests.post(self.SIMSEARCH_API, data=data, headers=headers)
+        r = requests.get(self.SIMSEARCH_API, params=data, headers=headers)
         d = r.json()
         return SimSearchResult(input_gene, d)
 

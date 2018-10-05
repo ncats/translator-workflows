@@ -39,7 +39,7 @@ class LookUp(object):
     def disease_geneset_lookup(self):
         input_disease_id = self.input_object['id']
         input_disease_label = self.input_object['label']
-        input_gene_set = self.blw.disease2genes(input_disease_id, limit=1000)
+        input_gene_set = self.blw.disease2genes(input_disease_id)
         input_gene_set = [self.blw.parse_association(input_disease_id, input_disease_label, x) for x in input_gene_set['associations']]
         for input_gene in input_gene_set:
             igene_mg = self.mg.query(input_gene['hit_id'].replace('HGNC', 'hgnc'), species='human', entrezonly=True,

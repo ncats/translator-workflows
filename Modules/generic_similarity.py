@@ -4,33 +4,35 @@ from ontobio.assoc_factory import AssociationSetFactory
 from ontobio.assocmodel import AssociationSet
 from typing import List, Union, TextIO
 from ontobio.analysis.semsim import jaccard_similarity
-
+from pprint import pprint
 
 class GenericSimilarity(object):
-    def __init__(self, associations:AssociationSet=None) -> None:
-        self.associations = associations
-        self.ofactory = OntologyFactory()
+    def __init__(self) -> None:
+        self.associations = ''
+        self.afactory = AssociationSetFactory()
 
-    def load_associations(self, ont, group, parse=False):
+    def retrieve_associations(self, ont, group):
         taxon_map = {
             'human': 'NCBITaxon:9606',
             'mouse': 'NCBITaxon:10090',
         }
-        ont_fac = self.ofactory.create(ont)
+        ofactory = OntologyFactory()
+        ont_fac = ofactory.create(ont)
         p = GafParser()
-        afactory = AssociationSetFactory()
         url = ''
         if ont == 'go':
+            go_roots = set(ont_fac.descendants('GO:0008150') + ont_fac.descendants('GO:0003674'))
+            sub_ont = ont_fac.subontology(go_roots)
             if group == 'mouse':
                 url = "http://geneontology.org/gene-associations/gene_association.mgi.gz"
             if group == 'human':
                 url = "http://geneontology.org/gene-associations/goa_human.gaf.gz"
             assocs = p.parse(url)
             assocs = [x for x in assocs if 'header' not in x.keys()]
-            self.associations = afactory.create_from_assocs(assocs, ontology=ont_fac)
-
-        if ont == 'hp':
-            self.associations = afactory.create(ontology=ont_fac,
+            assocs = [x for x in assocs if x['object']['id'] in go_roots]
+            self.associations = self.afactory.create_from_assocs(assocs, ontology=sub_ont)
+        else:
+            self.associations = self.afactory.create(ontology=ont_fac ,
                        subject_category='gene',
                        object_category='phenotype',
                        taxon=taxon_map[group])
@@ -39,21 +41,30 @@ class GenericSimilarity(object):
         similarities = []
         for index, igene in enumerate(input_genes):
             for subject_curie in self.associations.subject_label_map.keys():
-                if igene['sim_input_curie'] is not subject_curie:
-                    score = jaccard_similarity(self.associations, igene['sim_input_curie'], subject_curie)
+                input_gene = GenericSimilarity.trim_mgi_prefix(input_gene=igene['sim_input_curie'], subject_curie=subject_curie)
+                if input_gene is not subject_curie:
+                    score = jaccard_similarity(self.associations, input_gene, subject_curie)
                     if float(score) > float(lower_bound):
                         subject_label = self.associations.label(subject_curie)
                         similarities.append({
-                            'input_curie': igene['sim_input_curie'],
-                            'hit_name': GenericSimilarity.trim_mgi_prefix(subject_label),
+                            'input_curie': input_gene,
+                            'hit_name': subject_label,
                             'hit_curie': subject_curie,
                             'hit_score': score,
                         })
         return similarities
 
     @staticmethod
-    def trim_mgi_prefix(curie):
-        if 'MGI:MGI:' in curie:
-            return curie[4:]
+    def trim_mgi_prefix(input_gene, subject_curie):
+        if 'MGI:MGI:' in subject_curie and 'MGI:MGI:' in input_gene:
+            return input_gene
+        elif 'MGI:MGI:' not in subject_curie and 'MGI:MGI:' in input_gene:
+            return input_gene[4:]
+
         else:
-            return curie
+            return input_gene
+
+
+
+    # @staticmethod
+    # def parse_associations_from_whitelist(associations):

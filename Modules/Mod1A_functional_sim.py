@@ -8,10 +8,12 @@ from mygene import MyGeneInfo
 
 class FunctionalSimilarity(GenericSimilarity):
     def __init__(self, associations:AssociationSet=None):
-        GenericSimilarity.__init__(self, associations=associations)
+        GenericSimilarity.__init__(self)
         self.mg = MyGeneInfo()
         self.gene_set = []
         self.input_object = ''
+        self.ont = 'go'
+        self.group = ''
         self.meta = {
             'input_type': {
                 'complexity': 'set',
@@ -33,22 +35,13 @@ class FunctionalSimilarity(GenericSimilarity):
 
     def load_input_object(self, input_object):
         self.input_object = input_object
+        if self.input_object['parameters']['taxon'] == 'mouse':
+            self.group = 'mouse'
+        if self.input_object['parameters']['taxon'] == 'human':
+            self.group = 'human'
 
-    def load_associations(self,
-                          ontology_name:str='go',
-                          subject_category: str = 'gene',
-                          object_category: str = 'function',
-                          evidence=None,
-                          taxon: str = None,
-                          relation=None,
-                          file: Union[str, TextIO] = None,
-                          fmt: str = None,
-                          skim: bool = False) -> None:
-        GenericSimilarity.load_associations(
-            self,
-            group=self.input_object['parameters']['taxon'],
-            ont='go',
-        )
+    def load_associations(self):
+        self.retrieve_associations(ont=self.ont, group=self.group)
 
     def load_gene_set(self):
         for gene in self.input_object['input']:

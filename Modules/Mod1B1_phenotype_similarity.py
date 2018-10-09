@@ -5,10 +5,12 @@ from typing import List, Union, TextIO
 from pprint import pprint
 
 class PhenotypeSimilarity(GenericSimilarity):
-    def __init__(self, associations:AssociationSet=None):
-        GenericSimilarity.__init__(self, associations=associations)
+    def __init__(self):
+        GenericSimilarity.__init__(self)
         self.gene_set = []
         self.input_object = ''
+        self.group = ''
+        self.ont = ''
         self.meta = {
             'input_type': {
                 'complexity': 'set',
@@ -29,22 +31,15 @@ class PhenotypeSimilarity(GenericSimilarity):
 
     def load_input_object(self, input_object):
         self.input_object = input_object
+        if self.input_object['parameters']['taxon'] == 'mouse':
+            self.group = 'mouse'
+            self.ont = 'mp'
+        if self.input_object['parameters']['taxon'] == 'human':
+            self.group = 'human'
+            self.ont = 'hp'
 
-    def load_associations(self,
-                          ontology_name:str='hp',
-                          subject_category: str = 'gene',
-                          object_category: str = 'phenotype',
-                          evidence=None,
-                          taxon: str = None,
-                          relation=None,
-                          file: Union[str, TextIO] = None,
-                          fmt: str = None,
-                          skim: bool = False) -> None:
-        GenericSimilarity.load_associations(
-            self,
-            group=self.input_object['parameters']['taxon'],
-            ont='hp',
-        )
+    def load_associations(self):
+        self.retrieve_associations(ont=self.ont, group=self.group)
 
     def load_gene_set(self):
         for gene in self.input_object['input']:

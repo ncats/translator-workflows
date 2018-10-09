@@ -34,6 +34,7 @@ class BioLinkWrapper(object):
 
     def gene2orthologs(self, gene_curie, orth_taxon_name=None):
         taxon_map = {
+            'human': 'NCBITaxon:9606',
             'mouse': 'NCBITaxon:10090',
             'rat': 'NCBITaxon:10116',
             'zebrafish': 'NCBITaxon:7955',

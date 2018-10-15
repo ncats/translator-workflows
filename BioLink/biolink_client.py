@@ -109,6 +109,15 @@ class BioLinkWrapper(object):
             orth_set.append(self.gene2orthologs(gene_curie=gene, orth_taxon_name=orth_taxon_name))
         return orth_set
 
+    def compute_jaccard(self, id1, id2, category):
+        url = "{0}/pair/sim/jaccard/{1}/{2}/".format(self.endpoint, id1, id2)
+        params ={
+            'object_category': category
+        }
+        params.update(self.params)
+        response = requests.get(url, params)
+        return response.json()
+
 
     @staticmethod
     def parse_sources(sources):

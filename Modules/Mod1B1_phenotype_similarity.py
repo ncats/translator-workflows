@@ -48,8 +48,12 @@ class PhenotypeSimilarity(GenericSimilarity):
             sim_input_curie = ''
             symbol = ''
             if 'MGI' in gene:
-                gene_curie =  gene
-                sim_input_curie = gene.replace('MGI', 'MGI:MGI')
+                gene_curie = gene
+                sim_input_curie = gene
+                # if self.ont == 'go':
+                #     sim_input_curie = gene.replace('MGI', 'MGI:MGI')
+                # else:
+                #
                 symbol = None
             if 'HGNC' in gene:
                 gene_curie = gene.replace('HGNC', 'hgnc')
@@ -73,7 +77,6 @@ class PhenotypeSimilarity(GenericSimilarity):
                 'symbol': symbol
             })
 
-
     def compute_similarity(self):
         lower_bound = float(self.input_object['parameters']['threshold'])
         results = self.compute_jaccard(self.gene_set, lower_bound)
@@ -82,5 +85,6 @@ class PhenotypeSimilarity(GenericSimilarity):
                 if ic['sim_input_curie'] == result['input_curie']:
                     result['input_name'] = ic['symbol']
         return results
+
 
 

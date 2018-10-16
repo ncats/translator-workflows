@@ -20,6 +20,12 @@ import pandas as pd
 import networkx as nx
 ```
 
+    /Users/srensi/virtual-environments/neo4j-bolt/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+      return f(*args, **kwds)
+    /Users/srensi/virtual-environments/neo4j-bolt/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+      return f(*args, **kwds)
+
+
 ##### Neo4j Driver Setup
 I'm using my local Neo4j instance.  An online instance can be found at `http://gnbr.ncats.io:7687`.  Shhhh! It's a secret. 
 
@@ -139,25 +145,57 @@ Here you can inspect the chain of reasoning.  My opinion... looks plausible, but
 print('\n***********************\n')
 for explanation in explanations:
     for statement in explanation:
-        print(' '.join([sentence['text'] for sentence in statement]))
+        print('\n'.join([sentence['text'] for sentence in statement]))
+        print('\n')
     print('\n***********************\n')
 ```
 
     
     ***********************
     
-    Phase II evaluation and plasma pharmacokinetics of high-dose intravenous 6-thioguanine in patients with colorectal_carcinoma . Fifteen patients with advanced measurable colorectal_carcinoma were treated with intravenous 6-thioguanine -LRB- 6-TG -RRB- at a dosage of 55 mg/m2 for 5 consecutive days every 5 weeks . A phase II study of intravenous 6-thioguanine -LRB- NSC-752 -RRB- in advanced colorectal_carcinoma .
-    However , very little is currently known about the expression of Rac1 in colorectal_cancer cells and the roles of Rac1 in the cell cycle progression and cell survival of human colorectal_cancer cells . A critical role for Rac1 in tumor progression of human colorectal_adenocarcinoma cells . We have investigated the role of Rac1 in colorectal_tumor progression by genetic modification of the human colorectal_adenocarcinoma cell line SW620 to either overexpress Rac1 or lack Rac1 expression . METHODS : Rac1 protein of all selected human colorectal_cancer cells and in human colorectal tissue was detected by Western blotting , Rac1-shRNA was used to silence the Rac1 to reduce its expression specifically in Lovo cells . Conclusively , our results demonstrate that miR-320a functions as a tumour-suppressive miRNA through targeting Rac1 in CRC .
+    Phase II evaluation and plasma pharmacokinetics of high-dose intravenous 6-thioguanine in patients with colorectal_carcinoma .
+    Fifteen patients with advanced measurable colorectal_carcinoma were treated with intravenous 6-thioguanine -LRB- 6-TG -RRB- at a dosage of 55 mg/m2 for 5 consecutive days every 5 weeks .
+    A phase II study of intravenous 6-thioguanine -LRB- NSC-752 -RRB- in advanced colorectal_carcinoma .
+    
+    
+    However , very little is currently known about the expression of Rac1 in colorectal_cancer cells and the roles of Rac1 in the cell cycle progression and cell survival of human colorectal_cancer cells .
+    A critical role for Rac1 in tumor progression of human colorectal_adenocarcinoma cells .
+    We have investigated the role of Rac1 in colorectal_tumor progression by genetic modification of the human colorectal_adenocarcinoma cell line SW620 to either overexpress Rac1 or lack Rac1 expression .
+    METHODS : Rac1 protein of all selected human colorectal_cancer cells and in human colorectal tissue was detected by Western blotting , Rac1-shRNA was used to silence the Rac1 to reduce its expression specifically in Lovo cells .
+    Conclusively , our results demonstrate that miR-320a functions as a tumour-suppressive miRNA through targeting Rac1 in CRC .
+    
+    
     
     ***********************
     
-    Mercaptopurine vs thioguanine for the treatment of acute_lymphoblastic_leukemia . Portal_hypertension develops in a subset of children with standard risk acute_lymphoblastic_leukemia treated with oral 6-thioguanine during maintenance therapy . BACKGROUND/AIMS : The United Kingdom -LRB- UK -RRB- acute lymphoblastic_leukaemia -LRB- ALL -RRB- 97/99 clinical trial compared 6-mercaptopurine -LRB- 6MP -RRB- with 6-thioguanine -LRB- 6TG -RRB- as maintenance therapy for childhood ALL . Chronic_hepatotoxicity following 6-thioguanine therapy for childhood acute_lymphoblastic_leukaemia . BACKGROUND : 6-Thioguanine treatment in childhood acute_lymphoblastic_leukaemia -LRB- ALL -RRB- has been shown to cause hepatic_veno-occlusive_disease , but this usually resolved with drug withdrawal .
-    Transfection of ALL cells with dominant-negative Rac1 mutant significantly prolonged their chemotactic response to SDF-1a , and this effect was associated with an alteration of CXCR4 internalization . These data suggest a regulatory role for Rac1 in the chemotactic response of ALL cells to SDF-1a via receptor processing .
+    Mercaptopurine vs thioguanine for the treatment of acute_lymphoblastic_leukemia .
+    Portal_hypertension develops in a subset of children with standard risk acute_lymphoblastic_leukemia treated with oral 6-thioguanine during maintenance therapy .
+    BACKGROUND/AIMS : The United Kingdom -LRB- UK -RRB- acute lymphoblastic_leukaemia -LRB- ALL -RRB- 97/99 clinical trial compared 6-mercaptopurine -LRB- 6MP -RRB- with 6-thioguanine -LRB- 6TG -RRB- as maintenance therapy for childhood ALL .
+    Chronic_hepatotoxicity following 6-thioguanine therapy for childhood acute_lymphoblastic_leukaemia .
+    BACKGROUND : 6-Thioguanine treatment in childhood acute_lymphoblastic_leukaemia -LRB- ALL -RRB- has been shown to cause hepatic_veno-occlusive_disease , but this usually resolved with drug withdrawal .
+    
+    
+    Transfection of ALL cells with dominant-negative Rac1 mutant significantly prolonged their chemotactic response to SDF-1a , and this effect was associated with an alteration of CXCR4 internalization .
+    These data suggest a regulatory role for Rac1 in the chemotactic response of ALL cells to SDF-1a via receptor processing .
+    
+    
     
     ***********************
     
-    Murine 4T1 cells -LRB- Murine mammary cancer cell line developed from 6-thioguanine resistant tumor -RRB- provide an excellent research tool for metastasis related studies because these cells are highly aggressive and readily metastasize to the lungs . 6-Thioguanine -LRB- 6TG -RRB- a cytostatic antimetabolite is currently used to treat patients with cancer , in particular leukemias . Resistance to 6-thioguanine in mismatch repair-deficient human cancer cell lines correlates with an increase in induced mutations at the HPRT locus . DNA mismatch repair -LRB- MMR -RRB- deficiency_in_human_cancers is associated with resistance to a spectrum of clinically active chemotherapy drugs , including 6-thioguanine -LRB- 6-TG -RRB- . Intravenous 6-thioguanine or cisplatin , fluorouracil and leucovorin for advanced non-small_cell_lung_cancer : a randomized phase II study of the cancer and leukemia group B .
-    MG132 , an inhibitor of the ubiquitin proteasome pathway , increased the amount of non-phosphorylated IkBa , but not serine-phosphorylated IkBa , indicating that IkBa degradation by Rac1 in starved cancer cells is independent of IkBa serine phosphorylation by IKK . Thus , the present study aimed to investigate the mechanism involved in the regulation of G1/S phase transition by Rac1 in cancer cells . Although a number of investigations have established the significance of Rho-family GTPases in several human tumors , there is still little information available on the clinical significance of Rac1 expression in non-small_cell_lung_cancer -LRB- NSCLC -RRB- . Using the GST-PAK and GST-Rho binding protein pull-down assays for GTP-bound Rac1 , Cdc42 , and RhoA , we showed that treatment of MDA-MB-231 tumor cells with recombinant maspin for a short time period significantly inhibited the activity of Rac1 and Cdc42 , but not RhoA . The expression levels of RhoA , active RhoA , Rac1 , and active Rac1 in tumor tissues were higher than in normal tissues .
+    Murine 4T1 cells -LRB- Murine mammary cancer cell line developed from 6-thioguanine resistant tumor -RRB- provide an excellent research tool for metastasis related studies because these cells are highly aggressive and readily metastasize to the lungs .
+    6-Thioguanine -LRB- 6TG -RRB- a cytostatic antimetabolite is currently used to treat patients with cancer , in particular leukemias .
+    Resistance to 6-thioguanine in mismatch repair-deficient human cancer cell lines correlates with an increase in induced mutations at the HPRT locus .
+    DNA mismatch repair -LRB- MMR -RRB- deficiency_in_human_cancers is associated with resistance to a spectrum of clinically active chemotherapy drugs , including 6-thioguanine -LRB- 6-TG -RRB- .
+    Intravenous 6-thioguanine or cisplatin , fluorouracil and leucovorin for advanced non-small_cell_lung_cancer : a randomized phase II study of the cancer and leukemia group B .
+    
+    
+    MG132 , an inhibitor of the ubiquitin proteasome pathway , increased the amount of non-phosphorylated IkBa , but not serine-phosphorylated IkBa , indicating that IkBa degradation by Rac1 in starved cancer cells is independent of IkBa serine phosphorylation by IKK .
+    Thus , the present study aimed to investigate the mechanism involved in the regulation of G1/S phase transition by Rac1 in cancer cells .
+    Although a number of investigations have established the significance of Rho-family GTPases in several human tumors , there is still little information available on the clinical significance of Rac1 expression in non-small_cell_lung_cancer -LRB- NSCLC -RRB- .
+    Using the GST-PAK and GST-Rho binding protein pull-down assays for GTP-bound Rac1 , Cdc42 , and RhoA , we showed that treatment of MDA-MB-231 tumor cells with recombinant maspin for a short time period significantly inhibited the activity of Rac1 and Cdc42 , but not RhoA .
+    The expression levels of RhoA , active RhoA , Rac1 , and active Rac1 in tumor tissues were higher than in normal tissues .
+    
+    
     
     ***********************
     

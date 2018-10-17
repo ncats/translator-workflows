@@ -1,0 +1,789 @@
+NCBI Gene ID,Gene Symbol,PTM_Type,begin,end,evidences,evidence_urls,type,category
+2072,ERCC4,N6-acetyllysine,289,289,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 19608861
+
+",http://www.ncbi.nlm.nih.gov/pubmed/19608861,MOD_RES,PTM
+2072,ERCC4,Phosphoserine,521,521,"ECO:0000250 - sequence similarity evidence used in manual assertion
+PMID: Q9QZD4
+
+",http://www.uniprot.org/uniprot/Q9QZD4,MOD_RES,PTM
+2072,ERCC4,Phosphoserine,764,764,"ECO:0000250 - sequence similarity evidence used in manual assertion
+PMID: Q9QZD4
+
+",http://www.uniprot.org/uniprot/Q9QZD4,MOD_RES,PTM
+2072,ERCC4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),500,500,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+10459,MAD2L2,,,,,,,
+5889,RAD51C,Phosphoserine,20,20,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+2175,FANCA,Phosphoserine,1449,1449,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 17525332
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18691976
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",FALSE,MOD_RES,PTM
+2189,FANCG,Phosphoserine,7,7,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 18212739
+
+",http://www.ncbi.nlm.nih.gov/pubmed/18212739,MOD_RES,PTM
+672,BRCA1,N-acetylmethionine,1,1,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 22814378
+
+",http://www.ncbi.nlm.nih.gov/pubmed/22814378,MOD_RES,PTM
+672,BRCA1,Phosphoserine,114,114,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 21406692
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",FALSE,MOD_RES,PTM
+672,BRCA1,Phosphoserine; by AURKA,308,308,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 14990569
+
+",http://www.ncbi.nlm.nih.gov/pubmed/14990569,MOD_RES,PTM
+672,BRCA1,Phosphoserine,395,395,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18669648
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 19690332
+
+",FALSE,MOD_RES,PTM
+672,BRCA1,Phosphoserine,398,398,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18669648
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 19690332
+
+",FALSE,MOD_RES,PTM
+672,BRCA1,Phosphoserine,423,423,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+",http://www.ncbi.nlm.nih.gov/pubmed/20068231,MOD_RES,PTM
+672,BRCA1,Phosphoserine,434,434,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+672,BRCA1,Phosphoserine,551,551,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+672,BRCA1,Phosphoserine,694,694,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",FALSE,MOD_RES,PTM
+672,BRCA1,Phosphoserine,708,708,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+672,BRCA1,Phosphoserine,725,725,"ECO:0000250 - sequence similarity evidence used in manual assertion
+PMID: P48754
+
+",http://www.uniprot.org/uniprot/P48754,MOD_RES,PTM
+672,BRCA1,Phosphoserine,753,753,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18669648
+
+",http://www.ncbi.nlm.nih.gov/pubmed/18669648,MOD_RES,PTM
+672,BRCA1,Phosphoserine,840,840,"ECO:0000250 - sequence similarity evidence used in manual assertion
+PMID: P48754
+
+",http://www.uniprot.org/uniprot/P48754,MOD_RES,PTM
+672,BRCA1,Phosphoserine; by CHEK2,988,988,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 10724175
+
+ECO:0000269 - experimental evidence used in manual assertion
+PMID: 20364141
+
+",FALSE,MOD_RES,PTM
+672,BRCA1,Phosphoserine,1009,1009,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+672,BRCA1,Phosphoserine; by ATR; in vitro,1143,1143,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 11114888
+
+",http://www.ncbi.nlm.nih.gov/pubmed/11114888,MOD_RES,PTM
+672,BRCA1,Phosphoserine,1189,1189,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+672,BRCA1,Phosphoserine,1191,1191,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+672,BRCA1,Phosphoserine,1211,1211,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18669648
+
+",http://www.ncbi.nlm.nih.gov/pubmed/18669648,MOD_RES,PTM
+672,BRCA1,Phosphoserine,1217,1217,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18669648
+
+",http://www.ncbi.nlm.nih.gov/pubmed/18669648,MOD_RES,PTM
+672,BRCA1,Phosphoserine,1218,1218,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18669648
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 21406692
+
+",FALSE,MOD_RES,PTM
+672,BRCA1,Phosphoserine; by ATR; in vitro,1280,1280,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 11114888
+
+",http://www.ncbi.nlm.nih.gov/pubmed/11114888,MOD_RES,PTM
+672,BRCA1,Phosphoserine,1328,1328,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+",http://www.ncbi.nlm.nih.gov/pubmed/20068231,MOD_RES,PTM
+672,BRCA1,Phosphoserine,1336,1336,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 17081983
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 21406692
+
+",FALSE,MOD_RES,PTM
+672,BRCA1,Phosphoserine,1342,1342,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 21406692
+
+",FALSE,MOD_RES,PTM
+672,BRCA1,Phosphoserine; by ATM and ATR,1387,1387,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 11114888
+
+",http://www.ncbi.nlm.nih.gov/pubmed/11114888,MOD_RES,PTM
+672,BRCA1,Phosphothreonine; by ATR; in vitro,1394,1394,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 11114888
+
+",http://www.ncbi.nlm.nih.gov/pubmed/11114888,MOD_RES,PTM
+672,BRCA1,Phosphoserine; by ATM and ATR,1423,1423,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 11114888
+
+",http://www.ncbi.nlm.nih.gov/pubmed/11114888,MOD_RES,PTM
+672,BRCA1,Phosphoserine; by ATR; in vitro,1457,1457,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 11114888
+
+",http://www.ncbi.nlm.nih.gov/pubmed/11114888,MOD_RES,PTM
+672,BRCA1,Phosphoserine; by ATM,1524,1524,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 21144835
+
+",http://www.ncbi.nlm.nih.gov/pubmed/21144835,MOD_RES,PTM
+672,BRCA1,Phosphoserine,1542,1542,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+672,BRCA1,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),109,109,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+672,BRCA1,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),301,301,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+672,BRCA1,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),339,339,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25218447
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25755297
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",FALSE,CROSSLNK,PTM
+672,BRCA1,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),443,443,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25755297
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",FALSE,CROSSLNK,PTM
+672,BRCA1,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),459,459,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25218447
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",FALSE,CROSSLNK,PTM
+672,BRCA1,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),519,519,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+672,BRCA1,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),583,583,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25218447
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25755297
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",FALSE,CROSSLNK,PTM
+672,BRCA1,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),654,654,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25218447
+
+",http://www.ncbi.nlm.nih.gov/pubmed/25218447,CROSSLNK,PTM
+672,BRCA1,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),734,734,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25218447
+
+",http://www.ncbi.nlm.nih.gov/pubmed/25218447,CROSSLNK,PTM
+672,BRCA1,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),739,739,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25218447
+
+",http://www.ncbi.nlm.nih.gov/pubmed/25218447,CROSSLNK,PTM
+672,BRCA1,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),918,918,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+672,BRCA1,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),987,987,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+672,BRCA1,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),1079,1079,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+2188,FANCF,,,,,,,
+91442,FAAP24,,,,,,,
+5888,RAD51,N-acetylalanine,2,2,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 22814378
+
+",http://www.ncbi.nlm.nih.gov/pubmed/22814378,MOD_RES,PTM
+5888,RAD51,Phosphotyrosine; by ABL1,54,54,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 9461559
+
+",http://www.ncbi.nlm.nih.gov/pubmed/9461559,MOD_RES,PTM
+5888,RAD51,Phosphothreonine; by CHEK1,309,309,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 15665856
+
+",http://www.ncbi.nlm.nih.gov/pubmed/15665856,MOD_RES,PTM
+5888,RAD51,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin),58,58,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 23393192
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23393192,CROSSLNK,PTM
+5888,RAD51,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin),64,64,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 23393192
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23393192,CROSSLNK,PTM
+55159,RFWD3,Phosphoserine; by ATM and ATR,46,46,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 20173098
+
+ECO:0000269 - experimental evidence used in manual assertion
+PMID: 28575657
+
+ECO:0000269 - experimental evidence used in manual assertion
+PMID: 28575658
+
+",FALSE,MOD_RES,PTM
+55159,RFWD3,Phosphoserine; by ATM and ATR,63,63,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 20173098
+
+ECO:0000269 - experimental evidence used in manual assertion
+PMID: 28575657
+
+ECO:0000269 - experimental evidence used in manual assertion
+PMID: 28575658
+
+",FALSE,MOD_RES,PTM
+378708,CENPS,N-acetylmethionine,1,1,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 22814378
+
+",http://www.ncbi.nlm.nih.gov/pubmed/22814378,MOD_RES,PTM
+2178,FANCE,Phosphoserine,249,249,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18669648
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 19690332
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 21406692
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",FALSE,MOD_RES,PTM
+2178,FANCE,Phosphothreonine; by CHEK1,346,346,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 17296736
+
+",http://www.ncbi.nlm.nih.gov/pubmed/17296736,MOD_RES,PTM
+2178,FANCE,Phosphoserine; by CHEK1,374,374,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 17296736
+
+",http://www.ncbi.nlm.nih.gov/pubmed/17296736,MOD_RES,PTM
+79728,PALB2,Phosphoserine,172,172,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+79728,PALB2,Phosphoserine,190,190,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+79728,PALB2,Phosphoserine,285,285,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+79728,PALB2,Phosphoserine,376,376,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 17525332
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",FALSE,MOD_RES,PTM
+79728,PALB2,Phosphoserine,387,387,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 19690332
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",FALSE,MOD_RES,PTM
+79728,PALB2,Phosphoserine,454,454,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+79728,PALB2,Phosphoserine,660,660,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+79728,PALB2,Phosphoserine,781,781,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+57697,FANCM,Phosphoserine,34,34,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+57697,FANCM,Phosphoserine,1673,1673,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+57697,FANCM,Phosphoserine,1674,1674,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+675,BRCA2,Phosphoserine,70,70,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+675,BRCA2,Phosphoserine,445,445,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+675,BRCA2,Phosphoserine,492,492,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+675,BRCA2,Phosphoserine,755,755,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 17525332
+
+",http://www.ncbi.nlm.nih.gov/pubmed/17525332,MOD_RES,PTM
+675,BRCA2,Phosphoserine,1970,1970,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+675,BRCA2,Phosphothreonine,2035,2035,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+675,BRCA2,Phosphoserine,2095,2095,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+675,BRCA2,Phosphoserine; by CDK1 and CDK2,3291,3291,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 15800615
+
+",http://www.ncbi.nlm.nih.gov/pubmed/15800615,MOD_RES,PTM
+675,BRCA2,Phosphoserine,3319,3319,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+675,BRCA2,Phosphothreonine; by CHEK1 and CHEK2,3387,3387,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 18317453
+
+",http://www.ncbi.nlm.nih.gov/pubmed/18317453,MOD_RES,PTM
+2177,FANCD2,Phosphoserine,8,8,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+",http://www.ncbi.nlm.nih.gov/pubmed/20068231,MOD_RES,PTM
+2177,FANCD2,Phosphoserine; by ATM,222,222,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 12086603
+
+",http://www.ncbi.nlm.nih.gov/pubmed/12086603,MOD_RES,PTM
+2177,FANCD2,Phosphoserine,592,592,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 17525332
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",FALSE,MOD_RES,PTM
+2177,FANCD2,Phosphoserine,594,594,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+",http://www.ncbi.nlm.nih.gov/pubmed/20068231,MOD_RES,PTM
+2177,FANCD2,Phosphoserine,717,717,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+",http://www.ncbi.nlm.nih.gov/pubmed/20068231,MOD_RES,PTM
+2177,FANCD2,Phosphoserine,1257,1257,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+2177,FANCD2,Phosphoserine; by ATM,1401,1401,"ECO:0000305 - curator inference used in manual assertion
+",,MOD_RES,PTM
+2177,FANCD2,Phosphoserine; by ATM,1404,1404,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 12086603
+
+",http://www.ncbi.nlm.nih.gov/pubmed/12086603,MOD_RES,PTM
+2177,FANCD2,Phosphoserine,1412,1412,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 17525332
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18669648
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",FALSE,MOD_RES,PTM
+2177,FANCD2,Phosphoserine,1423,1423,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+",http://www.ncbi.nlm.nih.gov/pubmed/20068231,MOD_RES,PTM
+2177,FANCD2,Phosphothreonine,1426,1426,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+",http://www.ncbi.nlm.nih.gov/pubmed/20068231,MOD_RES,PTM
+2177,FANCD2,Phosphoserine,1435,1435,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 21406692
+
+",FALSE,MOD_RES,PTM
+2177,FANCD2,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin),561,561,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 11239454
+
+ECO:0000269 - experimental evidence used in manual assertion
+PMID: 19111657
+
+ECO:0000269 - experimental evidence used in manual assertion
+PMID: 20603015
+
+ECO:0000269 - experimental evidence used in manual assertion
+PMID: 20603016
+
+ECO:0000269 - experimental evidence used in manual assertion
+PMID: 20603073
+
+",FALSE,CROSSLNK,PTM
+2187,FANCB,N-acetylthreonine,2,2,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 22814378
+
+",http://www.ncbi.nlm.nih.gov/pubmed/22814378,MOD_RES,PTM
+84464,SLX4,Phosphoserine,169,169,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+84464,SLX4,Phosphoserine,287,287,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18669648
+
+",http://www.ncbi.nlm.nih.gov/pubmed/18669648,MOD_RES,PTM
+84464,SLX4,Phosphoserine,1028,1028,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+84464,SLX4,Phosphoserine,1044,1044,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",FALSE,MOD_RES,PTM
+84464,SLX4,Phosphoserine,1070,1070,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+84464,SLX4,Phosphoserine,1121,1121,"ECO:0000250 - sequence similarity evidence used in manual assertion
+PMID: Q6P1D7
+
+",http://www.uniprot.org/uniprot/Q6P1D7,MOD_RES,PTM
+84464,SLX4,Phosphoserine,1135,1135,"ECO:0000250 - sequence similarity evidence used in manual assertion
+PMID: Q6P1D7
+
+",http://www.uniprot.org/uniprot/Q6P1D7,MOD_RES,PTM
+84464,SLX4,Phosphoserine,1185,1185,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+84464,SLX4,Phosphoserine,1464,1464,"ECO:0000250 - sequence similarity evidence used in manual assertion
+PMID: Q6P1D7
+
+",http://www.uniprot.org/uniprot/Q6P1D7,MOD_RES,PTM
+84464,SLX4,Phosphoserine,1469,1469,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18220336
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18669648
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",FALSE,MOD_RES,PTM
+84464,SLX4,Phosphoserine,1610,1610,"ECO:0000250 - sequence similarity evidence used in manual assertion
+PMID: Q6P1D7
+
+",http://www.uniprot.org/uniprot/Q6P1D7,MOD_RES,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),68,68,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),291,291,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25755297
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",FALSE,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),347,347,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),359,359,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),412,412,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),458,458,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),835,835,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),902,902,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),970,970,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),1081,1081,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),1093,1093,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),1112,1112,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25755297
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",FALSE,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),1120,1120,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),1169,1169,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),1179,1179,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25755297
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",FALSE,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),1180,1180,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25218447
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25755297
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",FALSE,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),1575,1575,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25218447
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25755297
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 25772364
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",FALSE,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),1576,1576,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+84464,SLX4,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),1657,1657,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+29089,UBE2T,Phosphoserine,184,184,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+29089,UBE2T,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin),91,91,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 16916645
+
+ECO:0000269 - experimental evidence used in manual assertion
+PMID: 19111657
+
+",FALSE,CROSSLNK,PTM
+29089,UBE2T,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin),182,182,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 19111657
+
+",http://www.ncbi.nlm.nih.gov/pubmed/19111657,CROSSLNK,PTM
+29089,UBE2T,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),191,191,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+29089,UBE2T,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2),192,192,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 28112733
+
+",http://www.ncbi.nlm.nih.gov/pubmed/28112733,CROSSLNK,PTM
+80233,FAAP100,Phosphoserine,667,667,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18669648
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 24275569
+
+",FALSE,MOD_RES,PTM
+2176,FANCC,,,,,,,
+199990,FAAP20,Phosphoserine,113,113,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+199990,FAAP20,Phosphoserine,137,137,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+201254,CENPX,N-acetylmethionine,1,1,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 22814378
+
+",http://www.ncbi.nlm.nih.gov/pubmed/22814378,MOD_RES,PTM
+55120,FANCL,N-acetylalanine,2,2,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 22814378
+
+",http://www.ncbi.nlm.nih.gov/pubmed/22814378,MOD_RES,PTM
+7516,XRCC2,Phosphoserine,10,10,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+83990,BRIP1,Phosphoserine,505,505,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+83990,BRIP1,Phosphoserine,927,927,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18669648
+
+",http://www.ncbi.nlm.nih.gov/pubmed/18669648,MOD_RES,PTM
+83990,BRIP1,Phosphoserine,930,930,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18669648
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 19690332
+
+",FALSE,MOD_RES,PTM
+83990,BRIP1,Phosphoserine,956,956,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+83990,BRIP1,Phosphoserine,990,990,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18669648
+
+ECO:0000269 - experimental evidence used in manual assertion
+PMID: 14576433
+
+",FALSE,MOD_RES,PTM
+83990,BRIP1,Phosphoserine,1004,1004,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",http://www.ncbi.nlm.nih.gov/pubmed/23186163,MOD_RES,PTM
+83990,BRIP1,Phosphoserine,1032,1032,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 19690332
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",FALSE,MOD_RES,PTM
+83990,BRIP1,Phosphoserine,1237,1237,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 20068231
+
+",http://www.ncbi.nlm.nih.gov/pubmed/20068231,MOD_RES,PTM
+83990,BRIP1,N6-acetyllysine,1249,1249,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 22792074
+
+",http://www.ncbi.nlm.nih.gov/pubmed/22792074,MOD_RES,PTM
+55215,FANCI,Phosphoserine,407,407,"ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 16964243
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 18669648
+
+ECO:0000244 - combinatorial evidence used in manual assertion
+PMID: 23186163
+
+",FALSE,MOD_RES,PTM
+55215,FANCI,Phosphoserine,556,556,"ECO:0000250 - sequence similarity evidence used in manual assertion
+PMID: Q8K368
+
+",http://www.uniprot.org/uniprot/Q8K368,MOD_RES,PTM
+55215,FANCI,Phosphoserine,730,730,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 17412408
+
+",http://www.ncbi.nlm.nih.gov/pubmed/17412408,MOD_RES,PTM
+55215,FANCI,Phosphothreonine,952,952,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 17412408
+
+",http://www.ncbi.nlm.nih.gov/pubmed/17412408,MOD_RES,PTM
+55215,FANCI,Phosphoserine,1121,1121,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 17412408
+
+",http://www.ncbi.nlm.nih.gov/pubmed/17412408,MOD_RES,PTM
+55215,FANCI,Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin),523,523,"ECO:0000269 - experimental evidence used in manual assertion
+PMID: 17412408
+
+ECO:0000269 - experimental evidence used in manual assertion
+PMID: 17460694
+
+ECO:0000269 - experimental evidence used in manual assertion
+PMID: 19589784
+
+",FALSE,CROSSLNK,PTM

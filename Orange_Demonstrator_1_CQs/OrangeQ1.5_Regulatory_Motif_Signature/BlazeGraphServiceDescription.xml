@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:nodeID="service">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sparql-service-description#Service"/>
+	<endpoint xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://localhost:9999/blazegraph/namespace/kb/sparql"/>
+	<endpoint xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://localhost:9999/bigdata/LBS/namespace/kb/sparql"/>
+	<supportedLanguage xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/sparql-service-description#SPARQL10Query"/>
+	<supportedLanguage xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/sparql-service-description#SPARQL11Query"/>
+	<supportedLanguage xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/sparql-service-description#SPARQL11Update"/>
+	<feature xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/sparql-service-description#BasicFederatedQuery"/>
+	<feature xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/sparql-service-description#UnionDefaultGraph"/>
+	<feature xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.bigdata.com/rdf#/features/KB/Mode/Quads"/>
+	<inputFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+	<inputFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
+	<inputFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
+	<inputFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/N3"/>
+	<inputFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.wiwiss.fu-berlin.de/suhl/bizer/TriG/Spec/"/>
+	<inputFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://sw.deri.org/2008/07/n-quads/#n-quads"/>
+	<inputFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/SPARQL_Results_XML"/>
+	<inputFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/SPARQL_Results_JSON"/>
+	<inputFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/SPARQL_Results_CSV"/>
+	<inputFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/SPARQL_Results_TSV"/>
+	<resultFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+	<resultFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/N-Triples"/>
+	<resultFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
+	<resultFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/N3"/>
+	<resultFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.wiwiss.fu-berlin.de/suhl/bizer/TriG/Spec/"/>
+	<resultFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/SPARQL_Results_XML"/>
+	<resultFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/SPARQL_Results_JSON"/>
+	<resultFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/SPARQL_Results_CSV"/>
+	<resultFormat xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/formats/SPARQL_Results_TSV"/>
+	<entailmentRegime xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:resource="http://www.w3.org/ns/entailment/Simple"/>
+	<defaultDataset xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:nodeID="defaultDataset"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="defaultDataset">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sparql-service-description#Dataset"/>
+	<rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+	<title xmlns="http://purl.org/dc/terms/">kb</title>
+	<Namespace xmlns="http://www.bigdata.com/rdf#/features/KB/">kb</Namespace>
+	<sparqlEndpoint xmlns="http://rdfs.org/ns/void#" rdf:resource="http://localhost:9999/blazegraph/namespace/kb/sparql/kb/sparql"/>
+	<sparqlEndpoint xmlns="http://rdfs.org/ns/void#" rdf:resource="http://localhost:9999/bigdata/LBS/namespace/kb/sparql/kb/sparql"/>
+	<uriRegexPattern xmlns="http://rdfs.org/ns/void#">^.*</uriRegexPattern>
+	<vocabulary xmlns="http://rdfs.org/ns/void#" rdf:resource="http://purl.obolibrary.org/obo/"/>
+	<vocabulary xmlns="http://rdfs.org/ns/void#" rdf:resource="http://www.ebi.ac.uk/efo/swo/"/>
+	<vocabulary xmlns="http://rdfs.org/ns/void#" rdf:resource="http://www.geneontology.org/formats/oboInOwl"/>
+	<vocabulary xmlns="http://rdfs.org/ns/void#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns"/>
+	<vocabulary xmlns="http://rdfs.org/ns/void#" rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+	<defaultGraph xmlns="http://www.w3.org/ns/sparql-service-description#" rdf:nodeID="defaultGraph"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="defaultGraph">
+	<rdf:type rdf:resource="http://www.w3.org/ns/sparql-service-description#Graph"/>
+	<triples xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#long">924637</triples>
+	<entities xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#long">204173</entities>
+	<properties xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</properties>
+	<classes xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</classes>
+	<propertyPartition xmlns="http://rdfs.org/ns/void#" rdf:nodeID="node1bg4012opx112"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1bg4012opx112">
+	<property xmlns="http://rdfs.org/ns/void#" rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+	<triples xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#long">270228</triples>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="defaultGraph">
+	<propertyPartition xmlns="http://rdfs.org/ns/void#" rdf:nodeID="node1bg4012opx113"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1bg4012opx113">
+	<property xmlns="http://rdfs.org/ns/void#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+	<triples xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#long">187590</triples>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="defaultGraph">
+	<propertyPartition xmlns="http://rdfs.org/ns/void#" rdf:nodeID="node1bg4012opx114"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1bg4012opx114">
+	<property xmlns="http://rdfs.org/ns/void#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+	<triples xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#long">187590</triples>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="defaultGraph">
+	<propertyPartition xmlns="http://rdfs.org/ns/void#" rdf:nodeID="node1bg4012opx115"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1bg4012opx115">
+	<property xmlns="http://rdfs.org/ns/void#" rdf:resource="http://www.ebi.ac.uk/efo/swo/SWO_0000425"/>
+	<triples xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#long">135114</triples>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="defaultGraph">
+	<propertyPartition xmlns="http://rdfs.org/ns/void#" rdf:nodeID="node1bg4012opx116"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1bg4012opx116">
+	<property xmlns="http://rdfs.org/ns/void#" rdf:resource="http://purl.obolibrary.org/obo/GENO_0000678"/>
+	<triples xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#long">46477</triples>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="defaultGraph">
+	<propertyPartition xmlns="http://rdfs.org/ns/void#" rdf:nodeID="node1bg4012opx117"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1bg4012opx117">
+	<property xmlns="http://rdfs.org/ns/void#" rdf:resource="http://purl.obolibrary.org/obo/SO_adjacent_to"/>
+	<triples xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#long">46477</triples>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="defaultGraph">
+	<propertyPartition xmlns="http://rdfs.org/ns/void#" rdf:nodeID="node1bg4012opx118"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1bg4012opx118">
+	<property xmlns="http://rdfs.org/ns/void#" rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+	<triples xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#long">34800</triples>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="defaultGraph">
+	<propertyPartition xmlns="http://rdfs.org/ns/void#" rdf:nodeID="node1bg4012opx119"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1bg4012opx119">
+	<property xmlns="http://rdfs.org/ns/void#" rdf:resource="http://www.geneontology.org/formats/oboInOwl#subset"/>
+	<triples xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#long">10362</triples>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="defaultGraph">
+	<propertyPartition xmlns="http://rdfs.org/ns/void#" rdf:nodeID="node1bg4012opx120"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1bg4012opx120">
+	<property xmlns="http://rdfs.org/ns/void#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+	<triples xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#long">5999</triples>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="defaultGraph">
+	<classPartition xmlns="http://rdfs.org/ns/void#" rdf:nodeID="node1bg4012opx121"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1bg4012opx121">
+	<class xmlns="http://rdfs.org/ns/void#" rdf:resource="http://www.ebi.ac.uk/efo/swo/SWO_0000243"/>
+	<triples xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#long">135114</triples>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="defaultGraph">
+	<classPartition xmlns="http://rdfs.org/ns/void#" rdf:nodeID="node1bg4012opx122"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1bg4012opx122">
+	<class xmlns="http://rdfs.org/ns/void#" rdf:resource="http://purl.obolibrary.org/obo/SO_0001416"/>
+	<triples xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#long">46477</triples>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="defaultGraph">
+	<classPartition xmlns="http://rdfs.org/ns/void#" rdf:nodeID="node1bg4012opx123"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1bg4012opx123">
+	<class xmlns="http://rdfs.org/ns/void#">SIO:000616</class>
+	<triples xmlns="http://rdfs.org/ns/void#" rdf:datatype="http://www.w3.org/2001/XMLSchema#long">5999</triples>
+</rdf:Description>
+
+</rdf:RDF>

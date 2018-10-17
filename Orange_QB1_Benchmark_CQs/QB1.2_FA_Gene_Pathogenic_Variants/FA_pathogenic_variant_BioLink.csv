@@ -1,0 +1,574 @@
+,gene_name,gene_curie,variant_name,variant_curie,relation_label,relation_curie,disease_label,disease_curie
+0,FANCA,NCBIGene:2175,NM_000135.3(FANCA):c.2557C>T (p.Arg853Ter),ClinVarVariant:192384,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+1,FANCA,NCBIGene:2175,NC_000016.9:g.(89829945_89831038)_(89836251_89836293)del,ClinVarVariant:402242,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group a",OMIM:227650
+2,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.154C>T (p.Arg52Ter),ClinVarVariant:371668,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+3,FANCA,NCBIGene:2175,NM_000135.3(FANCA):c.2151+1G>A,ClinVarVariant:435130,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+4,FANCA,NCBIGene:2175,NM_000135.3(FANCA):c.2601+1G>T,ClinVarVariant:435128,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+5,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.1615delG (p.Asp539Thrfs),ClinVarVariant:3443,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+6,FANCA,NCBIGene:2175,NC_000016.9:g.(89837128_89837200)_(89847471_89848956)del,ClinVarVariant:402243,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group a",OMIM:227650
+7,FANCA,NCBIGene:2175,NM_000135.3(FANCA):c.3558dup (p.Arg1187Glufs),ClinVarVariant:3444,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+8,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.3720_3724delAAACA (p.Glu1240Aspfs),ClinVarVariant:3448,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+9,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.3066+1G>T,ClinVarVariant:156400,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+10,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.3624C>T (p.Ser1208=),ClinVarVariant:419528,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group a",OMIM:227650
+11,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.1007_3066del,ClinVarVariant:3445,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+12,FANCA,NCBIGene:2175,NM_000135.3(FANCA):c.1A>G (p.Met1Val),ClinVarVariant:435134,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+13,FANCA,NCBIGene:2175,NM_000135.3(FANCA):c.2398G>T (p.Glu800Ter),ClinVarVariant:435129,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+14,FANCA,NCBIGene:2175,NM_000135.3(FANCA):c.1340C>G (p.Ser447Ter),ClinVarVariant:435132,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+15,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.2574C>G (p.Ser858Arg),ClinVarVariant:134256,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+16,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.3761_3762delAG (p.Glu1254Glyfs),ClinVarVariant:370466,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+17,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.1115_1118delTTGG (p.Val372Alafs),ClinVarVariant:3440,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+18,FANCA,NCBIGene:2175,NM_000135.3(FANCA):c.2839dup (p.Ser947Phefs),ClinVarVariant:188383,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group a",OMIM:227650
+19,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.4015delC (p.Leu1339Serfs),ClinVarVariant:208638,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group a",OMIM:227650
+20,FANCA,NCBIGene:2175,NM_000135.3(FANCA):c.513G>A (p.Trp171Ter),ClinVarVariant:3447,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+21,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.987_990delTCAC (p.His330Alafs),ClinVarVariant:208580,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+22,FANCA,NCBIGene:2175,"FANCA, IVS7DS, G-A, +5",ClinVarVariant:192385,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+23,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.295C>T (p.Gln99Ter),ClinVarVariant:370361,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+24,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.811C>T (p.Gln271Ter),ClinVarVariant:371093,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group a",OMIM:227650
+25,FANCA,NCBIGene:2175,NM_000135.3(FANCA):c.3482C>T (p.Thr1161Met),ClinVarVariant:435126,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group a",OMIM:227650
+26,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.1606delT (p.Ser536Glnfs),ClinVarVariant:3446,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+27,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.3788_3790delTCT (p.Phe1263del),ClinVarVariant:41003,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+28,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.2762A>T (p.Lys921Ile),ClinVarVariant:203995,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group a",OMIM:227650
+29,FANCA,NCBIGene:2175,"FANCA, 156-BP DEL, NT1515",ClinVarVariant:3441,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+30,FANCA,NCBIGene:2175,NM_000135.2(FANCA):c.894_1006del113 (p.Trp298Cysfs),ClinVarVariant:3442,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+31,FANCA,NCBIGene:2175,LRG_495t1:c.1627_1900del274,ClinVarVariant:3439,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+32,FANCB,NCBIGene:2187,"FANCB, 1-BP INS, 1838T",ClinVarVariant:10866,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group B",OMIM:300514
+33,FANCB,NCBIGene:2187,"FANCB, 1-BP INS, 811T",ClinVarVariant:10869,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group B",OMIM:300514
+34,FANCB,NCBIGene:2187,"FANCB, LEU717TER",ClinVarVariant:37043,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group B",OMIM:300514
+35,FANCB,NCBIGene:2187,"FANCB, 2-BP DEL, 1857AG",ClinVarVariant:37044,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group B",OMIM:300514
+36,FANCB,NCBIGene:2187,"FANCB, 3314-BP DEL",ClinVarVariant:10867,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group B",OMIM:300514
+37,FANCB,NCBIGene:2187,"FANCB, 1-BP DEL, 1650T",ClinVarVariant:10868,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group B",OMIM:300514
+38,FANCB,NCBIGene:2187,"FANCB, IVS7DS, G-A, +5",ClinVarVariant:10870,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group B",OMIM:300514
+39,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.595dupC (p.Leu199Profs),ClinVarVariant:221622,likely pathogenic,GENO:0000841,Carcinoma of colon,OMIM:114500
+40,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.251-2A>C,ClinVarVariant:371370,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+41,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.117delT (p.Gln40Serfs),ClinVarVariant:371279,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+42,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.831delA (p.Asp278Ilefs),ClinVarVariant:370818,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+43,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.307C>T (p.Gln103Ter),ClinVarVariant:370299,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+44,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1599G>A (p.Trp533Ter),ClinVarVariant:370395,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+45,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1037dupC (p.Ser347Ilefs),ClinVarVariant:370120,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+46,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1555dupA (p.Thr519Asnfs),ClinVarVariant:12048,pathogenic,GENO:0000840,"Fanconi anemia, complementation group C",OMIM:227645
+47,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.520C>T (p.Arg174Ter),ClinVarVariant:189022,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+48,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1498G>T (p.Gly500Ter),ClinVarVariant:371047,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+49,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.37C>T (p.Gln13Ter),ClinVarVariant:12046,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+50,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.456+4A>T,ClinVarVariant:12045,pathogenic,GENO:0000840,"Fanconi anemia, complementation group C",OMIM:227645
+51,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1533+1G>C,ClinVarVariant:370968,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+52,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1162G>T (p.Gly388Ter),ClinVarVariant:218427,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+53,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1517G>A (p.Trp506Ter),ClinVarVariant:370437,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+54,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.37C>T (p.Gln13Ter),ClinVarVariant:12046,pathogenic,GENO:0000840,"Fanconi anemia, complementation group C",OMIM:227645
+55,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1533+2T>C,ClinVarVariant:371310,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+56,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.165+1G>T,ClinVarVariant:12051,pathogenic,GENO:0000840,"Fanconi anemia, complementation group C",OMIM:227645
+57,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1333C>T (p.Gln445Ter),ClinVarVariant:370186,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+58,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1290C>A (p.Tyr430Ter),ClinVarVariant:219717,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+59,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1661T>C (p.Leu554Pro),ClinVarVariant:12043,pathogenic,GENO:0000840,"Fanconi anemia, complementation group C",OMIM:227645
+60,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.843+1G>A,ClinVarVariant:127547,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+61,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.457-1G>T,ClinVarVariant:370985,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+62,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.553C>T (p.Arg185Ter),ClinVarVariant:12044,pathogenic,GENO:0000840,"Fanconi anemia, complementation group C",OMIM:227645
+63,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.844-1G>C,ClinVarVariant:189053,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+64,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.487_490delGAGA (p.Glu163Ilefs),ClinVarVariant:182465,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+65,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1487T>G (p.Leu496Arg),ClinVarVariant:12050,pathogenic,GENO:0000840,"Fanconi anemia, complementation group C",OMIM:227645
+66,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.67delG (p.Asp23Ilefs),ClinVarVariant:12049,pathogenic,GENO:0000840,"Fanconi anemia, complementation group C",OMIM:227645
+67,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1309C>T (p.Gln437Ter),ClinVarVariant:370350,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+68,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1642C>T (p.Arg548Ter),ClinVarVariant:12047,pathogenic,GENO:0000840,"Fanconi anemia, complementation group C",OMIM:227645
+69,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.108_109dupTC (p.His37Leufs),ClinVarVariant:371258,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+70,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.686+1G>T,ClinVarVariant:371252,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+71,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1103_1104delTG (p.Leu368Glnfs),ClinVarVariant:370987,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+72,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.996+1G>T,ClinVarVariant:265137,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+73,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1144delC (p.Gln382Argfs),ClinVarVariant:370205,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+74,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.345+1delG,ClinVarVariant:370119,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+75,FANCC,NCBIGene:2176,"FANCC, 250-BP DEL",ClinVarVariant:12052,pathogenic,GENO:0000840,"Fanconi anemia, complementation group C",OMIM:227645
+76,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.65G>A (p.Trp22Ter),ClinVarVariant:188926,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+77,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.339G>A (p.Trp113Ter),ClinVarVariant:370175,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+78,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.1628C>A (p.Ser543Ter),ClinVarVariant:370412,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+79,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.640dupA (p.Ile214Asnfs),ClinVarVariant:371351,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+80,FANCC,NCBIGene:2176,NM_000136.2(FANCC):c.356_360delCTCAT (p.Ser119Tyrfs),ClinVarVariant:417933,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group C",OMIM:227645
+81,FANCE,NCBIGene:2178,NM_021922.2(FANCE):c.598C>T (p.Arg200Cys),ClinVarVariant:221623,likely pathogenic,GENO:0000841,Carcinoma of colon,OMIM:114500
+82,FANCE,NCBIGene:2178,NM_021922.2(FANCE):c.421C>T (p.Arg141Ter),ClinVarVariant:8710,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group E",OMIM:600901
+83,FANCE,NCBIGene:2178,NM_021922.2(FANCE):c.355C>T (p.Gln119Ter),ClinVarVariant:8709,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group E",OMIM:600901
+84,FANCE,NCBIGene:2178,LRG_498t1:c.1113_1114insCTGTAG,ClinVarVariant:8711,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group E",OMIM:600901
+85,FANCF,NCBIGene:2188,NM_022725.3(FANCF):c.327C>G (p.Tyr109Ter),ClinVarVariant:6344,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group F",OMIM:603467
+86,FANCF,NCBIGene:2188,NM_022725.3(FANCF):c.16C>T (p.Gln6Ter),ClinVarVariant:6342,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group F",OMIM:603467
+87,FANCF,NCBIGene:2188,NM_022725.3(FANCF):c.349_395del47 (p.Gly120Profs),ClinVarVariant:6341,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group F",OMIM:603467
+88,FANCF,NCBIGene:2188,NM_022725.3(FANCF):c.690delT (p.Gly231Glufs),ClinVarVariant:208581,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group F",OMIM:603467
+89,FANCF,NCBIGene:2188,NM_022725.3(FANCF):c.484_485delCT (p.Leu162Aspfs),ClinVarVariant:6343,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group F",OMIM:603467
+90,FANCF,NCBIGene:2188,NM_022725.3(FANCF):c.230_252del23 (p.Val77Glyfs),ClinVarVariant:6340,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group F",OMIM:603467
+91,FANCG,NCBIGene:2189,NM_004629.1(FANCG):c.1794_1803delCTGGATCCGT (p.Trp599Profs),ClinVarVariant:6718,pathogenic,GENO:0000840,"Fanconi anemia, complementation group G",OMIM:614082
+92,FANCG,NCBIGene:2189,"FANCG, IVS13, G-C, -1",ClinVarVariant:6713,pathogenic,GENO:0000840,"Fanconi anemia, complementation group G",OMIM:614082
+93,FANCG,NCBIGene:2189,NM_004629.1(FANCG):c.1480+1G>C,ClinVarVariant:6717,pathogenic,GENO:0000840,"Fanconi anemia, complementation group G",OMIM:614082
+94,FANCG,NCBIGene:2189,NM_004629.1(FANCG):c.925-2A>G,ClinVarVariant:6716,pathogenic,GENO:0000840,"Fanconi anemia, complementation group G",OMIM:614082
+95,FANCG,NCBIGene:2189,NM_004629.1(FANCG):c.307+1G>C,ClinVarVariant:6714,pathogenic,GENO:0000840,"Fanconi anemia, complementation group G",OMIM:614082
+96,FANCG,NCBIGene:2189,NM_004629.1(FANCG):c.1066C>T (p.Gln356Ter),ClinVarVariant:6715,pathogenic,GENO:0000840,"Fanconi anemia, complementation group G",OMIM:614082
+97,FANCG,NCBIGene:2189,NM_004629.1(FANCG):c.637_643delTACCGCC (p.Tyr213Lysfs),ClinVarVariant:6719,pathogenic,GENO:0000840,"Fanconi anemia, complementation group G",OMIM:614082
+98,FANCG,NCBIGene:2189,NM_004629.1(FANCG):c.313G>T (p.Glu105Ter),ClinVarVariant:6712,pathogenic,GENO:0000840,"Fanconi anemia, complementation group G",OMIM:614082
+99,FANCG,NCBIGene:2189,NM_004629.1(FANCG):c.1183_1192delGAGGTGTTTT (p.Glu395Trpfs),ClinVarVariant:41224,pathogenic,GENO:0000840,"Fanconi anemia, complementation group G",OMIM:614082
+100,FANCL,NCBIGene:55120,NM_018062.3(FANCL):c.1007_1009delTAT (p.Ile336_Cys337delinsSer),ClinVarVariant:241247,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group 50",OMIM:614083
+101,FANCL,NCBIGene:55120,"FANCL, 4-BP DUP, 1095AATT",ClinVarVariant:30702,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group 50",OMIM:614083
+102,FANCL,NCBIGene:55120,"FANCL, 3-BP DEL, 1007TAT",ClinVarVariant:30701,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group 50",OMIM:614083
+103,FANCL,NCBIGene:55120,NM_018062.3(FANCL):c.1096_1099dupATTA (p.Thr367Asnfs),ClinVarVariant:210988,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group 50",OMIM:614083
+104,FANCL,NCBIGene:55120,NM_001114636.1(FANCL):c.268delC (p.Leu90Phefs),ClinVarVariant:209076,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group 50",OMIM:614083
+105,FANCL,NCBIGene:55120,NM_018062.3(FANCL):c.822-15_822-9delins177,ClinVarVariant:2535,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group 50",OMIM:614083
+106,FANCL,NCBIGene:55120,NM_001114636.1(FANCL):c.430delT (p.Ser144Leufs),ClinVarVariant:209077,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group 50",OMIM:614083
+107,FANCD2,NCBIGene:2177,NM_001018115.2(FANCD2):c.904C>T (p.Arg302Trp),ClinVarVariant:12040,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group D2",OMIM:227646
+108,FANCD2,NCBIGene:2177,NM_001018115.2(FANCD2):c.958C>T (p.Gln320Ter),ClinVarVariant:12041,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group D2",OMIM:227646
+109,FANCD2,NCBIGene:2177,"FANCD2, EX17 DEL",ClinVarVariant:12042,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group D2",OMIM:227646
+110,FANCD2,NCBIGene:2177,NM_033084.4(FANCD2):c.2097_2099delCCT (p.Leu700del),ClinVarVariant:224709,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group D2",OMIM:227646
+111,FANCD2,NCBIGene:2177,NM_033084.4(FANCD2):c.1201delA (p.Arg401Glyfs),ClinVarVariant:435148,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group D2",OMIM:227646
+112,FANCD2,NCBIGene:2177,"FANCD2, 376A-G",ClinVarVariant:12039,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group D2",OMIM:227646
+113,FANCI,NCBIGene:55215,"FANCI, IVS31AS, A-G, -88",ClinVarVariant:974,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group 1",OMIM:609053
+114,FANCI,NCBIGene:55215,NM_001113378.1(FANCI):c.158-2A>G,ClinVarVariant:225355,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group 1",OMIM:609053
+115,FANCI,NCBIGene:55215,NM_001113378.1(FANCI):c.1461T>A (p.Tyr487Ter),ClinVarVariant:408247,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group 1",OMIM:609053
+116,FANCI,NCBIGene:55215,NM_001113378.1(FANCI):c.2422A>T (p.Lys808Ter),ClinVarVariant:208639,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group 1",OMIM:609053
+117,FANCI,NCBIGene:55215,NM_001113378.1(FANCI):c.3853C>T (p.Arg1285Ter),ClinVarVariant:973,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group 1",OMIM:609053
+118,FANCI,NCBIGene:55215,NM_001113378.1(FANCI):c.3854G>A (p.Arg1285Gln),ClinVarVariant:972,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group 1",OMIM:609053
+119,FANCI,NCBIGene:55215,"FANCI, 2T-C",ClinVarVariant:971,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group 1",OMIM:609053
+120,UBE2T,NCBIGene:29089,NM_014176.3(UBE2T):c.179+5G>A,ClinVarVariant:199437,pathogenic,GENO:0000840,"Fanconi anemia, complementation group T",OMIM:616435
+121,UBE2T,NCBIGene:29089,NM_014176.3(UBE2T):c.4C>G (p.Gln2Glu),ClinVarVariant:199436,pathogenic,GENO:0000840,"Fanconi anemia, complementation group T",OMIM:616435
+122,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.9152delC (p.Pro3051Hisfs),ClinVarVariant:127241,pathogenic,GENO:0000840,"Isolated Growth Hormone Deficiency, Type 1A",OMIM:262400
+123,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.5645C>G (p.Ser1882Ter),ClinVarVariant:9346,pathogenic,GENO:0000840,medulloblastoma,OMIM:155255
+124,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.658_659delGT (p.Val220Ilefs),ClinVarVariant:9342,pathogenic,GENO:0000840,medulloblastoma,OMIM:155255
+125,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.5609_5610delTCinsAG (p.Phe1870Ter),ClinVarVariant:51890,pathogenic,GENO:0000840,Tumor Predisposition Syndrome,OMIM:614327
+126,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.7762_7764delATAinsTT (p.Ile2588Phefs),ClinVarVariant:233493,pathogenic,GENO:0000840,Tumor Predisposition Syndrome,OMIM:614327
+127,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.3860delA (p.Asn1287Ilefs),ClinVarVariant:51545,pathogenic,GENO:0000840,Tumor Predisposition Syndrome,OMIM:614327
+128,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.5946delT (p.Ser1982Argfs),ClinVarVariant:9325,likely pathogenic,GENO:0000841,"Pancreatic Cancer, Susceptibility To, 2",OMIM:613347
+129,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.2330dupA (p.Asp777Glufs),ClinVarVariant:91775,pathogenic,GENO:0000840,Malignant tumor of prostate,OMIM:176807
+130,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.5823delA (p.Val1942Phefs),ClinVarVariant:51945,pathogenic,GENO:0000840,Malignant tumor of prostate,OMIM:176807
+131,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.658_659delGT (p.Val220Ilefs),ClinVarVariant:9342,pathogenic,GENO:0000840,"Fanconi anemia, complementation group D1",OMIM:605724
+132,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.7529T>C (p.Leu2510Pro),ClinVarVariant:9345,pathogenic,GENO:0000840,"Fanconi anemia, complementation group D1",OMIM:605724
+133,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.8219T>A (p.Leu2740Ter),ClinVarVariant:9343,pathogenic,GENO:0000840,"Fanconi anemia, complementation group D1",OMIM:605724
+134,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.631+1G>A,ClinVarVariant:9348,pathogenic,GENO:0000840,"Fanconi anemia, complementation group D1",OMIM:605724
+135,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.631+2T>G,ClinVarVariant:9349,pathogenic,GENO:0000840,"Fanconi anemia, complementation group D1",OMIM:605724
+136,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.8488-1G>A,ClinVarVariant:38164,pathogenic,GENO:0000840,"Fanconi anemia, complementation group D1",OMIM:605724
+137,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.9196C>T (p.Gln3066Ter),ClinVarVariant:9347,pathogenic,GENO:0000840,"Fanconi anemia, complementation group D1",OMIM:605724
+138,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.7007G>A (p.Arg2336His),ClinVarVariant:38077,pathogenic,GENO:0000840,"Fanconi anemia, complementation group D1",OMIM:605724
+139,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.9672dupA (p.Tyr3225Ilefs),ClinVarVariant:126217,pathogenic,GENO:0000840,"Fanconi anemia, complementation group D1",OMIM:605724
+140,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.8187G>T (p.Lys2729Asn),ClinVarVariant:38142,pathogenic,GENO:0000840,"Fanconi anemia, complementation group D1",OMIM:605724
+141,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.4648G>T (p.Glu1550Ter),ClinVarVariant:9344,pathogenic,GENO:0000840,"Fanconi anemia, complementation group D1",OMIM:605724
+142,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.5946delT (p.Ser1982Argfs),ClinVarVariant:9325,pathogenic,GENO:0000840,"Fanconi anemia, complementation group D1",OMIM:605724
+143,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.5609_5610delTCinsAG (p.Phe1870Ter),ClinVarVariant:51890,pathogenic,GENO:0000840,"Fanconi anemia, complementation group D1",OMIM:605724
+144,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.8732C>A (p.Ala2911Glu),ClinVarVariant:9339,pathogenic,GENO:0000840,"Fanconi anemia, complementation group D1",OMIM:605724
+145,BRCA2,NCBIGene:675,NM_000059.3(BRCA2):c.7464_7465insTA (p.Asp2489Terfs),ClinVarVariant:254605,pathogenic,GENO:0000840,"Fanconi anemia, complementation group D1",OMIM:605724
+146,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.886G>T (p.Glu296Ter),ClinVarVariant:430641,pathogenic,GENO:0000840,hereditary breast ovarian cancer,DOID:5683
+147,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1702_1703delAA (p.Asn568Trpfs),ClinVarVariant:221621,likely pathogenic,GENO:0000841,Carcinoma of colon,OMIM:114500
+148,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2765T>G (p.Leu922Ter),ClinVarVariant:142366,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group J",OMIM:609054
+149,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1853_1854insG (p.Pro619Thrfs),ClinVarVariant:141753,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group J",OMIM:609054
+150,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2990_2993delCAAA (p.Thr997Argfs),ClinVarVariant:234281,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group J",OMIM:609054
+151,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2392C>T (p.Arg798Ter),ClinVarVariant:4738,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group J",OMIM:609054
+152,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.290_293delACAA (p.Asn97Metfs),ClinVarVariant:187379,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group J",OMIM:609054
+153,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2038_2039dupTT (p.Leu680Phefs),ClinVarVariant:128166,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group J",OMIM:609054
+154,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.205+1delG,ClinVarVariant:372101,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group J",OMIM:609054
+155,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1045G>C (p.Ala349Pro),ClinVarVariant:30535,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group J",OMIM:609054
+156,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2392C>T (p.Arg798Ter),ClinVarVariant:4738,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group J",OMIM:609054
+157,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2111T>A (p.Leu704Ter),ClinVarVariant:372090,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group J",OMIM:609054
+158,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1240C>T (p.Gln414Ter),ClinVarVariant:141382,likely pathogenic,GENO:0000841,"Fanconi Anemia, Complementation Group J",OMIM:609054
+159,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.290_293delACAA (p.Asn97Metfs),ClinVarVariant:187379,likely pathogenic,GENO:0000841,Ovarian Cancer,OMIM:167000
+160,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1240C>T (p.Gln414Ter),ClinVarVariant:141382,likely pathogenic,GENO:0000841,Ovarian Cancer,OMIM:167000
+161,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.205+1delG,ClinVarVariant:372101,likely pathogenic,GENO:0000841,Ovarian Cancer,OMIM:167000
+162,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2990_2993delCAAA (p.Thr997Argfs),ClinVarVariant:234281,likely pathogenic,GENO:0000841,Ovarian Cancer,OMIM:167000
+163,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2038_2039dupTT (p.Leu680Phefs),ClinVarVariant:128166,likely pathogenic,GENO:0000841,Ovarian Cancer,OMIM:167000
+164,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2392C>T (p.Arg798Ter),ClinVarVariant:4738,likely pathogenic,GENO:0000841,Ovarian Cancer,OMIM:167000
+165,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1853_1854insG (p.Pro619Thrfs),ClinVarVariant:141753,likely pathogenic,GENO:0000841,Ovarian Cancer,OMIM:167000
+166,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2111T>A (p.Leu704Ter),ClinVarVariant:372090,likely pathogenic,GENO:0000841,Ovarian Cancer,OMIM:167000
+167,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2765T>G (p.Leu922Ter),ClinVarVariant:142366,pathogenic,GENO:0000840,Ovarian Cancer,OMIM:167000
+168,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2684_2687delCCAT (p.Ser895Terfs),ClinVarVariant:241642,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+169,BRIP1,NCBIGene:83990,NC_000017.11:g.(?_61847101)_(61849256_?)dup,ClinVarVariant:417417,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+170,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.919-?_1140+?del,ClinVarVariant:188251,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+171,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2947dupA (p.Ile983Asnfs),ClinVarVariant:407863,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+172,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.133G>T (p.Glu45Ter),ClinVarVariant:140808,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+173,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1510delA (p.Ile504Serfs),ClinVarVariant:407794,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+174,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2038_2039dupTT (p.Leu680Phefs),ClinVarVariant:128166,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+175,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2400C>G (p.Tyr800Ter),ClinVarVariant:142343,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+176,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1495C>T (p.Gln499Ter),ClinVarVariant:407807,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+177,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2992_2995delAAGA (p.Lys998Glufs),ClinVarVariant:187416,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+178,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.68dupC (p.Ser24Valfs),ClinVarVariant:407789,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+179,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2010dupT (p.Glu671Terfs),ClinVarVariant:187476,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+180,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2108delAinsTCC (p.Lys703Ilefs),ClinVarVariant:186992,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+181,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1236delA (p.Val413Phefs),ClinVarVariant:216128,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+182,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1474-?_1628+?del,ClinVarVariant:219676,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+183,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.548delT (p.Leu183Trpfs),ClinVarVariant:407872,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+184,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2786_2789dupTATC (p.Pro931Ilefs),ClinVarVariant:407839,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+185,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2479C>T (p.Gln827Ter),ClinVarVariant:241641,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+186,BRIP1,NCBIGene:83990,NM_032043.2:c.505_506insALU,ClinVarVariant:224938,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+187,BRIP1,NCBIGene:83990,NC_000017.11:g.(?_61847101)_(61849256_?)del,ClinVarVariant:417413,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+188,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1697_1698insTATATCAAATTGATATTTCAACAAC (p.Lys567Ilefs),ClinVarVariant:241628,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+189,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1045G>C (p.Ala349Pro),ClinVarVariant:30535,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+190,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.440dupA (p.Tyr147Terfs),ClinVarVariant:187164,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+191,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.918+1G>A,ClinVarVariant:141319,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+192,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2732dupT (p.Thr912Aspfs),ClinVarVariant:407818,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+193,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.627+1G>A,ClinVarVariant:136152,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+194,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.94-7_178dup,ClinVarVariant:407793,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+195,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2085dupG (p.Pro696Alafs),ClinVarVariant:407860,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+196,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.290_293delACAA (p.Asn97Metfs),ClinVarVariant:187379,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+197,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1383T>G (p.Tyr461Ter),ClinVarVariant:216130,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+198,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.958delA (p.Ser320Valfs),ClinVarVariant:219758,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+199,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2392C>T (p.Arg798Ter),ClinVarVariant:4738,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+200,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1871C>A (p.Ser624Ter),ClinVarVariant:140852,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+201,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2138T>G (p.Leu713Ter),ClinVarVariant:241638,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+202,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1343G>A (p.Trp448Ter),ClinVarVariant:216129,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+203,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1204_1205insTGTG (p.Ala402Valfs),ClinVarVariant:182369,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+204,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1018_1019insCT (p.Leu340Profs),ClinVarVariant:241621,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+205,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2493-?_2575+?dup,ClinVarVariant:254030,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+206,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2255_2256delAA (p.Lys752Argfs),ClinVarVariant:182372,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+207,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.866delT (p.Val289Alafs),ClinVarVariant:219582,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+208,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2765T>G (p.Leu922Ter),ClinVarVariant:142366,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+209,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2990_2993dupCAAA (p.Lys998Asnfs),ClinVarVariant:241647,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+210,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2114_2118delAAGAA (p.Lys705Thrfs),ClinVarVariant:220629,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+211,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1629-1G>T,ClinVarVariant:407832,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+212,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2990_2993delCAAA (p.Thr997Argfs),ClinVarVariant:234281,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+213,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.270C>A (p.Cys90Ter),ClinVarVariant:407808,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+214,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.484C>T (p.Arg162Ter),ClinVarVariant:186411,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+215,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1372G>T (p.Glu458Ter),ClinVarVariant:128156,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+216,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.890delA (p.Lys297Serfs),ClinVarVariant:185987,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+217,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.632delC (p.Pro211Leufs),ClinVarVariant:407873,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+218,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2447G>A (p.Trp816Ter),ClinVarVariant:188391,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+219,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2492+2dupT,ClinVarVariant:128174,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+220,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.2992_2993delAA (p.Lys998Glufs),ClinVarVariant:241648,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+221,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.508-1G>C,ClinVarVariant:219850,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+222,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.890_891insT (p.Lys297Asnfs),ClinVarVariant:241664,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+223,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.205+2T>G,ClinVarVariant:407841,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+224,BRIP1,NCBIGene:83990,NM_032043.2(BRIP1):c.1936-2A>G,ClinVarVariant:241634,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+225,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.509_510delGA (p.Arg170Ilefs),ClinVarVariant:126757,pathogenic,GENO:0000840,"Pancreatic Cancer, Susceptibility To, 3",OMIM:613348
+226,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3549C>G (p.Tyr1183Ter),ClinVarVariant:1245,pathogenic,GENO:0000840,"Pancreatic Cancer, Susceptibility To, 3",OMIM:613348
+227,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3116delA (p.Asn1039Ilefs),ClinVarVariant:126715,likely pathogenic,GENO:0000841,"Pancreatic Cancer, Susceptibility To, 3",OMIM:613348
+228,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3497delG (p.Gly1166Valfs),ClinVarVariant:126746,pathogenic,GENO:0000840,"Pancreatic Cancer, Susceptibility To, 3",OMIM:613348
+229,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.757_758delCT (p.Leu253Ilefs),ClinVarVariant:126768,pathogenic,GENO:0000840,"Pancreatic Cancer, Susceptibility To, 3",OMIM:613348
+230,PALB2,NCBIGene:79728,PALB2:c.2515-1G>T,ClinVarVariant:126657,likely pathogenic,GENO:0000841,"Pancreatic Cancer, Susceptibility To, 3",OMIM:613348
+231,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.72delG (p.Arg26Glyfs),ClinVarVariant:126766,pathogenic,GENO:0000840,"Pancreatic Cancer, Susceptibility To, 3",OMIM:613348
+232,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3256C>T (p.Arg1086Ter),ClinVarVariant:126729,likely pathogenic,GENO:0000841,"Pancreatic Cancer, Susceptibility To, 3",OMIM:613348
+233,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3116delA (p.Asn1039Ilefs),ClinVarVariant:126715,pathogenic,GENO:0000840,"Pancreatic Cancer, Susceptibility To, 3",OMIM:613348
+234,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1027C>T (p.Gln343Ter),ClinVarVariant:126583,pathogenic,GENO:0000840,"Pancreatic Cancer, Susceptibility To, 3",OMIM:613348
+235,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1314delA (p.Phe440Leufs),ClinVarVariant:126596,pathogenic,GENO:0000840,"Pancreatic Cancer, Susceptibility To, 3",OMIM:613348
+236,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3256C>T (p.Arg1086Ter),ClinVarVariant:126729,pathogenic,GENO:0000840,"Pancreatic Cancer, Susceptibility To, 3",OMIM:613348
+237,PALB2,NCBIGene:79728,PALB2:c.3202-?_*297del (p.Gly1068_Ser1186delins45),ClinVarVariant:126725,pathogenic,GENO:0000840,"Pancreatic Cancer, Susceptibility To, 3",OMIM:613348
+238,PALB2,NCBIGene:79728,NC_000016.10:g.(?_23603459)_(23608012_?)del,ClinVarVariant:437843,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+239,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1369G>T (p.Glu457Ter),ClinVarVariant:241527,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+240,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3124dupA (p.Thr1042Asnfs),ClinVarVariant:410207,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+241,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3507_3508delTC (p.His1170Phefs),ClinVarVariant:140978,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+242,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3114-?_3201+?dup88,ClinVarVariant:216008,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+243,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.172_175delTTGT (p.Gln60Argfs),ClinVarVariant:126623,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+244,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2727_2728delTT (p.Thr911Leufs),ClinVarVariant:182742,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+245,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1240C>T (p.Arg414Ter),ClinVarVariant:128117,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+246,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2576C>A (p.Ser859Ter),ClinVarVariant:371797,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+247,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3456dupA (p.Pro1153Thrfs),ClinVarVariant:128142,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+248,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.79G>T (p.Glu27Ter),ClinVarVariant:241570,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+249,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2597delG (p.Gly866Valfs),ClinVarVariant:188219,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+250,PALB2,NCBIGene:79728,NC_000016.10:g.(?_23621362)_(23626397_?)del,ClinVarVariant:417612,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+251,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3202-?_3350+?del,ClinVarVariant:254056,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+252,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.761C>A (p.Ser254Ter),ClinVarVariant:220919,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+253,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3549C>G (p.Tyr1183Ter),ClinVarVariant:1245,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+254,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3201+1G>C,ClinVarVariant:143972,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+255,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1671_1674delTATT (p.Ile558Lysfs),ClinVarVariant:410108,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+256,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2515-1G>C,ClinVarVariant:216006,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+257,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.156delA (p.Glu53Lysfs),ClinVarVariant:143963,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+258,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2936delG (p.Ser979Ilefs),ClinVarVariant:410180,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+259,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.48+1G>C,ClinVarVariant:126750,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+260,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1924delA (p.Met642Cysfs),ClinVarVariant:182738,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+261,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2391delA (p.Gln797Hisfs),ClinVarVariant:224539,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+262,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.451C>T (p.Gln151Ter),ClinVarVariant:143977,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+263,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.522_523delAA (p.Arg175Thrfs),ClinVarVariant:225847,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+264,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2748+1G>C,ClinVarVariant:372056,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+265,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.757_758delCT (p.Leu253Ilefs),ClinVarVariant:126768,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+266,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2730T>A (p.Tyr910Ter),ClinVarVariant:410165,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+267,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1479delC (p.Thr494Leufs),ClinVarVariant:126606,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+268,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3425delT (p.Leu1142Tyrfs),ClinVarVariant:371840,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+269,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.503C>A (p.Ser168Ter),ClinVarVariant:126754,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+270,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2964delA (p.Val989Terfs),ClinVarVariant:141560,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+271,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2761C>T (p.Gln921Ter),ClinVarVariant:126680,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+272,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2411_2412delCT (p.Ser804Cysfs),ClinVarVariant:231143,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+273,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1027C>T (p.Gln343Ter),ClinVarVariant:126583,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+274,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3497delG (p.Gly1166Valfs),ClinVarVariant:126746,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+275,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.886dupA (p.Met296Asnfs),ClinVarVariant:410157,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+276,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3362delG (p.Gly1121Valfs),ClinVarVariant:126739,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+277,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1424dupC (p.Arg476Lysfs),ClinVarVariant:410179,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+278,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1947dupA (p.Glu650Argfs),ClinVarVariant:126628,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+279,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3549C>A (p.Tyr1183Ter),ClinVarVariant:128144,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+280,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1633G>T (p.Glu545Ter),ClinVarVariant:126611,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+281,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2749-1G>C,ClinVarVariant:410212,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+282,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2T>C (p.Met1Thr),ClinVarVariant:241558,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+283,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3113G>A (p.Trp1038Ter),ClinVarVariant:126711,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+284,PALB2,NCBIGene:79728,PALB2:c.2515-1G>T,ClinVarVariant:126657,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+285,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.599delT (p.Leu200Terfs),ClinVarVariant:141880,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+286,PALB2,NCBIGene:79728,NC_000016.10:g.(?_23603162)_(23641357_?)del,ClinVarVariant:417517,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+287,PALB2,NCBIGene:79728,NC_000016.10:g.(?_23624009)_(23624094_?)del,ClinVarVariant:417513,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+288,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3026delC (p.Pro1009Leufs),ClinVarVariant:126706,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+289,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2834+2T>G,ClinVarVariant:220338,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+290,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1042C>T (p.Gln348Ter),ClinVarVariant:221914,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+291,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2835-1G>A,ClinVarVariant:188163,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+292,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2587-2A>C,ClinVarVariant:410189,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+293,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3256C>T (p.Arg1086Ter),ClinVarVariant:126729,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+294,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2470dupT (p.Cys824Leufs),ClinVarVariant:216121,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+295,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2391delA (p.Gln797Hisfs),ClinVarVariant:224539,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+296,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.688G>T (p.Glu230Ter),ClinVarVariant:182786,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+297,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2645_2646insGTTG (p.Cys882Trpfs),ClinVarVariant:182741,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+298,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2966_2967insCAACAAGT (p.Glu990Asnfs),ClinVarVariant:225851,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+299,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.758dupT (p.Ser254Ilefs),ClinVarVariant:126769,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+300,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1706_1707delAA (p.Lys569Argfs),ClinVarVariant:410144,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+301,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.948delC (p.Thr317Glnfs),ClinVarVariant:182744,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+302,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3116delA (p.Asn1039Ilefs),ClinVarVariant:126715,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+303,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.557dupA (p.Asn186Lysfs),ClinVarVariant:410139,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+304,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3350+4A>G,ClinVarVariant:126737,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+305,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2509G>T (p.Glu837Ter),ClinVarVariant:241546,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+306,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.212-2A>G,ClinVarVariant:182757,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+307,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3202-1G>A,ClinVarVariant:371966,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+308,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2288_2291delTGAA (p.Leu763Terfs),ClinVarVariant:232125,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+309,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.72delG (p.Arg26Glyfs),ClinVarVariant:126766,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+310,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1947_1966dup20 (p.Pro656Glnfs),ClinVarVariant:225850,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+311,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1538delC (p.Thr513Lysfs),ClinVarVariant:245655,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+312,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2120delC (p.Pro707Leufs),ClinVarVariant:128128,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+313,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3116delA (p.Asn1039Ilefs),ClinVarVariant:126715,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+314,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.758dupT (p.Ser254Ilefs),ClinVarVariant:126769,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+315,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2587-?_2748+?del,ClinVarVariant:216007,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+316,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3426dupA (p.Leu1143Thrfs),ClinVarVariant:143974,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+317,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2325dupA (p.Phe776Ilefs),ClinVarVariant:232803,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+318,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.509_510delGA (p.Arg170Ilefs),ClinVarVariant:126757,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+319,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.552delC (p.Ser184Argfs),ClinVarVariant:410115,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+320,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3271C>T (p.Gln1091Ter),ClinVarVariant:219518,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+321,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2587-?_3201+?del (p.Asn863_Met1067del),ClinVarVariant:126668,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+322,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1366G>T (p.Glu456Ter),ClinVarVariant:410186,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+323,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3286_3289delAACCinsGTTAATGA (p.Asn1096Valfs),ClinVarVariant:220310,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+324,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3256delC (p.Arg1086Glufs),ClinVarVariant:371971,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+325,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1685-?_2748+?dup,ClinVarVariant:254050,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+326,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2982dupT (p.Ala995Cysfs),ClinVarVariant:126697,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+327,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3239_3240delAA (p.Lys1080Argfs),ClinVarVariant:246042,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+328,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.196C>T (p.Gln66Ter),ClinVarVariant:126629,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+329,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1050_1053delAACA (p.Thr351Argfs),ClinVarVariant:126586,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+330,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3491G>A (p.Trp1164Ter),ClinVarVariant:246129,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+331,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.196C>T (p.Gln66Ter),ClinVarVariant:126629,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+332,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3350+1090_*1278dup,ClinVarVariant:430694,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+333,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.424A>T (p.Lys142Ter),ClinVarVariant:141779,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+334,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2079delT (p.His693Glnfs),ClinVarVariant:241539,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+335,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1050_1051delAAinsTCT (p.Gln350Hisfs),ClinVarVariant:126585,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+336,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.-200_3113+?del,ClinVarVariant:417805,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+337,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2686dupT (p.Ser896Phefs),ClinVarVariant:126673,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+338,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.172_175delTTGT (p.Gln60Argfs),ClinVarVariant:126623,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+339,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2257C>T (p.Arg753Ter),ClinVarVariant:142403,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+340,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1059delA (p.Lys353Asnfs),ClinVarVariant:182745,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+341,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1838delA (p.Gln613Argfs),ClinVarVariant:371976,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+342,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2711G>A (p.Trp904Ter),ClinVarVariant:410087,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+343,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.7G>T (p.Glu3Ter),ClinVarVariant:241571,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+344,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1947dupA (p.Glu650Argfs),ClinVarVariant:126628,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+345,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2834+1G>T,ClinVarVariant:143968,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+346,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2386G>T (p.Gly796Ter),ClinVarVariant:126649,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+347,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3G>A (p.Met1Ile),ClinVarVariant:371919,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+348,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2386G>T (p.Gly796Ter),ClinVarVariant:126649,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+349,PALB2,NCBIGene:79728,NC_000016.10:g.(?_23603459)_(23626397_?)del,ClinVarVariant:437840,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+350,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1592delT (p.Leu531Cysfs),ClinVarVariant:126609,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+351,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.226delA (p.Ile76Tyrfs),ClinVarVariant:142408,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+352,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.355delC (p.Gln119Lysfs),ClinVarVariant:410145,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+353,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3323delA (p.Tyr1108Serfs),ClinVarVariant:126734,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+354,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3256C>T (p.Arg1086Ter),ClinVarVariant:126729,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+355,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1966_1967insAGAGGAAGCTGTATTTTTC (p.Pro656Glnfs),ClinVarVariant:188185,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+356,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2375C>G (p.Ser792Ter),ClinVarVariant:410128,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+357,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3113G>A (p.Trp1038Ter),ClinVarVariant:126711,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+358,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2336C>G (p.Ser779Ter),ClinVarVariant:186458,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+359,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.229delT (p.Cys77Valfs),ClinVarVariant:126644,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+360,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2835-1G>C,ClinVarVariant:126688,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+361,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1546delA (p.Arg516Glufs),ClinVarVariant:141185,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+362,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.695delG (p.Gly232Valfs),ClinVarVariant:410159,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+363,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3351-?_*(1_?)del,ClinVarVariant:188372,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+364,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2296_2297delTC (p.Val767Leufs),ClinVarVariant:229748,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+365,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1037_1041delAAGAA (p.Lys346Thrfs),ClinVarVariant:141527,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+366,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3202-1G>C,ClinVarVariant:126723,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+367,PALB2,NCBIGene:79728,NC_000016.10:g.(?_23621362)_(23623130_?)del,ClinVarVariant:417514,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+368,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1435C>T (p.Gln479Ter),ClinVarVariant:410147,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+369,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2411_2412delCT (p.Ser804Cysfs),ClinVarVariant:231143,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+370,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2594C>G (p.Ser865Ter),ClinVarVariant:241547,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+371,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2986G>T (p.Glu996Ter),ClinVarVariant:187492,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+372,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3350+1G>A,ClinVarVariant:219641,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+373,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2718G>A (p.Trp906Ter),ClinVarVariant:126675,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+374,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2982dupT (p.Ala995Cysfs),ClinVarVariant:126697,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+375,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3362delG (p.Gly1121Valfs),ClinVarVariant:126739,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+376,PALB2,NCBIGene:79728,PALB2:c.3202-?_*297del (p.Gly1068_Ser1186delins45),ClinVarVariant:126725,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+377,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.108+1G>A,ClinVarVariant:402289,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+378,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.759delA (p.Ser254Glnfs),ClinVarVariant:402310,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+379,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.940C>T (p.Gln314Ter),ClinVarVariant:187557,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+380,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3351-?_*297del,ClinVarVariant:241562,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+381,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3420G>A (p.Trp1140Ter),ClinVarVariant:241564,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+382,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3351-2A>G,ClinVarVariant:410152,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+383,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1314delA (p.Phe440Leufs),ClinVarVariant:126596,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+384,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2920_2921delAA (p.Lys974Glufs),ClinVarVariant:126696,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+385,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3048delT (p.Phe1016Leufs),ClinVarVariant:126707,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+386,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2267_2283dup17 (p.His762Alafs),ClinVarVariant:245890,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+387,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.693dupA (p.Gly232Argfs),ClinVarVariant:225849,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+388,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1056_1057delGA (p.Lys353Ilefs),ClinVarVariant:126587,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+389,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1048C>T (p.Gln350Ter),ClinVarVariant:410191,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+390,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1317delG (p.Phe440Leufs),ClinVarVariant:126598,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+391,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.751C>T (p.Gln251Ter),ClinVarVariant:126767,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+392,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3114-?_3201+?del,ClinVarVariant:216122,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+393,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3244_3245delAG (p.Ser1082Terfs),ClinVarVariant:265368,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+394,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.284dupA (p.Thr96Aspfs),ClinVarVariant:410175,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+395,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2167_2168delAT (p.Met723Valfs),ClinVarVariant:136132,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+396,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1653T>A (p.Tyr551Ter),ClinVarVariant:1243,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+397,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.860dupT (p.Ser288Lysfs),ClinVarVariant:219897,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+398,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.953_954delGT (p.Ser318Ilefs),ClinVarVariant:410206,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+399,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.49-2A>T,ClinVarVariant:186820,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+400,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2920_2923delAAGA (p.Lys974Glyfs),ClinVarVariant:188172,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+401,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2931dupA (p.Val978Serfs),ClinVarVariant:142591,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+402,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2323C>T (p.Gln775Ter),ClinVarVariant:126646,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+403,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2056delA (p.Arg686Glyfs),ClinVarVariant:410164,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+404,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3549C>G (p.Tyr1183Ter),ClinVarVariant:1245,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+405,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.93dupA (p.Leu32Thrfs),ClinVarVariant:220371,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+406,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2145_2146delTA (p.Asp715Glufs),ClinVarVariant:126638,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+407,PALB2,NCBIGene:79728,NC_000016.10:g.(?_23626236)_(23630469_?)del,ClinVarVariant:417516,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+408,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3114-?_3350+?del,ClinVarVariant:188093,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+409,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1553C>G (p.Ser518Ter),ClinVarVariant:410213,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+410,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.860dupT (p.Ser288Lysfs),ClinVarVariant:219897,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+411,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3114-?_*(1_?)del,ClinVarVariant:219816,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+412,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1742delT (p.Leu581Tyrfs),ClinVarVariant:410209,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+413,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.577dupA (p.Thr193Asnfs),ClinVarVariant:225848,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+414,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.932_933insC (p.Lys311Asnfs),ClinVarVariant:410166,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+415,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.697delG (p.Val233Leufs),ClinVarVariant:126764,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+416,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2521delA (p.Thr841Glnfs),ClinVarVariant:126659,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group N",OMIM:610832
+417,PALB2,NCBIGene:79728,PALB2:c.49-?_2586+?del,ClinVarVariant:1244,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group N",OMIM:610832
+418,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3549C>G (p.Tyr1183Ter),ClinVarVariant:1245,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group N",OMIM:610832
+419,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3323delA (p.Tyr1108Serfs),ClinVarVariant:126734,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group N",OMIM:610832
+420,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1676_1677delAAinsG (p.Gln559Argfs),ClinVarVariant:126614,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group N",OMIM:610832
+421,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2393_2394insCT (p.Thr799Leufs),ClinVarVariant:126651,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group N",OMIM:610832
+422,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.395delT (p.Val132Alafs),ClinVarVariant:126748,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group N",OMIM:610832
+423,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1653T>A (p.Tyr551Ter),ClinVarVariant:1243,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group N",OMIM:610832
+424,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2962C>T (p.Gln988Ter),ClinVarVariant:1246,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group N",OMIM:610832
+425,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.3116delA (p.Asn1039Ilefs),ClinVarVariant:126715,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group N",OMIM:610832
+426,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.757_758delCT (p.Leu253Ilefs),ClinVarVariant:126768,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group N",OMIM:610832
+427,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.2931dupA (p.Val978Serfs),ClinVarVariant:142591,pathogenic,GENO:0000840,Tumor Predisposition Syndrome,OMIM:614327
+428,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.226delA (p.Ile76Tyrfs),ClinVarVariant:142408,pathogenic,GENO:0000840,Tumor Predisposition Syndrome,OMIM:614327
+429,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1050_1053delAACA (p.Thr351Argfs),ClinVarVariant:126586,pathogenic,GENO:0000840,Ovarian Cancer,OMIM:167000
+430,PALB2,NCBIGene:79728,NM_024675.3(PALB2):c.1042C>T (p.Gln348Ter),ClinVarVariant:221914,likely pathogenic,GENO:0000841,hereditary breast ovarian cancer,DOID:5683
+431,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.955C>T (p.Arg319Ter),ClinVarVariant:140799,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+432,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.701C>G (p.Ser234Ter),ClinVarVariant:142919,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+433,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.706-2A>G,ClinVarVariant:128209,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+434,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.905-2A>C,ClinVarVariant:216132,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+435,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.1057_1066delTCTGCATGTT (p.Ser353Hisfs),ClinVarVariant:409862,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group O",OMIM:613390
+436,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.1005C>A (p.Cys335Ter),ClinVarVariant:231450,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group O",OMIM:613390
+437,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.773G>A (p.Arg258His),ClinVarVariant:6822,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group O",OMIM:613390
+438,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.572-?_*120del,ClinVarVariant:220726,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+439,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.405-1G>C,ClinVarVariant:141823,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group O",OMIM:613390
+440,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.(?_-1)_837+?del,ClinVarVariant:219702,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+441,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.145+2_145+7delinsCTAAG,ClinVarVariant:241766,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group O",OMIM:613390
+442,RAD51C,NCBIGene:5889,NM_058216.1(RAD51C):c.(?_-1)_(*1_?)del,ClinVarVariant:216131,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+443,RAD51C,NCBIGene:5889,NC_000017.11:g.(?_58703196)_(58709990_?)del,ClinVarVariant:417479,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+444,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.97C>T (p.Gln33Ter),ClinVarVariant:142534,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+445,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.905-2delA,ClinVarVariant:230587,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group O",OMIM:613390
+446,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.706-?_*120del,ClinVarVariant:220591,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+447,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.572-?_*(1_?)del,ClinVarVariant:219825,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+448,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.706-2A>G,ClinVarVariant:128209,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group O",OMIM:613390
+449,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.905-2A>G,ClinVarVariant:245991,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+450,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.145+2T>G,ClinVarVariant:372087,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group O",OMIM:613390
+451,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.404+2T>C,ClinVarVariant:182835,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group O",OMIM:613390
+452,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.97_98delCA (p.Gln33Aspfs),ClinVarVariant:136163,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+453,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.837+1G>T,ClinVarVariant:241779,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group O",OMIM:613390
+454,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.966-?_1026+?del,ClinVarVariant:219988,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+455,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.394dupA (p.Thr132Asnfs),ClinVarVariant:182845,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+456,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.93delG (p.Phe32Serfs),ClinVarVariant:182847,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+457,RAD51C,NCBIGene:5889,NC_000017.11:g.(?_58720746)_(58734342_?)del,ClinVarVariant:417480,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+458,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.709C>T (p.Arg237Ter),ClinVarVariant:186364,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+459,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.851_854delATCA (p.Asn284Argfs),ClinVarVariant:409865,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+460,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.773G>A (p.Arg258His),ClinVarVariant:6822,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+461,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.904+5G>T,ClinVarVariant:142762,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group O",OMIM:613390
+462,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.397C>T (p.Gln133Ter),ClinVarVariant:31556,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+463,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.181_182delCT (p.Leu61Alafs),ClinVarVariant:187716,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+464,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.577C>T (p.Arg193Ter),ClinVarVariant:140849,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+465,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.1027-2A>G,ClinVarVariant:136155,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+466,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.525dupC (p.Cys176Leufs),ClinVarVariant:409827,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+467,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.572-?_705+?del,ClinVarVariant:241772,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+468,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.405-1G>A,ClinVarVariant:409834,likely pathogenic,GENO:0000841,"Fanconi anemia, complementation group O",OMIM:613390
+469,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.186_187delAA (p.Gln62Hisfs),ClinVarVariant:141999,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+470,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.732delT (p.Ile244Metfs),ClinVarVariant:409860,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+471,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.224dupA (p.Tyr75Terfs),ClinVarVariant:182844,pathogenic,GENO:0000840,"Fanconi anemia, complementation group O",OMIM:613390
+472,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.93delG (p.Phe32Serfs),ClinVarVariant:182847,likely pathogenic,GENO:0000841,"Breast-ovarian cancer, familial 3",OMIM:613399
+473,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.374G>T (p.Gly125Val),ClinVarVariant:6824,likely pathogenic,GENO:0000841,"Breast-ovarian cancer, familial 3",OMIM:613399
+474,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.837+1G>T,ClinVarVariant:241779,likely pathogenic,GENO:0000841,"Breast-ovarian cancer, familial 3",OMIM:613399
+475,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.1026+5_1026+7delGTA,ClinVarVariant:128201,pathogenic,GENO:0000840,"Breast-ovarian cancer, familial 3",OMIM:613399
+476,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.414G>C (p.Leu138Phe),ClinVarVariant:6825,likely pathogenic,GENO:0000841,"Breast-ovarian cancer, familial 3",OMIM:613399
+477,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.145+2T>G,ClinVarVariant:372087,likely pathogenic,GENO:0000841,"Breast-ovarian cancer, familial 3",OMIM:613399
+478,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.397C>T (p.Gln133Ter),ClinVarVariant:31556,likely pathogenic,GENO:0000841,"Breast-ovarian cancer, familial 3",OMIM:613399
+479,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.97C>T (p.Gln33Ter),ClinVarVariant:142534,pathogenic,GENO:0000840,"Breast-ovarian cancer, familial 3",OMIM:613399
+480,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.224dupA (p.Tyr75Terfs),ClinVarVariant:182844,pathogenic,GENO:0000840,"Breast-ovarian cancer, familial 3",OMIM:613399
+481,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.397C>T (p.Gln133Ter),ClinVarVariant:31556,pathogenic,GENO:0000840,"Breast-ovarian cancer, familial 3",OMIM:613399
+482,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.230delG (p.Gly77Valfs),ClinVarVariant:31557,likely pathogenic,GENO:0000841,"Breast-ovarian cancer, familial 3",OMIM:613399
+483,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.904+5G>T,ClinVarVariant:142762,likely pathogenic,GENO:0000841,"Breast-ovarian cancer, familial 3",OMIM:613399
+484,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.706-2A>G,ClinVarVariant:128209,pathogenic,GENO:0000840,"Breast-ovarian cancer, familial 3",OMIM:613399
+485,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.837+1G>A,ClinVarVariant:229854,likely pathogenic,GENO:0000841,"Breast-ovarian cancer, familial 3",OMIM:613399
+486,RAD51C,NCBIGene:5889,NM_058216.2(RAD51C):c.955C>T (p.Arg319Ter),ClinVarVariant:140799,pathogenic,GENO:0000840,"Breast-ovarian cancer, familial 3",OMIM:613399
+487,SLX4,NCBIGene:84464,"SLX4, 1-BP DEL, 286A",ClinVarVariant:31021,pathogenic,GENO:0000840,"Fanconi anemia, complementation group P",OMIM:613951
+488,SLX4,NCBIGene:84464,"SLX4, IVS5DS, 1-BP DUP, T, +3",ClinVarVariant:31023,pathogenic,GENO:0000840,"Fanconi anemia, complementation group P",OMIM:613951
+489,SLX4,NCBIGene:84464,"SLX4, IVS5DS, T-A, +2",ClinVarVariant:31024,pathogenic,GENO:0000840,"Fanconi anemia, complementation group P",OMIM:613951
+490,SLX4,NCBIGene:84464,"SLX4, 4,890-BP DEL/2-BP INS",ClinVarVariant:31026,pathogenic,GENO:0000840,"Fanconi anemia, complementation group P",OMIM:613951
+491,SLX4,NCBIGene:84464,"SLX4, 1-BP DEL, 1093C",ClinVarVariant:31022,pathogenic,GENO:0000840,"Fanconi anemia, complementation group P",OMIM:613951
+492,SLX4,NCBIGene:84464,"SLX4, 1-BP DEL, 514C",ClinVarVariant:31025,pathogenic,GENO:0000840,"Fanconi anemia, complementation group P",OMIM:613951
+493,ERCC4,NCBIGene:2072,NM_005236.2(ERCC4):c.2371_2398dup28 (p.Ile800Thrfs),ClinVarVariant:55825,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group Q",OMIM:615272
+494,ERCC4,NCBIGene:2072,NM_005236.2(ERCC4):c.2065C>A (p.Arg689Ser),ClinVarVariant:55824,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group Q",OMIM:615272
+495,ERCC4,NCBIGene:2072,NM_005236.2(ERCC4):c.689T>C (p.Leu230Pro),ClinVarVariant:55826,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group Q",OMIM:615272
+496,ERCC4,NCBIGene:2072,NM_005236.2(ERCC4):c.1484_1488delCTCAA (p.Thr495Asnfs),ClinVarVariant:55823,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group Q",OMIM:615272
+497,ERCC4,NCBIGene:2072,NM_005236.2(ERCC4):c.458G>C (p.Arg153Pro),ClinVarVariant:16581,pathogenic,GENO:0000840,XFE progeroid syndrome,OMIM:610965
+498,ERCC4,NCBIGene:2072,NM_005236.2(ERCC4):c.915delA (p.Asn308Ilefs),ClinVarVariant:288748,likely pathogenic,GENO:0000841,"Xeroderma pigmentosum, group F",OMIM:278760
+499,ERCC4,NCBIGene:2072,NM_005236.2(ERCC4):c.2304_2307delTCTC (p.Thr770Profs),ClinVarVariant:16579,pathogenic,GENO:0000840,"Xeroderma pigmentosum, group F",OMIM:278760
+500,ERCC4,NCBIGene:2072,NM_005236.2(ERCC4):c.2395C>T (p.Arg799Trp),ClinVarVariant:16580,pathogenic,GENO:0000840,"Xeroderma pigmentosum, group F",OMIM:278760
+501,RAD51,NCBIGene:5888,NM_002875.4(RAD51):c.449G>A (p.Arg150Gln),ClinVarVariant:13127,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+502,RAD51,NCBIGene:5888,NM_002875.4(RAD51):c.877G>A (p.Ala293Thr),ClinVarVariant:372139,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group R",OMIM:617244
+503,RAD51,NCBIGene:5888,NM_002875.4(RAD51):c.855dupA (p.Pro286Thrfs),ClinVarVariant:29869,pathogenic,GENO:0000840,Mirror movements 2,OMIM:614508
+504,RAD51,NCBIGene:5888,NM_002875.4(RAD51):c.760C>T (p.Arg254Ter),ClinVarVariant:29868,pathogenic,GENO:0000840,Mirror movements 2,OMIM:614508
+505,RAD51,NCBIGene:5888,NM_002875.4(RAD51):c.760C>T (p.Arg254Ter),ClinVarVariant:29868,likely pathogenic,GENO:0000841,Mirror movements 2,OMIM:614508
+506,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4065_4068delTCAA (p.Asn1355Lysfs),ClinVarVariant:17674,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+507,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.1674delA (p.Gly559Valfs),ClinVarVariant:37425,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+508,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.2331_2332dupTG (p.Gly778Valfs),ClinVarVariant:252382,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+509,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.3748G>T (p.Glu1250Ter),ClinVarVariant:17672,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+510,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.5150delT (p.Phe1717Serfs),ClinVarVariant:55422,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+511,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.329dupA (p.Glu111Glyfs),ClinVarVariant:54827,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+512,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.5136G>A (p.Trp1712Ter),ClinVarVariant:55410,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+513,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.1912delG (p.Glu638Asnfs),ClinVarVariant:54398,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+514,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.5503C>T (p.Arg1835Ter),ClinVarVariant:55601,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+515,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.737delT (p.Leu246Terfs),ClinVarVariant:55683,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+516,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4186-?_4986+?del,ClinVarVariant:89062,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+517,BRCA1,NCBIGene:672,NM_007294.3:c.3627insA,ClinVarVariant:182112,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+518,BRCA1,NCBIGene:672,NM_007294.3:c.3648insA,ClinVarVariant:182113,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+519,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.2866_2870delTCTCA (p.Ser956Valfs),ClinVarVariant:54702,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+520,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.815_824dupAGCCATGTGG (p.Thr276Alafs),ClinVarVariant:55723,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+521,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4391_4393delCTAinsTT (p.Pro1464Leufs),ClinVarVariant:37588,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+522,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.548-?_5193+?del,ClinVarVariant:89069,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+523,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.1952delA (p.Lys651Argfs),ClinVarVariant:54410,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+524,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4987-?_5074+?del,ClinVarVariant:89067,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+525,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4358-?_5277+?del,ClinVarVariant:89063,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+526,BRCA1,NCBIGene:672,NM_007294.3:c.1363insT,ClinVarVariant:182104,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+527,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4603G>T (p.Glu1535Ter),ClinVarVariant:55236,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+528,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.1224delA (p.Val409Terfs),ClinVarVariant:252436,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+529,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.2411_2412delAG (p.Gln804Leufs),ClinVarVariant:37466,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+530,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.3756_3759delGTCT (p.Ser1253Argfs),ClinVarVariant:17673,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+531,BRCA1,NCBIGene:672,NM_007294.3:c.4997insA,ClinVarVariant:182118,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+532,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.3607C>T (p.Arg1203Ter),ClinVarVariant:17671,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+533,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.3700_3704delGTAAA (p.Val1234Glnfs),ClinVarVariant:37542,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+534,BRCA1,NCBIGene:672,NM_007294.3:c.3108insT,ClinVarVariant:182110,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+535,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.211A>G (p.Arg71Gly),ClinVarVariant:17693,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+536,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4035delA (p.Glu1346Lysfs),ClinVarVariant:37560,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+537,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.5205delA (p.Val1736Serfs),ClinVarVariant:140168,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+538,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.181T>G (p.Cys61Gly),ClinVarVariant:17661,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+539,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.213-11T>G,ClinVarVariant:37449,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+540,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4485-?_4986+?del,ClinVarVariant:89066,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+541,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.3129_3138delTATTAATGAA (p.Asn1043Lysfs),ClinVarVariant:182111,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+542,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4372_4373delCA (p.Gln1458Glufs),ClinVarVariant:252433,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+543,BRCA1,NCBIGene:672,NM_007294.3:c.2726insA,ClinVarVariant:182108,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+544,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4251_4252delGT (p.Leu1418Argfs),ClinVarVariant:37579,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+545,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.68_69delAG (p.Glu23Valfs),ClinVarVariant:17662,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+546,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4327C>T (p.Arg1443Ter),ClinVarVariant:17675,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+547,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4484G>T (p.Arg1495Met),ClinVarVariant:37598,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+548,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4689C>G (p.Tyr1563Ter),ClinVarVariant:37607,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+549,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.3228_3229delAG (p.Gly1077Alafs),ClinVarVariant:37516,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+550,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4655_4658delACTT (p.Tyr1552Cysfs),ClinVarVariant:55252,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+551,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.2938delA (p.Ile980Tyrfs),ClinVarVariant:182073,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+552,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.5095C>T (p.Arg1699Trp),ClinVarVariant:55396,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+553,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.1059G>A (p.Trp353Ter),ClinVarVariant:54110,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+554,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.135-?_441+?del,ClinVarVariant:89055,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+555,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.5123C>A (p.Ala1708Glu),ClinVarVariant:55407,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+556,BRCA1,NCBIGene:672,NM_007294.3:c.3764insA,ClinVarVariant:182114,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+557,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.?-232_4484+?del,ClinVarVariant:89068,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+558,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.3648dupA (p.Ser1217Ilefs),ClinVarVariant:37535,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+559,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.1140dupG (p.Lys381Glufs),ClinVarVariant:231732,likely pathogenic,GENO:0000841,Familial cancer of breast,OMIM:114480
+560,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.427G>T (p.Glu143Ter),ClinVarVariant:37581,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+561,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.5266dupC (p.Gln1756Profs),ClinVarVariant:17677,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+562,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.181T>G (p.Cys61Gly),ClinVarVariant:17661,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+563,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4186-?_4675+?del,ClinVarVariant:89061,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+564,BRCA1,NCBIGene:672,NM_007294.3:c.3908insT,ClinVarVariant:182115,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+565,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.3485delA (p.Asp1162Valfs),ClinVarVariant:37531,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+566,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.4964_4982del19 (p.Ser1655Tyrfs),ClinVarVariant:37616,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+567,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.3436_3439delTGTT (p.Cys1146Leufs),ClinVarVariant:54885,pathogenic,GENO:0000840,Familial cancer of breast,OMIM:114480
+568,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.5266dupC (p.Gln1756Profs),ClinVarVariant:17677,pathogenic,GENO:0000840,Porokeratosis punctata palmaris et plantaris,OMIM:175860
+569,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.3839_3843delCTCAGinsAGGC (p.Ser1280Terfs),ClinVarVariant:55021,pathogenic,GENO:0000840,Tumor Predisposition Syndrome,OMIM:614327
+570,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.5095C>T (p.Arg1699Trp),ClinVarVariant:55396,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+571,BRCA1,NCBIGene:672,NM_007294.3(BRCA1):c.594_597delTGTG (p.Ser198Argfs),ClinVarVariant:209105,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group a",OMIM:227650
+572,MAD2L2,NCBIGene:10459,NM_006341.3(MAD2L2):c.254T>A (p.Val85Glu),ClinVarVariant:372196,pathogenic,GENO:0000840,"Fanconi Anemia, Complementation Group 5",OMIM:617243

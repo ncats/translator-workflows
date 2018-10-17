@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # cq-notebooks
 
 Notebooks for answering competency questions
@@ -62,3 +63,13 @@ TODO: we should aim to drive this list from Smart API registry
 ### Hackathon
 
  * Disease prediction (Grey)
+=======
+Translator TIDBITS Workflows
+============================
+
+This is where the TIDBITS Workflows can be stored and edited.
+
+In particular, you can use this git repository to track issues related to a given workflow.
+
+(there is nothing here yet)
+>>>>>>> 52f59e6c35228e17cf86412b018aaa8dbf0f9c0c

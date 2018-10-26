@@ -46,38 +46,3 @@ for gene_id in simple_starting_geneset:
     cooccurrence_dict_all_genes[gene_id] = dict(coocurrence_dict_each_gene)
     
 print(cooccurrence_dict_all_genes)
-
-
-
-    #    print('response:', response.text)
-#    print(type(response.text))
-    #     for x in response:
-#         print(x['col_enrich_all'])
-#     
-#     print()
-    #if response.text:
-      #  cooccurrence_geneset.append(response.text)
-
-#print(cooccurrence_geneset)
-
-# for gene_id in starting_geneset:
-#     starting_geneset_cooccurence_count = starting_geneset.count(gene_id)
-    
-#print(type(cooccurrence_geneset))
-#print()
-#print(cooccurrence_geneset)
-    
-# for entry in cooccurrence_geneset:
-#     if not entry:
-#         # sometimes nothing is returned!
-#         continue
-#     else:
-#         print(entry)
-#         print(type(entry))
-            
-# we are looking for mondo, uberon, doid, and ncit coocurrences...
-# so you send in an ncbigene:XYZ, then store [['geneid_1', 'mondoIDs, uberonIDs, doidIDs, ncitIDs']]
-
-
-# cooccurrence_data = 
-#[{uberon_cooccurs: {'uberon:X'}}]

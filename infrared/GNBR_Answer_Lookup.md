@@ -58,20 +58,30 @@ for statement in statements:
     statement_id = statement.id
     details = gnbr_statements.get_statement_details(statement_id)
     for sentence in details.evidence[:3]:
-        print(sentence.name, sentence.uri)
+        pprint(sentence)
     print('\n')
 ```
 
     ***********************
     ATR observed together with EEPD1
     ***********************
-    EEPD1 is also required for proper ATR and CHK1 phosphorylation , and formation of gamma-H2AX , RAD51 and phospho-RPA32 foci . pmid:26684013
+    {'date': None,
+     'evidence_type': 'http://purl.obolibrary.org/obo/ECO_0000204',
+     'id': '26684013',
+     'name': 'EEPD1 is also required for proper ATR and CHK1 phosphorylation , and '
+             'formation of gamma-H2AX , RAD51 and phospho-RPA32 foci .',
+     'uri': 'pmid:26684013'}
     
     
     ***********************
     EEPD1 binds ATR
     ***********************
-    EEPD1 is also required for proper ATR and CHK1 phosphorylation , and formation of gamma-H2AX , RAD51 and phospho-RPA32 foci . pmid:26684013
+    {'date': None,
+     'evidence_type': 'http://purl.obolibrary.org/obo/ECO_0000204',
+     'id': '26684013',
+     'name': 'EEPD1 is also required for proper ATR and CHK1 phosphorylation , and '
+             'formation of gamma-H2AX , RAD51 and phospho-RPA32 foci .',
+     'uri': 'pmid:26684013'}
     
     
 
@@ -114,31 +124,84 @@ for statement in statements:
     statement_id = statement.id
     details = gnbr_statements.get_statement_details(statement_id)
     for sentence in details.evidence[:3]:
-        print(sentence.name, sentence.uri)
+        pprint(sentence)
     print('\n')
 ```
 
     ***********************
     FAAP24 regulates FANCM
     ***********************
-    FAAP24 , a new XPF endonuclease family member identified by in a recent issue of Molecular Cell , heterodimerizes with FANCM , binds unwound DNA , and reveals how the Fanconi_anemia core complex concentrates DNA repair proteins at stalled replication forks . pmid:17317622
-    Here , we describe the identification of FAAP24 , a protein that targets FANCM to structures that mimic intermediates formed during the replication/repair of damaged DNA . pmid:17289582
-    Moreover , depletion of the FANCM binding partner , FAAP24 , disrupted the chromatin association of FANCM and destabilized FANCM , leading to defective recruitment of the FA core complex to chromatin . pmid:18174376
+    {'date': None,
+     'evidence_type': 'http://purl.obolibrary.org/obo/ECO_0000204',
+     'id': '17317622',
+     'name': 'FAAP24 , a new XPF endonuclease family member identified by in a '
+             'recent issue of Molecular Cell , heterodimerizes with FANCM , binds '
+             'unwound DNA , and reveals how the Fanconi_anemia core complex '
+             'concentrates DNA repair proteins at stalled replication forks .',
+     'uri': 'pmid:17317622'}
+    {'date': None,
+     'evidence_type': 'http://purl.obolibrary.org/obo/ECO_0000204',
+     'id': '17289582',
+     'name': 'Here , we describe the identification of FAAP24 , a protein that '
+             'targets FANCM to structures that mimic intermediates formed during '
+             'the replication/repair of damaged DNA .',
+     'uri': 'pmid:17289582'}
+    {'date': None,
+     'evidence_type': 'http://purl.obolibrary.org/obo/ECO_0000204',
+     'id': '18174376',
+     'name': 'Moreover , depletion of the FANCM binding partner , FAAP24 , '
+             'disrupted the chromatin association of FANCM and destabilized FANCM '
+             ', leading to defective recruitment of the FA core complex to '
+             'chromatin .',
+     'uri': 'pmid:18174376'}
     
     
     ***********************
     FANCM regulates FAAP24
     ***********************
-    FAAP24 , a new XPF endonuclease family member identified by in a recent issue of Molecular Cell , heterodimerizes with FANCM , binds unwound DNA , and reveals how the Fanconi_anemia core complex concentrates DNA repair proteins at stalled replication forks . pmid:17317622
-    Here , we describe the identification of FAAP24 , a protein that targets FANCM to structures that mimic intermediates formed during the replication/repair of damaged DNA . pmid:17289582
-    Moreover , depletion of the FANCM binding partner , FAAP24 , disrupted the chromatin association of FANCM and destabilized FANCM , leading to defective recruitment of the FA core complex to chromatin . pmid:18174376
+    {'date': None,
+     'evidence_type': 'http://purl.obolibrary.org/obo/ECO_0000204',
+     'id': '17317622',
+     'name': 'FAAP24 , a new XPF endonuclease family member identified by in a '
+             'recent issue of Molecular Cell , heterodimerizes with FANCM , binds '
+             'unwound DNA , and reveals how the Fanconi_anemia core complex '
+             'concentrates DNA repair proteins at stalled replication forks .',
+     'uri': 'pmid:17317622'}
+    {'date': None,
+     'evidence_type': 'http://purl.obolibrary.org/obo/ECO_0000204',
+     'id': '17289582',
+     'name': 'Here , we describe the identification of FAAP24 , a protein that '
+             'targets FANCM to structures that mimic intermediates formed during '
+             'the replication/repair of damaged DNA .',
+     'uri': 'pmid:17289582'}
+    {'date': None,
+     'evidence_type': 'http://purl.obolibrary.org/obo/ECO_0000204',
+     'id': '18174376',
+     'name': 'Moreover , depletion of the FANCM binding partner , FAAP24 , '
+             'disrupted the chromatin association of FANCM and destabilized FANCM '
+             ', leading to defective recruitment of the FA core complex to '
+             'chromatin .',
+     'uri': 'pmid:18174376'}
     
     
     ***********************
     FAAP24 improper regulation associated with XPF-deficient
     ***********************
-    FAAP24 , a new XPF endonuclease family member identified by in a recent issue of Molecular Cell , heterodimerizes with FANCM , binds unwound DNA , and reveals how the Fanconi_anemia core complex concentrates DNA repair proteins at stalled replication forks . pmid:17317622
-    FAAP24 shares homology with the XPF family of flap/fork endonucleases , associates with the C-terminal region of FANCM , and is a component of the FA core complex . pmid:17289582
+    {'date': None,
+     'evidence_type': 'http://purl.obolibrary.org/obo/ECO_0000204',
+     'id': '17317622',
+     'name': 'FAAP24 , a new XPF endonuclease family member identified by in a '
+             'recent issue of Molecular Cell , heterodimerizes with FANCM , binds '
+             'unwound DNA , and reveals how the Fanconi_anemia core complex '
+             'concentrates DNA repair proteins at stalled replication forks .',
+     'uri': 'pmid:17317622'}
+    {'date': None,
+     'evidence_type': 'http://purl.obolibrary.org/obo/ECO_0000204',
+     'id': '17289582',
+     'name': 'FAAP24 shares homology with the XPF family of flap/fork '
+             'endonucleases , associates with the C-terminal region of FANCM , and '
+             'is a component of the FA core complex .',
+     'uri': 'pmid:17289582'}
     
     
 

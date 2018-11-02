@@ -49,8 +49,8 @@ for gene_id in FA_geneset_0:
             response_2 = requests.get(quick_url_2)
             response_2_json = response_2.json()
             gene_in_each_bicluster_list = []
-            for z in response_2_json:
-                gene_in_each_bicluster_list.append(z['gene'])
+            for bicluster in response_2_json:
+                gene_in_each_bicluster_list.append(bicluster['gene'])
             coocurrence_dict_each_gene['related_biclusters'][related_bicluster] = gene_in_each_bicluster_list
     cooccurrence_dict_all_genes[gene_id] = dict(coocurrence_dict_each_gene)
 # print()

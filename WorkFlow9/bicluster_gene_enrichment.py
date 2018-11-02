@@ -10,39 +10,51 @@ FA_geneset = []
 with urllib.request.urlopen(FA_genes_all_url) as url:
      FA_geneset.append(url.read().decode().split('\n'))
 
-starting_geneset = []
+# Here is the starting FA_geneset
+FA_geneset_0 = []
 for gene in FA_geneset[0]:
         if not gene: # there was an empty ('') string in the input list of genes, we ignore those.
             continue
         else:
             gene = gene.split(None, 1)[0]
             gene = gene.lower()
-            starting_geneset.append(gene)
-print('here is the simplified FA_geneset:', starting_geneset)
+            FA_geneset_0.append(gene)
+print()            
+print('FA_geneset_0:', FA_geneset_0)
 print()
 
-simple_starting_geneset = []            
-simple_starting_geneset.append(starting_geneset[0])
-simple_starting_geneset.append(starting_geneset[1])
+# If you want to test the script on a small subset of genes, uncomment the four lines below and change the for loop which follows.
+# reduced_FA_geneset_0 = []            
+# reduced_FA_geneset_0.append(FA_geneset_0[0])
+# reduced_FA_geneset_0.append(FA_geneset_0[1])
+# print('the reduced_FA_geneset_0:', reduced_FA_geneset_0)
+# print()
 
-print('here is the simplified FA_geneset:', simple_starting_geneset)
-print()
 bicluster_gene_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_gene/'
+bicluster_bicluster_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_bicluster/'
 cooccurrence_dict_all_genes = defaultdict(dict)
 
-for gene_id in simple_starting_geneset:
-    coocurrence_dict_each_gene = defaultdict(dict)
-    print(gene_id)
+for gene_id in FA_geneset_0:
     quick_url = bicluster_gene_url + gene_id + '/'
-
     response = requests.get(quick_url)
     response_json = response.json()
-    coocurrence_dict_each_gene['number_of_coocurrences'] = len(response_json)
+    coocurrence_dict_each_gene = defaultdict(dict)
+    coocurrence_dict_each_gene['related_biclusters'] = defaultdict(dict)
+    coocurrence_dict_each_gene['number_of_related_biclusters'] = len(response_json)
     for x in response_json:
-        each_coocurrence_dict = defaultdict(dict)
-       # each_coocurrence_dict[gene_id]['bicluster']
-        print(x['bicluster'])
-    print(gene_id)
+        bicluster_dict = defaultdict(dict)
+        coocurrence_dict_each_gene['related_biclusters'][x['bicluster']] = []
+        for related_bicluster in coocurrence_dict_each_gene['related_biclusters']:
+            quick_url_2 = bicluster_bicluster_url + related_bicluster + '/'
+            response_2 = requests.get(quick_url_2)
+            response_2_json = response_2.json()
+            gene_in_each_bicluster_list = []
+            for z in response_2_json:
+                gene_in_each_bicluster_list.append(z['gene'])
+            coocurrence_dict_each_gene['related_biclusters'][related_bicluster] = gene_in_each_bicluster_list
     cooccurrence_dict_all_genes[gene_id] = dict(coocurrence_dict_each_gene)
-    
-print(cooccurrence_dict_all_genes)
+# print()
+# print(cooccurrence_dict_all_genes)
+# print()
+with open('FA_geneset_gene_coocurrences_from_bicluster_gene_enrichment_py.txt', 'w') as file:
+    file.write(json.dumps(cooccurrence_dict_all_genes))

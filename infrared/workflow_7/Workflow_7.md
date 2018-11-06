@@ -156,29 +156,6 @@ pprint(concepts)
      'name': 'codeine'}]
 
 
-
-```python
-concept_details = [gnbr_concepts.get_concept_details(concept.id) for concept in concepts]
-pprint(concept_details)
-```
-
-    [{'categories': ['Chemical', 'Entity'],
-     'description': None,
-     'details': [{'tag': 'mentions', 'value': '803'}],
-     'exact_matches': None,
-     'id': 'MESH:D003061',
-     'name': 'codeine',
-     'symbol': None,
-     'synonyms': ['codeine',
-                  'Codeine',
-                  'codeine phosphate',
-                  'N-methylmorphine',
-                  'Codeine phosphate',
-                  'N-methyl morphine',
-                  'codeine/dextropropoxyphen'],
-     'uri': 'MESH:D003061'}]
-
-
 #### Statements Lookup
 Now we lookup genes related to codeine (any relation).  Here we probably don't need to hit the statement details endpoint, but we do anyway.  The relations being returned by the GNBR endpoint are still a little wonky, but can possibly be fixed by normalization. Also, some means of filtering by confidence would be helpful.
 
@@ -188,10 +165,63 @@ gnbr_statements = swagger_client.StatementsApi()
 s = [concept.id for concept in concepts]
 categories=['Gene']
 statements = gnbr_statements.get_statements(s=s, t_categories=categories)
-pprint(statements)
 ```
 
-    [{'id': '37476030',
+
+```python
+def avg_prec(query_results, ground_truths):
+    hits, precision = 0, 0
+    for n, result in enumerate(query_results):
+        if result in ground_truths:
+            hits += 1
+            precision += hits/(n+1)
+    avg_precision = precision/len(ground_truths)
+    return avg_precision
+
+avg_prec([i.object.id for i in statements], [i.id for i in genes_in_gnbr[:-1]])
+```
+
+
+
+
+    0.6666666666666666
+
+
+
+At First glance, these results don't look bad.  Generally the top results from the statements endpoint agree with the genes in the codeine metbolism pathway from SMPDB.  We do get some noise toward the end of the results.  Next order of business here is to come up with a suitable ranking metric.  Jaccard is ok, but doesn't give any credit for ranking correct answers highly.  Maybe Mean Average Precision (AP)?
+
+## Module 3
+TODO
+
+
+```python
+s = [i.id for i in chems_in_gnbr]
+statements = gnbr_statements.get_statements(s=s, t_categories=['Gene'])
+relations = [i for i in statements if i.object.id in gene_ids]
+pprint(relations)
+```
+
+    [{'id': '37908008',
+     'object': {'categories': ['Entity', 'Gene'],
+                'id': 'ncbigene:7364',
+                'name': 'UGT2B7'},
+     'predicate': {'edge_label': 'interacts with',
+                   'negated': None,
+                   'relation': 'binds'},
+     'subject': {'categories': ['Chemical', 'Entity'],
+                 'id': 'MESH:D014535',
+                 'name': 'UDPGA'}},
+     {'id': '37475500',
+     'object': {'categories': ['Entity', 'Gene'],
+                'id': 'ncbigene:7364',
+                'name': 'UGT2B7'},
+     'predicate': {'edge_label': 'interacts with',
+                   'negated': None,
+                   'relation': 'binds'},
+     'subject': {'categories': ['Chemical', 'Entity'],
+                 'id': 'MESH:D009020',
+                 'name': 'morphine'}},
+     {'id': '37473470',
      'object': {'categories': ['Entity', 'Gene'],
                 'id': 'ncbigene:1565',
                 'name': 'CYP2D6'},
@@ -199,15 +229,15 @@ pprint(statements)
                    'negated': None,
                    'relation': 'affects expression or production of'},
      'subject': {'categories': ['Chemical', 'Entity'],
-                 'id': 'MESH:D003061',
-                 'name': 'codeine'}},
-     {'id': '37476035',
+                 'id': 'MESH:D009020',
+                 'name': 'morphine'}},
+     {'id': '37476030',
      'object': {'categories': ['Entity', 'Gene'],
-                'id': 'ncbigene:7363',
-                'name': 'hyodeoxycholic_acid'},
-     'predicate': {'edge_label': 'disrupts',
+                'id': 'ncbigene:1565',
+                'name': 'CYP2D6'},
+     'predicate': {'edge_label': 'affects abundance of',
                    'negated': None,
-                   'relation': 'inhibits'},
+                   'relation': 'affects expression or production of'},
      'subject': {'categories': ['Chemical', 'Entity'],
                  'id': 'MESH:D003061',
                  'name': 'codeine'}},
@@ -221,56 +251,26 @@ pprint(statements)
      'subject': {'categories': ['Chemical', 'Entity'],
                  'id': 'MESH:D003061',
                  'name': 'codeine'}},
-     {'id': '37476029',
+     {'id': '37588365',
      'object': {'categories': ['Entity', 'Gene'],
-                'id': 'ncbigene:1564',
-                'name': 'CYP2D'},
-     'predicate': {'edge_label': 'affects abundance of',
-                   'negated': None,
-                   'relation': 'affects expression or production of'},
-     'subject': {'categories': ['Chemical', 'Entity'],
-                 'id': 'MESH:D003061',
-                 'name': 'codeine'}},
-     {'id': '37476034',
-     'object': {'categories': ['Entity', 'Gene'],
-                'id': 'ncbigene:5730',
-                'name': 'PGD2'},
+                'id': 'ncbigene:1576',
+                'name': 'CYP3A4'},
      'predicate': {'edge_label': 'affects molecular modification of',
                    'negated': None,
                    'relation': 'metabolized by'},
      'subject': {'categories': ['Chemical', 'Entity'],
-                 'id': 'MESH:D003061',
-                 'name': 'codeine'}},
-     {'id': '37476032',
+                 'id': 'MESH:C010414',
+                 'name': 'norcodeine'}},
+     {'id': '37473472',
      'object': {'categories': ['Entity', 'Gene'],
-                'id': 'ncbigene:2539',
-                'name': 'glucose_6-phosphate_dehydrogenase'},
-     'predicate': {'edge_label': 'interacts with',
-                   'negated': None,
-                   'relation': 'binds'},
-     'subject': {'categories': ['Chemical', 'Entity'],
-                 'id': 'MESH:D003061',
-                 'name': 'codeine'}},
-     {'id': '37580296',
-     'object': {'categories': ['Entity', 'Gene'],
-                'id': 'ncbigene:81668',
-                'name': 'growth_hormone'},
+                'id': 'ncbigene:1576',
+                'name': 'CYP3A4'},
      'predicate': {'edge_label': 'affects abundance of',
                    'negated': None,
                    'relation': 'affects expression or production of'},
      'subject': {'categories': ['Chemical', 'Entity'],
-                 'id': 'MESH:D003061',
-                 'name': 'codeine'}},
-     {'id': '37476028',
-     'object': {'categories': ['Entity', 'Gene'],
-                'id': 'ncbigene:717',
-                'name': 'CO2'},
-     'predicate': {'edge_label': 'disrupts',
-                   'negated': None,
-                   'relation': 'inhibits'},
-     'subject': {'categories': ['Chemical', 'Entity'],
-                 'id': 'MESH:D003061',
-                 'name': 'codeine'}},
+                 'id': 'MESH:D009020',
+                 'name': 'morphine'}},
      {'id': '37476033',
      'object': {'categories': ['Entity', 'Gene'],
                 'id': 'ncbigene:7364',
@@ -285,81 +285,15 @@ pprint(statements)
 
 
 ```python
-for statement in statements[:5]:
-    print('***********************')
-    print(statement.subject.name, statement.predicate.relation, statement.object.name)
-    print('***********************')
-    statement_id = statement.id
-    details = gnbr_statements.get_statement_details(statement_id)
-    for sentence in details.evidence[:1]:
-        pprint(sentence)
-    print('\n')
+len(relations)
 ```
 
-    ***********************
-    codeine affects expression or production of CYP2D6
-    ***********************
-    {'date': None,
-     'evidence_type': 'http://purl.obolibrary.org/obo/ECO_0000204',
-     'id': '22092298',
-     'name': 'Methadone inhibits CYP2D6 and UGT2B7/2B4 in vivo : a study using '
-             'codeine in methadone - and buprenorphine-maintained subjects .',
-     'uri': 'pmid:22092298'}
-    
-    
-    ***********************
-    codeine inhibits hyodeoxycholic_acid
-    ***********************
-    {'date': None,
-     'evidence_type': 'http://purl.obolibrary.org/obo/ECO_0000204',
-     'id': '12920168',
-     'name': 'Codeine is not a useful UGT2B7 probe substrate because of '
-             'significant glucuronidation by UGT2B4 .',
-     'uri': 'pmid:12920168'}
-    
-    
-    ***********************
-    codeine inhibits CYP3A4
-    ***********************
-    {'date': None,
-     'evidence_type': 'http://purl.obolibrary.org/obo/ECO_0000204',
-     'id': '8818573',
-     'name': 'Coadministration of codeine with selective inhibitors of CYP3A4 may '
-             'result in increased morphine production and enhanced pharmacodynamic '
-             'effects due to shunting down the CYP2D6 pathway .',
-     'uri': 'pmid:8818573'}
-    
-    
-    ***********************
-    codeine affects expression or production of CYP2D
-    ***********************
-    {'date': None,
-     'evidence_type': 'http://purl.obolibrary.org/obo/ECO_0000204',
-     'id': '17017525',
-     'name': 'Genotyping revealed the presence of the frame-shift mutation 138delT '
-             'only in those subjects who expressed the brain variant CYP2D7 , '
-             'which metabolizes codeine exclusively to morphine unlike hepatic '
-             'CYP2D6 that metabolizes codeine to nor codeine and morphine .',
-     'uri': 'pmid:17017525'}
-    
-    
-    ***********************
-    codeine metabolized by PGD2
-    ***********************
-    {'date': None,
-     'evidence_type': 'http://purl.obolibrary.org/obo/ECO_0000204',
-     'id': '23320562',
-     'name': 'Codeine , but not PAF or histamine , caused a small but '
-             'statistically significant release of PGD2 .',
-     'uri': 'pmid:23320562'}
-    
-    
 
 
-At First glance, these results don't look bad.  Generally the top results from the statements endpoint agree with the genes in the codeine metbolism pathway from SMPDB.  We do get some noise toward the end of the results.  Next order of business here is to come up with a suitable ranking metric.  Jaccard is ok, but doesn't give any credit for ranking correct answers highly.  Maybe Average Precision (AP)?  
 
-## Module 3
-TODO
+    8
+
+
 
 
 ```python

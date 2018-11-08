@@ -4,6 +4,7 @@ from .generic_similarity import GenericSimilarity
 from typing import List, Union, TextIO
 from pprint import pprint
 from mygene import MyGeneInfo
+from datetime import datetime
 
 
 class FunctionalSimilarity(GenericSimilarity):
@@ -33,6 +34,7 @@ class FunctionalSimilarity(GenericSimilarity):
         print("""Mod1A Functional Similarity metadata:""")
         pprint(self.meta)
 
+
     def load_input_object(self, input_object):
         self.input_object = input_object
         if self.input_object['parameters']['taxon'] == 'mouse':
@@ -49,12 +51,12 @@ class FunctionalSimilarity(GenericSimilarity):
             gene_curie = ''
             sim_input_curie = ''
             symbol = ''
-            if 'MGI' in gene:
-                gene_curie =  gene
-                sim_input_curie = gene.replace('MGI', 'MGI:MGI')
+            if 'MGI' in gene['hit_id']:
+                gene_curie =  gene['hit_id']
+                sim_input_curie = gene['hit_id'].replace('MGI', 'MGI:MGI')
                 symbol = None
-            if 'HGNC' in gene:
-                gene_curie = gene.replace('HGNC', 'hgnc')
+            if 'HGNC' in gene['hit_id']:
+                gene_curie = gene['hit_id'].replace('HGNC', 'hgnc')
                 scope = 'HGNC'
                 mg_hit = mg.query(gene_curie,
                                   scopes=scope,
@@ -62,19 +64,16 @@ class FunctionalSimilarity(GenericSimilarity):
                                   fields='uniprot, symbol, HGNC',
                                   entrezonly=True)
                 try:
-                    gene_curie = gene
+                    gene_curie = gene['hit_id']
                     sim_input_curie = 'UniProtKB:{}'.format(mg_hit['hits'][0]['uniprot']['Swiss-Prot'])
-                    symbol = mg_hit['hits'][0]['symbol']
-
                 except Exception as e:
                     print(gene, e)
 
             self.gene_set.append({
-                'gene_curie': gene_curie,
+                'input_id': gene_curie,
                 'sim_input_curie': sim_input_curie,
-                'symbol': symbol
+                'input_symbol': gene['hit_symbol']
             })
-
 
     def compute_similarity(self):
         group = self.input_object['parameters']['taxon']
@@ -82,11 +81,10 @@ class FunctionalSimilarity(GenericSimilarity):
         results = self.compute_jaccard(self.gene_set, lower_bound)
         for result in results:
             if group == 'human':
-                result['hit_curie'] = self.symbol2hgnc(result['hit_name'])
-            for ic in self.gene_set:
-                if ic['sim_input_curie'] == result['input_curie']:
-                    result['input_curie'] = ic['gene_curie']
-                    result['input_name'] = ic['symbol']
+                result['hit_id'] = self.symbol2hgnc(result['hit_symbol'])
+            for gene in self.gene_set:
+                if gene['sim_input_curie'] != result['input_id']:
+                    result['input_id'] = self.symbol2hgnc(result['input_symbol'])
         return results
 
     def symbol2hgnc(self, symbol):

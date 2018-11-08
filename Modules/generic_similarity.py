@@ -6,9 +6,11 @@ from typing import List, Union, TextIO
 from ontobio.analysis.semsim import jaccard_similarity
 from pprint import pprint
 
+
 class GenericSimilarity(object):
     def __init__(self) -> None:
         self.associations = ''
+        self.assocs = ''
         self.afactory = AssociationSetFactory()
 
     def retrieve_associations(self, ont, group):
@@ -17,20 +19,22 @@ class GenericSimilarity(object):
             'mouse': 'NCBITaxon:10090',
         }
         ofactory = OntologyFactory()
-        ont_fac = ofactory.create(ont)
+        ont_fac = ofactory.create('obo:{}'.format(ont))
         p = GafParser()
         url = ''
         if ont == 'go':
             go_roots = set(ont_fac.descendants('GO:0008150') + ont_fac.descendants('GO:0003674'))
             sub_ont = ont_fac.subontology(go_roots)
             if group == 'mouse':
-                url = "http://geneontology.org/gene-associations/gene_association.mgi.gz"
+                url = "http://current.geneontology.org/annotations/mgi.gaf.gz"
             if group == 'human':
-                url = "http://geneontology.org/gene-associations/goa_human.gaf.gz"
+                url = "http://current.geneontology.org/annotations/goa_human.gaf.gz"
             assocs = p.parse(url)
+            self.assocs = assocs
             assocs = [x for x in assocs if 'header' not in x.keys()]
             assocs = [x for x in assocs if x['object']['id'] in go_roots]
             self.associations = self.afactory.create_from_assocs(assocs, ontology=sub_ont)
+
         else:
             self.associations = self.afactory.create(ontology=ont_fac ,
                        subject_category='gene',
@@ -47,10 +51,11 @@ class GenericSimilarity(object):
                     if float(score) > float(lower_bound):
                         subject_label = self.associations.label(subject_curie)
                         similarities.append({
-                            'input_curie': input_gene,
-                            'hit_name': subject_label,
-                            'hit_curie': subject_curie,
-                            'hit_score': score,
+                            'input_id': input_gene,
+                            'input_symbol': igene['input_symbol'],
+                            'hit_symbol': subject_label,
+                            'hit_id': subject_curie,
+                            'score': score,
                         })
         return similarities
 
@@ -63,8 +68,3 @@ class GenericSimilarity(object):
 
         else:
             return input_gene
-
-
-
-    # @staticmethod
-    # def parse_associations_from_whitelist(associations):

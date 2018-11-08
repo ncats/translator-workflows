@@ -34,6 +34,7 @@ class BioLinkWrapper(object):
 
     def gene2orthologs(self, gene_curie, orth_taxon_name=None):
         taxon_map = {
+            'human': 'NCBITaxon:9606',
             'mouse': 'NCBITaxon:10090',
             'rat': 'NCBITaxon:10116',
             'zebrafish': 'NCBITaxon:7955',
@@ -108,6 +109,15 @@ class BioLinkWrapper(object):
             orth_set.append(self.gene2orthologs(gene_curie=gene, orth_taxon_name=orth_taxon_name))
         return orth_set
 
+    def compute_jaccard(self, id1, id2, category):
+        url = "{0}/pair/sim/jaccard/{1}/{2}/".format(self.endpoint, id1, id2)
+        params ={
+            'object_category': category
+        }
+        params.update(self.params)
+        response = requests.get(url, params)
+        return response.json()
+
 
     @staticmethod
     def parse_sources(sources):
@@ -122,9 +132,9 @@ class BioLinkWrapper(object):
             hit_label = association['subject']['label']
         parsed_association = {
             'input_id': input_id,
-            'input_label': input_label,
+            'input_symbol': input_label,
             'hit_id': hit_id,
-            'hit_label': hit_label,
+            'hit_symbol': hit_label,
             'sources': BioLinkWrapper.parse_sources(association['provided_by']),
         }
         return parsed_association

@@ -34,7 +34,6 @@ class GenericSimilarity(object):
             assocs = [x for x in assocs if 'header' not in x.keys()]
             assocs = [x for x in assocs if x['object']['id'] in go_roots]
             self.associations = self.afactory.create_from_assocs(assocs, ontology=sub_ont)
-
         else:
             self.associations = self.afactory.create(ontology=ont_fac ,
                        subject_category='gene',

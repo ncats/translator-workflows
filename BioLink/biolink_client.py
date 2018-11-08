@@ -132,9 +132,9 @@ class BioLinkWrapper(object):
             hit_label = association['subject']['label']
         parsed_association = {
             'input_id': input_id,
-            'input_label': input_label,
+            'input_symbol': input_label,
             'hit_id': hit_id,
-            'hit_label': hit_label,
+            'hit_symbol': hit_label,
             'sources': BioLinkWrapper.parse_sources(association['provided_by']),
         }
         return parsed_association

@@ -31,19 +31,11 @@ class GeneInteractions(object):
 
     def load_gene_set(self):
         for gene in self.input_object['input']:
-            mg = MyGeneInfo()
-            mg_hit = mg.query(gene.replace('hgnc:', ''),
-                              scopes='HGNC',
-                              species=self.input_object['parameters']['taxon'],
-                              fields='uniprot, symbol')
-            try:
-                symbol = mg_hit['hits'][0]['symbol']
-                self.gene_set.append({
-                    'sim_input_curie': gene,
-                    'symbol': symbol
-                })
-            except Exception as e:
-                print(gene, e)
+            self.gene_set.append({
+                'input_id': gene['hit_id'],
+                'sim_input_curie': gene['hit_id'],
+                'input_symbol': gene['hit_symbol']
+            })
 
     def get_interactions(self):
         results = []
@@ -51,17 +43,15 @@ class GeneInteractions(object):
             interactions = self.blw.gene_interactions(gene_curie=gene['sim_input_curie'])
             for assoc in interactions['associations']:
                 interaction = self.blw.parse_association(input_id=gene['sim_input_curie'],
-                                                          input_label=gene['symbol'],
+                                                          input_label=gene['input_symbol'],
                                                           association=assoc)
                 results.append({
-                    'input_curie': interaction['input_id'],
-                    'input_label': interaction['input_label'],
-                    'hit_name': interaction['hit_label'],
-                    'hit_curie': interaction['hit_id'],
-                    'hit_score': None,
+                    'input_id': interaction['input_id'],
+                    'input_symbol': interaction['input_symbol'],
+                    'hit_symbol': interaction['hit_symbol'],
+                    'hit_id': interaction['hit_id'],
+                    'score': 0,
                 })
-
-
         return results
 
 

@@ -6,6 +6,7 @@ from typing import List, Union, TextIO
 from ontobio.analysis.semsim import jaccard_similarity
 from pprint import pprint
 
+
 class GenericSimilarity(object):
     def __init__(self) -> None:
         self.associations = ''
@@ -18,12 +19,12 @@ class GenericSimilarity(object):
             'mouse': 'NCBITaxon:10090',
         }
         ofactory = OntologyFactory()
-        ont_fac = ofactory.create(ont)
+        ont_fac = ofactory.create('obo:{}'.format(ont))
         p = GafParser()
         url = ''
         if ont == 'go':
             go_roots = set(ont_fac.descendants('GO:0008150') + ont_fac.descendants('GO:0003674'))
-            # sub_ont = ont_fac.subontology(go_roots)
+            sub_ont = ont_fac.subontology(go_roots)
             if group == 'mouse':
                 url = "http://current.geneontology.org/annotations/mgi.gaf.gz"
             if group == 'human':
@@ -32,7 +33,7 @@ class GenericSimilarity(object):
             self.assocs = assocs
             assocs = [x for x in assocs if 'header' not in x.keys()]
             assocs = [x for x in assocs if x['object']['id'] in go_roots]
-            self.associations = self.afactory.create_from_assocs(assocs, ontology=ont_fac)
+            self.associations = self.afactory.create_from_assocs(assocs, ontology=sub_ont)
 
         else:
             self.associations = self.afactory.create(ontology=ont_fac ,
@@ -50,10 +51,11 @@ class GenericSimilarity(object):
                     if float(score) > float(lower_bound):
                         subject_label = self.associations.label(subject_curie)
                         similarities.append({
-                            'input_curie': input_gene,
-                            'hit_name': subject_label,
-                            'hit_curie': subject_curie,
-                            'hit_score': score,
+                            'input_id': input_gene,
+                            'input_symbol': igene['input_symbol'],
+                            'hit_symbol': subject_label,
+                            'hit_id': subject_curie,
+                            'score': score,
                         })
         return similarities
 

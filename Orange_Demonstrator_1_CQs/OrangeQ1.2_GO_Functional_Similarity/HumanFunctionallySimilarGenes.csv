@@ -1,0 +1,22 @@
+	fa_gene_curie	fa_gene_name	sim_gene_name	sim_hit_curie	sim_score	sim_hit_functions
+0	NCBIGene:2187	FANCB	FAAP100	UniProtKB:Q0VG06	0.8135593220338984	DNA binding, Fanconi anaemia nuclear complex, nucleoplasm, protein binding, intermediate filament cytoskeleton, interstrand cross-link repair, cytosol
+1	NCBIGene:2187	FANCB	FAAP24	UniProtKB:Q9BTP7	0.9056603773584906	intracellular membrane-bounded organelle, DNA binding, Fanconi anaemia nuclear complex, nucleoplasm, chromatin binding, protein binding, interstrand cross-link repair
+2	NCBIGene:2187	FANCB	FANCE	UniProtKB:Q9HB96	0.9583333333333334	molecular_function, nucleus, Fanconi anaemia nuclear complex, nucleoplasm, interstrand cross-link repair
+3	NCBIGene:2187	FANCB	INIP	UniProtKB:Q9NRY2	0.8653846153846154	nucleus, DNA repair, cellular response to DNA damage stimulus, nucleoplasm, SOSS complex, protein binding, response to ionizing radiation
+4	NCBIGene:2187	FANCB	INIP	HGNC:24994	0.7551020408163265	DNA repair, SOSS complex
+5	NCBIGene:2187	FANCB	FANCC	HGNC:3584	0.8301886792452831	Fanconi anaemia nuclear complex, nucleotide-excision repair, cellular response to oxidative stress
+6	NCBIGene:2178	FANCE	FAAP100	UniProtKB:Q0VG06	0.7796610169491526	DNA binding, Fanconi anaemia nuclear complex, nucleoplasm, protein binding, intermediate filament cytoskeleton, interstrand cross-link repair, cytosol
+7	NCBIGene:2178	FANCE	FANCB	UniProtKB:Q8NB91	0.9583333333333334	interstrand cross-link repair, nucleoplasm, protein binding, Fanconi anaemia nuclear complex
+8	NCBIGene:2178	FANCE	FAAP24	UniProtKB:Q9BTP7	0.8679245283018868	intracellular membrane-bounded organelle, DNA binding, Fanconi anaemia nuclear complex, nucleoplasm, chromatin binding, protein binding, interstrand cross-link repair
+9	NCBIGene:2178	FANCE	FANCF	UniProtKB:Q9NPI8	0.9583333333333334	molecular_function, biological_process, Fanconi anaemia nuclear complex, nucleoplasm, protein binding, interstrand cross-link repair
+10	NCBIGene:2178	FANCE	INIP	UniProtKB:Q9NRY2	0.8269230769230769	nucleus, DNA repair, cellular response to DNA damage stimulus, nucleoplasm, SOSS complex, protein binding, response to ionizing radiation
+11	NCBIGene:2178	FANCE	INIP	HGNC:24994	0.7872340425531915	DNA repair, SOSS complex
+12	NCBIGene:2178	FANCE	FANCC	HGNC:3584	0.8627450980392157	Fanconi anaemia nuclear complex, nucleotide-excision repair, cellular response to oxidative stress
+13	NCBIGene:2188	FANCF	FAAP100	UniProtKB:Q0VG06	0.8135593220338984	DNA binding, Fanconi anaemia nuclear complex, nucleoplasm, protein binding, intermediate filament cytoskeleton, interstrand cross-link repair, cytosol
+14	NCBIGene:2188	FANCF	FAAP24	UniProtKB:Q9BTP7	0.9056603773584906	intracellular membrane-bounded organelle, DNA binding, Fanconi anaemia nuclear complex, nucleoplasm, chromatin binding, protein binding, interstrand cross-link repair
+15	NCBIGene:2188	FANCF	FANCE	UniProtKB:Q9HB96	0.9583333333333334	molecular_function, nucleus, Fanconi anaemia nuclear complex, nucleoplasm, interstrand cross-link repair
+16	NCBIGene:2188	FANCF	INIP	UniProtKB:Q9NRY2	0.8653846153846154	nucleus, DNA repair, cellular response to DNA damage stimulus, nucleoplasm, SOSS complex, protein binding, response to ionizing radiation
+17	NCBIGene:2188	FANCF	INIP	HGNC:24994	0.7551020408163265	DNA repair, SOSS complex
+18	NCBIGene:2188	FANCF	FANCC	HGNC:3584	0.8301886792452831	Fanconi anaemia nuclear complex, nucleotide-excision repair, cellular response to oxidative stress
+19	NCBIGene:57697	FANCM	STRA13	HGNC:11422	0.7235772357723578	replication fork processing, FANCM-MHF complex, double-stranded DNA binding, Fanconi anaemia nuclear complex, resolution of meiotic recombination intermediates
+20	NCBIGene:57697	FANCM	APITD1	HGNC:23163	0.7317073170731707	replication fork processing, FANCM-MHF complex, double-stranded DNA binding, Fanconi anaemia nuclear complex, chromatin binding, resolution of meiotic recombination intermediates

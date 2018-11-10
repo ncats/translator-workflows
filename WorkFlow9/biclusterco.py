@@ -64,9 +64,36 @@ class CuratedGenesetBicluster():
 # with open('FA_geneset_gene_coocurrences_from_bicluster_gene_enrichment_py.txt', 'w') as file:
 #     file.write(json.dumps(cooccurrence_dict_all_genes))
 
-    async def main():
-        
-        with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+    async def find_related_biclusters_async(self, curated_geneset):
+        workers = len(curated_geneset)
+        url_list = [bicluster_gene_url + gene + '/' for gene in curated_geneset]
+        print(url_list)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+
+            loop = asyncio.get_event_loop()
+            responses = [
+                loop.run_in_executor(
+                    executor, 
+                    requests.get, 
+                    url
+            )
+           
+            for url in url_list
+        ]
+        for x in await asyncio.gather(*responses):
+            bicluster_dict = defaultdict(dict)
+            coocurrence_dict_each_gene['related_biclusters'][x['bicluster']] = []
+            for related_bicluster in coocurrence_dict_each_gene['related_biclusters']:
+                quick_url_2 = bicluster_bicluster_url + related_bicluster + '/'
+                response_2 = requests.get(quick_url_2)
+                response_2_json = response_2.json()
+                gene_in_each_bicluster_list = []
+                for bicluster in response_2_json:
+                    gene_in_each_bicluster_list.append(bicluster['gene'])
+                coocurrence_dict_each_gene['related_biclusters'][related_bicluster] = gene_in_each_bicluster_list
+    
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(main())
 
 
 

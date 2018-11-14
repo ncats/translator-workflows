@@ -40,8 +40,6 @@ class GetBiclusters():
         pass
     
     def find_related_biclusters(self, curated_geneset):
-        
-        curated_geneset = curated_geneset[:2]
         for gene in curated_geneset: 
             request_1_url = bicluster_gene_url + gene + '/'
             response = requests.get(request_1_url)
@@ -61,9 +59,7 @@ class GetBiclusters():
             cooccurrence_dict_all_genes[gene] = dict(coocurrence_dict_each_gene)
         return cooccurrence_dict_all_genes
 
-
     async def find_related_biclusters_async(curated_geneset):
-    
         bicluster_url_list = [bicluster_gene_url + gene + '/' for gene in curated_geneset]
         length_bicluster_url_list = len(bicluster_url_list)
         with concurrent.futures.ThreadPoolExecutor(max_workers=length_bicluster_url_list) as executor_1:
@@ -94,8 +90,3 @@ class GetBiclusters():
         return cooccurrence_dict_all_genes
 # with open('FA_geneset_gene_coocurrences_from_bicluster_gene_enrichment_py.txt', 'w') as file:
 #     file.write(json.dumps(cooccurrence_dict_all_genes))
-
-
-class GetCooccurrences():
-    def __init__(self):
-        pass

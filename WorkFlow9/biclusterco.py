@@ -8,9 +8,9 @@ from collections import defaultdict
 
 bicluster_gene_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_gene/'
 bicluster_bicluster_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_bicluster/'
-cooccurrence_dict_all_genes = defaultdict(dict)
+related_biclusters_and_genes_for_each_input_gene = defaultdict(dict)
 
-class GetInput():
+class GeneCoocurrenceByBicluster():
     def __init__(self):
         pass
     
@@ -35,10 +35,6 @@ class GetInput():
         curated_geneset = self.curate_geneset(geneset)
         return curated_geneset
 
-class GetBiclusters():
-    def __init__(self):
-        pass
-    
     def find_related_biclusters(self, curated_geneset):
         for gene in curated_geneset: 
             request_1_url = bicluster_gene_url + gene + '/'
@@ -56,10 +52,10 @@ class GetBiclusters():
                     response_2_json = response_2.json()
                     gene_in_each_bicluster_list = [bicluster['gene'] for bicluster in response_2_json]
                     coocurrence_dict_each_gene['related_biclusters'][related_bicluster] = gene_in_each_bicluster_list
-            cooccurrence_dict_all_genes[gene] = dict(coocurrence_dict_each_gene)
-        return cooccurrence_dict_all_genes
+            related_biclusters_and_genes_for_each_input_gene[gene] = dict(coocurrence_dict_each_gene)
+        return related_biclusters_and_genes_for_each_input_gene
 
-    async def find_related_biclusters_async(curated_geneset):
+    async def find_related_biclusters_async(self, curated_geneset):
         bicluster_url_list = [bicluster_gene_url + gene + '/' for gene in curated_geneset]
         length_bicluster_url_list = len(bicluster_url_list)
         with concurrent.futures.ThreadPoolExecutor(max_workers=length_bicluster_url_list) as executor_1:
@@ -86,7 +82,50 @@ class GetBiclusters():
                             genes_in_each_bicluster = [bicluster['gene'] for bicluster in response_2_json]
                             biclusterindex = [x['bicluster'] for x in response_2_json]
                             coocurrence_dict_each_gene['related_biclusters'][biclusterindex[0]] = genes_in_each_bicluster
-                        cooccurrence_dict_all_genes[gene] = dict(coocurrence_dict_each_gene)
-        return cooccurrence_dict_all_genes
-# with open('FA_geneset_gene_coocurrences_from_bicluster_gene_enrichment_py.txt', 'w') as file:
-#     file.write(json.dumps(cooccurrence_dict_all_genes))
+                        related_biclusters_and_genes_for_each_input_gene[gene] = dict(coocurrence_dict_each_gene)
+        return related_biclusters_and_genes_for_each_input_gene
+        
+    # the function below returns a dictionary listing all biclusters which occur in the input with a count of how many times each bicluster occurs
+    def bicluster_occurences_dict(self, related_biclusters_and_genes_for_each_input_gene):
+        bicluster_occurences_dict = defaultdict(dict)
+        for key, value in related_biclusters_and_genes_for_each_input_gene.items():
+            for key, value in value.items():
+                if key == 'related_biclusters':
+                    for key, value in value.items():
+                        if bicluster_occurences_dict[key]:
+                            bicluster_occurences_dict[key] += 1
+                        else:
+                            bicluster_occurences_dict[key] = 1
+        return bicluster_occurences_dict
+
+    def unique_biclusters(self, bicluster_occurences_dict):
+        list_of_unique_biclusters = []
+        for key, value in bicluster_occurences_dict.items():
+            if value == 1:
+                list_of_unique_biclusters.append(key)
+        return list_of_unique_biclusters
+
+    # the method below lends itself to async ... reprogram it
+    def genes_in_unique_biclusters(self, list_of_unique_biclusters, related_biclusters_and_genes_for_each_input_gene):
+        #list_of_genes_in_unique_biclusters = []
+        dict_of_genes_in_unique_biclusters = defaultdict(dict)
+        for key, value in related_biclusters_and_genes_for_each_input_gene.items():
+            for key, value in value.items():
+                if key == 'related_biclusters':
+                    for key, value in value.items():
+                        dict_of_genes_in_unique_biclusters[key] = []
+                        if key in list_of_unique_biclusters:
+                            dict_of_genes_in_unique_biclusters[key].append(value)
+        return dict_of_genes_in_unique_biclusters
+
+    def genes_in_unique_biclusters_not_in_input_gene_list(self, curated_geneset, dict_of_genes_in_unique_biclusters):
+        dict_of_genes_in_unique_biclusters_not_in_inputs = defaultdict(dict)
+        for key, value in dict_of_genes_in_unique_biclusters.items():
+            if value:
+                for gene in value[0]:
+                    if not dict_of_genes_in_unique_biclusters_not_in_inputs[gene]:
+                        if gene not in curated_geneset:
+                            dict_of_genes_in_unique_biclusters_not_in_inputs[gene] = 1
+                    else:
+                        dict_of_genes_in_unique_biclusters_not_in_inputs[gene] +=1
+        return dict_of_genes_in_unique_biclusters_not_in_inputs

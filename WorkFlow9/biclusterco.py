@@ -107,7 +107,6 @@ class GeneCoocurrenceByBicluster():
 
     # the method below lends itself to async ... reprogram it
     def genes_in_unique_biclusters(self, list_of_unique_biclusters, related_biclusters_and_genes_for_each_input_gene):
-        #list_of_genes_in_unique_biclusters = []
         dict_of_genes_in_unique_biclusters = defaultdict(dict)
         for key, value in related_biclusters_and_genes_for_each_input_gene.items():
             for key, value in value.items():
@@ -123,9 +122,15 @@ class GeneCoocurrenceByBicluster():
         for key, value in dict_of_genes_in_unique_biclusters.items():
             if value:
                 for gene in value[0]:
+                    if gene in curated_geneset:
+                        continue
                     if not dict_of_genes_in_unique_biclusters_not_in_inputs[gene]:
-                        if gene not in curated_geneset:
-                            dict_of_genes_in_unique_biclusters_not_in_inputs[gene] = 1
+                        dict_of_genes_in_unique_biclusters_not_in_inputs[gene] = 1
                     else:
-                        dict_of_genes_in_unique_biclusters_not_in_inputs[gene] +=1
+                        dict_of_genes_in_unique_biclusters_not_in_inputs[gene] += 1
         return dict_of_genes_in_unique_biclusters_not_in_inputs
+
+    def sorted_list_of_output_genes(self, dict_of_genes_in_unique_biclusters_not_in_inputs):
+        sorted_list_of_output_genes = sorted((value,key) for (key,value) in dict_of_genes_in_unique_biclusters_not_in_inputs.items())
+        sorted_list_of_output_genes.reverse()
+        return sorted_list_of_output_genes

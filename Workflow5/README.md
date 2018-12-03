@@ -1,0 +1,3 @@
+This folder is intended to serve as a repo for Workflow 5. Please submit your code here and post any issues to the appropriate ticket for each module of the workflow.
+
+Contacts for Workflow 5 are Kara Fecho (primary) and Stefano Rensi (secondary).

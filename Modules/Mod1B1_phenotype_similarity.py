@@ -43,39 +43,33 @@ class PhenotypeSimilarity(GenericSimilarity):
 
     def load_gene_set(self):
         for gene in self.input_object['input']:
-<<<<<<< HEAD
-            gene_curie = gene['hit_id']
-            sim_input_curie = gene_curie
-=======
             mg = MyGeneInfo()
             gene_curie = ''
             sim_input_curie = ''
             symbol = ''
-            if 'MGI' in gene:
-                gene_curie = gene
-                sim_input_curie = gene
+            if 'MGI' in gene['hit_id']:
+                gene_curie = gene['hit_id']
+                sim_input_curie = gene['hit_id']
                 # if self.ont == 'go':
                 #     sim_input_curie = gene.replace('MGI', 'MGI:MGI')
                 # else:
                 #
                 symbol = None
-            if 'HGNC' in gene:
-                gene_curie = gene.replace('HGNC', 'hgnc')
+            if 'HGNC' in gene['hit_id']:
+                mgi_gene_curie = gene['hit_id'].replace('HGNC', 'hgnc')
                 scope = 'HGNC'
-                mg_hit = mg.query(gene_curie,
+                mg_hit = mg.query(mgi_gene_curie,
                                   scopes=scope,
                                   species=self.input_object['parameters']['taxon'],
                                   fields='uniprot, symbol, HGNC',
                                   entrezonly=True)
                 try:
-                    gene_curie = gene
-                    sim_input_curie = gene
+                    gene_curie = gene['hit_id']
+                    sim_input_curie = gene['hit_id']
                     symbol = mg_hit['hits'][0]['symbol']
 
                 except Exception as e:
                     print(gene, e)
-
->>>>>>> 0b67f657d7675110c902003029fe7ed43730d969
             self.gene_set.append({
                 'input_id': gene_curie,
                 'sim_input_curie': sim_input_curie,

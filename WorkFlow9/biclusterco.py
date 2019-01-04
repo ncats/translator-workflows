@@ -6,8 +6,8 @@ import concurrent.futures
 import requests
 from collections import defaultdict
 
-bicluster_gene_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_gene/'
-bicluster_bicluster_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_bicluster/'
+bicluster_gene_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v2_gene/'
+bicluster_bicluster_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v2_bicluster/'
 related_biclusters_and_genes_for_each_input_gene = defaultdict(dict)
 
 class GeneCoocurrenceByBicluster():
@@ -36,6 +36,7 @@ class GeneCoocurrenceByBicluster():
         return curated_geneset
 
     def find_related_biclusters(self, curated_geneset):
+        #this function is an artifact... a way to understand 'find_related_biclusters_async', below
         for gene in curated_geneset: 
             request_1_url = bicluster_gene_url + gene + '/'
             response = requests.get(request_1_url)
@@ -69,7 +70,7 @@ class GeneCoocurrenceByBicluster():
                 coocurrence_dict_each_gene['number_of_related_biclusters'] = length_response_json
                 if length_response_json > 0:
                     gene = response_json[0]['gene']
-                    for x in response_json:
+                    for x in response_json:         
                         bicluster = x['bicluster']
                         coocurrence_dict_each_gene['related_biclusters'][x['bicluster']] = []         
                     related_biclusters = [x for x in coocurrence_dict_each_gene['related_biclusters']]

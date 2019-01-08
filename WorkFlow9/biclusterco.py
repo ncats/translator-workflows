@@ -6,8 +6,8 @@ import concurrent.futures
 import requests
 from collections import defaultdict
 
-bicluster_gene_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v2_gene/'
-bicluster_bicluster_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v2_bicluster/'
+bicluster_gene_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v3_gene/'
+bicluster_bicluster_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v3_bicluster/'
 related_biclusters_and_genes_for_each_input_gene = defaultdict(dict)
 
 class GeneCoocurrenceByBicluster():

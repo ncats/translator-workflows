@@ -85,6 +85,24 @@ class GetDictionary():
         dictionary_query_json = dictionary_query.json()
         return dictionary_query_json
 
+class FeatureAssociation():
+    def __init__(self):
+        pass
+
+    def make_feature_association(self, feature_a, feature_a_operator, feature_a_value, feature_b, feature_b_operator, feature_b_value):
+        feature_assoc_variables = '{{"feature_a":{{"{0}":{{"operator":"{1}","value":{2}}}}},"feature_b":{{"{3}":{{"operator":"{4}","value":{5}}}}}}}'.format(feature_a, feature_a_operator, feature_a_value, feature_b, feature_b_operator, feature_b_value)
+        return feature_assoc_variables
+
+    def feature_association_query(self, feature_assoc_variables, cohort_id, year=2010, table='patient', version='1.0.0'):
+        feature_association_response = requests.post('https://icees.renci.org/{0}/{1}/{2}/cohort/{3}/feature_association'.format(version, table, year, cohort_id), data=feature_assoc_variables, headers=json_headers, verify=False)
+        return feature_association_response
+
+    def run_feature_association(self, feature_a, feature_a_operator, feature_a_value, feature_b, feature_b_operator, feature_b_value, cohort_id):
+        feature_assoc_variables = self.make_feature_association(feature_a, feature_a_operator, feature_a_value, feature_b, feature_b_operator, feature_b_value)
+        feature_assoc_query = self.feature_association_query(feature_assoc_variables, cohort_id)
+        feature_assoc_query_json = feature_assoc_query.json()
+        return feature_assoc_query_json
+
 
 # You can use the work below to treat this module as a CLI utility. Currently, it is configured to accept inputs for and
 # return values from the simplest input, "DefineCohort"... feel free to copy/fork and customize for your own purposes!

@@ -49,7 +49,7 @@ class LookUp(object):
         # # group duplicate ids and gather sources
         input_genes_df['sources'] = input_genes_df['sources'].str.join(', ')
         input_genes_df = input_genes_df.groupby(
-            ['input_id', 'input_symbol', 'hit_id', 'hit_symbol'])['sources'].apply(', '.join).reset_index()
+            ['input_id', 'input_symbol', 'hit_id', 'hit_symbol', 'relation'])['sources'].apply(', '.join).reset_index()
         return input_genes_df
 
 

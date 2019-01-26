@@ -118,6 +118,14 @@ class BioLinkWrapper(object):
         response = requests.get(url, params)
         return response.json()
 
+    def compute_owlsim(self, id):
+        url = '{0}sim/search'.format(self.endpoint)
+        params = {
+            'id': id,
+        }
+        params.update(self.params)
+        response = requests.get(url, params)
+        return response.json()
 
     @staticmethod
     def parse_sources(sources):
@@ -127,15 +135,18 @@ class BioLinkWrapper(object):
     def parse_association(input_id, input_label, association, invert_subject_object=False):
         hit_id = association['object']['id']
         hit_label = association['object']['label']
+        relation_label = association['relation']['label']
         if invert_subject_object:
             hit_id = association['subject']['id']
             hit_label = association['subject']['label']
+
         parsed_association = {
             'input_id': input_id,
             'input_symbol': input_label,
             'hit_id': hit_id,
             'hit_symbol': hit_label,
             'sources': BioLinkWrapper.parse_sources(association['provided_by']),
+            'relation': relation_label
         }
         return parsed_association
 

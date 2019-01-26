@@ -10,6 +10,7 @@ from pprint import pprint
 class GenericSimilarity(object):
     def __init__(self) -> None:
         self.associations = ''
+        self.ontology = ''
         self.assocs = ''
         self.afactory = AssociationSetFactory()
 
@@ -19,12 +20,12 @@ class GenericSimilarity(object):
             'mouse': 'NCBITaxon:10090',
         }
         ofactory = OntologyFactory()
-        ont_fac = ofactory.create('obo:{}'.format(ont))
+        self.ontology = ofactory.create('obo:{}'.format(ont))
         p = GafParser()
         url = ''
         if ont == 'go':
-            go_roots = set(ont_fac.descendants('GO:0008150') + ont_fac.descendants('GO:0003674'))
-            sub_ont = ont_fac.subontology(go_roots)
+            go_roots = set(self.ontology.descendants('GO:0008150') + self.ontology.descendants('GO:0003674'))
+            sub_ont = self.ontology.subontology(go_roots)
             if group == 'mouse':
                 url = "http://current.geneontology.org/annotations/mgi.gaf.gz"
             if group == 'human':
@@ -35,7 +36,7 @@ class GenericSimilarity(object):
             assocs = [x for x in assocs if x['object']['id'] in go_roots]
             self.associations = self.afactory.create_from_assocs(assocs, ontology=sub_ont)
         else:
-            self.associations = self.afactory.create(ontology=ont_fac ,
+            self.associations = self.afactory.create(ontology=self.ontology ,
                        subject_category='gene',
                        object_category='phenotype',
                        taxon=taxon_map[group])

@@ -54,4 +54,3 @@ class GeneInteractions(object):
                 })
         return results
 
-

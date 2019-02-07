@@ -11,6 +11,35 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 logging.debug("test")
 
+def doid_to_tissues(doid):
+    """
+    Parameters
+    ----------
+    doid : list of str
+    """
+
+    if not isinstance(doid, list):
+        doid = [doid]
+
+    logging.info("Geting HP ids from DOID")
+    #http://disease-ontology.org/
+    disease_doid = doid
+    hpids = doid_to_hp(disease_doid)
+    if len(hpids) == 0:
+        raise Exception("No phenotypes related to %s" % (str(disease_doid)))
+    else:
+        print("Returned %i phenotypes" % (len(hpids), ))
+
+    logging.info("Geting uberon from HP ids")
+    tissues = hp_to_uberon(hpids, limit=50)
+    if len(tissues) == 0:
+        raise Exception("No tissues related to %s" % (str(hpids)))
+    else:
+        print("Returned %i tissues" % (len(hpids), ))
+
+    return tissues
+
+
 def doid_to_genes(doid): 
     """
     Parameters

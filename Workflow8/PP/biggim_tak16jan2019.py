@@ -90,31 +90,19 @@ def call_biggim(genes, columns, limit, query_id2=False, return_genes=False, limi
         
         jprint(e.response.json())
 
-    error_counter = 0
     try:
         while True:
-            try:
-                query_status = get('biggim/status/%s' % (query_submit['request_id'],))
-                jprint(query_status)
-
-                if query_status['status'] != 'running':
-                    # query has finished
-                    break
-                else:
-                    time.sleep(5)
-                    print("Checking again")
-            except requests.HTTPError as e:
-                print(e)
-                time.sleep(5)
-                error_counter += 1
-                if error_counter > 3:
-                    print("Giving up")
-                    raise
-                else:
-                    print("Trying again.")
+            query_status = get('biggim/status/%s'% (query_submit['request_id'],))
+            jprint(query_status)
+            if query_status['status'] !='running':
+                # query has finished
+                break
+            else:
+                time.sleep(1)
+                print("Checking again")
     except requests.HTTPError as e:
         print(e)
-
+        
         jprint(e.response.json())
         
     result = pandas.concat(map(pandas.read_csv, query_status['request_uri']))

@@ -1,5 +1,0 @@
-ontobio
-mygene==3.0.0
-pandas>=0.0
-typing>=0.0
-graphviz

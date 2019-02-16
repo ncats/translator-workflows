@@ -11,6 +11,35 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 logging.debug("test")
 
+def doid_to_tissues(doid):
+    """
+    Parameters
+    ----------
+    doid : list of str
+    """
+
+    if not isinstance(doid, list):
+        doid = [doid]
+
+    logging.info("Geting HP ids from DOID")
+    #http://disease-ontology.org/
+    disease_doid = doid
+    hpids = doid_to_hp(disease_doid)
+    if len(hpids) == 0:
+        raise Exception("No phenotypes related to %s" % (str(disease_doid)))
+    else:
+        print("Returned %i phenotypes" % (len(hpids), ))
+
+    logging.info("Geting uberon from HP ids")
+    tissues = hp_to_uberon(hpids, limit=50)
+    if len(tissues) == 0:
+        raise Exception("No tissues related to %s" % (str(hpids)))
+    else:
+        print("Returned %i tissues" % (len(hpids), ))
+
+    return tissues
+
+
 def doid_to_genes(doid): 
     """
     Parameters
@@ -90,19 +119,31 @@ def call_biggim(genes, columns, limit, query_id2=False, return_genes=False, limi
         
         jprint(e.response.json())
 
+    error_counter = 0
     try:
         while True:
-            query_status = get('biggim/status/%s'% (query_submit['request_id'],))
-            jprint(query_status)
-            if query_status['status'] !='running':
-                # query has finished
-                break
-            else:
-                time.sleep(1)
-                print("Checking again")
+            try:
+                query_status = get('biggim/status/%s' % (query_submit['request_id'],))
+                jprint(query_status)
+
+                if query_status['status'] != 'running':
+                    # query has finished
+                    break
+                else:
+                    time.sleep(5)
+                    print("Checking again")
+            except requests.HTTPError as e:
+                print(e)
+                time.sleep(5)
+                error_counter += 1
+                if error_counter > 3:
+                    print("Giving up")
+                    raise
+                else:
+                    print("Trying again.")
     except requests.HTTPError as e:
         print(e)
-        
+
         jprint(e.response.json())
         
     result = pandas.concat(map(pandas.read_csv, query_status['request_uri']))

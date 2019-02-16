@@ -7,7 +7,7 @@ import requests
 from collections import defaultdict
 
 bicluster_gene_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v3_gene/'
-bicluster_tissue_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v3_col_enrich_all/'
+bicluster_tissue_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v3_all_col_labels/' # Marcin will create a new API endpoint for inputting all_tissue_IDs to replace this ... this will also be the endpoints for when we do gene --> tissues and tissues --> tissues
 bicluster_bicluster_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v3_bicluster/'
 related_biclusters_and_genes_for_each_input_gene = defaultdict(dict)
 
@@ -88,7 +88,7 @@ class CoocurrenceByBicluster():
         return related_biclusters_and_genes_for_each_input_gene
 
     async def find_tissue_related_biclusters_async(self, curated_ID_list):
-        bicluster_url_list = [bicluster_tissue_url + tissue + '/' for tissue in curated_ID_list]
+        bicluster_url_list = [bicluster_tissue_url + tissue + '/' + '?include_similar=true' for tissue in curated_ID_list]
         length_bicluster_url_list = len(bicluster_url_list)
         with concurrent.futures.ThreadPoolExecutor(max_workers=length_bicluster_url_list) as executor_1:
             loop_1 = asyncio.get_event_loop()

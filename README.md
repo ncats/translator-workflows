@@ -1,6 +1,5 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ncats/translator-workflows/master)
 
-<<<<<<< HEAD
 # cq-notebooks
 
 Notebooks for answering competency questions
@@ -14,8 +13,6 @@ We are currently using Jupyter notebooks as our means of documenting, prototypin
 Orange team queries are initially collected in the spreadsheet [here](http://bit.ly/orange_cq), with tabs for different collections of notebooks (e.g. demonstrator-driven queries, general benchmarking queries). From this staging area, select queries are implemented in Jupyter or Zeppelin notebooks. A detailed overview of spreadsheet contents and the workflow for CQ development can be found in the documents [here](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/Contributor_Docs/CONTRIBUTING.md) and [here](https://github.com/NCATS-Tangerine/cq-notebooks/blob/master/Contributor_Docs/Query_Bank_CQ_Development.md).
 
 Notebooks under active development each have an associated directory in this repo that includes the notebook itself, a descriptive README, and any associated code or data. For each notebook, a Github ticket is also created and tagged with a `notebook-status` label to track its status, ownership, and outcomes. These tickets enable a dashboard-like overview of progress notebooks to be generated [here](https://github.com/NCATS-Tangerine/cq-notebooks/issues?q=is%3Aopen+is%3Aissue+label%3A%22notebook+status%22).
-
-
 
 ## Running Locally
 
@@ -74,4 +71,3 @@ This is where the TIDBITS Workflows can be stored and edited.
 In particular, you can use this git repository to track issues related to a given workflow.
 
 (there is nothing here yet)
->>>>>>> 52f59e6c35228e17cf86412b018aaa8dbf0f9c0c

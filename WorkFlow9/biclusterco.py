@@ -252,6 +252,7 @@ class CoocurrenceByBicluster():
         for key, value in dict_of_ids_in_unique_biclusters.items():
             if value:
                 for ID in value[0]:
+                    # try inserting a split fcn here and basically making a dictionary where every gene gets split and counted, etc, idk...
                     if ID in curated_ID_list:
                         continue
                     if not dict_of_ids_in_unique_biclusters_not_in_inputs[ID]:

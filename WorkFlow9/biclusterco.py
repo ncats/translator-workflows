@@ -235,3 +235,32 @@ class CoocurrenceByBicluster():
         sorted_list_of_output_genes = sorted((value,key) for (key,value) in dict_of_genes_in_unique_biclusters_not_in_inputs.items())
         sorted_list_of_output_genes.reverse()
         return sorted_list_of_output_genes
+
+    def ids_in_unique_biclusters(self, list_of_unique_biclusters, related_biclusters_and_ids_for_each_input_id):
+        dict_of_ids_in_unique_biclusters = defaultdict(dict)
+        for key, value in related_biclusters_and_ids_for_each_input_id.items():
+            for key, value in value.items():
+                if key == 'related_biclusters':
+                    for key, value in value.items():
+                        dict_of_ids_in_unique_biclusters[key] = []
+                        if key in list_of_unique_biclusters:
+                            dict_of_ids_in_unique_biclusters[key].append(value)
+        return dict_of_ids_in_unique_biclusters
+
+    def ids_in_unique_biclusters_not_in_input_ID_list(self, curated_ID_list, dict_of_ids_in_unique_biclusters):
+        dict_of_ids_in_unique_biclusters_not_in_inputs = defaultdict(dict)
+        for key, value in dict_of_ids_in_unique_biclusters.items():
+            if value:
+                for ID in value[0]:
+                    if ID in curated_ID_list:
+                        continue
+                    if not dict_of_ids_in_unique_biclusters_not_in_inputs[ID]:
+                        dict_of_ids_in_unique_biclusters_not_in_inputs[ID] = 1
+                    else:
+                        dict_of_ids_in_unique_biclusters_not_in_inputs[ID] += 1
+        return dict_of_ids_in_unique_biclusters_not_in_inputs
+
+    def sorted_list_of_output_tissues(self, dict_of_ids_in_unique_biclusters_not_in_inputs):
+        sorted_list_of_output_tissues = sorted((value,key) for (key,value) in dict_of_ids_in_unique_biclusters_not_in_inputs.items())
+        sorted_list_of_output_tissues.reverse()
+        return sorted_list_of_output_tissues

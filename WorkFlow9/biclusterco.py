@@ -38,26 +38,26 @@ class CoocurrenceByBicluster():
         curated_ID_list = self.curated_ID_list(ID_list)
         return curated_ID_list
 
-    def find_related_biclusters(self, curated_ID_list):
-        #this function is an artifact... a way to understand 'find_related_biclusters_async', below
-        for gene in curated_ID_list: 
-            request_1_url = bicluster_gene_url + gene + '/'
-            response = requests.get(request_1_url)
-            response_json = response.json()
-            coocurrence_dict_each_gene = defaultdict(dict)
-            coocurrence_dict_each_gene['related_biclusters'] = defaultdict(dict)
-            coocurrence_dict_each_gene['number_of_related_biclusters'] = len(response_json)
-            for x in response_json:
-                bicluster_dict = defaultdict(dict)
-                coocurrence_dict_each_gene['related_biclusters'][x['bicluster']] = []
-                for related_bicluster in coocurrence_dict_each_gene['related_biclusters']:
-                    request_2_url = bicluster_bicluster_url + related_bicluster + '/'
-                    response_2 = requests.get(request_2_url)
-                    response_2_json = response_2.json()
-                    gene_in_each_bicluster_list = [bicluster['gene'] for bicluster in response_2_json]
-                    coocurrence_dict_each_gene['related_biclusters'][related_bicluster] = gene_in_each_bicluster_list
-            related_biclusters_and_genes_for_each_input_gene[gene] = dict(coocurrence_dict_each_gene)
-        return related_biclusters_and_genes_for_each_input_gene
+    # def find_related_biclusters(self, curated_ID_list):
+    #     #this function is an artifact... a way to understand 'find_related_biclusters_async', below
+    #     for gene in curated_ID_list: 
+    #         request_1_url = bicluster_gene_url + gene + '/'
+    #         response = requests.get(request_1_url)
+    #         response_json = response.json()
+    #         coocurrence_dict_each_gene = defaultdict(dict)
+    #         coocurrence_dict_each_gene['related_biclusters'] = defaultdict(dict)
+    #         coocurrence_dict_each_gene['number_of_related_biclusters'] = len(response_json)
+    #         for x in response_json:
+    #             bicluster_dict = defaultdict(dict)
+    #             coocurrence_dict_each_gene['related_biclusters'][x['bicluster']] = []
+    #             for related_bicluster in coocurrence_dict_each_gene['related_biclusters']:
+    #                 request_2_url = bicluster_bicluster_url + related_bicluster + '/'
+    #                 response_2 = requests.get(request_2_url)
+    #                 response_2_json = response_2.json()
+    #                 gene_in_each_bicluster_list = [bicluster['gene'] for bicluster in response_2_json]
+    #                 coocurrence_dict_each_gene['related_biclusters'][related_bicluster] = gene_in_each_bicluster_list
+    #         related_biclusters_and_genes_for_each_input_gene[gene] = dict(coocurrence_dict_each_gene)
+    #     return related_biclusters_and_genes_for_each_input_gene
 
     async def find_related_biclusters_async(self, curated_ID_list):
         bicluster_url_list = [bicluster_gene_url + gene + '/' for gene in curated_ID_list]
@@ -114,7 +114,7 @@ class CoocurrenceByBicluster():
                     with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor_2:
                         loop_2 = asyncio.get_event_loop()
                         futures_2 = [ loop_2.run_in_executor(executor_2, requests.get, request_2_url) for request_2_url in bicluster_bicluster_url_list]
-                        for response_2 in await asyncio.gather(*futures_2):
+                        for response_2 in await asyncio.gather(*futures_2): 
                             response_2_json = response_2.json()     
                             genes_in_each_bicluster = [bicluster['gene'] for bicluster in response_2_json]
                             biclusterindex = [x['bicluster'] for x in response_2_json]

@@ -46,3 +46,13 @@ def parse_answer(returnanswer,
         nodes.update({prop: answer[prop] for prop in answer_properties if prop in answer})
         answers.append(nodes)
     return pd.DataFrame(answers)
+
+def get_view_url(returnanswer,robokop='robokop.renci.org'):
+    """Given an answer in KGS v0.9 format, post the answer to robokop, and return a link that can be followed to
+    view the answer in the UI"""
+    view_post_url = f'http://{robokop}/api/simple/view/'
+    view_post_response = requests.post(view_post_url, json=returnanswer)
+    uid=view_post_response.json()
+    view_url = f'http://{robokop}/simple/view/{uid}'
+    return view_url
+

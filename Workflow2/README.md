@@ -66,6 +66,6 @@ By positional cloning, Latif et al. (1993) identified the [VHL tumor suppressor 
 | 4 | HGNC:6971  | MDH2       | HGNC:12687 | VHL          | 0.572727 | Mod1B  |
 | 1 | HGNC:16636 | KIF1B      | HGNC:12687 | VHL          | 0.559557 | Mod1B  |
 
-### Mod1E Protein Interaction
+#### Mod1E Protein Interaction
 
 No results?

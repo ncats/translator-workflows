@@ -1,4 +1,5 @@
 import pandas as pd
+import requests
 
 def parse_answer(returnanswer, 
                    node_list=['n1'], 
@@ -56,3 +57,30 @@ def get_view_url(returnanswer,robokop='robokop.renci.org'):
     view_url = f'http://{robokop}/simple/view/{uid}'
     return view_url
 
+import requests
+
+def quick(question,max_results=None,output_format=None,max_connectivity=None,robokop_server='robokop.renci.org'):
+    """Posts a machine question to ROBOKOP's quick service
+
+    Parameters
+    ----------
+
+    question: a machine question in v 0.9 formatn
+    max_results: the maximum number of results to return.  Defaults to 250.  0 returns all results.
+    max_connectivity: The maximum degree of a node to be included inu an answer.  Used to control generality and speed. Defaults to 0 (unlimited) but 1000 is a good value to try
+    robokop_server: the server name or ip address where robokop is running
+    """
+    url=f'http://{robokop_server}:80/api/simple/quick/'
+    if max_results is not None:
+        url += f'?max_results={max_results}'
+    if output_format is not None:
+        j = '&' if '?' in url else '?'
+        url += f'{j}output_format={output_format}'
+    if max_connectivity is not None:
+        j = '&' if '?' in url else '?'
+        url += f'{j}max_connectivity={max_connectivity}'
+    response = requests.post(url,json=question)
+    print( f"Return Status: {response.status_code}" )
+    if response.status_code == 200:
+        return response.json()
+    return response

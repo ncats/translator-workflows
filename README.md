@@ -62,12 +62,21 @@ TODO: we should aim to drive this list from Smart API registry
 ### Hackathon
 
  * Disease prediction (Grey)
-=======
-Translator TIDBITS Workflows
-============================
+
+
+# Translator TIDBITS Workflows
 
 This is where the TIDBITS Workflows can be stored and edited.
 
 In particular, you can use this git repository to track issues related to a given workflow.
 
-(there is nothing here yet)
+## One-time Setup
+
+Upon git cloneing the project, you need to configure the mvp-modules-library git submodule:
+
+   $ git submodule init
+   
+Every time you git pull an update of the system, you may wish to also:
+
+   $ git submodule update
+   

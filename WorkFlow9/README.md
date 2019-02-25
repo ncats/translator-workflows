@@ -6,5 +6,3 @@ This notebook uses the [smartBag API service] [here](https://smartbag.ncats.io/a
 The primary contact for this is Marcin Joachimiak (MJoachimiak@lbl.gov), with great help from Colin Curtis (ckcurtis@renci.org).
 
 * Note - An additional notebook has been added to the repo, titled "Tissue_Coocurrence_by_Bicluster.ipynb". This is an effort to take a tissue ID and then proceed through bicluster enrichment for it. -- Colin C., Feb 5, 2019
-
-* Note  Tissue_Coocurrence_by_Bicluster.ipynb is not available. Tom C., Feb 25, 2019

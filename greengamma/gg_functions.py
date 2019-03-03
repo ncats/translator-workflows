@@ -34,11 +34,11 @@ def parse_answer(returnanswer,
                 #skip if provided node doesn't exist
                 continue
             if type(answer['node_bindings'][node]) != list:
-                nodes.update({f'{node} - {prop} ': kg_nodes[answer['node_bindings'][node]][prop]\
+                nodes.update({f'{node} - {prop}': kg_nodes[answer['node_bindings'][node]][prop]\
                          for prop in node_properties\
                          if prop in kg_nodes[answer['node_bindings'][node]]})
             else:
-                nodes.update({f'{node} - {prop} ': ', '.join(
+                nodes.update({f'{node} - {prop}': ', '.join(
                     kg_nodes[answer['node_bindings'][node][idx]][prop] 
                     for idx, x in enumerate(answer['node_bindings'][node])
                 ) for prop in node_properties})
@@ -97,3 +97,17 @@ def quick(question,max_results=None,output_format=None,max_connectivity=None,rob
     if response.status_code == 200:
         return response.json()
     return response
+
+
+def expand(type1,identifier,type2,rebuild=None,output_format=None,predicate=None,direction=None,robokop_server='robokop.renci.org'):
+    url=f'http://{robokop_server}:80/api/simple/expand/{type1}/{identifier}/{type2}'
+    params = {'rebuild': rebuild, 
+              'predicate': predicate,
+              'output_format': output_format,
+              'direction': direction}
+    params = { k:v for k,v in params.items() if v is not None }
+    response = requests.get(url,params=params)
+    if response.status_code == 200:
+        return response.json()
+    return []
+

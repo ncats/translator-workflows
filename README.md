@@ -52,12 +52,13 @@ TODO: we should aim to drive this list from Smart API registry
  * Wikidata SPARQL (Orange)
  * DGIdb API for drug-gene interactions: http://dgidb.genome.wustl.edu/api
  * Jaspar SPARQL endpoint: https://tfbsmotif.ncats.io/blazegraph/#query 
+ * Clinical profiles API: [HAPI FHIR](https://hapi.clinicalprofiles.org/) (Orange)
+    * [Demo use](https://github.com/translational-informatics/TransMed-Clinical-Profiles/blob/master/using-profiles/Downloading%20EDS%20Profiles%20from%20clinicalprofiles.org.ipynb)
 
 ### Next
 
  * Exposure API - scores for locations (Green) - https://exposures.renci.org/v1/ui/#!/default
  * Synthetic patient data API (Green)
- * Synthetic patient data API (Orange)
 
 ### Hackathon
 

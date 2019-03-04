@@ -22,14 +22,19 @@ with open(input_gene_list_name) as f_2:
 
 #print(formatted_input_genes)
 
-translated_gene_set = []
+
+translated_to_ENSG_gene_set = []
 print()
 while formatted_input_genes:
     gene = formatted_input_genes.pop()
-    print(len(formatted_input_genes))
-    print('gene:', gene)
-    print()
+    #print(len(formatted_input_genes))
+    #print('gene:', gene)
+    #print()
     for row in hugo_gene_ids:
         if gene in row:
-            print('row:', row)
-            print()
+            #print('row:', row)
+            #print()
+            for ensg_term in row:
+                if ensg_term.startswith('ENSG'):
+                    if ensg_term not in translated_to_ENSG_gene_set:
+                        translated_to_ENSG_gene_set.append(ensg_term)

@@ -20,7 +20,7 @@ class GenericSimilarity(object):
             'mouse': 'NCBITaxon:10090',
         }
         ofactory = OntologyFactory()
-        self.ontology = ofactory.create('obo:{}'.format(ont))
+        self.ontology = ofactory.create(ont)
         p = GafParser()
         url = ''
         if ont == 'go':

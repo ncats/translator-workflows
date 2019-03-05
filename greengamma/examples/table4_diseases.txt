@@ -1,0 +1,19 @@
+Asthma	Common diseases	MONDO:0004979
+type 2 diabetes mellitus	Common diseases	MONDO:0005148
+parkinson disease	Common diseases	MONDO:0005180
+atherosclerosis	Common diseases	MONDO:0005311
+Alzheimers disease	Common diseases	MONDO:0004975
+xeroderma pigmentosum	Rare	MONDO:0019600
+fanconi anemia	Rare	MONDO:0019391
+Chordoma	Rare	MONDO:0008978
+ARSACS	Rare	MONDO:0010041
+polycystic kidney disease 1	Rare	MONDO:0008263
+primary ciliary dyskinesia	Rare	MONDO:0016575
+MODY	Rare	MONDO:0018911
+gingivitis	infectious	MONDO:0002508
+HSV	infectious	MONDO:0004609
+Measles	infectious	MONDO:0004619
+Candidiasis	infectious	MONDO:0002026
+Lead Poisoning	miscellaneous	MONDO:0018019
+Pica	miscellaneous	MONDO:0001441
+carcinoid syndrome 	miscellaneous	MONDO:0006689

@@ -99,12 +99,13 @@ def quick(question,max_results=None,output_format=None,max_connectivity=None,rob
     return response
 
 
-def expand(type1,identifier,type2,rebuild=None,output_format=None,predicate=None,direction=None,robokop_server='robokop.renci.org'):
+def expand(type1,identifier,type2,max_results=None,rebuild=None,output_format=None,predicate=None,direction=None,robokop_server='robokop.renci.org'):
     url=f'http://{robokop_server}:80/api/simple/expand/{type1}/{identifier}/{type2}'
     params = {'rebuild': rebuild, 
               'predicate': predicate,
               'output_format': output_format,
-              'direction': direction}
+              'direction': direction,
+              'max_results': max_results}
     params = { k:v for k,v in params.items() if v is not None }
     response = requests.get(url,params=params)
     if response.status_code == 200:

@@ -45,6 +45,11 @@ Workflow/modules diagram here?
 | 1 | MONDO:0008667 | von Hippel-Lindau disease | HGNC:1582  | CCND1      | Cyclin D1              | contributes to           | omim, ctd                   | Mod0    |
 | 2 | MONDO:0008667 | von Hippel-Lindau disease | HGNC:23057 | BRK1       | BRICK1 subunit of SCAR/WAVE actin nucleating complex | pathogenic_for_condition | clinvar                     | Mod0    |
 
+
+Since VHL involved blood vessel proliferation, the contribution of a Cyclin seems meaningful.
+
+The association of BRK1 with VHL is not initially obvious until one observes that the gene is immediately distal to the VHL locus and that ClinVar variants associated with BRK1 are often deletions which include the VHL locus. Also, clinical observations suggest the BRK1 deletion blocks the development of VHL-associated renal carcinoma. 
+
 #### Mod1A Functional Similarity
 
 ##### Find similar genes based on GO functional annotations using OntoBio Jaccard similarity
@@ -52,6 +57,8 @@ Workflow/modules diagram here?
 |   | hit id    | hit symbol | description              | input id   | input symbol | score    | module |
 |---|-----------|------------|--------------------------|------------|--------------|----------|--------|
 | 3 | HGNC:7666 | NCKAP1     | NCK associated protein 1  (SCAR/WAVE complex) | HGNC:23057 | BRK1         | 0.835714 | Mod1A  |
+
+This result is an association of limited likely clinical relevance to VHL.
 
 #### MOD1B Phenotype Similarity
 
@@ -64,6 +71,9 @@ Workflow/modules diagram here?
 | 0 | HGNC:26034 | SDHAF2     | succinate dehydrogenase complex assembly factor 2 | HGNC:12687 | VHL          | 0.629371 | Mod1B  |
 | 4 | HGNC:6971  | MDH2       | malate dehydrogenase 2 | HGNC:12687 | VHL          | 0.572727 | Mod1B  |
 | 1 | HGNC:16636 | KIF1B      | kinesin family member 1B | HGNC:12687 | VHL          | 0.559557 | Mod1B  |
+
+
+Among the phenotypic similarity hits, one finds a gene associated with a known oncogene (MYC).  Another hit, SDHAF2, is associated with the SDH complex which may have involvement in a significant portion of cases of phaeochromocytoma (another phenotype expressed in VHL). The significance of the other hits is less clear.
 
 #### Mod1E Protein Interaction
 

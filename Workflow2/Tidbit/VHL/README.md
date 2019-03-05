@@ -6,11 +6,17 @@
 
 Von [Hippel-Lindau syndrome (VHL)](http://omim.org/entry/193300) is a dominantly inherited familial cancer syndrome predisposing to a variety of malignant and benign neoplasms, most frequently retinal, cerebellar, and spinal hemangioblastoma, renal cell carcinoma (RCC), pheochromocytoma, and pancreatic tumors.
 
-The [VHL patient community](https://www.vhl.org) are working to find a cure for VHL, with [some drug trials underway for specific pathologies](https://www.raredr.com/news/vhl-drug-phase-2-study-initiated) but no systemic cure is yet available for the disease.
-
 ### Current State of Knowledge
 
-By positional cloning, Latif et al. (1993) identified the [VHL tumor suppressor gene](http://omim.org/entry/608537).
+By positional cloning, Latif et al. (1993) identified the [VHL tumor suppressor gene](http://omim.org/entry/608537).  
+
+The gene is now known to be a component of a regulatory component of the E3 ligase targeting proteolytic degradation of the Hypoxia Induced Factor 1 alpha (HIFa). Loss-of-function of VHL leads to prolonged expression of the HIFa stimulating excessive focal blood vessel and blood formation (see [KEGG pathway hsa04066](https://www.genome.jp/kegg-bin/show_pathway?hsa04066+N00079) below)
+
+
+![KEGG VHL Pathway](./KEGG_hsa04066_HIF-1_Pathway.png  "KEGG VHL Pathway")
+
+The [VHL patient community](https://www.vhl.org) are working to find a cure for VHL, with [some drug trials underway for specific pathologies](https://www.raredr.com/news/vhl-drug-phase-2-study-initiated) but no systemic cure is yet available for the disease.
+
 
 ### Existing versus Translator Method
 

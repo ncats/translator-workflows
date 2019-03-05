@@ -39,31 +39,31 @@ Workflow/modules diagram here?
 
 #### Disease-Associated Genes (retrieved from BioLink MONDO ids) 
 
-|   | input_id      | input_symbol              | hit_id     | hit_symbol | relation                 | sources                     | modules |
-|---|---------------|---------------------------|------------|------------|--------------------------|-----------------------------|---------|
-| 0 | MONDO:0008667 | von Hippel-Lindau disease | HGNC:12687 | VHL        | pathogenic_for_condition | ctd, omim, orphane, clinvar | Mod0    |
-| 1 | MONDO:0008667 | von Hippel-Lindau disease | HGNC:1582  | CCND1      | contributes to           | omim, ctd                   | Mod0    |
-| 2 | MONDO:0008667 | von Hippel-Lindau disease | HGNC:23057 | BRK1       | pathogenic_for_condition | clinvar                     | Mod0    |
+|   | input id      | input symbol              | hit id     | hit symbol | description            |  relation                | sources                     | modules |
+|---|---------------|---------------------------|------------|------------|------------------------|--------------------------|-----------------------------|---------|
+| 0 | MONDO:0008667 | von Hippel-Lindau disease | HGNC:12687 | VHL        | Von Hippel Lindau gene | pathogenic_for_condition | ctd, omim, orphane, clinvar | Mod0    |
+| 1 | MONDO:0008667 | von Hippel-Lindau disease | HGNC:1582  | CCND1      | Cyclin D1              | contributes to           | omim, ctd                   | Mod0    |
+| 2 | MONDO:0008667 | von Hippel-Lindau disease | HGNC:23057 | BRK1       | BRICK1 subunit of SCAR/WAVE actin nucleating complex | pathogenic_for_condition | clinvar                     | Mod0    |
 
 #### Mod1A Functional Similarity
 
 ##### Find similar genes based on GO functional annotations using OntoBio Jaccard similarity
 
-|   | hit_id    | hit_symbol | input_id   | input_symbol | score    | module |
-|---|-----------|------------|------------|--------------|----------|--------|
-| 3 | HGNC:7666 | NCKAP1     | HGNC:23057 | BRK1         | 0.835714 | Mod1A  |
+|   | hit id    | hit symbol | description              | input id   | input symbol | score    | module |
+|---|-----------|------------|--------------------------|------------|--------------|----------|--------|
+| 3 | HGNC:7666 | NCKAP1     | NCK associated protein 1  (SCAR/WAVE complex) | HGNC:23057 | BRK1         | 0.835714 | Mod1A  |
 
 #### MOD1B Phenotype Similarity
 
 ##### Find similar genes based on OwlSim calculated Phenotype Similarity
 
-|   | hit_id     | hit_symbol | input_id   | input_symbol | score    | module |
-|---|------------|------------|------------|--------------|----------|--------|
-| 7 | HGNC:5477  | IGH        | HGNC:1582  | CCND1        | 1.000000 | Mod1B  |
-| 5 | HGNC:6913  | MAX        | HGNC:12687 | VHL          | 0.647482 | Mod1B  |
-| 0 | HGNC:26034 | SDHAF2     | HGNC:12687 | VHL          | 0.629371 | Mod1B  |
-| 4 | HGNC:6971  | MDH2       | HGNC:12687 | VHL          | 0.572727 | Mod1B  |
-| 1 | HGNC:16636 | KIF1B      | HGNC:12687 | VHL          | 0.559557 | Mod1B  |
+|   | hit id     | hit symbol | description | input id   | input symbol | score    | module |
+|---|------------|------------|-------------|-----------|--------------|----------|--------|
+| 7 | HGNC:5477  | IGH        | immunoglobulin heavy locus | HGNC:1582  | CCND1        | 1.000000 | Mod1B  |
+| 5 | HGNC:6913  | MAX        | MYC associated factor X    | HGNC:12687 | VHL          | 0.647482 | Mod1B  |
+| 0 | HGNC:26034 | SDHAF2     | succinate dehydrogenase complex assembly factor 2 | HGNC:12687 | VHL          | 0.629371 | Mod1B  |
+| 4 | HGNC:6971  | MDH2       | malate dehydrogenase 2 | HGNC:12687 | VHL          | 0.572727 | Mod1B  |
+| 1 | HGNC:16636 | KIF1B      | kinesin family member 1B | HGNC:12687 | VHL          | 0.559557 | Mod1B  |
 
 #### Mod1E Protein Interaction
 

@@ -24,6 +24,8 @@ class LookUp(object):
             'source': 'Monarch Biolink',
             'predicate': 'blm:gene associated with condition'
         }
+
+    def metadata(self):
         print("""Mod O DiseaseGeneLookup metadata:""")
         pprint(self.meta)
 
@@ -34,7 +36,9 @@ class LookUp(object):
             'label': input_object['label'],
             'description': input_object['description'],
         }
-        pprint(self.input_object)
+    
+    def echo_input_object(self,output=None):
+        pprint(self.input_object,stream=output)
 
     def disease_geneset_lookup(self):
         input_disease_id = self.input_object['id']

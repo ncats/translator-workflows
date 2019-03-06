@@ -2,6 +2,8 @@ from BioLink.biolink_client import BioLinkWrapper
 from mygene import MyGeneInfo
 import pandas as pd
 from pprint import pprint
+from sys import stdout
+from json import dump
 
 class LookUp(object):
 
@@ -38,7 +40,10 @@ class LookUp(object):
         }
     
     def echo_input_object(self,output=None):
-        pprint(self.input_object,stream=output)
+        if output:
+            dump( self.input_object, output, indent=4, separators=(',', ': '))
+        else:
+            dump( self.input_object, stdout, indent=4, separators=(',', ': '))      
 
     def disease_geneset_lookup(self):
         input_disease_id = self.input_object['id']

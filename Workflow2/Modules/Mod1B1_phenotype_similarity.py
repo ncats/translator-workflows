@@ -26,7 +26,9 @@ class PhenotypeSimilarity(GenericSimilarity):
             'source': 'Monarch Biolink',
             'predicate': ['blm:has phenotype']
         }
-        print("""Mod1B Phenotype Similarity metadata:""")
+
+    def metadata(self):
+        print("""Mod1B1 Phenotype Similarity metadata:""")
         pprint(self.meta)
 
     def load_input_object(self, input_object):

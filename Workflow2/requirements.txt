@@ -9,4 +9,5 @@ pandas==0.23.4
 #
 typing>=0.0
 graphviz
-html
+#
+html3

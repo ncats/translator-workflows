@@ -19,6 +19,11 @@ Notebooks under active development each have an associated directory in this rep
 ### One-time Setup
 
 You will need Python (e.g., Python 3.5.2).
+If you do not have pip installed, you can install it with following command:
+```
+sudo easy_install pip
+```
+Once you have pip, run the following commands for first time setup
 
 ```
 virtualenv env
@@ -27,6 +32,7 @@ pip install jupyter ipython pandas requests
 ```
 
 ### Running
+After the initial setup, you only need to execute the commands below to bring up the notebooks
 
 ```
 source env/bin/activate
@@ -52,12 +58,13 @@ TODO: we should aim to drive this list from Smart API registry
  * Wikidata SPARQL (Orange)
  * DGIdb API for drug-gene interactions: http://dgidb.genome.wustl.edu/api
  * Jaspar SPARQL endpoint: https://tfbsmotif.ncats.io/blazegraph/#query 
+ * Clinical profiles API: [HAPI FHIR](https://hapi.clinicalprofiles.org/) (Orange)
+    * [Demo use](https://github.com/translational-informatics/TransMed-Clinical-Profiles/blob/master/using-profiles/Downloading%20EDS%20Profiles%20from%20clinicalprofiles.org.ipynb)
 
 ### Next
 
  * Exposure API - scores for locations (Green) - https://exposures.renci.org/v1/ui/#!/default
  * Synthetic patient data API (Green)
- * Synthetic patient data API (Orange)
 
 ### Hackathon
 

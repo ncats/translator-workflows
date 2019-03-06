@@ -96,9 +96,10 @@ class DDOT_Client(object):
 
         )
 
-        self.location = self.request.headers['Location'] 
+        if self.request.status_code == 202: 
+            self.location = self.request.headers['Location'] 
 
-        if self.request.status_code != 202: 
+        else:  
             raise RuntimeError("DDOT API call failed! Check ddot api website for more details on error code: %s" % self.request.status_code)
 
         return self

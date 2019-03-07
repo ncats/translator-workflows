@@ -1,6 +1,3 @@
-###NOTE: DEPRECATED IN FAVOR OF bicluster_YYY_to_ZZZ.py modules
-### no longer being updated as of March 7, 2019
-
 import urllib.request
 import json
 import requests
@@ -9,15 +6,9 @@ import concurrent.futures
 import requests
 from collections import defaultdict
 
-import aiohttp
-
 bicluster_gene_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v3_gene/'
-
-bicluster_tissue_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v3_all_col_labels/' # Marcin will create a new API endpoint for inputting all_tissue_IDs to replace this ... this will also be the endpoints for when we do gene --> tissues and tissues --> tissues
 bicluster_bicluster_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v3_bicluster/'
 related_biclusters_and_genes_for_each_input_gene = defaultdict(dict)
-related_biclusters_and_tissues_for_each_input_tissue = defaultdict(dict)
-related_biclusters_and_genes_for_each_input_tissue = defaultdict(dict)
 
 class CoocurrenceByBicluster():
     def __init__(self):
@@ -99,118 +90,10 @@ class CoocurrenceByBicluster():
                         related_biclusters_and_genes_for_each_input_gene[gene] = dict(coocurrence_dict_each_gene)
         return related_biclusters_and_genes_for_each_input_gene
 
-    # not yet completed
-    async def gene_to_tissue_biclusters_async(self, curated_ID_list):
-        bicluster_url_list = [bicluster_gene_url + gene + '/' +'?include_similar=true' for gene in curated_ID_list]
-        length_bicluster_url_list = len(bicluster_url_list)
-        with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor_1:
-            loop_1 = asyncio.get_event_loop()
-            futures_1 = [ loop_1.run_in_executor(executor_1, requests.get, request_1_url) for request_1_url in bicluster_url_list ]
-            for response in await asyncio.gather(*futures_1):
-                coocurrence_dict_each_gene = defaultdict(dict)
-                coocurrence_dict_each_gene['related_biclusters'] = defaultdict(dict)
-                response_json = response.json()
-                print(response_json)
-                print()
-                length_response_json = len(response_json)
-                coocurrence_dict_each_gene['number_of_related_biclusters'] = length_response_json
-                if length_response_json > 0:
-                    gene = response_json[0]['gene']
-                    for x in response_json:         
-                        bicluster = x['bicluster']
-                        coocurrence_dict_each_gene['related_biclusters'][x['bicluster']] = []         
-                    related_biclusters = [x for x in coocurrence_dict_each_gene['related_biclusters']]
-                    bicluster_bicluster_url_list = [bicluster_bicluster_url+related_bicluster+'/' for related_bicluster in related_biclusters]
-                    with concurrent.futures.ThreadPoolExecutor(max_workers=coocurrence_dict_each_gene['number_of_related_biclusters']/2) as executor_2:
-                        loop_2 = asyncio.get_event_loop()
-                        futures_2 = [ loop_2.run_in_executor(executor_2, requests.get, request_2_url) for request_2_url in bicluster_bicluster_url_list]
-                        for response_2 in await asyncio.gather(*futures_2):
-                            response_2_json = response_2.json()     
-                            tissues_in_each_bicluster = [bicluster['all_col_labels'] for bicluster in response_2_json]
-                            biclusterindex = [x['bicluster'] for x in response_2_json]
-                            coocurrence_dict_each_gene['related_biclusters'][biclusterindex[0]] = tissues_in_each_bicluster
-                        related_biclusters_and_tissues_for_each_input_gene[gene] = dict(coocurrence_dict_each_gene)
-        return related_biclusters_and_tissues_for_each_input_gene
-
-    async def tissue_to_gene_biclusters_async(self, curated_ID_list):
-        bicluster_url_list = [bicluster_tissue_url + tissue + '/' + '?include_similar=true' for tissue in curated_ID_list]
-        length_bicluster_url_list = len(bicluster_url_list)
-        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor_1:
-            loop_1 = asyncio.get_event_loop()
-            futures_1 = [ loop_1.run_in_executor(executor_1, requests.get, request_1_url) for request_1_url in bicluster_url_list ]
-            for response in await asyncio.gather(*futures_1):
-                coocurrence_dict_each_gene = defaultdict(dict)
-                coocurrence_dict_each_gene['related_biclusters'] = defaultdict(dict)
-                response_json = response.json()
-                length_response_json = len(response_json)
-                coocurrence_dict_each_gene['number_of_related_biclusters'] = length_response_json
-                if length_response_json > 0:
-                    gene = response_json[0]['gene']
-                    for x in response_json:         
-                        bicluster = x['bicluster']
-                        coocurrence_dict_each_gene['related_biclusters'][x['bicluster']] = []         
-                    related_biclusters = [x for x in coocurrence_dict_each_gene['related_biclusters']]
-                    bicluster_bicluster_url_list = [bicluster_bicluster_url+related_bicluster+'/' for related_bicluster in related_biclusters]
-                    
-                    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor_2:
-                        loop_2 = asyncio.get_event_loop()
-                        futures_2 = [ loop_2.run_in_executor(executor_2, requests.get, request_2_url) for request_2_url in bicluster_bicluster_url_list]
-                        for response_2 in await asyncio.gather(*futures_2): 
-                            response_2_json = response_2.json()     
-                            genes_in_each_bicluster = [bicluster['gene'] for bicluster in response_2_json]
-                            biclusterindex = [x['bicluster'] for x in response_2_json]
-                            coocurrence_dict_each_gene['related_biclusters'][biclusterindex[0]] = genes_in_each_bicluster
-                        related_biclusters_and_genes_for_each_input_tissue[gene] = dict(coocurrence_dict_each_gene)
-        return related_biclusters_and_genes_for_each_input_tissue
-    
-    # not yet completed
-    async def tissue_to_tissue_biclusters_async(self, curated_ID_list):
-        bicluster_url_list = [bicluster_tissue_url + tissue + '/' + '?include_similar=true' for tissue in curated_ID_list]
-        length_bicluster_url_list = len(bicluster_url_list)
-        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor_1:
-            loop_1 = asyncio.get_event_loop()
-            futures_1 = [ loop_1.run_in_executor(executor_1, requests.get, request_1_url) for request_1_url in bicluster_url_list ]
-            for response in await asyncio.gather(*futures_1):
-                coocurrence_dict_each_tissue = defaultdict(dict)
-                coocurrence_dict_each_tissue['related_biclusters'] = defaultdict(dict)
-                response_json = response.json()
-                length_response_json = len(response_json)
-                coocurrence_dict_each_tissue['number_of_related_biclusters'] = length_response_json
-                if length_response_json > 0:
-                    tissue = response_json[0]['all_col_labels']
-                    for x in response_json:         
-                        bicluster = x['bicluster']
-                        coocurrence_dict_each_tissue['related_biclusters'][x['bicluster']] = []         
-                    related_biclusters = [x for x in coocurrence_dict_each_tissue['related_biclusters']]
-                    bicluster_bicluster_url_list = [bicluster_bicluster_url+related_bicluster+'/' for related_bicluster in related_biclusters]
-                    
-                    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor_2:
-                        loop_2 = asyncio.get_event_loop()
-                        futures_2 = [ loop_2.run_in_executor(executor_2, requests.get, request_2_url) for request_2_url in bicluster_bicluster_url_list]
-                        for response_2 in await asyncio.gather(*futures_2): 
-                            response_2_json = response_2.json()     
-                            tissues_in_each_bicluster = [bicluster['all_col_labels'] for bicluster in response_2_json]
-                            biclusterindex = [x['bicluster'] for x in response_2_json]
-                            coocurrence_dict_each_tissue['related_biclusters'][biclusterindex[0]] = tissues_in_each_bicluster
-                        related_biclusters_and_tissues_for_each_input_tissue[tissue] = dict(coocurrence_dict_each_tissue)
-        return related_biclusters_and_tissues_for_each_input_tissue
-        
     # the function below returns a dictionary listing all biclusters which occur in the input with a count of how many times each bicluster occurs
     def bicluster_occurences_dict(self, related_biclusters_and_genes_for_each_input_gene):
         bicluster_occurences_dict = defaultdict(dict)
         for key, value in related_biclusters_and_genes_for_each_input_gene.items():
-            for key, value in value.items():
-                if key == 'related_biclusters':
-                    for key, value in value.items():
-                        if bicluster_occurences_dict[key]:
-                            bicluster_occurences_dict[key] += 1
-                        else:
-                            bicluster_occurences_dict[key] = 1
-        return bicluster_occurences_dict
-
-    def bicluster_occurences_dict_gene_to_tissue(self, related_biclusters_and_tissues_for_each_input_gene):
-        bicluster_occurences_dict = defaultdict(dict)
-        for key, value in related_biclusters_and_tissues_for_each_input_gene.items():
             for key, value in value.items():
                 if key == 'related_biclusters':
                     for key, value in value.items():
@@ -238,17 +121,6 @@ class CoocurrenceByBicluster():
                         if key in list_of_unique_biclusters:
                             dict_of_genes_in_unique_biclusters[key].append(value)
         return dict_of_genes_in_unique_biclusters
-
-    def tissues_in_unique_biclusters(self, list_of_unique_biclusters, related_biclusters_and_tissues_for_each_input_gene):
-        dict_of_tissues_in_unique_biclusters = defaultdict(dict)
-        for key, value in related_biclusters_and_genes_for_each_input_gene.items():
-            for key, value in value.items():
-                if key == 'related_biclusters':
-                    for key, value in value.items():
-                        dict_of_tissues_in_unique_biclusters[key] = []
-                        if key in list_of_unique_biclusters:
-                            dict_of_tissues_in_unique_biclusters[key].append(value)
-        return dict_of_tissues_in_unique_biclusters
 
     def genes_in_unique_biclusters_not_in_input_gene_list(self, curated_ID_list, dict_of_genes_in_unique_biclusters):
         dict_of_genes_in_unique_biclusters_not_in_inputs = defaultdict(dict)
@@ -292,8 +164,3 @@ class CoocurrenceByBicluster():
                     else:
                         dict_of_ids_in_unique_biclusters_not_in_inputs[ID] += 1
         return dict_of_ids_in_unique_biclusters_not_in_inputs
-
-    def sorted_list_of_output_tissues(self, dict_of_ids_in_unique_biclusters_not_in_inputs):
-        sorted_list_of_output_tissues = sorted((value,key) for (key,value) in dict_of_ids_in_unique_biclusters_not_in_inputs.items())
-        sorted_list_of_output_tissues.reverse()
-        return sorted_list_of_output_tissues

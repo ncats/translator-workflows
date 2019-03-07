@@ -41,7 +41,6 @@ class gene_to_tissue():
         all_biclusters_dict = defaultdict(dict)
         with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor_1:
             all_tissues = []
-            all_tissues_dict = defaultdict(dict)
             loop_1 = asyncio.get_event_loop()
             futures_1 = [ loop_1.run_in_executor(executor_1, requests.get, request_1_url) for request_1_url in bicluster_url_list ]
             for response in await asyncio.gather(*futures_1):

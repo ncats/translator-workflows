@@ -148,11 +148,15 @@ def map_from_standard_concept_id(concept_id, vocabulary_id=None):
     return df
 
 # Cross-reference a concept (CURIE) from an external ontology to OMOP (concept ID)
-def xref_to_omop(curie, distance=None):
+def xref_to_omop(curie, distance=None, local=False, recommend=False):
     url = f'{server}/omop/xrefToOMOP'
     
     # Params
-    params = {'curie': curie}
+    params = {
+      'curie': curie,
+      'local': local,
+      'recommend': recommend
+    }
     if distance is not None:
         params['distance'] = distance
         
@@ -165,11 +169,15 @@ def xref_to_omop(curie, distance=None):
     return df
 
 # Cross-reference a concept from OMOP (concept ID) to an external ontology (CURIE)
-def xref_from_omop(concept_id, mapping_targets=None, distance=None):
+def xref_from_omop(concept_id, mapping_targets=None, distance=None, local=False, recommend=False):
     url = f'{server}/omop/xrefFromOMOP'
     
     # Params
-    params = {'concept_id': concept_id}
+    params = {
+      'concept_id': concept_id,
+      'local': local,
+      'recommend': recommend
+    }
     if mapping_targets is not None:
         params['mapping_targets'] = mapping_targets
     if distance is not None:

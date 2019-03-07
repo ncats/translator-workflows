@@ -70,7 +70,7 @@ class gene_to_tissue():
                         related_biclusters_and_tissues_for_each_input_gene[gene] = dict(coocurrence_dict_each_gene)
         return related_biclusters_and_tissues_for_each_input_gene
 
-      def bicluster_occurences_dict(self, related_biclusters_and_genes_for_each_input_gene):
+    def bicluster_occurences_dict(self, related_biclusters_and_genes_for_each_input_gene):
         bicluster_occurences_dict = defaultdict(dict)
         for key, value in related_biclusters_and_genes_for_each_input_gene.items():
             for key, value in value.items():
@@ -101,7 +101,6 @@ class gene_to_tissue():
                 list_of_unique_biclusters.append(key)
         return list_of_unique_biclusters
 
-    # the method below lends itself to async ... reprogram it
     def genes_in_unique_biclusters(self, list_of_unique_biclusters, related_biclusters_and_genes_for_each_input_gene):
         dict_of_genes_in_unique_biclusters = defaultdict(dict)
         for key, value in related_biclusters_and_genes_for_each_input_gene.items():

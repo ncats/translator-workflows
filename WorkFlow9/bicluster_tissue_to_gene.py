@@ -35,20 +35,19 @@ class tissue_to_gene():
         curated_ID_list = self.curated_ID_list(ID_list)
         return curated_ID_list
 
-    async def gene_to_tissue_biclusters_async(self, input_ID_list):
-        bicluster_url_list = [bicluster_gene_url + gene + '/' +'?include_similar=true' for gene in input_ID_list]
+    async def tissue_to_gene_biclusters_async(self, input_ID_list):
+        bicluster_url_list = [bicluster_tissue_url + tissue + '/' +'?include_similar=true' for tissue in input_ID_list]
         length_bicluster_url_list = len(bicluster_url_list)
         all_biclusters_dict = defaultdict(dict)
         with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor_1:
-            all_tissues = []
-            all_tissues_dict = defaultdict(dict)
+            all_genes = []
+            all_genes_dict = defaultdict(dict)
             loop_1 = asyncio.get_event_loop()
             futures_1 = [ loop_1.run_in_executor(executor_1, requests.get, request_1_url) for request_1_url in bicluster_url_list ]
             for response in await asyncio.gather(*futures_1):
                 response_json = response.json()
                 for x in response_json:
-                    tissues = x['all_col_labels'].split('__')
-                    for y in tissues:
-                        all_tissues.append(y)
-            tissues_counted = Counter(all_tissues)
-        return tissues_counted.most_common()
+                    gene = x['gene']
+                    all_genes.append(gene)
+            genes_counted = Counter(all_genes)
+        return genes_counted.most_common()

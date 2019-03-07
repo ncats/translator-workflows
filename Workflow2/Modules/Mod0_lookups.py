@@ -2,6 +2,8 @@ from BioLink.biolink_client import BioLinkWrapper
 from mygene import MyGeneInfo
 import pandas as pd
 from pprint import pprint
+from sys import stdout
+from json import dump
 
 class LookUp(object):
 
@@ -24,6 +26,8 @@ class LookUp(object):
             'source': 'Monarch Biolink',
             'predicate': 'blm:gene associated with condition'
         }
+
+    def metadata(self):
         print("""Mod O DiseaseGeneLookup metadata:""")
         pprint(self.meta)
 
@@ -34,7 +38,12 @@ class LookUp(object):
             'label': input_object['label'],
             'description': input_object['description'],
         }
-        pprint(self.input_object)
+    
+    def echo_input_object(self,output=None):
+        if output:
+            dump( self.input_object, output, indent=4, separators=(',', ': '))
+        else:
+            dump( self.input_object, stdout, indent=4, separators=(',', ': '))      
 
     def disease_geneset_lookup(self):
         input_disease_id = self.input_object['id']

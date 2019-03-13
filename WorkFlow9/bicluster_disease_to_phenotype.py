@@ -39,18 +39,17 @@ class disease_to_phenotype():
         return curated_ID_list
 
     async def disease_to_phenotype_biclusters_async(self, input_ID_list):
-        bicluster_url_list = [base_phenotype_url + phenotype + '/' +'?include_similar=true' for phenotype in input_ID_list]
-        length_bicluster_url_list = len(bicluster_url_list)
+        bicluster_url_list = [base_disease_url + phenotype + '/' +'?include_similar=true' for disease in input_ID_list]
         all_biclusters_dict = defaultdict(dict)
         with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor_1:
-            all_diseases = []
+            all_phenotypes = []
             loop_1 = asyncio.get_event_loop()
             futures_1 = [ loop_1.run_in_executor(executor_1, requests.get, request_1_url) for request_1_url in bicluster_url_list ]
             for response in await asyncio.gather(*futures_1):
                 response_json = response.json()
                 for x in response_json:
-                    disease = x['mondo_list'].split('__')
-                    for y in disease:
-                        all_diseases.append(y)
-            disease_counted = Counter(all_diseases)
-        return disease_counted.most_common()
+                    phenotypes = x['mondo_list'].split('__')
+                    for y in phenotypes:
+                        all_phenotypes.append(y)
+            phenotypes_counted = Counter(all_phenotypes)
+        return phenotypes_counted.most_common()

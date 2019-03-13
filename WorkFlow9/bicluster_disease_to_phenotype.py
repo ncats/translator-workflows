@@ -5,7 +5,8 @@ import asyncio
 import concurrent.futures
 from collections import defaultdict, Counter
 
-bicluster_disease_url = 'https://smartbag-hpotomondo.ncats.io/HPO_to_MONDO_bicluster'
+bicluster_disease_url = 'https://smartbag-hpotomondo.ncats.io/HPO_to_MONDO_bicluster/'
+base_phenotype_url = 'https://smartbag-hpotomondo.ncats.io/HPO_to_MONDO_hpo/'
 # HP is phenotype ... example URL: https://smartbag-hpotomondo.ncats.io/HPO_to_MONDO_hpo/HP%3A0002193/?include_similar=false
 # MONDO is disease ... example URL: https://smartbag-hpotomondo.ncats.io/HPO_to_MONDO_mondo_list/MONDO.0007030/?include_similar=true
 
@@ -38,7 +39,7 @@ class disease_to_phenotype():
         return curated_ID_list
 
     async def disease_to_phenotype_biclusters_async(self, input_ID_list):
-        bicluster_url_list = [bicluster_disease_url + phenotype + '/' +'?include_similar=true' for phenotype in input_ID_list]
+        bicluster_url_list = [base_phenotype_url + phenotype + '/' +'?include_similar=true' for phenotype in input_ID_list]
         length_bicluster_url_list = len(bicluster_url_list)
         all_biclusters_dict = defaultdict(dict)
         with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor_1:
@@ -48,7 +49,7 @@ class disease_to_phenotype():
             for response in await asyncio.gather(*futures_1):
                 response_json = response.json()
                 for x in response_json:
-                    disease = x['all_col_labels'].split('__')
+                    disease = x['mondo_list'].split('__')
                     for y in disease:
                         all_diseases.append(y)
             disease_counted = Counter(all_diseases)

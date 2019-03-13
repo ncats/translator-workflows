@@ -39,7 +39,7 @@ class disease_to_phenotype():
         return curated_ID_list
 
     async def disease_to_phenotype_biclusters_async(self, input_ID_list):
-        bicluster_url_list = [base_disease_url + phenotype + '/' +'?include_similar=true' for disease in input_ID_list]
+        bicluster_url_list = [base_disease_url + disease + '/' +'?include_similar=true' for disease in input_ID_list]
         all_biclusters_dict = defaultdict(dict)
         with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor_1:
             all_phenotypes = []

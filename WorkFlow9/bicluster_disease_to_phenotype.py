@@ -7,6 +7,9 @@ import requests
 from collections import defaultdict, Counter
 
 bicluster_disease_url = 'https://smartbag-hpotomondo.ncats.io/HPO_to_MONDO_bicluster'
+# HP is phenotype ... example URL: https://smartbag-hpotomondo.ncats.io/HPO_to_MONDO_hpo/HP%3A0002193/?include_similar=false
+# MONDO is disease ... example URL: https://smartbag-hpotomondo.ncats.io/HPO_to_MONDO_mondo_list/MONDO.0007030/?include_similar=true
+
 
 class disease_to_phenotype():
     def __init__(self):

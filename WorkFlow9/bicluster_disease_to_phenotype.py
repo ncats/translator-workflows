@@ -3,7 +3,6 @@ import json
 import requests
 import asyncio
 import concurrent.futures
-import requests
 from collections import defaultdict, Counter
 
 bicluster_disease_url = 'https://smartbag-hpotomondo.ncats.io/HPO_to_MONDO_bicluster'

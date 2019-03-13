@@ -13,7 +13,7 @@ base_phenotype_url = 'https://smartbag-hpotomondo.ncats.io/HPO_to_MONDO_hpo/'
 # source for diabetes phenotypic features: https://bionames.renci.org/lookup/diabetes/phenotypic%20feature/?include_similar=true
 # diabetes phenotypic features: ['HP:0000819', 'HP:0000873', 'HP:0005978', 'HP:0100651']
 
-class disease_to_phenotype():
+class phenotype_to_disease():
     def __init__(self):
         pass
     
@@ -38,7 +38,7 @@ class disease_to_phenotype():
         curated_ID_list = self.curated_ID_list(ID_list)
         return curated_ID_list
 
-    async def disease_to_phenotype_biclusters_async(self, input_ID_list):
+    async def phenotype_to_disease_biclusters_async(self, input_ID_list):
         bicluster_url_list = [base_phenotype_url + phenotype + '/' +'?include_similar=true' for phenotype in input_ID_list]
         length_bicluster_url_list = len(bicluster_url_list)
         all_biclusters_dict = defaultdict(dict)

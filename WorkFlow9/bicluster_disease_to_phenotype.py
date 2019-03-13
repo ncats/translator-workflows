@@ -48,8 +48,7 @@ class disease_to_phenotype():
             for response in await asyncio.gather(*futures_1):
                 response_json = response.json()
                 for x in response_json:
-                    phenotypes = x['mondo_list'].split('__')
-                    for y in phenotypes:
-                        all_phenotypes.append(y)
+                    phenotype = x['hpo']
+                    all_phenotypes.append(phenotype)
             phenotypes_counted = Counter(all_phenotypes)
         return phenotypes_counted.most_common()

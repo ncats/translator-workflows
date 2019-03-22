@@ -6,12 +6,6 @@ import concurrent.futures
 from collections import defaultdict, Counter
 
 base_disease_url = 'https://smartbag-hpotomondo.ncats.io/HPO_to_MONDO_mondo_list/'
-#bicluster_disease_url = 'https://smartbag-hpotomondo.ncats.io/HPO_to_MONDO_bicluster/'
-# HP is phenotype ... example URL: https://smartbag-hpotomondo.ncats.io/HPO_to_MONDO_hpo/HP%3A0002193/?include_similar=false
-# MONDO is disease ... example URL: https://smartbag-hpotomondo.ncats.io/HPO_to_MONDO_mondo_list/MONDO.0007030/?include_similar=true
-
-# source for diabetes phenotypic features: https://bionames.renci.org/lookup/diabetes/phenotypic%20feature/?include_similar=true
-# diabetes phenotypic features: ['HP:0000819', 'HP:0000873', 'HP:0005978', 'HP:0100651']
 
 class disease_to_phenotype():
     def __init__(self):

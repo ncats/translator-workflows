@@ -3,6 +3,7 @@ import json
 import requests
 import asyncio
 import concurrent.futures
+from datetime import datetime
 from collections import defaultdict
 
 bicluster_gene_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v3_gene/'
@@ -21,7 +22,7 @@ class CoocurrenceByBicluster():
     def curated_ID_list(self, ID_list):
         curated_ID_list = []
         for ID in ID_list:
-            if not ID: # there was an empty ('') string in the input list of genes, we ignore those.
+            if not ID:
                 continue
             else:
                 ID = ID.split(None, 1)[0]
@@ -57,9 +58,10 @@ class CoocurrenceByBicluster():
     #     return related_biclusters_and_genes_for_each_input_gene
 
     async def gene_to_gene_biclusters_async(self, curated_ID_list):
+        start_time = datetime.now()
         bicluster_url_list = [bicluster_gene_url + gene + '/' +'?include_similar=true' for gene in curated_ID_list]
         length_bicluster_url_list = len(bicluster_url_list)
-        with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor_1:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor_1: #changing the # of workers does not change performance...
             loop_1 = asyncio.get_event_loop()
             futures_1 = [ loop_1.run_in_executor(executor_1, requests.get, request_1_url) for request_1_url in bicluster_url_list ]
             for response in await asyncio.gather(*futures_1):
@@ -84,6 +86,8 @@ class CoocurrenceByBicluster():
                             biclusterindex = [x['bicluster'] for x in response_2_json]
                             coocurrence_dict_each_gene['related_biclusters'][biclusterindex[0]] = genes_in_each_bicluster
                         related_biclusters_and_genes_for_each_input_gene[gene] = dict(coocurrence_dict_each_gene)
+        end_time = datetime.now()
+        print(end_time-start_time)
         return related_biclusters_and_genes_for_each_input_gene
 
     # the function below returns a dictionary listing all biclusters which occur in the input with a count of how many times each bicluster occurs

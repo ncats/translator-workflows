@@ -206,6 +206,3 @@ print("Please visit the following link to retrieve JSON results: https://rtx.nca
       rtx_ui_url.json()['response_id'])
 
 
-
-
-W

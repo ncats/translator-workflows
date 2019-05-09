@@ -31,9 +31,10 @@ class FunctionalSimilarity(GenericSimilarity):
             'predicate': ['blm:macromolecular machine to biological process association',
                           'macromolecular machine to molecular activity association']
         }
+
+    def metadata(self):
         print("""Mod1A Functional Similarity metadata:""")
         pprint(self.meta)
-
 
     def load_input_object(self, input_object):
         self.input_object = input_object

@@ -19,6 +19,11 @@ Notebooks under active development each have an associated directory in this rep
 ### One-time Setup
 
 You will need Python (e.g., Python 3.5.2).
+If you do not have pip installed, you can install it with following command:
+```
+sudo easy_install pip
+```
+Once you have pip, run the following commands for first time setup
 
 ```
 virtualenv env
@@ -27,6 +32,7 @@ pip install jupyter ipython pandas requests
 ```
 
 ### Running
+After the initial setup, you only need to execute the commands below to bring up the notebooks
 
 ```
 source env/bin/activate

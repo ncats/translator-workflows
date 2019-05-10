@@ -11,7 +11,8 @@ shutil.rmtree(pypth + '/numpy*', ignore_errors=True)
 
 sys.path.append("../mvp-module-library")
 # Install pip requirements
-!{sys.executable} -m pip install -r requirements.txt
+#!{sys.executable} -m pip install -r requirements.txt
+
 
 
 from BioLink.biolink_client import BioLinkWrapper
@@ -166,7 +167,7 @@ import requests
 
 
 def file_index(output, input_disease_symbol, input_disease_mondo, rtx_ui_url):
-    title = "Results for " + input_disease_symbol + "[" + input_disease_mondo + "]
+    title = "Results for " + input_disease_symbol + "[" + input_disease_mondo + "]"
 
     doc = XHTML()
 
@@ -210,7 +211,8 @@ print("Please visit the following link to retrieve JSON results: https://rtx.nca
 with open("diseases.tsv","r") as diseases:
     for entry in diseases.readlines():
         field = entry.split("\t")
-        continue if field[1] == "Disease"
+        if field[1] == "Disease":
+	        continue
         
         input_disease_symbol = field[1]
         input_disease_mondo  = field[3]

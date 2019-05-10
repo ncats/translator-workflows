@@ -206,5 +206,29 @@ print("Please visit the following link to retrieve JSON results: https://rtx.nca
       rtx_ui_url.json()['response_id'])
 
 
+# Read a table of diseases and process
+with open("diseases.tsv","r") as diseases:
+    for entry in diseases.readlines():
+        field = entry.split("\t")
+        continue if field[1] == "Disease"
+        
+        input_disease_symbol = field[1]
+        input_disease_mondo  = field[3]
+        
+        # process
+        input_object, disease_associated_genes, input_curie_set = diseaseLookUp(input_disease_symbol, input_disease_mondo)
+        
+        # Functinoal Simularity using Jaccard index threshold
+        func_sim_human = FunctionalSimilarity()
+        Mod1A_results = similarity( func_sim_human, input_curie_set, 0.75, input_disease_symbol, 'Mod1A', "Functionally Similar Genes" )
 
+        # Phenotypic simulatiry using OwlSim calculation threshold
+        pheno_sim_human = PhenotypeSimilarity()
+        Mod1B_results = similarity( pheno_sim_human, input_curie_set, 0.50, input_disease_symbol, 'Mod1B', "Phenotypically Similar Genes" )
 
+        # Find Interacting Genes
+        interactions_human = GeneInteractions()
+        Mod1E_results = gene_interactions( interactions_human, input_curie_set, input_disease_symbol, 'Mod1E', "Gene Interactions" )
+        
+        std_api_response_json = aggregrate_results(Mod1A_results, Mod1B_results)
+        publish_to_rtx( output, input_disease_symbol, input_disease_mondo, std_api_response_json )

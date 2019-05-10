@@ -158,7 +158,7 @@ def aggregrate_results(resultsA,resultsB):
     so = StandardOutput(results=all_results.to_dict(orient='records'), input_object=input_object)
     return so.output_object
 
-std_api_response_json = aggregrate_results(Mod1A_results_human, Mod1B_results)
+std_api_response_json = aggregrate_results(Mod1A_results, Mod1B_results)
 
 # Echo to console
 std_api_response_json
@@ -200,7 +200,7 @@ def publish_to_rtx(output, std_api_response_json, input_disease_symbol, title):
     return rtx_ui_url
 
 
-rtx_ui_url = publish_to_rtx(std_api_response_json)
+rtx_ui_url = publish_to_rtx(std_api_response_json,input_disease_mondo, std_api_response_json )
 
 print("Please visit the following website: https://rtx.ncats.io/?r=%s" % rtx_ui_url.json()['response_id'])
 print("Please visit the following link to retrieve JSON results: https://rtx.ncats.io/api/rtx/v1/response/%s" %

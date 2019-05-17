@@ -1,32 +1,45 @@
 import sys
 import shutil
 
-pyptha = sys.executable.split('/')
-pyptha[-2]= 'lib'
-pypth='/'.join(pyptha) + '*/site-packages'
+# Numerous portability in this file are now being handled with this standard library
+# Python 3.x compatibility only
+# https://docs.python.org/3/library/pathlib.html
+from pathlib import Path
+
+# get local environment using sys.prefix
+libPath = Path(sys.prefix) / "lib"
 
 # Hack to get around problematic updating of distutils installed PyYAML and a slightly older pandas requiring a compatible numpy
-shutil.rmtree(pypth + '/PyYAML*', ignore_errors=True)
-shutil.rmtree(pypth + '/numpy*', ignore_errors=True)
+pyYamlPath = libPath / "PyYaml"
+numpyPath = libPath / "numpy"
 
+# rmtree implements using 'os' abstractions, which take "path-like" objects incl. Path
+shutil.rmtree(pyYamlPath, ignore_errors=True)
+shutil.rmtree(numpyPath, ignore_errors=True)
+
+"""
 sys.path.append("../mvp-module-library")
 # Install pip requirements
-#!{sys.executable} -m pip install -r requirements.txt
-
-
+#pypa -m pip install -r requirements.txt
+"""
 
 from BioLink.biolink_client import BioLinkWrapper
 import pandas as pd
 from os import makedirs
 from html3.html3 import XHTML
 
-
 def output_file(tag, title, ext):
-    basepath = "./Tidbit/" + tag
+    # takes the tidbit directory that is relative to the current directory
+    # parameterized across two functions so that it's made explicit without
+    # over-encoding the paths within their constructor arguments (makes it easier to edit.)
+    tidbitPath = Path("Tidbit").relative_to(".") / tag
+
     filename = title.replace(" ", "_")
-    filepath = basepath + "/" + filename + "." + ext
-    makedirs(basepath, exist_ok=True)
-    output = open(filepath, "w+")
+    outputFilePath = tidbitPath / (filename + "." + ext)
+    makedirs(tidbitPath, exist_ok=True)
+
+    # Path objects compatible with file operations
+    output = open(outputFilePath, "w+")
     output.info = {'tag': tag, 'title': title}
     return output
 
@@ -42,9 +55,7 @@ def dump_html(output, body):
 
     output.write(str(doc))
 
-
 from Modules.Mod0_lookups import LookUp
-
 
 def diseaseLookUp(input_disease_symbol, input_disease_mondo):
     # workflow input is a disease identifier
@@ -90,7 +101,7 @@ input_disease_mondo = 'MONDO:0019391'
 input_object, disease_associated_genes, input_curie_set = diseaseLookUp(input_disease_symbol, input_disease_mondo)
 
 #  Echo to console
-disease_associated_genes
+print(disease_associated_genes)
 
 
 def load_genes(model, data, threshold):
@@ -149,8 +160,6 @@ Mod1B_results = similarity( pheno_sim_human, input_curie_set, 0.50, input_diseas
 
 print(Mod1B_results)
 
-
-
 from Modules.StandardOutput import StandardOutput
 
 def aggregrate_results(resultsA,resultsB):
@@ -161,7 +170,7 @@ def aggregrate_results(resultsA,resultsB):
 std_api_response_json = aggregrate_results(Mod1A_results, Mod1B_results)
 
 # Echo to console
-std_api_response_json
+print(std_api_response_json)
 
 import requests
 
@@ -173,7 +182,7 @@ def file_index(output, input_disease_symbol, input_disease_mondo, rtx_ui_url):
 
     doc.head.title(title)
     doc.body.h1(title)
-    ul = body.ul
+    ul = doc.body.ul
     ul.li.a("Input Disease Details", href="Definition.json")
     ul.li.a("Disease Associated Genes", href="Disease_Associated_Genes.html")
     ul.li.a("Functionally Similar Genes", href="Functionally_Similar_Genes.html")
@@ -213,13 +222,13 @@ def file_index(output, input_disease_symbol, input_disease_mondo, rtx_ui_url):
 #        field = entry.split("\t")
 #        if field[1] == "Disease":
 #	        continue
-        
+
 #        input_disease_symbol = field[1]
 #        input_disease_mondo  = field[3]
-        
+
         # process
 #        input_object, disease_associated_genes, input_curie_set = diseaseLookUp(input_disease_symbol, input_disease_mondo)
-        
+
         # Functinoal Simularity using Jaccard index threshold
 #        func_sim_human = FunctionalSimilarity()
 #        Mod1A_results = similarity( func_sim_human, input_curie_set, 0.75, input_disease_symbol, 'Mod1A', "Functionally Similar Genes" )
@@ -231,6 +240,6 @@ def file_index(output, input_disease_symbol, input_disease_mondo, rtx_ui_url):
         # Find Interacting Genes
 #        interactions_human = GeneInteractions()
 #        Mod1E_results = gene_interactions( interactions_human, input_curie_set, input_disease_symbol, 'Mod1E', "Gene Interactions" )
-        
+
 #        std_api_response_json = aggregrate_results(Mod1A_results, Mod1B_results)
 #        publish_to_rtx( output, input_disease_symbol, input_disease_mondo, "input_disease_mondo" )

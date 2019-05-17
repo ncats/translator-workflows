@@ -1,0 +1,14 @@
+mvp-module-library
+ontobio
+mygene==3.1.0
+#
+# pandas >=0.24 causes a strange runtime TypeError in this workflow,
+# so we downgrade to 0.23.4 for now; note that numpy also probably
+# needs to be pinned to a compatible corresponding release (1.16.1 seems ok?)
+numpy==1.16.1
+pandas==0.23.4
+#
+typing>=0.0
+graphviz
+#
+html3

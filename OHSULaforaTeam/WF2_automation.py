@@ -1,11 +1,24 @@
+## Reorganized by Megan Grout (mgrout81) 20190516
+
+## Import libraries
 import sys
 import shutil
+from os import makedirs
+import requests
+import pandas as pd
+from html3.html3 import XHTML
 
-pyptha = sys.executable.split('/')
-pyptha[-2]= 'lib'
+# Adjust path to find custom modules
+if '/' in sys.executable:
+    pyptha = sys.executable.split('/')
+    pyptha[-2]= 'lib'
+else:
+    pyptha = sys.executable.split('\\')
+    pyptha[-2] = 'lib'
 pypth='/'.join(pyptha) + '*/site-packages'
 
-# Hack to get around problematic updating of distutils installed PyYAML and a slightly older pandas requiring a compatible numpy
+# Hack to get around problematic updating of distutils installed PyYAML and a 
+# slightly older pandas requiring a compatible numpy
 shutil.rmtree(pypth + '/PyYAML*', ignore_errors=True)
 shutil.rmtree(pypth + '/numpy*', ignore_errors=True)
 
@@ -13,25 +26,34 @@ sys.path.append("../mvp-module-library")
 # Install pip requirements
 #!{sys.executable} -m pip install -r requirements.txt
 
-
-
 from BioLink.biolink_client import BioLinkWrapper
-import pandas as pd
-from os import makedirs
-from html3.html3 import XHTML
+from Modules.Mod0_lookups import LookUp
+from Modules.Mod1A_functional_sim import FunctionalSimilarity
+from Modules.Mod1B1_phenotype_similarity import PhenotypeSimilarity
+from Modules.StandardOutput import StandardOutput
 
 
+"""
+This function takes in three strings, representing the tag, title, and file extension
+for an output file, and returns an _io.TextIOWrapper object.
+"""
 def output_file(tag, title, ext):
+    print("output_file",type(tag), type(title),type(ext))
     basepath = "./Tidbit/" + tag
     filename = title.replace(" ", "_")
     filepath = basepath + "/" + filename + "." + ext
     makedirs(basepath, exist_ok=True)
     output = open(filepath, "w+")
     output.info = {'tag': tag, 'title': title}
+    print("output_file",type(output))
     return output
 
-
+"""
+This function takes in an _io.TextIOWrapper object and a Pandas df and writes
+the information to file.
+"""
 def dump_html(output, body):
+    print("dump_html", type(output),type(body))
     title = output.info['title'] + " for " + output.info['tag']
 
     doc = XHTML()
@@ -41,12 +63,15 @@ def dump_html(output, body):
     doc.body.p(body.to_html())
 
     output.write(str(doc))
+    return None
 
-
-from Modules.Mod0_lookups import LookUp
-
-
+""" 
+This method takes strings representing the disease of interest's symbol and MONDO
+code and returns a dictionary, a Pandas df, and a list representing information
+about the disease.
+""" 
 def diseaseLookUp(input_disease_symbol, input_disease_mondo):
+    print("diseaseLoopUp",type(input_disease_symbol), type(input_disease_mondo))
     # workflow input is a disease identifier
     lu = LookUp()
 
@@ -81,18 +106,14 @@ def diseaseLookUp(input_disease_symbol, input_disease_mondo):
     output.close()
 
     # genes to investigate
+    print("diseaseLookUP output",type(lu.input_object),type(disease_associated_genes),type(input_curie_set))
     return lu.input_object, disease_associated_genes, input_curie_set
 
-
-input_disease_symbol = "FA"
-input_disease_mondo = 'MONDO:0019391'
-
-input_object, disease_associated_genes, input_curie_set = diseaseLookUp(input_disease_symbol, input_disease_mondo)
-
-#  Echo to console
-disease_associated_genes
-
-
+"""
+This function takes in a Modules.Mod1A_functional_sim.FunctionalSimilarity
+object representing the gene model, the data in a list, and a float threshold
+value and returns the model with genes loaded in.
+"""
 def load_genes(model, data, threshold):
     # Module specification
     inputParameters = {
@@ -106,9 +127,15 @@ def load_genes(model, data, threshold):
     # Load the computation parameters
     model.load_input_object(inputParameters)
     model.load_gene_set()
+    return model
 
-
-def similarity(model, data, threshold, input_disease_symbol, module, title):
+"""
+This function takes in a Modules.Mod1A)functional_sim.FunctionalSimilarity
+object representing the model, a list of data, a float threshold value, strings
+to represent the input disease symbol, module, and title, and a Pandas df of
+disease associated genes. It returns a Pandas df
+"""
+def similarity(model, data, threshold, input_disease_symbol, module, title, disease_associated_genes):
     # Initialize
     load_genes(model, data, threshold)
     model.load_associations()
@@ -127,46 +154,21 @@ def similarity(model, data, threshold, input_disease_symbol, module, title):
     output = output_file(input_disease_symbol, title, "html")
     dump_html(output, results_table)
     output.close()
-
     return results_table
 
-
-from Modules.Mod1A_functional_sim import FunctionalSimilarity
-
-# Functinoal Simularity using Jaccard index threshold
-func_sim_human = FunctionalSimilarity()
-Mod1A_results = similarity( func_sim_human, input_curie_set, 0.75, input_disease_symbol, 'Mod1A', "Functionally Similar Genes" )
-print("functional similarity")
-print(Mod1A_results)
-
-
-
-from Modules.Mod1B1_phenotype_similarity import PhenotypeSimilarity
-
-# Phenotypic simulatiry using OwlSim calculation threshold
-pheno_sim_human = PhenotypeSimilarity()
-Mod1B_results = similarity( pheno_sim_human, input_curie_set, 0.50, input_disease_symbol, 'Mod1B', "Phenotypically Similar Genes" )
-
-print("phenotype similarity")
-print(Mod1B_results)
-
-
-
-from Modules.StandardOutput import StandardOutput
-
-def aggregrate_results(resultsA,resultsB):
+"""
+This function takes in two Pandas df objects and a dictionary
+"""
+def aggregrate_results(resultsA,resultsB, input_object):
     all_results = pd.concat([resultsA,resultsB])
-    so = StandardOutput(results=all_results.to_dict(orient='records'), input_object=input_object)
+    so = StandardOutput(results=all_results.to_dict(orient='records'), 
+        input_object=input_object)
     return so.output_object
 
-std_api_response_json = aggregrate_results(Mod1A_results, Mod1B_results)
 
-# Echo to console
-std_api_response_json
-
-import requests
-
-
+"""
+This function writes an output file
+"""
 def file_index(output, input_disease_symbol, input_disease_mondo, rtx_ui_url):
     title = "Results for " + input_disease_symbol + "[" + input_disease_mondo + "]"
 
@@ -185,6 +187,38 @@ def file_index(output, input_disease_symbol, input_disease_mondo, rtx_ui_url):
                  href="https://rtx.ncats.io/api/rtx/v1/response/%s" % rtx_ui_url.json()['response_id'])
 
     output.write(doc)
+    return None
+
+def main():
+    # Set disease of interest
+    input_disease_symbol = "FA"
+    input_disease_mondo = 'MONDO:0019391'
+
+    # Lookup disease and get data available on it
+    input_object, disease_associated_genes, input_curie_set = diseaseLookUp(input_disease_symbol, input_disease_mondo)
+
+    #  Echo to console
+    disease_associated_genes
+    # Functinoal Simularity using Jaccard index threshold
+    func_sim_human = FunctionalSimilarity()
+    Mod1A_results = similarity( func_sim_human, input_curie_set, 0.75, input_disease_symbol, 'Mod1A', "Functionally Similar Genes",disease_associated_genes )
+
+    print(Mod1A_results)
+
+    # Phenotypic simulatiry using OwlSim calculation threshold
+    pheno_sim_human = PhenotypeSimilarity()
+    Mod1B_results = similarity( pheno_sim_human, input_curie_set, 0.50, input_disease_symbol, 'Mod1B', "Phenotypically Similar Genes",disease_associated_genes )
+
+    print(Mod1B_results)
+
+    std_api_response_json = aggregrate_results(Mod1A_results, Mod1B_results, input_object)
+
+    # Echo to console
+    std_api_response_json
+
+if __name__ == "__main__":
+    main()
+
 
 
 #def publish_to_rtx(output, std_api_response_json, input_disease_symbol, title):

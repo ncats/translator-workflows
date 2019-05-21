@@ -150,7 +150,7 @@ from Modules.Mod1A_functional_sim import FunctionalSimilarity
 # Functinoal Simularity using Jaccard index threshold
 func_sim_human = FunctionalSimilarity()
 Mod1A_results = similarity( func_sim_human, input_curie_set, 0.75, input_disease_symbol, 'Mod1A', "Functionally Similar Genes" )
-
+print("functional similarity")
 print(Mod1A_results)
 
 
@@ -161,6 +161,7 @@ from Modules.Mod1B1_phenotype_similarity import PhenotypeSimilarity
 pheno_sim_human = PhenotypeSimilarity()
 Mod1B_results = similarity( pheno_sim_human, input_curie_set, 0.50, input_disease_symbol, 'Mod1B', "Phenotypically Similar Genes" )
 
+print("phenotype similarity")
 print(Mod1B_results)
 
 from Modules.StandardOutput import StandardOutput

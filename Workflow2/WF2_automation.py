@@ -149,11 +149,11 @@ if __name__ == '__main__':
 
     # Phenotypic simularity using OwlSim calculation threshold
     pheno_sim_human = PhenotypeSimilarity()
-    Mod1B_results = similarity(disease_associated_genes, pheno_sim_human, input_curie_set, 0.02, input_disease_symbol, 'Mod1B', "Phenotypically Similar Genes" )
+    Mod1B_results = similarity(disease_associated_genes, pheno_sim_human, input_curie_set, 0.035, input_disease_symbol, 'Mod1B', "Phenotypically Similar Genes" )
 
     print(Mod1B_results.to_string())
 
     std_api_response_json = aggregrate_results(Mod1A_results, Mod1B_results)
 
     # Echo to console
-    print(std_api_response_json.to_string())
+    print(std_api_response_json)

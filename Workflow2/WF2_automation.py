@@ -128,7 +128,6 @@ def aggregrate_results(resultsA,resultsB):
     so = StandardOutput(results=all_results.to_dict(orient='records'), input_object=input_object)
     return so.output_object
 
-
 if __name__ == '__main__':
 
     # Module functions run as a sample query using Fanconi Anemia

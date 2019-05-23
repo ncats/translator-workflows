@@ -1,5 +1,4 @@
 ## Reorganized by Megan Grout (mgrout81) 20190516
-
 ## Import libraries
 import sys
 import shutil
@@ -38,14 +37,14 @@ This function takes in three strings, representing the tag, title, and file exte
 for an output file, and returns an _io.TextIOWrapper object.
 """
 def output_file(tag, title, ext):
-    print("output_file",type(tag), type(title),type(ext))
+    # print("output_file",type(tag), type(title),type(ext))
     basepath = "./Tidbit/" + tag
     filename = title.replace(" ", "_")
     filepath = basepath + "/" + filename + "." + ext
     makedirs(basepath, exist_ok=True)
     output = open(filepath, "w+")
     output.info = {'tag': tag, 'title': title}
-    print("output_file",type(output))
+    # print("output_file",type(output))
     return output
 
 """
@@ -53,7 +52,7 @@ This function takes in an _io.TextIOWrapper object and a Pandas df and writes
 the information to file.
 """
 def dump_html(output, body):
-    print("dump_html", type(output),type(body))
+    # print("dump_html", type(output),type(body))
     title = output.info['title'] + " for " + output.info['tag']
 
     doc = XHTML()
@@ -68,12 +67,12 @@ def dump_html(output, body):
 """ 
 This method takes strings representing the disease of interest's symbol and MONDO
 code and returns a dictionary, a Pandas df, and a list representing information
-about the disease.
+about the disease. CX: using Mod0
 """ 
 def diseaseLookUp(input_disease_symbol, input_disease_mondo):
-    print("diseaseLoopUp",type(input_disease_symbol), type(input_disease_mondo))
+    # print("diseaseLoopUp",type(input_disease_symbol), type(input_disease_mondo))
     # workflow input is a disease identifier
-    lu = LookUp()
+    lu = LookUp()  
 
     input_object = {
         'input': input_disease_mondo,
@@ -106,7 +105,7 @@ def diseaseLookUp(input_disease_symbol, input_disease_mondo):
     output.close()
 
     # genes to investigate
-    print("diseaseLookUP output",type(lu.input_object),type(disease_associated_genes),type(input_curie_set))
+    # print("diseaseLookUP output",type(lu.input_object),type(disease_associated_genes),type(input_curie_set))
     return lu.input_object, disease_associated_genes, input_curie_set
 
 """
@@ -130,7 +129,7 @@ def load_genes(model, data, threshold):
     return model
 
 """
-This function takes in a Modules.Mod1A)functional_sim.FunctionalSimilarity
+This function takes in a Modules.Mod1A_functional_sim.FunctionalSimilarity
 object representing the model, a list of data, a float threshold value, strings
 to represent the input disease symbol, module, and title, and a Pandas df of
 disease associated genes. It returns a Pandas df
@@ -190,37 +189,45 @@ def file_index(output, input_disease_symbol, input_disease_mondo, rtx_ui_url):
     return None
 
 def main():
-    # Set disease of interest
-    input_disease_symbol = "FA"
-    input_disease_mondo = 'MONDO:0019391'
+    # Set disease of interest: Lafora Disease 
+    input_disease_symbol = "LD"
+    input_disease_mondo = 'MONDO:0009697'
     
     # CX: from Mod0
     # Lookup disease and get data available on it
     input_object, disease_associated_genes, input_curie_set = diseaseLookUp(input_disease_symbol, input_disease_mondo)
 
     # print objects from Mod0
+    print("Mod0 results: input_object")
     print(input_object)
+    print("Mod0 results: disease associated genes")
     print(disease_associated_genes)
+    print("Mod0 results: input curie set")
     print(input_curie_set)
-
     #  Echo to console
     # disease_associated_genes
-    # Functinoal Simularity using Jaccard index threshold
-    func_sim_human = FunctionalSimilarity()
-    Mod1A_results = similarity( func_sim_human, input_curie_set, 0.75, input_disease_symbol, 'Mod1A', "Functionally Similar Genes",disease_associated_genes )
 
+    # Functional Similarity using Jaccard index threshold
+    # Originally set to 0.75 for Threshold. Lowering it (with Marcin's advice)
+    # 0.25 gave me 563 results.  
+    func_sim_human = FunctionalSimilarity()
+    Mod1A_results = similarity( func_sim_human, input_curie_set, 0.4, input_disease_symbol, 'Mod1A', "Functionally Similar Genes",disease_associated_genes )
+
+    print("Mod1A results")
     print(Mod1A_results)
 
     # Phenotypic simulatiry using OwlSim calculation threshold
+    # Originally set to 0.50 for Threshold. Lowering it (with Marcin's advice)
     pheno_sim_human = PhenotypeSimilarity()
-    Mod1B_results = similarity( pheno_sim_human, input_curie_set, 0.50, input_disease_symbol, 'Mod1B', "Phenotypically Similar Genes",disease_associated_genes )
+    Mod1B_results = similarity( pheno_sim_human, input_curie_set, 0.25, input_disease_symbol, 'Mod1B', "Phenotypically Similar Genes",disease_associated_genes )
 
+    print("Mod1B results")
     print(Mod1B_results)
 
     std_api_response_json = aggregrate_results(Mod1A_results, Mod1B_results, input_object)
 
     # Echo to console
-    std_api_response_json
+    # std_api_response_json
 
 if __name__ == "__main__":
     main()

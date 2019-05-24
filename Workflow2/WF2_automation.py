@@ -144,11 +144,17 @@ if __name__ == '__main__':
     func_sim_human = FunctionalSimilarity()
     Mod1A_results = similarity(disease_associated_genes, func_sim_human, input_curie_set, 0.75, input_disease_symbol, 'Mod1A', "Functionally Similar Genes" )
 
+    # Trigger the garbage collection of FunctionalSimilarity()
+    func_sim_human = None
+
     print(Mod1A_results.to_string())
 
     # Phenotypic simularity using OwlSim calculation threshold
     pheno_sim_human = PhenotypeSimilarity()
     Mod1B_results = similarity(disease_associated_genes, pheno_sim_human, input_curie_set, 0.035, input_disease_symbol, 'Mod1B', "Phenotypically Similar Genes" )
+
+    # Trigger the garbage collection of PhenotypeSimilarity()
+    pheno_sim_human = None
 
     print(Mod1B_results.to_string())
 

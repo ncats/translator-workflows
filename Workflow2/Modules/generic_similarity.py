@@ -14,21 +14,21 @@ class GenericSimilarity(object):
         self.assocs = ''
         self.afactory = AssociationSetFactory()
 
-    def retrieve_associations(self, ont, group):
+    def load_associations(self):
         taxon_map = {
             'human': 'NCBITaxon:9606',
             'mouse': 'NCBITaxon:10090',
         }
         ofactory = OntologyFactory()
-        self.ontology = ofactory.create(ont)
+        self.ontology = ofactory.create(self.ont)
         p = GafParser()
         url = ''
-        if ont == 'go':
+        if self.ont == 'go':
             go_roots = set(self.ontology.descendants('GO:0008150') + self.ontology.descendants('GO:0003674'))
             sub_ont = self.ontology.subontology(go_roots)
-            if group == 'mouse':
+            if self.group == 'mouse':
                 url = "http://current.geneontology.org/annotations/mgi.gaf.gz"
-            if group == 'human':
+            if self.group == 'human':
                 url = "http://current.geneontology.org/annotations/goa_human.gaf.gz"
             assocs = p.parse(url)
             self.assocs = assocs
@@ -36,10 +36,13 @@ class GenericSimilarity(object):
             assocs = [x for x in assocs if x['object']['id'] in go_roots]
             self.associations = self.afactory.create_from_assocs(assocs, ontology=sub_ont)
         else:
-            self.associations = self.afactory.create(ontology=self.ontology ,
-                       subject_category='gene',
-                       object_category='phenotype',
-                       taxon=taxon_map[group])
+            self.associations = \
+                self.afactory.create(
+                        ontology=self.ontology,
+                        subject_category='gene',
+                        object_category='phenotype',
+                        taxon=taxon_map[self.group]
+            )
 
     def compute_jaccard(self, input_genes:List[dict], lower_bound:float=0.7) -> List[dict]:
         similarities = []

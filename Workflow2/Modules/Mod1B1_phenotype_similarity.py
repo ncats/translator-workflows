@@ -40,9 +40,6 @@ class PhenotypeSimilarity(GenericSimilarity):
             self.group = 'human'
             self.ont = 'hp'
 
-    def load_associations(self):
-        self.retrieve_associations(ont=self.ont, group=self.group)
-
     def load_gene_set(self):
         for gene in self.input_object['input']:
             mg = MyGeneInfo()

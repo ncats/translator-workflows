@@ -110,8 +110,7 @@ def similarity(input_gene_set, model, data, threshold, input_disease_symbol, mod
     # Process the results
     results_table = pd.DataFrame(results)
     results_table = results_table[
-        ~results_table['hit_id'].isin(input_gene_set['hit_id'].tolist())].sort_values('score',
-                                                                                                ascending=False)
+        ~results_table['hit_id'].isin(input_gene_set['hit_id'].tolist())].sort_values('score', ascending=False)
     results_table['module'] = module
 
     if _echo_to_console:

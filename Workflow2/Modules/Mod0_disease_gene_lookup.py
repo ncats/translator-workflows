@@ -100,7 +100,7 @@ class DiseaseAssociatedGeneSet(object):
     def get_input_disease_symbol(self):
         return self.input_disease_symbol
 
-    def get_gene_list(self):
+    def get_data_frame(self):
         return self.disease_associated_genes
 
     def get_input_curie_set(self):

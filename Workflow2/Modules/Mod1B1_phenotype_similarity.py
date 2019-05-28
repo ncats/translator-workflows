@@ -40,7 +40,7 @@ class PhenotypeSimilarity(GenericSimilarity):
 
     def load_gene_set(self, input_gene_set):
         annotated_gene_set = []
-        for gene in input_gene_set:
+        for gene in input_gene_set.get_input_curie_set():
             mg = MyGeneInfo()
             gene_curie = ''
             sim_input_curie = ''

@@ -60,11 +60,11 @@ def diseaseGeneLookUp(input_disease_symbol, input_disease_mondo):
     if _echo_to_console:
 
         print("\nDisease Associated Input Gene Set:\n")
-        print(gene_set.get_gene_list().to_string())
+        print(gene_set.get_data_frame().to_string())
 
         # save the gene list to a file under the "Tidbit" subdirectory
         output = output_file(input_disease_symbol, "Disease Associated Genes", "html")
-        dump_html(output, gene_set.get_gene_list())
+        dump_html(output, gene_set.get_data_frame())
         output.close()
 
     # genes to investigate
@@ -114,7 +114,7 @@ if __name__ == '__main__':
         )
 
     # Functional similarity using Jaccard index threshold
-    # Called once, this object reating this object triggers
+    # Called once, creating this object triggers
     # its initialization with GO ontology and annotation
     func_sim_human = FunctionalSimilarity('human')
 
@@ -133,7 +133,7 @@ if __name__ == '__main__':
     print(Mod1A_results.to_string())
 
     # Phenotype similarity using OwlSim calculation threshold
-    # Called once, this object reating this object triggers
+    # Called once, creating this object triggers
     # its initialization with GO ontology and annotation
     pheno_sim_human = PhenotypeSimilarity('human')
 

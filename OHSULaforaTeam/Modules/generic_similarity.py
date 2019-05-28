@@ -24,6 +24,7 @@ class GenericSimilarity(object):
         p = GafParser()
         url = ''
         if ont == 'go':
+            ## GO:0008150 is a biological process, GO:0003674 is molecular function
             go_roots = set(self.ontology.descendants('GO:0008150') + self.ontology.descendants('GO:0003674'))
             sub_ont = self.ontology.subontology(go_roots)
             if group == 'mouse':
@@ -49,6 +50,14 @@ class GenericSimilarity(object):
                 if input_gene is not subject_curie:
                     score = jaccard_similarity(self.associations, input_gene, subject_curie)
                     if float(score) > float(lower_bound):
+                        ## CX: This is following the source code for ontobio's jaccard_similarity function
+                        ##     The goal is to get the terms in common
+                        a1 = self.associations.inferred_types(input_gene)
+                        a2 = self.associations.inferred_types(subject_curie)
+                        commonTerm_ids = a1.intersection(a2)
+                        ## CX: get the labels (human understandable names) for the GO terms
+                        commonTerm_labels = [self.associations.label(x) for x in commonTerm_ids]
+
                         subject_label = self.associations.label(subject_curie)
                         similarities.append({
                             'input_id': input_gene,
@@ -56,8 +65,10 @@ class GenericSimilarity(object):
                             'hit_symbol': subject_label,
                             'hit_id': subject_curie,
                             'score': score,
+                            'commonTerm_ids': commonTerm_ids,   
+                            'commonTerm_labels': commonTerm_labels  ## 
                         })
-        return similarities
+        return (similarities)
 
     @staticmethod
     def trim_mgi_prefix(input_gene, subject_curie):

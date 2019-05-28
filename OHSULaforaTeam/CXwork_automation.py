@@ -132,27 +132,30 @@ def load_genes(model, data, threshold):
 This function takes in a Modules.Mod1A_functional_sim.FunctionalSimilarity
 object representing the model, a list of data, a float threshold value, strings
 to represent the input disease symbol, module, and title, and a Pandas df of
-disease associated genes. It returns a Pandas df
+disease associated genes. CX MOD: It returns a tuple of 2  Pandas df
 """
 def similarity(model, data, threshold, input_disease_symbol, module, title, disease_associated_genes):
     # Initialize
     load_genes(model, data, threshold)
     model.load_associations()
 
-    # Perform the comparison
+    ## Perform the comparison: CX MOD of compute_similarity function (from generic_similarity.py) to return an extra entry in each dictionary. 
+    ## common_terms is a list of the GO terms in common between the input and output
     results = model.compute_similarity()
 
     # Process the results
+    ## CX: EPM2A has no functional annotation in Monarch, which is why it has no results in Module 1A
     results_table = pd.DataFrame(results)
     results_table = results_table[
-        ~results_table['hit_id'].isin(disease_associated_genes['hit_id'].tolist())].sort_values('score',
-                                                                                                ascending=False)
+        ~results_table['hit_id'].isin(disease_associated_genes['hit_id'].tolist())].sort_values('score', ascending=False)
+    # results_table = results_table.sort_values('score', ascending=False)                                  
     results_table['module'] = module
-
-    # save the gene list to a file under the "Tidbit" subdirectory
-    output = output_file(input_disease_symbol, title, "html")
-    dump_html(output, results_table)
-    output.close()
+    ## CX: reordering columns
+    results_table = results_table[['hit_id', 'hit_symbol', 'input_id', 'input_symbol', 'score', 'module', 'commonTerm_ids', 'commonTerm_labels']]
+    # CX: Commented out. save the gene list to a file under the "Tidbit" subdirectory
+    # output = output_file(input_disease_symbol, title, "html")
+    # dump_html(output, results_table)
+    # output.close()
     return results_table
 
 """
@@ -213,18 +216,21 @@ def main():
     func_sim_human = FunctionalSimilarity()
     Mod1A_results = similarity( func_sim_human, input_curie_set, 0.4, input_disease_symbol, 'Mod1A', "Functionally Similar Genes",disease_associated_genes )
 
-    print("Mod1A results")
-    print(Mod1A_results)
+    print("Mod1A results: threshold 0.4")
+    print(Mod1A_results.to_string())
+    csvPath1A = "./Mod1Aoutput.csv"
+    Mod1A_results.to_csv(csvPath1A, sep="\t")
 
     # Phenotypic simulatiry using OwlSim calculation threshold
     # Originally set to 0.50 for Threshold. Lowering it (with Marcin's advice)
     pheno_sim_human = PhenotypeSimilarity()
     Mod1B_results = similarity( pheno_sim_human, input_curie_set, 0.25, input_disease_symbol, 'Mod1B', "Phenotypically Similar Genes",disease_associated_genes )
 
-    print("Mod1B results")
-    print(Mod1B_results)
-
-    std_api_response_json = aggregrate_results(Mod1A_results, Mod1B_results, input_object)
+    print("Mod1B results: threshold 0.25")
+    print(Mod1B_results.to_string())
+    csvPath1B = "./Mod1Boutput.csv"
+    Mod1B_results.to_csv(csvPath1B, sep="\t")
+    # std_api_response_json = aggregrate_results(Mod1A_results, Mod1B_results, input_object)
 
     # Echo to console
     # std_api_response_json

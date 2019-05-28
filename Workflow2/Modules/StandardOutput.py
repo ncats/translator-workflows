@@ -15,9 +15,9 @@ class StandardOutput(object):
         'Mod1E': 'protein, interactions'
     }
 
-    def __init__(self, results, input_object):
+    def __init__(self, results, input_object_id):
         self.results = results
-        self.input_object = input_object
+        self.input_object_id = input_object_id
         self.results_count = len(results)
         self.output_object = self.mod_level_output()
         self.generate_result()
@@ -30,12 +30,12 @@ class StandardOutput(object):
             'message': '{} results found'.format(self.results_count),
             'n_results': self.results_count,
             'original_question_text': 'What genes are functionally similar to genes associated with {}'.format(
-                self.input_object['id']),
+                self.input_object_id),
             'query_type_id': 'query_id',
             'reasoner_id': 'Orange',
             'response_code': 'OK',
             'restated_question_text': 'What genes are functionally similar to genes associated with {}'.format(
-                self.input_object['id']),
+                self.input_object_id),
             'result_list': [],
             'schema_version': '0.8.0',
             'table_column_names': ['input_id', 'input_symbol', 'result_id', 'result_symbol', 'score'],

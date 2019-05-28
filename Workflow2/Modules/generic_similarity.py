@@ -1,20 +1,19 @@
 from ontobio.ontol_factory import OntologyFactory
 from ontobio.io.gafparser import GafParser
 from ontobio.assoc_factory import AssociationSetFactory
-from ontobio.assocmodel import AssociationSet
-from typing import List, Union, TextIO
+from typing import List
 from ontobio.analysis.semsim import jaccard_similarity
-from pprint import pprint
 
 
 class GenericSimilarity(object):
+
     def __init__(self) -> None:
         self.associations = ''
         self.ontology = ''
         self.assocs = ''
         self.afactory = AssociationSetFactory()
 
-    def load_associations(self):
+    def load_associations(self, taxon):
         taxon_map = {
             'human': 'NCBITaxon:9606',
             'mouse': 'NCBITaxon:10090',
@@ -26,9 +25,9 @@ class GenericSimilarity(object):
         if self.ont == 'go':
             go_roots = set(self.ontology.descendants('GO:0008150') + self.ontology.descendants('GO:0003674'))
             sub_ont = self.ontology.subontology(go_roots)
-            if self.group == 'mouse':
+            if taxon == 'mouse':
                 url = "http://current.geneontology.org/annotations/mgi.gaf.gz"
-            if self.group == 'human':
+            if taxon == 'human':
                 url = "http://current.geneontology.org/annotations/goa_human.gaf.gz"
             assocs = p.parse(url)
             self.assocs = assocs
@@ -41,7 +40,7 @@ class GenericSimilarity(object):
                         ontology=self.ontology,
                         subject_category='gene',
                         object_category='phenotype',
-                        taxon=taxon_map[self.group]
+                        taxon=taxon_map[taxon]
             )
 
     def compute_jaccard(self, input_genes:List[dict], lower_bound:float=0.7) -> List[dict]:

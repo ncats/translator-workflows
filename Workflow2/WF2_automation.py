@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 from html3.html3 import XHTML
 
-from Modules.Mod0_lookups import LookUp
+from Modules.Mod0_disease_gene_lookup import DiseaseAssociatedGeneSet
 from Modules.Mod1A_functional_sim import FunctionalSimilarity
 from Modules.Mod1B1_phenotype_similarity import PhenotypeSimilarity
 from Modules.StandardOutput import StandardOutput
@@ -12,9 +12,11 @@ from Modules.StandardOutput import StandardOutput
 # Flag to control console output
 _echo_to_console = True
 
+
 # Data type of switch input is interpreted as a Boolean value
 def setConsoleEcho(switch):
     _echo_to_console = switch
+
 
 def output_file(tag, title, ext):
     # takes the tidbit directory that is relative to the current directory
@@ -39,93 +41,64 @@ def dump_html(output, body):
 
     doc.head.title(title)
     doc.body.h1(title)
-    doc.body.p(body.to_html())
+    doc.body.p.text(body.to_html(escape=False),escape=False)
 
     output.write(str(doc))
 
 
-def diseaseLookUp(input_disease_symbol, input_disease_mondo):
-    # workflow input is a disease identifier
-    lu = LookUp()
+def diseaseGeneLookUp(input_disease_symbol, input_disease_mondo):
 
-    input_object = {
-        'input': input_disease_mondo,
-        'parameters': {
-            'taxon': 'human',
-            'threshold': None,
-        },
-    }
-
-    lu.load_input_object(input_object=input_object)
-
-    # get genes associated with disease from Biolink
-    disease_associated_genes = lu.disease_geneset_lookup()
-
-    # create list of gene curies for downstream module input
-    input_curie_set = disease_associated_genes[['hit_id', 'hit_symbol']].to_dict(orient='records')
-
-    # show the disease associated genes
-    disease_associated_genes['modules'] = 'Mod0'
+    gene_set = DiseaseAssociatedGeneSet(input_disease_symbol, input_disease_mondo)
 
     # save the seed gene definition and gene list to a
     # file under the "Tidbit/<symbol>" subdirectory
 
     output = output_file(input_disease_symbol, "Definition", "json")
-    lu.echo_input_object(output)
+    gene_set.echo_input_object(output)
     output.close()
 
     if _echo_to_console:
+
+        print("\nDisease Associated Input Gene Set:\n")
+        print(gene_set.get_gene_list().to_string())
+
         # save the gene list to a file under the "Tidbit" subdirectory
         output = output_file(input_disease_symbol, "Disease Associated Genes", "html")
-        dump_html(output, disease_associated_genes)
+        dump_html(output, gene_set.get_gene_list())
         output.close()
 
     # genes to investigate
-    return lu.input_object, disease_associated_genes, input_curie_set
+    return gene_set
 
 
-def load_genes(model, data, threshold):
-    # Module specification
-    inputParameters = {
-        'input': data,
-        'parameters': {
-            'taxon': 'human',
-            'threshold': threshold,
-        },
-    }
+def similarity(model, input_gene_set, threshold, label, title):
 
-    # Load the computation parameters
-    model.load_input_object(inputParameters)
-    model.load_gene_set()
+    # Subtle model-specific difference in gene set loading??
+    annotated_input_gene_set = model.load_gene_set(input_gene_set)
 
-
-def similarity(input_gene_set, model, data, threshold, input_disease_symbol, module, title):
-    # Initialize
-    load_genes(model, data, threshold)
-    model.load_associations()
-
-    # Perform the comparison
-    results = model.compute_similarity()
+    # Perform the comparison on specified gene set
+    results = model.compute_similarity(annotated_input_gene_set, threshold)
 
     # Process the results
     results_table = pd.DataFrame(results)
     results_table = results_table[
         ~results_table['hit_id'].isin(input_gene_set['hit_id'].tolist())].sort_values('score', ascending=False)
-    results_table['module'] = module
+    results_table['module'] = label
 
     if _echo_to_console:
         # save the gene list to a file under the "Tidbit" subdirectory
-        output = output_file(input_disease_symbol, title, "html")
+        output = output_file(input_gene_set.get_input_disease_symbol(), title, "html")
         dump_html(output, results_table)
         output.close()
 
     return results_table
 
 
-def aggregrate_results(resultsA,resultsB):
+def aggregrate_results(resultsA,resultsB,input_object_id):
     all_results = pd.concat([resultsA,resultsB])
-    so = StandardOutput(results=all_results.to_dict(orient='records'), input_object=input_object)
+    so = StandardOutput(results=all_results.to_dict(orient='records'), input_object_id=input_object_id)
     return so.output_object
+
 
 if __name__ == '__main__':
 
@@ -134,30 +107,55 @@ if __name__ == '__main__':
     input_disease_symbol = "FA"
     input_disease_mondo = 'MONDO:0019391'
 
-    input_object, disease_associated_genes, input_curie_set = diseaseLookUp(input_disease_symbol, input_disease_mondo)
+    disease_associated_gene_set = \
+        diseaseGeneLookUp(
+            input_disease_symbol,
+            input_disease_mondo
+        )
 
-    #  Echo to console
-    print(disease_associated_genes.to_string())
+    # Functional similarity using Jaccard index threshold
+    # Called once, this object reating this object triggers
+    # its initialization with GO ontology and annotation
+    func_sim_human = FunctionalSimilarity('human')
 
-    # Functional Simularity using Jaccard index threshold
-    func_sim_human = FunctionalSimilarity()
-    Mod1A_results = similarity(disease_associated_genes, func_sim_human, input_curie_set, 0.75, input_disease_symbol, 'Mod1A', "Functionally Similar Genes" )
+    Mod1A_results = \
+        similarity(
+            func_sim_human,
+            disease_associated_gene_set,
+            0.75,
+            'Mod1A',
+            "Functionally Similar Genes"
+        )
 
-    # Trigger the garbage collection of FunctionalSimilarity()
+    # Trigger the garbage collection of FunctionalSimilarity()?
     func_sim_human = None
 
     print(Mod1A_results.to_string())
 
-    # Phenotypic simularity using OwlSim calculation threshold
-    pheno_sim_human = PhenotypeSimilarity()
-    Mod1B_results = similarity(disease_associated_genes, pheno_sim_human, input_curie_set, 0.035, input_disease_symbol, 'Mod1B', "Phenotypically Similar Genes" )
+    # Phenotype similarity using OwlSim calculation threshold
+    # Called once, this object reating this object triggers
+    # its initialization with GO ontology and annotation
+    pheno_sim_human = PhenotypeSimilarity('human')
 
-    # Trigger the garbage collection of PhenotypeSimilarity()
+    Mod1B_results = \
+        similarity(
+            pheno_sim_human,
+            disease_associated_gene_set,
+            0.035,
+            'Mod1B',
+            "Phenotypically Similar Genes"
+        )
+
+    # Trigger the garbage collection of PhenotypeSimilarity()?
     pheno_sim_human = None
 
     print(Mod1B_results.to_string())
 
-    std_api_response_json = aggregrate_results(Mod1A_results, Mod1B_results)
+    std_api_response_json = \
+        aggregrate_results(Mod1A_results,
+                           Mod1B_results,
+                           disease_associated_gene_set.get_input_object_id()
+        )
 
     # Echo to console
     print(std_api_response_json)

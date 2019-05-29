@@ -147,12 +147,14 @@ and associated MONDO identifiers - in the second column"""
 
     if args.disease:
         disease_name, mondo_id = args.disease.split(',')
+        disease_name = disease_name.strip()
+        print("\nSingle disease specified:\t'" + disease_name + "(" + mondo_id + "):\n")
         disease_list.append((disease_name, mondo_id))
 
     elif args.diseaseTable:
 
         disease_table_filename = args.diseaseTable
-        print("Reading in disease Table Filename:\t\t" + disease_table_filename)
+        print("Table of diseases specified in file:\t\t" + disease_table_filename)
 
         with open(disease_table_filename, "r") as diseases:
             for entry in diseases.readlines():
@@ -165,6 +167,8 @@ and associated MONDO identifiers - in the second column"""
 
                 # The first field is assumed to be the gene name or symbol, the second field, the MONDO identifier
                 disease_name = field[0]
+                disease_name = disease_name.strip()
+
                 mondo_id = field[1]
 
                 disease_list.append((disease_name, mondo_id))

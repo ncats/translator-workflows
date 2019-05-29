@@ -41,13 +41,12 @@ def dump_html(output, body):
 
     doc.head.title(title)
     doc.body.h1(title)
-    doc.body.p.text(body.to_html(escape=False),escape=False)
+    doc.body.p.text(body.to_html(escape=False), escape=False)
 
     output.write(str(doc))
 
 
 def diseaseGeneLookUp(input_disease_symbol, input_disease_mondo):
-
     gene_set = DiseaseAssociatedGeneSet(input_disease_symbol, input_disease_mondo)
 
     # save the seed gene definition and gene list to a
@@ -58,7 +57,6 @@ def diseaseGeneLookUp(input_disease_symbol, input_disease_mondo):
     output.close()
 
     if _echo_to_console:
-
         print("\nDisease Associated Input Gene Set:\n")
         print(gene_set.get_data_frame().to_string())
 
@@ -72,7 +70,6 @@ def diseaseGeneLookUp(input_disease_symbol, input_disease_mondo):
 
 
 def similarity(model, input_gene_set, threshold, label, title):
-
     # Subtle model-specific difference in gene set loading??
     annotated_input_gene_set = model.load_gene_set(input_gene_set)
 
@@ -81,8 +78,10 @@ def similarity(model, input_gene_set, threshold, label, title):
 
     # Process the results
     results_table = pd.DataFrame(results)
-    results_table = results_table[
-        ~results_table['hit_id'].isin(input_gene_set['hit_id'].tolist())].sort_values('score', ascending=False)
+    results_table = \
+        results_table[~results_table['hit_id'].
+            isin(input_gene_set.get_data_frame()['hit_id'].
+                 tolist())].sort_values('score', ascending=False)
     results_table['module'] = label
 
     if _echo_to_console:
@@ -94,14 +93,13 @@ def similarity(model, input_gene_set, threshold, label, title):
     return results_table
 
 
-def aggregrate_results(resultsA,resultsB,input_object_id):
-    all_results = pd.concat([resultsA,resultsB])
+def aggregrate_results(resultsA, resultsB, input_object_id):
+    all_results = pd.concat([resultsA, resultsB])
     so = StandardOutput(results=all_results.to_dict(orient='records'), input_object_id=input_object_id)
     return so.output_object
 
 
 if __name__ == '__main__':
-
     # Module functions run as a sample query using Fanconi Anemia
 
     input_disease_symbol = "FA"
@@ -141,7 +139,7 @@ if __name__ == '__main__':
         similarity(
             pheno_sim_human,
             disease_associated_gene_set,
-            0.035,
+            0.35,
             'Mod1B',
             "Phenotypically Similar Genes"
         )
@@ -155,7 +153,7 @@ if __name__ == '__main__':
         aggregrate_results(Mod1A_results,
                            Mod1B_results,
                            disease_associated_gene_set.get_input_object_id()
-        )
+                           )
 
     # Echo to console
     print(std_api_response_json)

@@ -1,4 +1,4 @@
 Disease	Mondo	Type	DOID	notes	
-Asthma	MONDO:0004979	Common diseases	DOID:2841		
-T2Diabetes	MONDO:0005148	Common diseases	DOID:9352		
-Parkinson	MONDO:0005180	Common diseases	DOID:14330		
+FA	MONDO:0019391	Rare	DOID:13636
+Asthma	MONDO:0004979	Common diseases	DOID:2841
+Parkinson	MONDO:0005180	Common diseases	DOID:14330

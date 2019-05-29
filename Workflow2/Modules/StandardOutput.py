@@ -4,7 +4,7 @@ from datetime import datetime
 class StandardOutput(object):
     edge_types = {
         'Mod0': 'pathogenic_for',
-        'Mod1A': 'functially_similar_to',
+        'Mod1A': 'functionally_similar_to',
         'Mod1B': 'phenotypically_similar_to',
         'Mod1E': 'interacts_with'
     }

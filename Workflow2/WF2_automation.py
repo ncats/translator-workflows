@@ -54,24 +54,20 @@ def dump_html(output, body):
     output.write(str(doc))
 
 
-def diseaseGeneLookUp(input_disease_name, input_disease_mondo):
-    gene_set = DiseaseAssociatedGeneSet(input_disease_name, input_disease_mondo)
+def diseaseGeneLookUp(disease_name, mondo_id):
+    gene_set = DiseaseAssociatedGeneSet(disease_name, mondo_id)
 
     # save the seed gene definition and gene list to a
     # file under the "Tidbit/<symbol>" subdirectory
 
-    output = output_file(input_disease_name, "Definition", "json")
+    output = output_file(disease_name, "Definition", "json")
     gene_set.echo_input_object(output)
     output.close()
 
-    if _echo_to_console:
-        print("\nDisease Associated Input Gene Set for '"+input_disease_name+"("+input_disease_mondo+"):\n")
-        print(gene_set.get_data_frame().to_string())
-
-        # save the gene list to a file under the "Tidbit" subdirectory
-        output = output_file(input_disease_name, "Disease Associated Genes", "html")
-        dump_html(output, gene_set.get_data_frame())
-        output.close()
+    # save the gene list to a file under the "Tidbit" subdirectory
+    output = output_file(disease_name, "Disease Associated Genes", "html")
+    dump_html(output, gene_set.get_data_frame())
+    output.close()
 
     # genes to investigate
     return gene_set
@@ -92,16 +88,15 @@ def similarity(model, input_gene_set, threshold, label, title):
                  tolist())].sort_values('score', ascending=False)
     results_table['module'] = label
 
-    if _echo_to_console:
-        # save the gene list to a file under the "Tidbit" subdirectory
-        output = output_file(input_gene_set.get_input_disease_name(), title, "html")
-        dump_html(output, results_table)
-        output.close()
+    # save the gene list to a file under the "Tidbit" subdirectory
+    output = output_file(input_gene_set.get_input_disease_name(), title, "html")
+    dump_html(output, results_table)
+    output.close()
 
     return results_table
 
 
-def aggregrate_results(resultsA, resultsB, input_object_id):
+def aggregate_results(resultsA, resultsB, input_object_id):
     all_results = pd.concat([resultsA, resultsB])
     so = StandardOutput(results=all_results.to_dict(orient='records'), input_object_id=input_object_id)
     return so.output_object
@@ -117,10 +112,19 @@ if __name__ == '__main__':
 
     parser.add_argument('-v', '--verbose', help='echo script output verbosely to console', action='store_true')
 
-    parser.add_argument('-d', '--diseases',
-                        default='diseases.tsv',
+    disease_query = parser.add_mutually_exclusive_group(required=True)
+
+    # single disease input specification as a 2-tuple
+    disease_query.add_argument('-d', '--disease',
                         help="""
-name of a tab delimited text file of disease names - in the first column - 
+Comma delimited 'name, MONDO identifier'
+2-tuple string of a single disease to analyze"""
+                        )
+
+    # disease input as a list
+    disease_query.add_argument('-l', '--diseaseTable',
+                        help="""
+name of a tab delimited text file table of disease names - in the first column - 
 and associated MONDO identifiers - in the second column"""
                         )
 
@@ -138,16 +142,40 @@ and associated MONDO identifiers - in the second column"""
         print("Echoing results verbosely to the console!\n")
         setConsoleEcho(True)
 
-    disease_table_filename = args.diseases
+    # read in the diseases to analyze
+    disease_list = []
+
+    if args.disease:
+        disease_name, mondo_id = args.disease.split(',')
+        disease_list.append((disease_name, mondo_id))
+
+    elif args.diseaseTable:
+
+        disease_table_filename = args.diseaseTable
+        print("Reading in disease Table Filename:\t\t" + disease_table_filename)
+
+        with open(disease_table_filename, "r") as diseases:
+            for entry in diseases.readlines():
+
+                field = entry.split("\t")
+
+                # Skip the header
+                if str(field[0]).lower() == "disease":
+                    continue
+
+                # The first field is assumed to be the gene name or symbol, the second field, the MONDO identifier
+                disease_name = field[0]
+                mondo_id = field[1]
+
+                disease_list.append((disease_name, mondo_id))
 
     functional_threshold = args.functionalThreshold
+    print("Functional Similarity Threshold:\t" + str(functional_threshold))
 
     phenotype_threshold = args.phenotypeThreshold
+    print("Phenotype Similarity Threshold: \t"+str(phenotype_threshold))
 
-    if _echo_to_console:
-        print("Disease Table Filename:\t\t"+disease_table_filename)
-        print("Functional Similarity Threshold:\t"+str(functional_threshold))
-        print("Phenotype Similarity Threshold: \t"+str(phenotype_threshold))
+    print("\nLoading source ontology and annotation...")
 
     # Ontology Catalogs only need to be initialized once!
 
@@ -164,54 +192,56 @@ and associated MONDO identifiers - in the second column"""
     # diseases.tsv is assumed to be a tab delimited
     # file of diseases named (column 0) with their MONDO identifiers (column 1)
     # The optional header should read 'Disease' in the first column
-    with open(disease_table_filename, "r") as diseases:
-        for entry in diseases.readlines():
-            field = entry.split("\t")
+    for disease_name, mondo_id in disease_list:
 
-            # Skip the header
-            if str(field[0]).lower() == "disease":
-                continue
+        print("\nProcessing '" + disease_name + "(" + mondo_id + "):\n")
 
-            # The first field is assumed to be the gene name or symbol, the second field, the MONDO identifier
-            input_disease_name = field[0]
-            input_disease_mondo = field[1]
+        disease_associated_gene_set = \
+            diseaseGeneLookUp(
+                disease_name,
+                mondo_id
+            )
 
-            disease_associated_gene_set = \
-                diseaseGeneLookUp(
-                    input_disease_name,
-                    input_disease_mondo
-                )
+        if _echo_to_console:
+            print(
+                "\nDisease Associated Input Gene Set for '" +
+                disease_name + "(" + mondo_id + "):\n")
+            print(disease_associated_gene_set.get_data_frame().to_string())
 
-            Mod1A_results = \
-                similarity(
-                    func_sim_human,
-                    disease_associated_gene_set,
-                    functional_threshold,
-                    'Mod1A',
-                    'Functionally Similar Genes'
-                )
+        Mod1A_results = \
+            similarity(
+                func_sim_human,
+                disease_associated_gene_set,
+                functional_threshold,
+                'Mod1A',
+                'Functionally Similar Genes'
+            )
 
-            print("\nMod1A Results for '" + input_disease_name + "(" + input_disease_mondo + "):\n")
+        if _echo_to_console:
+            print("\nMod1A Results for '" +
+                  disease_name + "(" + mondo_id + "):\n")
             print(Mod1A_results.to_string())
 
-            Mod1B_results = \
-                similarity(
-                    pheno_sim_human,
-                    disease_associated_gene_set,
-                    phenotype_threshold,
-                    'Mod1B',
-                    'Phenotypically Similar Genes'
-                )
+        Mod1B_results = \
+            similarity(
+                pheno_sim_human,
+                disease_associated_gene_set,
+                phenotype_threshold,
+                'Mod1B',
+                'Phenotypically Similar Genes'
+            )
 
-            print("\nMod1B Results for '" + input_disease_name + "(" + input_disease_mondo + "):\n")
-            print(Mod1B_results.to_string())
 
-            std_api_response_json = \
-                aggregrate_results(Mod1A_results,
-                                   Mod1B_results,
-                                   disease_associated_gene_set.get_input_object_id()
-                                   )
+        std_api_response_json = \
+            aggregate_results(Mod1A_results,
+                               Mod1B_results,
+                               disease_associated_gene_set.get_input_object_id()
+                               )
 
-            # Echo to console
-            print("\nAggregate Mod1A and Mod1B Results as JSON for '" + input_disease_name + "(" + input_disease_mondo + "):\n")
+        # Echo to console
+        if _echo_to_console:
+            print("\nAggregate Mod1A and Mod1B Results as JSON for '" +
+                  disease_name + "(" + mondo_id + "):\n")
             print(std_api_response_json)
+
+    print("\nWF2 Processing complete!")

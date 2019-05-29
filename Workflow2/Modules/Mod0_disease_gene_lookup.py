@@ -68,9 +68,9 @@ class LookUp(object):
 
 class DiseaseAssociatedGeneSet(object):
 
-    def __init__(self, input_disease_symbol, input_disease_mondo ):
+    def __init__(self, input_disease_name, input_disease_mondo ):
 
-        self.input_disease_symbol = input_disease_symbol
+        self.input_disease_name = input_disease_name
         self.input_disease_mondo = input_disease_mondo
 
         # workflow input is a disease identifier
@@ -97,8 +97,8 @@ class DiseaseAssociatedGeneSet(object):
     def get_input_object_id(self):
         return self.lu.get_input_object_id()
 
-    def get_input_disease_symbol(self):
-        return self.input_disease_symbol
+    def get_input_disease_name(self):
+        return self.input_disease_name
 
     def get_data_frame(self):
         return self.disease_associated_genes

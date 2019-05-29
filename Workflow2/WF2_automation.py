@@ -11,7 +11,7 @@ from Modules.Mod1A_functional_sim import FunctionalSimilarity
 from Modules.Mod1B1_phenotype_similarity import PhenotypeSimilarity
 from Modules.StandardOutput import StandardOutput
 
-_SCRIPTNAME='WF2_automation'
+_SCRIPTNAME='WF2_automation.py'
 
 # Flag to control console output
 _echo_to_console = False
@@ -148,7 +148,7 @@ and associated MONDO identifiers - in the second column"""
     if args.disease:
         disease_name, mondo_id = args.disease.split(',')
         disease_name = disease_name.strip()
-        print("\nSingle disease specified:\t'" + disease_name + "(" + mondo_id + "):\n")
+        print("\nSingle disease specified:\t" + disease_name + "(" + mondo_id + "):\n")
         disease_list.append((disease_name, mondo_id))
 
     elif args.diseaseTable:
@@ -235,12 +235,18 @@ and associated MONDO identifiers - in the second column"""
                 'Phenotypically Similar Genes'
             )
 
+        if _echo_to_console:
+            print("\nMod1B Results for '" +
+                  disease_name + "(" + mondo_id + "):\n")
+            print(Mod1B_results.to_string())
+
 
         std_api_response_json = \
-            aggregate_results(Mod1A_results,
-                               Mod1B_results,
-                               disease_associated_gene_set.get_input_object_id()
-                               )
+            aggregate_results(
+                Mod1A_results,
+                Mod1B_results,
+                disease_associated_gene_set.get_input_object_id()
+            )
 
         # Echo to console
         if _echo_to_console:

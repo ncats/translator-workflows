@@ -10,6 +10,7 @@ from Modules.Mod0_disease_gene_lookup import DiseaseAssociatedGeneSet
 from Modules.Mod1A_functional_sim import FunctionalSimilarity
 from Modules.Mod1B1_phenotype_similarity import PhenotypeSimilarity
 from Modules.StandardOutput import StandardOutput
+from Modules.Mod1E_interactions import GeneInteractions
 
 _SCRIPTNAME='WF2_automation.py'
 
@@ -85,8 +86,9 @@ def disease_gene_lookup(name, id):
 STD_RESULT_COLUMNS = ['hit_id', 'hit_symbol', 'input_id', 'input_symbol', 'score']
 
 
-def similarity(model, input_gene_set, threshold, label, title):
-    # Subtle model-specific difference in gene set loading??
+def similarity(model, input_gene_set, threshold, module, title):
+
+    # Subtle model-specific difference in gene set loading
     annotated_input_gene_set = model.load_gene_set(input_gene_set)
 
     # Perform the comparison on specified gene set
@@ -98,7 +100,7 @@ def similarity(model, input_gene_set, threshold, label, title):
         results_table[~results_table['hit_id'].
             isin(input_gene_set.get_data_frame()['hit_id'].
                  tolist())].sort_values('score', ascending=False)
-    results_table['module'] = label
+    results_table['module'] = module
 
     # save the gene list to a file under the "Tidbit" subdirectory
 
@@ -113,6 +115,38 @@ def similarity(model, input_gene_set, threshold, label, title):
     output.close()
 
     return results_table
+
+
+def gene_interactions(model, input_gene_set, module, title):
+
+    # Subtle model-specific difference in gene set loading
+    annotated_input_gene_set = GeneInteractions.load_gene_set(input_gene_set)
+
+    results = model.get_interactions(annotated_input_gene_set)
+
+    results_table = pd.DataFrame(results)
+
+    counts = results_table['hit_symbol'].value_counts().rename_axis('unique_values').to_frame('counts').reset_index()
+    high_counts = counts[counts['counts'] > 12]['unique_values'].tolist()
+
+    final_results_table = pd.DataFrame(results_table[results_table['hit_symbol'].isin(high_counts)])
+
+    final_results_table['module'] = module
+
+    # save the gene list to a file under the "Tidbit" subdirectory
+
+    # Dump HTML representation
+    output = output_file(input_gene_set.get_input_disease_name(), title, "html")
+    dump_html(output, final_results_table.head())
+    output.close()
+
+    # Dump JSON representation
+    output = output_file(input_gene_set.get_input_disease_name(), title, "json")
+    # dumping the whole table in the JSON? or should I just dump the head?
+    final_results_table.to_json(output)
+    output.close()
+
+    return final_results_table
 
 
 def aggregate_results(results_a, results_b, input_object_id):
@@ -212,6 +246,9 @@ and associated MONDO identifiers - in the second column"""
     # its initialization with GO ontology and annotation
     pheno_sim_human = PhenotypeSimilarity('human')
 
+    # Gene interactions curated in the Biolink (Monarch) resource
+    interactions_human = GeneInteractions()
+
     # diseases.tsv is assumed to be a tab delimited
     # file of diseases named (column 0) with their MONDO identifiers (column 1)
     # The optional header should read 'Disease' in the first column
@@ -251,13 +288,27 @@ and associated MONDO identifiers - in the second column"""
                 disease_associated_gene_set,
                 phenotype_threshold,
                 'Mod1B',
-                'Phenotypically Similar Genes'
+                'Phenotypic Similar Genes'
             )
 
         if _echo_to_console:
             print("\nMod1B Results for '" +
                   disease_name + "(" + mondo_id + "):\n")
             print(Mod1B_results.to_string(columns=STD_RESULT_COLUMNS))
+
+        # Find Interacting Genes from Monarch data
+        Mod1E_results = \
+            gene_interactions(
+                interactions_human,
+                disease_associated_gene_set,
+                'Mod1E',
+                "Gene Interactions"
+            )
+
+        if _echo_to_console:
+            print("\nMod1E Results for '" +
+                  disease_name + "(" + mondo_id + "):\n")
+            print(Mod1E_results.head().to_string(columns=STD_RESULT_COLUMNS))
 
         # Not sure how useful this step is: to be further reviewed
         # (carried over from the Jupyter notebook)

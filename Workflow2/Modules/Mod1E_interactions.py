@@ -21,6 +21,8 @@ class GeneInteractions(object):
             'source': 'Monarch Biolink',
             'predicate': ['blm:interacts with']
         }
+
+    def metadata(self):
         print("""Mod1E Interaction Network metadata:""")
         pprint(self.meta)
 

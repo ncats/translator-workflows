@@ -95,6 +95,5 @@ ENV/
 
 # Jetbrains PyCharms IDE settings
 .idea/
-
-# local Pycharm venv
-py36/
+# PyCharms specific venv's ignored too?
+py3*/

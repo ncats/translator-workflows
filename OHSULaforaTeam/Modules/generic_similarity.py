@@ -57,6 +57,11 @@ class GenericSimilarity(object):
                         commonTerm_ids = a1.intersection(a2)
                         ## CX: get the labels (human understandable names) for the GO terms
                         commonTerm_labels = [self.associations.label(x) for x in commonTerm_ids]
+                        ## CX: checking whether the terms are terminal, close to terminal or not. This would be specific to Lafora. 
+                        # for term in commonTerm_ids:
+                            ## length 0 gets some HP terms: ~ 24 
+                            # if len(self.ontology.children(term))==3 and term[:2]=='GO':
+                                # print("yay this GO term is almost terminal! ", term)
 
                         subject_label = self.associations.label(subject_curie)
                         similarities.append({

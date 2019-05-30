@@ -5,6 +5,7 @@ from pprint import pprint
 from sys import stdout
 from json import dump
 
+
 class LookUp(object):
 
     def __init__(self):
@@ -38,6 +39,9 @@ class LookUp(object):
             'label': input_object['label'],
             'description': input_object['description'],
         }
+
+    def get_input_object_id(self):
+        return self.input_object['id']
     
     def echo_input_object(self,output=None):
         if output:
@@ -62,3 +66,42 @@ class LookUp(object):
         return input_genes_df
 
 
+class DiseaseAssociatedGeneSet(object):
+
+    def __init__(self, input_disease_name, input_disease_mondo ):
+
+        self.input_disease_name = input_disease_name
+        self.input_disease_mondo = input_disease_mondo
+
+        # workflow input is a disease identifier
+        self.lu = LookUp()
+
+        input_object = {
+            'input': self.input_disease_mondo,
+            'parameters': {
+                'taxon': 'human',
+                'threshold': None,
+            },
+        }
+
+        self.lu.load_input_object(input_object=input_object)
+
+        # get genes associated with disease from Biolink
+        self.disease_associated_genes = self.lu.disease_geneset_lookup()
+
+        self.input_curie_set = self.disease_associated_genes[['hit_id', 'hit_symbol']].to_dict(orient='records')
+
+    def echo_input_object(self, output=None):
+        return self.lu.echo_input_object(output)
+
+    def get_input_object_id(self):
+        return self.lu.get_input_object_id()
+
+    def get_input_disease_name(self):
+        return self.input_disease_name
+
+    def get_data_frame(self):
+        return self.disease_associated_genes
+
+    def get_input_curie_set(self):
+        return self.input_curie_set

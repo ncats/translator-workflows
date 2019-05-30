@@ -23,8 +23,8 @@ class GeneInteractions(object):
             'source': 'Monarch Biolink',
             'predicate': ['blm:interacts with']
         }
-        print("""Mod1E Interaction Network metadata:""")
-        pprint(self.meta)
+        # print("""Mod1E Interaction Network metadata:""")
+        # pprint(self.meta)
 
     def load_input_object(self, input_object):
         self.input_object = input_object
@@ -50,7 +50,7 @@ class GeneInteractions(object):
                     'input_symbol': interaction['input_symbol'],
                     'hit_symbol': interaction['hit_symbol'],
                     'hit_id': interaction['hit_id'],
-                    'score': 0,
+                    'score': 1,  ## Colleen switched this to 1 for later calculations
                 })
         return results
 

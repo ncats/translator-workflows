@@ -29,6 +29,7 @@ from BioLink.biolink_client import BioLinkWrapper
 from Modules.Mod0_lookups import LookUp
 from Modules.Mod1A_functional_sim import FunctionalSimilarity
 from Modules.Mod1B1_phenotype_similarity import PhenotypeSimilarity
+from Modules.Mod1E_interactions import GeneInteractions
 from Modules.StandardOutput import StandardOutput
 
 
@@ -129,10 +130,10 @@ def load_genes(model, data, threshold):
     return model
 
 """
-This function takes in a Modules.Mod1A_functional_sim.FunctionalSimilarity
-object representing the model, a list of data, a float threshold value, strings
+This function is used for Mod1A and Mod1B. It takes in a model (Mod1A or Mod1B),
+a list of data, a float threshold value, strings
 to represent the input disease symbol, module, and title, and a Pandas df of
-disease associated genes. CX MOD: It returns a tuple of 2  Pandas df
+disease associated genes.
 """
 def similarity(model, data, threshold, input_disease_symbol, module, title, disease_associated_genes):
     # Initialize
@@ -197,41 +198,108 @@ def main():
     input_disease_mondo = 'MONDO:0009697'
     
     # CX: from Mod0
-    # Lookup disease and get data available on it
+    ## Lookup disease and get data available on it
     input_object, disease_associated_genes, input_curie_set = diseaseLookUp(input_disease_symbol, input_disease_mondo)
 
-    # print objects from Mod0
+    ## print objects from Mod0
     print("Mod0 results: input_object")
     print(input_object)
     print("Mod0 results: disease associated genes")
     print(disease_associated_genes)
     print("Mod0 results: input curie set")
     print(input_curie_set)
-    #  Echo to console
+    ## Echo to console
     # disease_associated_genes
 
-    # Functional Similarity using Jaccard index threshold
-    # Originally set to 0.75 for Threshold. Lowering it (with Marcin's advice)
+    ## Functional Similarity using Jaccard index threshold
+    ## Originally set to 0.75 for Threshold. Lowering it (with Marcin's advice)
     # 0.25 gave me 563 results.  
     func_sim_human = FunctionalSimilarity()
     Mod1A_results = similarity( func_sim_human, input_curie_set, 0.4, input_disease_symbol, 'Mod1A', "Functionally Similar Genes",disease_associated_genes )
-
+    ## merging columns, creating lists of the inputs and sums of the scores
+    ## CX note: obviously it would be nice to do this all at once. the apply(list) only worked on one column at a time. aggregate only accepts a limited number of functions
+    Mod1A_part1 = Mod1A_results.groupby(['hit_symbol','hit_id'])['input_symbol'].apply(list).reset_index()
+    Mod1A_part2 = Mod1A_results.groupby(['hit_symbol','hit_id'])['input_id'].apply(list).reset_index()
+    Mod1A_part3 = Mod1A_results.groupby(['hit_symbol','hit_id']).aggregate({'score': 'count'}).rename(index=str, columns={'score':'FunctionalSimilarity'})
+    
+    ## Merge the parts together!
+    Mod1A_final = Mod1A_part1.merge(Mod1A_part2, on=['hit_symbol', 'hit_id'])
+    ## Another merge, and sort in descending order of number of interactions, ascending alphabetical order
+    Mod1A_final = Mod1A_final.merge(Mod1A_part3, on=['hit_symbol', 'hit_id']).sort_values(by=['FunctionalSimilarity','hit_symbol'], ascending=[False, True])
+    
+    Mod1A_basicSummary = Mod1A_final.filter(items=['hit_symbol', 'input_symbol', 'FunctionalSimilarity']).rename(index=str, columns={'hit_symbol': 'Output_Gene', 'input_symbol':'Input_Gene'})
     print("Mod1A results: threshold 0.4")
-    print(Mod1A_results.to_string())
-    csvPath1A = "./Mod1Aoutput.csv"
-    Mod1A_results.to_csv(csvPath1A, sep="\t")
+    print(Mod1A_basicSummary.to_string())
+    # csvPath1A = "./Mod1Aoutput.csv"
+    # Mod1A_results.to_csv(csvPath1A, sep="\t")
 
-    # Phenotypic simulatiry using OwlSim calculation threshold
-    # Originally set to 0.50 for Threshold. Lowering it (with Marcin's advice)
+    ## Phenotypic simulatiry using OwlSim calculation threshold
+    ## Originally set to 0.50 for Threshold. Lowering it (with Marcin's advice)
     pheno_sim_human = PhenotypeSimilarity()
     Mod1B_results = similarity( pheno_sim_human, input_curie_set, 0.25, input_disease_symbol, 'Mod1B', "Phenotypically Similar Genes",disease_associated_genes )
+    ## merging columns, creating lists of the inputs and sums of the scores
+    ## CX note: obviously it would be nice to do this all at once. the apply(list) only worked on one column at a time. aggregate only accepts a limited number of functions
+    Mod1B_part1 = Mod1B_results.groupby(['hit_symbol','hit_id'])['input_symbol'].apply(list).reset_index()
+    Mod1B_part2 = Mod1B_results.groupby(['hit_symbol','hit_id'])['input_id'].apply(list).reset_index()
+    Mod1B_part3 = Mod1B_results.groupby(['hit_symbol','hit_id']).aggregate({'score': 'count'}).rename(index=str, columns={'score':'PhenotypicSimilarity'})
+
+    ## Merge the parts together!
+    Mod1B_final = Mod1B_part1.merge(Mod1B_part2, on=['hit_symbol', 'hit_id'])
+    ## Another merge, and sort in descending order of number of interactions, ascending alphabetical order
+    Mod1B_final = Mod1B_final.merge(Mod1B_part3, on=['hit_symbol', 'hit_id']).sort_values(by=['PhenotypicSimilarity','hit_symbol'], ascending=[False, True])
+
+    Mod1B_basicSummary = Mod1B_final.filter(items=['hit_symbol', 'input_symbol', 'PhenotypicSimilarity']).rename(index=str, columns={'hit_symbol': 'Output_Gene', 'input_symbol':'Input_Gene'})
+
 
     print("Mod1B results: threshold 0.25")
-    print(Mod1B_results.to_string())
-    csvPath1B = "./Mod1Boutput.csv"
-    Mod1B_results.to_csv(csvPath1B, sep="\t")
-    # std_api_response_json = aggregrate_results(Mod1A_results, Mod1B_results, input_object)
+    print(Mod1B_basicSummary.to_string())
+    # csvPath1B = "./Mod1Boutput.csv"
+    # Mod1B_results.to_csv(csvPath1B, sep="\t")
 
+    ## CX: Mod1E code from WF2_FA_human.py file
+    ## I didn't make it into a function since I couldn't figure that out
+    
+    interactions_human = GeneInteractions()
+    mod1E_input_object_human = {
+        'input': input_curie_set,
+        'parameters': {
+        'taxon': 'human',
+        'threshold': None,
+        },
+    }
+    interactions_human.load_input_object(mod1E_input_object_human)
+    interactions_human.load_gene_set()
+    rawMod1Eresults = pd.DataFrame(interactions_human.get_interactions())
+    # rawMod1Eresults = pd.DataFrame(rawMod1Eresults)
+     
+    ## adjust the number in high counts to get output for genes with lots of interactions
+    # counts = rawMod1Eresults['hit_symbol'].value_counts().rename_axis('unique_values').to_frame('counts').reset_index()
+    ## For Lafora, make the number below 2, to get the genes that interact with both input genes
+    # high_counts = counts[counts['counts'] >= 12]['unique_values'].tolist()
+    # rawMod1Eresults= pd.DataFrame(rawMod1Eresults[rawMod1Eresults['hit_symbol'].isin(high_counts)])
+    
+    ## optional: add module name to it. 
+    # rawMod1Eresults['module']='Mod1E'
+    ## the highest results are the input genes...remove them
+    rawMod1Eresults = rawMod1Eresults[~rawMod1Eresults['hit_symbol'].isin(disease_associated_genes['hit_symbol'].tolist())]
+    
+    ## merging columns, creating lists of the inputs and sums of the scores
+    ## CX note: obviously it would be nice to do this all at once. the apply(list) only worked on one column at a time. aggregate only accepts a limited number of functions
+    Mod1E_part1 = rawMod1Eresults.groupby(['hit_symbol','hit_id'])['input_symbol'].apply(list).reset_index()
+    Mod1E_part2 = rawMod1Eresults.groupby(['hit_symbol','hit_id'])['input_id'].apply(list).reset_index()    
+    Mod1E_part3 = rawMod1Eresults.groupby(['hit_symbol','hit_id']).aggregate({'score': 'sum'}).rename(index=str, columns={'score':'Interactions'})
+    ## Merge the parts together!
+    Mod1E_final = Mod1E_part1.merge(Mod1E_part2, on=['hit_symbol', 'hit_id'])
+    ## Another merge, and sort in descending order of number of interactions, ascending alphabetical order
+    Mod1E_final = Mod1E_final.merge(Mod1E_part3, on=['hit_symbol', 'hit_id']).sort_values(by=['Interactions','hit_symbol'], ascending=[False, True])
+    
+    Mod1E_basicSummary = Mod1E_final.filter(items=['hit_symbol', 'input_symbol', 'Interactions']).rename(index=str, columns={'hit_symbol': 'Output_Gene', 'input_symbol':'Input_Gene'})
+    print("Mod1E results:")
+    print(Mod1E_basicSummary.to_string())
+    # print(Mod1E_part2.to_string())
+    # print(Mod1E_part3.to_string())
+
+    # std_api_response_json = aggregrate_results(Mod1A_results, Mod1B_results, input_object)
     # Echo to console
     # std_api_response_json
 

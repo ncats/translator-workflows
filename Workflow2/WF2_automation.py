@@ -18,9 +18,9 @@ _echo_to_console = False
 
 
 # Data type of switch input is interpreted as a Boolean value
-def setConsoleEcho(switch):
+def set_console_echo(switch):
     global _echo_to_console
-    _echo_to_console=switch
+    _echo_to_console = switch
 
 
 def output_file(tag, title, ext):
@@ -29,48 +29,60 @@ def output_file(tag, title, ext):
     # parameterized across two functions so that it's made explicit without
     # over-encoding the paths within their constructor arguments (makes it easier to edit.)
 
-    foldername = tag.replace(" ", "_")
-    tidbitPath = Path("Tidbit").relative_to(".") / foldername
+    folder_name = tag.replace(" ", "_")
+    tidbit_path = Path("Tidbit").relative_to(".") / folder_name
 
     filename = title.replace(" ", "_")
-    outputFilePath = tidbitPath / (filename + "." + ext)
-    makedirs(tidbitPath, exist_ok=True)
+    output_file_path = tidbit_path / (filename + "." + ext)
+    makedirs(tidbit_path, exist_ok=True)
 
     # Path objects compatible with file operations
-    output = open(outputFilePath, "w+")
+    output = open(output_file_path, "w+")
     output.info = {'tag': tag, 'title': title}
     return output
 
 
-def dump_html(output, body):
+def dump_html(output, body, columns=None):
     title = output.info['title'] + " for " + output.info['tag']
 
     doc = XHTML()
 
     doc.head.title(title)
     doc.body.h1(title)
-    doc.body.p.text(body.to_html(escape=False), escape=False)
+    doc.body.p.text(body.to_html(escape=False, columns=columns), escape=False)
 
     output.write(str(doc))
 
 
-def diseaseGeneLookUp(disease_name, mondo_id):
-    gene_set = DiseaseAssociatedGeneSet(disease_name, mondo_id)
+def disease_gene_lookup(name, id):
+    
+    gene_set = DiseaseAssociatedGeneSet(name, id)
 
     # save the seed gene definition and gene list to a
     # file under the "Tidbit/<symbol>" subdirectory
 
-    output = output_file(disease_name, "Definition", "json")
+    output = output_file(name, "Definition", "json")
     gene_set.echo_input_object(output)
     output.close()
 
     # save the gene list to a file under the "Tidbit" subdirectory
-    output = output_file(disease_name, "Disease Associated Genes", "html")
-    dump_html(output, gene_set.get_data_frame())
+    df = gene_set.get_data_frame()
+
+    # Dump HTML representation
+    output = output_file(name, "Disease Associated Genes", "html")
+    dump_html(output, df)
+    output.close()
+
+    # Dump JSON representation
+    output = output_file(name, "Disease Associated Genes", "json")
+    df.to_json(output)
     output.close()
 
     # genes to investigate
     return gene_set
+
+
+STD_RESULT_COLUMNS = ['hit_id', 'hit_symbol', 'input_id', 'input_symbol', 'score']
 
 
 def similarity(model, input_gene_set, threshold, label, title):
@@ -89,15 +101,22 @@ def similarity(model, input_gene_set, threshold, label, title):
     results_table['module'] = label
 
     # save the gene list to a file under the "Tidbit" subdirectory
+
+    # Dump HTML representation
     output = output_file(input_gene_set.get_input_disease_name(), title, "html")
-    dump_html(output, results_table)
+    dump_html(output, results_table, columns=STD_RESULT_COLUMNS)
+    output.close()
+
+    # Dump JSON representation
+    output = output_file(input_gene_set.get_input_disease_name(), title, "json")
+    results_table.to_json(output)
     output.close()
 
     return results_table
 
 
-def aggregate_results(resultsA, resultsB, input_object_id):
-    all_results = pd.concat([resultsA, resultsB])
+def aggregate_results(results_a, results_b, input_object_id):
+    all_results = pd.concat([results_a, results_b])
     so = StandardOutput(results=all_results.to_dict(orient='records'), input_object_id=input_object_id)
     return so.output_object
 
@@ -140,7 +159,7 @@ and associated MONDO identifiers - in the second column"""
 
     if args.verbose:
         print("Echoing results verbosely to the console!\n")
-        setConsoleEcho(True)
+        set_console_echo(True)
 
     # read in the diseases to analyze
     disease_list = []
@@ -201,7 +220,7 @@ and associated MONDO identifiers - in the second column"""
         print("\nProcessing '" + disease_name + "(" + mondo_id + "):\n")
 
         disease_associated_gene_set = \
-            diseaseGeneLookUp(
+            disease_gene_lookup(
                 disease_name,
                 mondo_id
             )
@@ -224,7 +243,7 @@ and associated MONDO identifiers - in the second column"""
         if _echo_to_console:
             print("\nMod1A Results for '" +
                   disease_name + "(" + mondo_id + "):\n")
-            print(Mod1A_results.to_string())
+            print(Mod1A_results.to_string(columns=STD_RESULT_COLUMNS))
 
         Mod1B_results = \
             similarity(
@@ -238,9 +257,10 @@ and associated MONDO identifiers - in the second column"""
         if _echo_to_console:
             print("\nMod1B Results for '" +
                   disease_name + "(" + mondo_id + "):\n")
-            print(Mod1B_results.to_string())
+            print(Mod1B_results.to_string(columns=STD_RESULT_COLUMNS))
 
-
+        # Not sure how useful this step is: to be further reviewed
+        # (carried over from the Jupyter notebook)
         std_api_response_json = \
             aggregate_results(
                 Mod1A_results,

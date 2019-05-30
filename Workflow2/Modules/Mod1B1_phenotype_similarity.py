@@ -67,7 +67,8 @@ class PhenotypeSimilarity(GenericSimilarity):
                     symbol = mg_hit['hits'][0]['symbol']
 
                 except Exception as e:
-                    print(gene, e)
+                    print(__name__+".load_gene_set() Exception: ", gene, e)
+
             annotated_gene_set.append({
                 'input_id': gene_curie,
                 'sim_input_curie': sim_input_curie,

@@ -59,7 +59,7 @@ class FunctionalSimilarity(GenericSimilarity):
                     gene_curie = gene['hit_id']
                     sim_input_curie = 'UniProtKB:{}'.format(mg_hit['hits'][0]['uniprot']['Swiss-Prot'])
                 except Exception as e:
-                    print(gene, e)
+                    print(__name__+".load_gene_set() Exception: ", gene, e)
 
             annotated_gene_set.append({
                 'input_id': gene_curie,

@@ -29,7 +29,7 @@ sys.path.append("../mvp-module-library")
 
 print(pypth)
 
-#from BioLink.biolink_client import BioLinkWrapper
+from Modules.Summary_mod import Summary_mod
 
 # Python 2 vs Python 3 Pickle:
 try:
@@ -61,7 +61,7 @@ fh.close()
 
 print("1a")
 print(mod1a_pickle.to_string())
-print("1b",mod1b_pickle.columns.values)
+print("1b",mod1b_pickle.to_string())
 #print(intput_genes_pickle)
 print("---------------------------------")
 
@@ -77,5 +77,6 @@ my_sum.add1B(mod1b_pickle)
 # Print brief and descriptive tables to console
 my_sum.get_all()
 
-# Write brief and descriptive tables to csv
+# Write brief and descriptive tables to csv and json
 my_sum.write_all()
+my_sum.write_json()

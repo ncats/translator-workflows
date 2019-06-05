@@ -30,17 +30,23 @@ Examination of the standalone script reveals how to use the code directly in oth
 
 There is a four step process for similarity searching:
 
-I. Due to the nature of Ontobio, it is important to tweak some parameters (which are in a local _ontobio_config.yaml_
-file) by importing and running the global function *configure_ontobio()
+I. Due to the nature of Ontobio, we need to disable the 'cachier' cache in our application by the following:
 
-II. *Setup:* an _in memory_ copy of the relevant ontology and annotation catalogs (and possibly, other configuration
- setup) is triggered by instantiating the following three class objects:
-a) ```FunctionalSimilarity()``` for GO molecular function and biological process comparisons.
-b) ```PhenotypeSimilarity()``` for phenotype ontology comparisons.
-c) ```GeneInteractions()``` for accessing Monarch Biolink data on gene interactions
+    from ontobio.config import session
+    session.config.ignore_cache = True
+    
+where the ontobio version we are using is a patched version (look for a version with the _ignore_cache_ flag in the
+Ontobio release in the _ontobio/config.yaml_ file).
 
-Note that the object handles returned by each of the three functions are used to call the associated computation on
-the catalog.
+II. An _in memory_ copy of the relevant ontology and annotation catalogs plus other setup processes are 
+triggered by instantiating the following three class objects:
+
+a) ```FunctionalSimilarity('human')``` for GO molecular function and biological process comparisons.
+b) ```PhenotypeSimilarity('human')``` for phenotype ontology comparisons.
+c) ```GeneInteractions()``` for accessing Monarch Biolink catalog of gene interactions
+
+Note that the object handles returned by each of the three functions are then used to call associated computations on
+each kind of catalog.
 
 Note that this catalog is used 'read-only' in the similarity comparisons so only needs to be loaded once, 
 at the start of the computation'. Then the comparisons may be done:

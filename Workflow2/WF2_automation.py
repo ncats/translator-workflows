@@ -1,25 +1,37 @@
+# Uncomment when we need to debug
+#import logging
+#logging.basicConfig(level=logging.INFO)
+
 from os import makedirs
 from pathlib import Path
-import logging
-
 import argparse
 
 import pandas as pd
 from html3.html3 import XHTML
 
+#############################################################
+# First, before loading all our analysis modules, we need
+# to tweak OntoBio to disable its @cachier cache. Our
+# patched Ontobio has an 'ignore_cache' flag which may be
+# overridden here before the rest of the system is loaded.
+# We do this because cachier seems to introduce an odd system
+# instability resulting in deep recursion on one method,
+# creating new threads and consuming stack memory to the point
+# of system resource exhaustion!  We conjecture that cachier
+# caching is unnecessary since we read the pertinent ontology
+# catalogs in just once into memory, for readonly reuse.
+##############################################################
+from ontobio.config import session
+session.config.ignore_cache = True
+
+# Now we can import the remainder of the modules (some which call Ontobio)
+from Modules.Mod0_disease_gene_lookup import DiseaseAssociatedGeneSet
+from Modules.Mod1A_functional_sim import FunctionalSimilarity
+from Modules.Mod1B1_phenotype_similarity import PhenotypeSimilarity
+from Modules.StandardOutput import StandardOutput
+from Modules.Mod1E_interactions import GeneInteractions
+
 _SCRIPTNAME='WF2_automation.py'
-
-
-# We need to disable @cachier cache in OntoBio to reliably run this script?
-# Using ontobio version which has the 'ignore_cache: True'
-# set inside the locally set ontobio_config.yaml file
-def configure_ontobio():
-    global ontobio_config
-    logging.basicConfig(level=logging.INFO)
-    session.default_config_path = Path(".").resolve().parent / "ontobio_config.yaml"
-    ontobio_config=get_config()
-    logging.basicConfig(level=logging.WARNING)
-
 
 # Flag to control console output
 _echo_to_console = False
@@ -232,20 +244,6 @@ and associated MONDO identifiers - in the second column"""
                 mondo_id = field[1]
 
                 disease_list.append((disease_name, mondo_id))
-
-    #####################################################
-    # First, before loading all our analysis modules,
-    # we need to tweak OntoBio to use
-    # a local ontobio_config.yaml configuration
-    #####################################################
-    from ontobio.config import session, get_config
-    configure_ontobio()
-
-    from Modules.Mod0_disease_gene_lookup import DiseaseAssociatedGeneSet
-    from Modules.Mod1A_functional_sim import FunctionalSimilarity
-    from Modules.Mod1B1_phenotype_similarity import PhenotypeSimilarity
-    from Modules.StandardOutput import StandardOutput
-    from Modules.Mod1E_interactions import GeneInteractions
 
     functional_threshold = args.functionalThreshold
     print("Functional Similarity Threshold:\t" + str(functional_threshold))

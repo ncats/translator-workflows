@@ -36,7 +36,18 @@ I. Due to the nature of Ontobio, we need to disable the 'cachier' cache in our a
     session.config.ignore_cache = True
     
 where the ontobio version we are using is a patched version (look for a version with the _ignore_cache_ flag in the
-Ontobio release in the _ontobio/config.yaml_ file).
+Ontobio release in the _ontobio/config.yaml_ file). As of June 4th, 2019, this code is available on a forked Git 
+repository and may be installed locally using a direct pip to git installation as follows:
+
+``` 
+# Uninstall the default version installed by the requirements file
+python -m pip uninstall ontobio
+
+# install a fresh version of the forked code
+python -m pip install git+https://github.com/STARInformatics/ontobio@master#egg=ontobio
+```
+
+Once the main Ontobio project has validated the pull request for this code, these README instructions will be revised.
 
 II. An _in memory_ copy of the relevant ontology and annotation catalogs plus other setup processes are 
 triggered by instantiating the following three class objects:

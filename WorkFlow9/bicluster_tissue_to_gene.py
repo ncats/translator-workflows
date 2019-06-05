@@ -3,12 +3,9 @@ import json
 import requests
 import asyncio
 import concurrent.futures
-import requests
 from collections import defaultdict, Counter
 
-bicluster_gene_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v3_gene/'
 bicluster_tissue_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v3_all_col_labels/'
-bicluster_bicluster_url = 'https://bicluster.renci.org/RNAseqDB_bicluster_gene_to_tissue_v3_bicluster/'
 
 class tissue_to_gene():
     def __init__(self):

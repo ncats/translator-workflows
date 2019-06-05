@@ -1,0 +1,24 @@
+Disease	Mondo	Type	DOID	notes	
+Asthma	MONDO:0004979	Common diseases	DOID:2841		
+T2Diabetes	MONDO:0005148	Common diseases	DOID:9352		
+Parkinson	MONDO:0005180	Common diseases	DOID:14330		
+atherosclerosis	MONDO:0005311	Common diseases	DOID:1936		
+Alzheimers	MONDO:0004975	Common diseases	DOID:10652		
+XP	MONDO:0019600	Rare	DOID:0050427		
+FA	MONDO:0019391	Rare	DOID:13636		
+Chordoma	MONDO:0008978	Rare	DOID:3302		
+ARSACS	MONDO:0010041	Rare	DOID:0050946		
+PKD	MONDO:0008263	Rare	DOID:0110858		
+PCD	MONDO:0016575	Rare	DOID:9562		
+MODY	MONDO:0018911	Rare	DOID:0050524		
+gingivitis	MONDO:0002508	infectious	DOID:3087		
+HSV	MONDO:0004609	infectious	DOID:8566		
+Measles	MONDO:0004619	infectious	DOID:8622		
+Candidiasis	MONDO:0002026	infectious	DOID:1508		
+Lead Poisoning	MONDO:0018019	miscellaneous	Orphanet:330015		
+Pica	MONDO:0001441	miscellaneous	DOID:12128		
+carcinoid syndrome	MONDO:0006689		Orphanet:100093		
+"Mental retardation, autosomal dominant 49 (MRD49)"	MONDO:0030914 	rare	DOID:0080234	TRP12	not in the knowledge graph
+Wegeners granulomatosis	MONDO:0012105				
+Bardet-Biedl syndrome	MONDO:0015229	rare 		14 genes involved 	
+"Niemann-Pick disease, type C1"	MONDO:0009757	rare 			

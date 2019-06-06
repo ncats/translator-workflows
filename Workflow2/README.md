@@ -14,13 +14,17 @@ TIDBIT artifacts of WF2 are indexed by disease and archived under the *Tidbit* s
 
 ### Preparing to Run the Script
 
-It it recommended to run the script within a Python virtual environment, within which Python dependencies need to be installed:
+Note that some of the modules used by the system now need to run with Python 3.7. It is also recommended to run the 
+application within a python virtual environment. The following commands will get the application running locally 
+on a given machine (check first the existence of various dependencies within your system, ensuring that they
+ are visible to your virtualenv - see below):
 
 ```
-virtualenv -p python3.6 venv
-source venv/bin/activate
+virtualenv -p python3.7 py37
+source py37/bin/activate
 pip install -r requirements.txt
 ```
+``
 
 The workflow 2 script relies on the Biolink "Ontobio" module to import its ontology for functional and phenotypic similarity computations. It is a known issue, however, that the use of the Python "cachier" cache library in Ontobio causes some runtime problems.
 We therefore disable it in our code using the following:

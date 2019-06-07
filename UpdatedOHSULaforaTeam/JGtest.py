@@ -71,7 +71,7 @@ fh.close()
 #print("1a")
 #print(mod1a_pickle.to_string())
 #print("1b",mod1b_pickle.to_string())
-#print(intput_genes_pickle)
+#print(intput_genes_pickle)  ## CX: This looks like a typo? or an old print statement?
 #print('1e')
 #print(mod1e_pickle.to_string())
 #print("---------------------------------")
@@ -87,14 +87,15 @@ my_sum.add1B(mod1b_pickle)
 my_sum.add1E(mod1e_pickle)
 
 # Print brief and descriptive tables to console
-#my_sum.get_all()
+my_sum.get_all()
 
 # Print brief and descriptive tables to console
-#my_sum.get_descriptive()
+my_sum.show_descriptive()
 
-#print(my_sum.module_names)
+print(my_sum.module_names)
 # Print brief
-my_sum.get_brief()
+my_sum.show_brief()
+
 
 # Write brief and descriptive tables to csv and json
 #my_sum.write_all()

@@ -1,3 +1,9 @@
+#
+# I'm not sure where this version of 1B fits into the NCATS Translator scheme
+# This ambiguity highlights the need for us to start providing top level documentation
+# on module software provenance...
+#
+
 from BioLink.biolink_client import BioLinkWrapper
 from pprint import pprint
 from mygene import MyGeneInfo

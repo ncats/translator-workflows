@@ -25,11 +25,11 @@ from ontobio.config import session
 session.config.ignore_cache = True
 
 # Now we can import the remainder of the modules (some which call Ontobio)
-from Modules.Mod0_disease_gene_lookup import DiseaseAssociatedGeneSet
-from Modules.Mod1A_functional_sim import FunctionalSimilarity
-from Modules.Mod1B1_phenotype_similarity import PhenotypeSimilarity
-from Modules.StandardOutput import StandardOutput
-from Modules.Mod1E_interactions import GeneInteractions
+from ncats_modules.module0   import DiseaseAssociatedGeneSet
+from ncats_modules.module1a  import FunctionalSimilarity
+from ncats_modules.module1b1 import PhenotypeSimilarity
+from ncats_modules.module1e  import GeneInteractions
+from ncats_modules.StandardOutput import StandardOutput
 
 _SCRIPTNAME='WF2_automation.py'
 
@@ -74,14 +74,14 @@ def dump_html(output, body, columns=None):
     output.write(str(doc))
 
 
-def disease_gene_lookup(name, id):
+def disease_gene_lookup(disease_name, mondo_id):
     
-    gene_set = DiseaseAssociatedGeneSet(name, id)
+    gene_set = DiseaseAssociatedGeneSet(disease_name, mondo_id)
 
     # save the seed gene definition and gene list to a
     # file under the "Tidbit/<symbol>" subdirectory
 
-    output = output_file(name, "Definition", "json")
+    output = output_file(disease_name, "Definition", "json")
     gene_set.echo_input_object(output)
     output.close()
 
@@ -89,12 +89,12 @@ def disease_gene_lookup(name, id):
     df = gene_set.get_data_frame()
 
     # Dump HTML representation
-    output = output_file(name, "Disease Associated Genes", "html")
+    output = output_file(disease_name, "Disease Associated Genes", "html")
     dump_html(output, df)
     output.close()
 
     # Dump JSON representation
-    output = output_file(name, "Disease Associated Genes", "json")
+    output = output_file(disease_name, "Disease Associated Genes", "json")
     df.to_json(output)
     output.close()
 

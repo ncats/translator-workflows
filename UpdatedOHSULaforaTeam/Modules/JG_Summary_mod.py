@@ -227,11 +227,14 @@ class Summary_mod(object):
     def get_descriptive(self):
         return self.desc_table
 
-    # This function prints both the brief and descriptive tables to console
+    # This function returns both the brief and descriptive tables to console
     def get_all(self):
-        print("here")
-        self.get_brief()
-        self.get_descriptive()
+        return self.get_brief() ,self.get_descriptive()
+
+    def show_all(self):
+        self.show_brief()
+        self.show_descriptive()
+        
 
     # This function writes the brief table to csv
     # An optional parameter specifies the filename

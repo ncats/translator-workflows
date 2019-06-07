@@ -48,5 +48,5 @@ descTable = descTable.rename(index=str, columns={"Output_gene":"OutputGene",
 # descTable2 = descTable.sort_values(by="OutputGene", axis=0)
 
 ##Read out table
-descOut = "./CXdescTable.csv"
+descOut = "./CXsorteddescTable.csv"
 descTable.to_csv(descOut)

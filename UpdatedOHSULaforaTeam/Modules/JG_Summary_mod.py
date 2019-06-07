@@ -113,6 +113,14 @@ class Summary_mod(object):
         self.brief_table = self.brief_table.reindex(columns=cols)
         # Now sort
         self.brief_table = self.brief_table.sort_values(['Total_hits'],ascending =False)
+        new_row_order = self.brief_table.index.tolist()
+
+        # Reordering descriptive table
+        print('here!') 
+        new_rows_Idx = dict(zip(new_row_order,range(len(new_row_order))))
+        self.desc_table['Output_rank'] = self.desc_table['Output_gene'].map(new_rows_Idx)
+        self.desc_table = self.desc_table.sort_values('Output_rank')
+        self.desc_table = self.desc_table.drop('Output_rank',axis=1)
 
 
 

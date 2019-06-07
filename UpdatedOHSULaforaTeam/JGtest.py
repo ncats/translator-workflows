@@ -32,7 +32,8 @@ print(pypth)
 # for reloading module
 #import imp
 
-from Modules.Summary_mod import Summary_mod
+#from Modules.Summary_mod import Summary_mod
+from Modules.JG_Summary_mod import Summary_mod
 
 #imp.reload(Summary_mod)
 
@@ -78,14 +79,22 @@ fh.close()
 # Add mod1a results to my_sum
 my_sum.add1A(mod1a_pickle)
 
-# Print brief and descriptive tables to console
-my_sum.get_all()
-
 # Add mod1b results to my_sum
-#my_sum.add1B(mod1b_pickle)
+my_sum.add1B(mod1b_pickle)
+
+
+# Add mod1e results
+my_sum.add1E(mod1e_pickle)
 
 # Print brief and descriptive tables to console
 #my_sum.get_all()
+
+# Print brief and descriptive tables to console
+#my_sum.get_descriptive()
+
+#print(my_sum.module_names)
+# Print brief
+my_sum.get_brief()
 
 # Write brief and descriptive tables to csv and json
 #my_sum.write_all()

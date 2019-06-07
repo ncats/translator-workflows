@@ -99,7 +99,21 @@ class Summary_mod(object):
 
 
         # sort by the total number of input genes for each output gene
-        self.brief_table = self.brief_table.sort_values(['Input_gene'],ascending =False)
+        # Make total hits but its at the end so reorder the table 
+        self.brief_table['Total_hits'] =  self.brief_table.drop('Input_gene', axis=1).sum(axis=1)
+
+        # Send the total hits to the second columns
+        cols = self.brief_table.columns.tolist()
+        
+
+        cols.insert(0, cols.pop(cols.index('Input_gene')))
+        cols.insert(1, cols.pop(cols.index('Total_hits')))
+        #print(cols)
+        # Reorder!
+        self.brief_table = self.brief_table.reindex(columns=cols)
+        # Now sort
+        self.brief_table = self.brief_table.sort_values(['Total_hits'],ascending =False)
+
 
 
     # This function takes in the Module1A results and updates both tables
@@ -197,12 +211,21 @@ class Summary_mod(object):
 
 
     # This function prints the brief table to console
-    def get_brief(self):
+    def show_brief(self):
         print(self.brief_table.to_string())
+        
+
+     # This function returns the brief table
+    def get_brief(self):
+        return self.brief_table
 
     # This function prints the descriptive table to console
-    def get_descriptive(self):
+    def show_descriptive(self):
         print(self.desc_table.to_string())
+
+    # This function retunrs the descriptive table 
+    def get_descriptive(self):
+        return self.desc_table
 
     # This function prints both the brief and descriptive tables to console
     def get_all(self):

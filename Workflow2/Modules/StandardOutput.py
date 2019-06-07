@@ -8,7 +8,7 @@ class StandardOutput(object):
         'Mod1B': 'phenotypically_similar_to',
         'Mod1E': 'interacts_with'
     }
-    essence_map ={
+    essence_map = {
         'Mod0': 'disease, gene',
         'Mod1A': 'gene, functional similarity',
         'Mod1B': 'gene, phenotypic similarity',

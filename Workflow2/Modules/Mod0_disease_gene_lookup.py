@@ -4,7 +4,7 @@ import pandas as pd
 from pprint import pprint
 from sys import stdout
 from json import dump
-
+import biolinkml
 
 class LookUp(object):
 

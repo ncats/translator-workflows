@@ -68,7 +68,7 @@ class LookUp(object):
 
 class DiseaseAssociatedGeneSet(object):
 
-    def __init__(self, input_disease_name, input_disease_mondo ):
+    def __init__(self, input_disease_name, input_disease_mondo):
 
         self.input_disease_name = input_disease_name
         self.input_disease_mondo = input_disease_mondo

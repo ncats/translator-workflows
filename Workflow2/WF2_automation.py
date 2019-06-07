@@ -174,7 +174,7 @@ def aggregate_results(results_a, results_b, input_object_id):
     return so.output_object
 
 
-if __name__ == '__main__':
+def main():
 
     # Parse command line arguments
     parser = argparse.ArgumentParser(
@@ -345,3 +345,6 @@ and associated MONDO identifiers - in the second column"""
             print(std_api_response_json)
 
     print("\nWF2 Processing complete!")
+
+if __name__ == '__main__':
+    main()

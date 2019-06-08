@@ -16,3 +16,4 @@ script runs, those modules get imported without an error.
 so *pip* installation of _mygenes.py_ module doesn't work. The hacky workaround is to cut-and-paste the missing text
 from the master repository, into the **\_\_init.py\_\_** file.
 
+Resolved: we applied the change recommended in https://github.com/biothings/mygene.py/issues/7

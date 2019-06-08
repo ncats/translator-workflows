@@ -1,7 +1,7 @@
 # Workflow 2, Module 0: Lookups
 
 from BioLink.biolink_client import BioLinkWrapper
-from mygene import MyGeneInfo
+from biothings_client import get_client
 import pandas as pd
 from pprint import pprint
 from sys import stdout
@@ -12,7 +12,7 @@ class LookUp(object):
 
     def __init__(self):
         self.blw = BioLinkWrapper()
-        self.mg = MyGeneInfo()
+        self.mg = get_client('gene')
         self.input_object = ''
         self.meta = {
             'data_type': 'disease',
@@ -56,10 +56,10 @@ class LookUp(object):
         input_disease_label = self.input_object['label']
         input_gene_set = self.blw.disease2genes(input_disease_id)
         input_gene_set = [self.blw.parse_association(input_disease_id, input_disease_label, x) for x in input_gene_set['associations']]
-        # for input_gene in input_gene_set:
-        #     igene_mg = self.mg.query(input_gene['hit_id'].replace('HGNC', 'hgnc'), species='human', entrezonly=True,
-        #                         fields='entrez,HGNC,symbol')
-        #     input_gene.update({'input_ncbi': 'NCBIGene:{}'.format(igene_mg['hits'][0]['_id'])})
+        for input_gene in input_gene_set:
+             igene_mg = self.mg.query(input_gene['hit_id'].replace('HGNC', 'hgnc'), species='human', entrezonly=True,
+                                 fields='entrez,HGNC,symbol')
+             input_gene.update({'input_ncbi': 'NCBIGene:{}'.format(igene_mg['hits'][0]['_id'])})
         input_genes_df = pd.DataFrame(data=input_gene_set)
         # # group duplicate ids and gather sources
         input_genes_df['sources'] = input_genes_df['sources'].str.join(', ')

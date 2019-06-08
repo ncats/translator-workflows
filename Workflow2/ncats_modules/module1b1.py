@@ -1,6 +1,6 @@
 # Workflow 2, Module 1B: Phenotype similarity
 from pprint import pprint
-from mygene import MyGeneInfo
+from biothings_client import get_client
 from .generic_similarity import GenericSimilarity
 
 
@@ -9,7 +9,7 @@ class PhenotypeSimilarity(GenericSimilarity):
     def __init__(self, taxon):
 
         GenericSimilarity.__init__(self)
-
+        self.mg = get_client('gene')
         self.taxon = taxon
         if self.taxon == 'mouse':
             self.ont = 'mp'
@@ -42,7 +42,6 @@ class PhenotypeSimilarity(GenericSimilarity):
     def load_gene_set(self, input_gene_set):
         annotated_gene_set = []
         for gene in input_gene_set.get_input_curie_set():
-            mg = MyGeneInfo()
             gene_curie = ''
             sim_input_curie = ''
             symbol = ''
@@ -57,7 +56,7 @@ class PhenotypeSimilarity(GenericSimilarity):
             if 'HGNC' in gene['hit_id']:
                 mgi_gene_curie = gene['hit_id'].replace('HGNC', 'hgnc')
                 scope = 'HGNC'
-                mg_hit = mg.query(mgi_gene_curie,
+                mg_hit = self.mg.query(mgi_gene_curie,
                                   scopes=scope,
                                   species=self.taxon,
                                   fields='uniprot, symbol, HGNC',

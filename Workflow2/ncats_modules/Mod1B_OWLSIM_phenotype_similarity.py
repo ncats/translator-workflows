@@ -6,7 +6,6 @@
 
 from BioLink.biolink_client import BioLinkWrapper
 from pprint import pprint
-from mygene import MyGeneInfo
 
 
 class OwlsimSimilarity(object):

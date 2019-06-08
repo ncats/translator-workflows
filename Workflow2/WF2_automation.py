@@ -2,6 +2,7 @@
 #import logging
 #logging.basicConfig(level=logging.INFO)
 
+import requests
 from os import makedirs
 from pathlib import Path
 import argparse
@@ -29,7 +30,7 @@ from ncats_modules.module0   import DiseaseAssociatedGeneSet
 from ncats_modules.module1a  import FunctionalSimilarity
 from ncats_modules.module1b1 import PhenotypeSimilarity
 from ncats_modules.module1e  import GeneInteractions
-from ncats_modules.StandardOutput import StandardOutput
+from ncats_modules.standard_output import StandardOutput
 
 _SCRIPTNAME='WF2_automation.py'
 
@@ -172,6 +173,20 @@ def aggregate_results(results_a, results_b, input_object_id):
     all_results = pd.concat([results_a, results_b])
     so = StandardOutput(results=all_results.to_dict(orient='records'), input_object_id=input_object_id)
     return so.output_object
+
+
+def publish_to_rtx(std_api_response_json, input_disease_symbol, input_disease_mondo, title):
+    # get the URL for these results displayed in the RTX UI
+    rtx_ui_request_url = "https://rtx.ncats.io/api/rtx/v1/response/process"
+    to_post = {"options": ["Store", "ReturnResponseId"], "responses": [std_api_response_json]}
+    rtx_ui_url = requests.post(rtx_ui_request_url, json=to_post)
+
+    # Write out a master index web page
+    output = output_file(input_disease_symbol, "index", "html")
+    file_index(output, input_disease_symbol, input_disease_mondo, rtx_ui_url)
+    output.close()
+
+    return rtx_ui_url
 
 
 def main():

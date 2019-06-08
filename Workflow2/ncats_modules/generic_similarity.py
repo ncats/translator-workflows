@@ -1,3 +1,4 @@
+# Shared core similarity functions
 from ontobio.ontol_factory import OntologyFactory
 from ontobio.io.gafparser import GafParser
 from ontobio.assoc_factory import AssociationSetFactory

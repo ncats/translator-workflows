@@ -1,6 +1,7 @@
-from .generic_similarity import GenericSimilarity
+# Workflow 2, Module 1A: Functional similarity
 from pprint import pprint
 from mygene import MyGeneInfo
+from .generic_similarity import GenericSimilarity
 
 
 class FunctionalSimilarity(GenericSimilarity):
@@ -87,7 +88,3 @@ class FunctionalSimilarity(GenericSimilarity):
                           entrezonly=True)
         if mg_hit['total'] == 1:
             return 'HGNC:{}'.format(mg_hit['hits'][0]['HGNC'])
-
-
-
-

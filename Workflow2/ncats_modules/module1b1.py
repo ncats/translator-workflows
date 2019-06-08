@@ -1,6 +1,7 @@
+# Workflow 2, Module 1B: Phenotype similarity
+from pprint import pprint
 from mygene import MyGeneInfo
 from .generic_similarity import GenericSimilarity
-from pprint import pprint
 
 
 class PhenotypeSimilarity(GenericSimilarity):

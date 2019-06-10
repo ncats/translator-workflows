@@ -1,5 +1,10 @@
 # Workflow 2 Reimagined
 
+## NOTE: CHANGE OF HOME!
+
+Note that as of June 7th, the core modules of this Workflow 2 has be moved over to a new
+repository *ncats/translator-modules*. This folder of translator workflow code will be deprecated.
+
 # Background
 
 Workflow 2 was originally conceptualized within a Jupyter Notebook. It is now progressing 

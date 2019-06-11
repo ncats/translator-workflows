@@ -1,3 +1,24 @@
+import sys
+import shutil
+# Adjust path to find custom modules
+if '/' in sys.executable:
+    pyptha = sys.executable.split('/')
+    pyptha[-2]= 'lib'
+else:
+    pyptha = sys.executable.split('\\')
+    pyptha[-2] = 'lib'
+pypth='/'.join(pyptha) + '*/site-packages'
+
+# Hack to get around problematic updating of distutils installed PyYAML and a 
+# slightly older pandas requiring a compatible numpy
+shutil.rmtree(pypth + '/PyYAML*', ignore_errors=True)
+shutil.rmtree(pypth + '/numpy*', ignore_errors=True)
+
+
+sys.path.append("../mvp-module-library")
+
+
+
 from os import makedirs
 from pathlib import Path
 
@@ -30,14 +51,23 @@ def output_file(tag, title, ext):
     # takes the tidbit directory that is relative to the current directory
     # parameterized across two functions so that it's made explicit without
     # over-encoding the paths within their constructor arguments (makes it easier to edit.)
+    try:
+        foldername = tag.replace(" ", "_")
+        tidbitPath = Path("Tidbit").relative_to(".") / foldername
 
-    foldername = tag.replace(" ", "_")
-    tidbitPath = Path("Tidbit").relative_to(".") / foldername
+        filename = title.replace(" ", "_")
+        outputFilePath = tidbitPath / (filename + "." + ext)
+        print(tidbitPath)
+        makedirs(tidbitPath, exist_ok=True)
 
-    filename = title.replace(" ", "_")
-    outputFilePath = tidbitPath / (filename + "." + ext)
-    makedirs(tidbitPath, exist_ok=True)
+    except:
+        foldername = tag.replace(" ", "_")
+        tidbitPath = str(Path("Tidbit").relative_to(".")) + "\\" + foldername
 
+        filename = title.replace(" ", "_")
+        outputFilePath = tidbitPath + "\\" + (filename + "." + ext)
+        print(tidbitPath)
+        makedirs(tidbitPath, exist_ok=True)
     # Path objects compatible with file operations
     output = open(outputFilePath, "w+")
     output.info = {'tag': tag, 'title': title}

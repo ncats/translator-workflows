@@ -30,3 +30,6 @@ Run python script LaforaEnrichedSummary.py to create final descriptive summary t
 Writer information: CX is Colleen Xu, JG is Jacob Gutierrez. 
 This directory holds the older scripts that we wrote. Before running them, check and change path information so they can access all imported modules correctly. JG files used pickle-output stored in the data subdirectory. 
 
+###Notes:
+To use pickle with pandas dataframes, pandas 0.24.1 needs to be used. 
+Work based on an older Workflow2 (ncats translator master ~ early May 2019) is in OHSULaforaTeam directory in the fork (same level as UpdatedLaforaTeam). 

@@ -8,7 +8,7 @@ Lafora_team_final_automation.py
 To run our query:
 Run run_final.sh (bash script)
 
-Examples of CSV output:
+Examples of CSV Summary outputs with our query:
 Lafora_BriefSummary.csv 
 Lafora_DescriptiveSummary.csv
 
@@ -22,9 +22,9 @@ Mod1E_interactions.py: changed the score returned for each interaction to 1 (so 
 ###Enrichment Work: AddingLaforaEnrichment subdirectory
 Uses output from ShinyGO, stored in ShinyGOFiles subdirectory
 Run python script ShinyGOProcessing.py to create CSVs of output-input pairs with associated enriched terms from Mod1A and Mod1B. 
-	FunctEnrichedLaforaOutput.csv and PhenoEnrichedLaforaOutput.csv.
+	Outputs: FunctEnrichedLaforaOutput.csv and PhenoEnrichedLaforaOutput.csv.
 Run python script LaforaEnrichedSummary.py to create final descriptive summary table used by our team
-	EnrichedDescLaforaSummary.csv 
+	Output: EnrichedDescLaforaSummary.csv 
 
 ###Older work: OlderScripts subdirectory
 Writer information: CX is Colleen Xu, JG is Jacob Gutierrez. 

@@ -1,3 +1,8 @@
+"""
+Adapted from WF2_automation.py and WF2_FA_human.py from ~5/28/19. 
+Mainly written by OHSU team's Jacob Gutierrez and Colleen Xu (CX in comments), 
+with input from Megan Grout for Windows compatibility
+"""
 import sys
 import shutil
 # Adjust path to find custom modules

@@ -1,3 +1,7 @@
+"""
+OHSU Colleen Xu 5/29/19: Adjusted score to be 1 (count of interactions) rather than 0
+                         See Line 57
+"""
 from BioLink.biolink_client import BioLinkWrapper
 from pprint import pprint
 from mygene import MyGeneInfo
@@ -50,7 +54,7 @@ class GeneInteractions(object):
                     'input_symbol': interaction['input_symbol'],
                     'hit_symbol': interaction['hit_symbol'],
                     'hit_id': interaction['hit_id'],
-                    'score': 1,  ## CX adjusted this!
+                    'score': 1,  ## Colleen adjusted this!
                 })
         return results
 

@@ -1,3 +1,9 @@
+"""
+OHSU Colleen Xu, 5/29/19: Added a shared_labels item to every similarities dict
+			  (See Lines 83, 84, 92)
+shared_labels: list of human-readable GO terms (the labels of shared_terms) that 
+		underlie the similarity between the two genes 
+"""
 from ontobio.ontol_factory import OntologyFactory
 from ontobio.io.gafparser import GafParser
 from ontobio.assoc_factory import AssociationSetFactory

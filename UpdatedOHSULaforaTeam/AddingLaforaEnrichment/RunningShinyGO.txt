@@ -1,0 +1,9 @@
+How the ShinyGO enrichment output was generated:
+
+Ran with Human species (Select Human under box 1)
+Ran with default parameters (top 30 most significant terms, P-value cutoff of 0.05 (FDR).
+
+Gene list inputs:
+Gene list from Mod1A (Functional Similarity) and the input genes were run through GO Molecular Function enrichment and GO Biological Process enrichment, generating two CSV files. 
+
+Gene list from Mod1B (Phenotypic Similarity) and the input genes were run through Other:HPO enrichment, generating 1 CSV file. 

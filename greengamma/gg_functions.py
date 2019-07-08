@@ -83,7 +83,7 @@ def quick(question,max_results=None,output_format=None,max_connectivity=None,rob
     max_connectivity: The maximum degree of a node to be included inu an answer.  Used to control generality and speed. Defaults to 0 (unlimited) but 1000 is a good value to try
     robokop_server: the server name or ip address where robokop is running
     """
-    url=f'http://{robokop_server}:80/api/simple/quick/'
+    url=f'https://{robokop_server}/api/simple/quick/'
     if max_results is not None:
         url += f'?max_results={max_results}'
     if output_format is not None:
@@ -92,6 +92,7 @@ def quick(question,max_results=None,output_format=None,max_connectivity=None,rob
     if max_connectivity is not None:
         j = '&' if '?' in url else '?'
         url += f'{j}max_connectivity={max_connectivity}'
+    print(url)
     response = requests.post(url,json=question)
     print( f"Return Status: {response.status_code}" )
     if response.status_code == 200:

@@ -1,0 +1,1390 @@
+NCBI Bookshelf. A service of the National Library of Medicine, National Institutes of Health.
+
+Nussey S, Whitehead S. Endocrinology: An Integrated Approach. Oxford: BIOS Scientific Publishers; 2001.
+
+Chapter 3The thyroid gland
+
+Chapter objectives
+Knowledge of
+1
+
+Importance of iodine in thyroid metabolism
+
+2
+Mechanisms of iodination of tyrosine and their regulation
+3
+Physiological roles of thyroxine and tri-iodothyronine, their transport and metabolism
+4.
+Physiological control of thyroid growth and hormone secretion
+5
+Causes and clinical effects of insufficient and excessive thyroid hormone secretion
+6.
+
+Investigation and treatment of thyroid disease
+See, see! what showers arise,
+
+Blown with the windy tempest of my heart.’
+King Henry VI Part III, William Shakespeare.
+
+Thyroid hormones are extremely important and have diverse actions. They act on virtually every cell in the body to alter gene transcription: under- or over-production of these hormones has potent
+effects. Disorders associated with altered thyroid hormone secretion are common and affect about 5% women and 0.5% men.
+
+Like the catecholamines epinephrine and norepinephrine, thyroid hormones are synthesized from the amino acid tyrosine. The synthesis of thyroid hormones requires the iodination of tyrosine molecules
+and the combination of two iodinated tyrosine residues (Box 3.1). Whilst tyrosine is relatively easily iodinated, iodine is rare, ranking 61st in the list of most common elements and forming just
+0,000006% of the Earth's mantle. The thyroid gland has evolved not only to trap this element avidly from dietary sources but also to maintain a large store of the iodinated tyrosines to maintain the
+secretion of thyroid hormones during periods of relative iodine deficiency. Clinical Case 3,1 illustrates the importance of iodine in thyroid function and, whilst it is relatively unusual, it demonstrates the
+problems of excess iodine intake and a consequent increase in thyroid hormone synthesis and release.
+
+Clinical Case 3.1
+
+‘A 25-year-old city high-flyer was in an interview for a position with a merchant bank. During the interview she suddenly found herself unable to speak and left the room unsteadily and in tears under the
+gaze of her disbelieving interviewers. The sympathetic secretary in the outer office ordered her a taxi to the hospital. She was found to have an irregular pulse rate of 180 beats per minute and remained
+unable to find her words (termed an expressive dysphasia). By writing, she was able to inform the medical team that she was taking the drug amiodarone for a heart condition that runs in her father's
+family. She had attributed recent anxiety, poor sleeping patterns, intolerance of summer weather and a 3 kg weight loss to the worry over the job interview. An electrocardiogram confirmed the irregular
+tachycardia and a diagnosis of a left cerebral hemisphere stroke (causing the expressive dysphasia), secondary to atrial fibrillation, was made. The atrial fibrillation was treated. Clinical examination
+revealed a diffusely enlarged thyroid gland (Box 3.4) and blood tests later confirmed that she was hyperthyroid.
+
+ 
+
+The important clue to Clinical Case 3.1, which led to her diagnosis, was the drug she had been prescribed to treat her inherited cardiac condition. Amiodarone (Box 3.2) contains 30% by weight of iodine
+and, at the dose prescribed (one 200 mg tablet daily), she was ingesting approximately 70 mg iodine per day.
+
+ 
+
+Iodine intake
+
+The normal European daily dietary intake of iodine is about 150 1g, of which approximately 125 ig is taken up by the thyroid gland and used for hormone synthesis. The patient in Clinical Case 3.1 was,
+thus, taking over 500 times the normal intake (released upon the breakdown of amiodarone) resulting in an excess production and release of thyroid hormones and symptoms of hyperthyroidism. In
+contrast, lack of iodine in the diet leads to hypothyroidism,
+
+Iodine (as the iodide, I’ is relatively abundant in seawater and seafood is a rich dietary source. Fruit and vegetables also contain significant concentrations of iodine, although the amount depends on the
+soil and growing region. Areas of iodine deficiency tend to be inland, at high altitude and isolated and daily iodine intake may be as low as 25 jg. The term cretinism, used to define the severe
+
+impairment of physical and neurological development resulting from iodine deficiency during fetal and post-natal development, derived from ‘cretein’ a term first used in the Swiss Alps. The word cretin
+entered the vernacular as a term of abuse indicating severe mental retardation. In 1994, nearly 30% of the world population was at risk of iodine deficiency. The commitment from the World Health
+Organization in 1990 to eliminate iodine deficiency disorders by the year 2000 (with a policy of iodide supplementation of salt) had reduced the population at risk to less than 15% by 1997.
+
+ 
+
+Increased iodine intake or a deficiency of dietary iodine can both induce goiter formation (Box 3.4). The former results from increased thyroid hormone synthesis and storage as seen in Clinical Case 3.1.
+Goiter formation in regions of dietary deficiency (the most common cause of goiter), is graphically illustrated in Box 3.3. It is due to reduced thyroid hormone synthesis and the compensatory increased
+secretion of the pituitary hormone thyrotrophin as a result of the loss of negative feedback (see below).
+
+Anatomical features of the thyroid gland
+
+The thyroid gland consists of two lobes lying on either side of the ventral aspect of the trachea. Each lobe is about 4 cm in length and 2 cm thickness connected together by a thin band of connective
+tissue called the isthmus (Box 3.4). Weighing approximately 20 g, it is one of the largest classical endocrine glands in the body and receives a high blood flow from the superior thyroid arteries (arising
+from the external carotids) and the inferior thyroid arteries (arising from the subclavian arteries). The gland is so important that it takes more blood per unit weight than the kidney and sometimes, when
+there is a goiter, blood flow in the gland may be heard with a stethoscope. The sound is termed a bruit,
+
+The functional unit of the thyroid gland is the follicle, a roughly spherical group of cells arranged around a protein-rich storage material called colloid. The follicular cells are orientated with their bases
+near the capillary blood supply and the apices abutting the colloid.
+
+Iodine trapping and thyroid function
+
+The active uptake of iodide (°) by the follicular cells involves an energy-requiring (ATPase-dependent) transport mechanism which allows I to be taken up from capillary blood against both a
+concentration and an electrical gradient in exchange for Na* (Box 3,5). This enables the thyroid gland to concentrate iodide 30-50 times that of the circulating concentration and allows radioactive
+isotopes to be used to investigate patients with thyroid disease (Box 3,6). Other ions such as bromide, chlorate or pertechnetate (though not fluoride) may also compete with I for this uptake process and
+this has important clinical uses (see Box 3.14). On a normal daily iodide intake the thyroid gland clears approximately 20 ml of plasma iodide per minute.
+
+ 
+
+The active uptake of iodide appears to be the main control point for hormone synthesis and is stimulated by the pituitary hormone thyrotrophin (thyroid stimulating hormone, TSH). Iodide itself,
+however, plays an important role in regulating the activity of the thyroid gland (termed autoregulation). Excess iodine given to a person with normal thyroid gland activity leads to an initial reduction in
+organification and hormone synthesis and secretion, the Wolff-Chaikoff effect. ‘Escape’ from this inhibition (as was seen in Clinical Case 3.1) generally occurs after several days. The exact mechanism(s)
+of such autoregulation is unknown but the Wolff-Chaikoff effect is useful clinically because pharmacological doses of iodine may be used to reduce acutely the activity of the thyroid gland (see page 19).
+When dietary intake of iodine is insufficient, overactivity of the thyroid gland is a more common initial response to excess iodine.
+
+Synthesis of thyroid hormones
+
+The synthesis and storage of thyroid hormones occurs between the follicular cells and the colloid (Box 3,5). Different follicles may be in different states of activity. Less active follicles contain cells with
+a more cuboidal appearance, whilst the active follicles contain columnar cells:
+
+The process of thyroid hormone synthesis is complex. Once inside the follicular cell, iodide is oxidized to active iodine by hydrogen peroxide. This reaction is catalyzed by the heme-containing enzyme
+thyroid peroxidase (TPO). Iodine is then actively transported across the apical surface of the follicular cell by the same active process that occurs at the basal surface.
+
+ 
+
+At the apical-colloid interface, iodine is immediately incorporated into the tyrosine residues of the large glycoprotein thyroglobulin molecules. Thyroglobulin is synthesized in the follicular cells and has
+a molecular weight of around 650 000 with about 140 tyrosine residues, depending on the form of thyroglobulin. Approximately one quarter of these residues can be iodinated. Once iodinated,
+thyroglobulin is taken up into the colloid of the follicle where, still incorporated in the protein, a coupling reaction between pairs of iodinated tyrosine molecules occurs. The coupling of two tyrosine
+residues each iodinated at two positions (di-iodotyrosine, DIT) produces tetra-iodothyronine or thyroxine (Tg) whilst the combination of DIT with mono-iodotyrosine (MIT) produces tri-iodothyronine
+(1). Such coupling can occur within a single molecule of thyroglobulin or between dimerized molecules of the protein. This coupling is catalyzed by TPO
+
+Thyroid hormones are stored in this state and are only released when the thyroglobulin molecule is taken back up into the follicular cells (Box 3.7). Stimulated by TSH, thyroglobulin droplets are
+captured by the follicular cells by a process of pinocytosis. Fusion of the droplets with lysosomes results in hydrolysis of the thyroglobulin molecules and release of Ty and T3. About 10% of Ty
+undergoes mono-deiodination to T3 before it is secreted and the released iodine is recycled.
+
+Approximately 100 jig of thyroid hormones are secreted from the gland each day, mostly in the form of T, with about 10% as T3. Eighty percent of the T, undergoes peripheral conversion to the more
+active T3 in the liver and kidney (T3 is ten times more active than Ty) or to reverse T3 (rT) that has little or no biological activity (Box 3.1). Very small quantities of other iodinated molecules, such as
+MIT and DIT as well as thyroglobulin, are also measurable in the circulation. As this thyroglobulin originates from the normal secretory process, its measurement in the serum is used, for example, to
+detect endogenous thyroid secretion when patients are taking oral T, replacement (an important clinical use)
+
+ 
+
+Actions of thyroid hormones
+
+The effects of thyroid hormones on virtually every cell in the body is manifest in the widespread clinical effects of their lack or excess (Box 3.8). They are very important in growth and development and
+
+their role in these processes will be discussed in relation to Clinical Case 3.3 (see page 94).
+
+ 
+
+Many of the actions of thyroid hormones are mediated by their binding to nuclear receptors (Box 3.9) that have a preferential affinity for T3. T3 receptors are, like all the steroid hormone receptors,
+members of a family of nuclear transcription factors that, in combination with other transcription factors, regulate gene expression in target cells. Unlike some steroid receptors (i.e. those for sex steroids
+and glucocorticoids), thyroid hormone receptors exist in the nucleus, not the cytoplasm, and may remain bound to DNA in the absence of hormone binding
+
+Thyroid hormones are lipid soluble and readily cross cell membranes. Once inside the nucleus, T binds to its receptor. This dimerizes with another T3 receptor (to form a homodimer) or with a different
+receptor, notably the retinoic acid receptor, to form a heterodimer (Box 3,9). In this form, the dimers interact with DNA. This occurs between recognition sites in the “zine fingers’ of the DNA-binding
+domains of the receptors and particular base sequences in the DNA helix known as hormone response elements (HRE). The location of HREs determines which genes are regulated by Ts.
+
+There is also evidence that thyroid hormones can have rapid, non-genomic effects on membrane receptors independent of protein synthesis. These include stimulation of sugar transport, Ca ATPase
+activity and increased Na* transport in muscle. The receptors for these effects have not been identified.
+
+In most tissues (exceptions include brain, spleen and testis), thyroid hormones stimulate the metabolic rate by increasing the number and size of mitochondria, stimulating the synthesis of enzymes in the
+respiratory chain and increasing membrane Na*-K* ATPase concentration and membrane Na* and K* permeability. Since as much as 15-40% of a cell's resting energy expenditure is used to maintain its
+electrochemical gradient (pumping Na* out in exchange for K*), increasing the Na*-K* ATPase activity, therefore, increases the resting metabolic rate (RMR). RMR may increase by up to 100% in the
+presence of excess hormones or decrease by as much as 50% in a deficiency.
+
+The clinical signs of intolerance to heat, weight loss and fatigue, as seen in Clinical Case 3.1. are typical symptoms of patients presenting with hyperthyroidism (Box 3.10) and provide evidence of the
+metabolic action of thyroid hormones on their target tissues. In contrast, the hypothyroid patient is intolerant to cold, is lethargic, gains weight and has a cool, dry skin.
+
+Whilst these metabolic changes associated with hyperthyroidism increase cardiac output, the increase is disproportionate to the increase in metabolic rate. The reason for this is that thyroid hormones
+have positive inotropic and chronotropic effects on the heart. The chronotropic effects of thyroid hormone (increases in sinoatrial node firing rate, decreases in atrial excitation threshold, decreased
+refractory period of conduction tissues) may be due to increases in sarcolemmal Nat transport and Ca?+ influx. The inotropic effects (increase in contractile force) may be mediated by increases in Ca2+-
+ATPase activity in sarcoplasmic reticulum and increases in the expression of the a-myosin heavy chain.
+
+  
+
+Thus, it is reasonable to assume that it was these effects of excess thyroid hormones on the cardiovascular system that led to the onset of atrial fibrillation in Clinical Case 3.1. This led to the disastrous
+formation of atrial thrombus with subsequent embolization to the left cerebral hemisphere producing a stroke and the consequent temporary loss of speech.
+
+Control of thyroid hormone synthesis and secretion
+
+Like the adrenal cortex and the gonads, the thyroid gland is controlled by hormone secretions from the hypothalamo-pituitary axis, The synthesis and secretion of TSH from the thyrotrophs is stimulated
+by the tripeptide, thyrotrophin-releasing hormone (TRH). This small peptide, cleaved from a larger pro-hormone, is released from neurosecretory cells in the hypothalamus into the hypothalamo-
+hypophyseal portal capillaries where it is transported to the pituitary thyrotrophs (Box 3.11). TSH secretion is inhibited by other hormones (including somatostatin and dopamine) and also cytokines,
+particularly IL-1, IL-6 and TNF-c.
+
+TSH is a complex glycoprotein hormone, containing approximately 16% carbohydrate. It contains 211 amino acids in two sub-units and has a molecular weight of about 28 000-30 000. The ot unit is
+identical to that of two other glycoprotein hormones secreted by the human anterior pituitary gland, luteinizing hormone (LH) and follicle stimulating hormone (FSH, see Box 6.13). The i unit is unique
+to TSH and confers biological specificity. The structural homology between TSH, LH and FSH includes *knots’ of three disulfide bonds in both a and fi sub-units. The glycosylation of TSH is
+heterogeneous and this affects both its bioactivity and clearance. TSH has a ty/2 in the circulation of about | h.
+
+The cell surface receptor for TSH is a typical G-protein linked receptor with 7 helical transmembrane domains, 3 external (E) loops and three internal (1) loops (Box 3.12). The hormone binds to the long
+extracellular amino terminus whilst the carboxyl terminus is intracellular. There are approximately | 000 TSH receptors on the basal surface of each follicular cell.
+
+The binding of TSH to its receptor activates the G proteins associated with the I loops. This involves the replacement of GDP bound to the ay G-protein heterotrimer with GTP. The ct sub-unit then
+dissociates from the complex and activates intracellular enzymes. The G proteins coupled to the TSH receptor, Gs and Gq, stimulate adenylate cyclase and phospholipase C, respectively. Adenylate
+cyclase activates protein kinase A whilst phospholipase C stimulates the hydrolysis of phosphoinositides to inositol trisphosphate (IP3) and diacylglycerol. IP3 transiently increases the concentration of
+intracellular Ca+ whilst diacylglycerol activates protein kinase C (Box These kinases activate further signal transduction mechanisms that eventually stimulate several processes involved in
+thyroid hormone synthesis and release and thyroid growth. These include iodine uptake, production of hydrogen peroxide and TPO and uptake of colloid droplets.
+
+ 
+
+Inactivating mutations in the long extracellular amino-terminal of this receptor have been described and lead to hypothyroidism. In contrast, activating mutations have been described in El and E2 and 13
+and the 2nd, 3rd, 6th and 7th transmembrane domains, though most are around the 6th and 7th domains. Activating mutations have been reported most frequently in autonomous ‘hot’ nodules (areas of
+increased growth and activity) of the gland. If present in the germ line and thus heritable (which is extremely rare), such activating mutations cause familial hyperthyroidism. Mutations of Gs (termed
+sp) that result in constitutive activation of the G protein have also been described in *hot’ nodules.
+
+The concentration of thyroid hormones in the circulation is regulated by an homeostatic feedback loop involving the hypothalamo-pituitary axis (Box 3.11). The main effect of thyroid hormones is to
+reduce the response of the pituitary thyrotrophs to TRH rather than altering the secretion rate of TRH from the hypothalamus. The sensitivity of the thyrotrophs to TRH depends on their intracellular
+concentration of T3, 80% of which is derived from the intrapituitary conversion of T, to Ts (see Box 3.29). When circulating concentrations of Tg are low, there is an increase in the number of TRH
+receptors and in TSH synthesis resulting in an increased TSH response to TRH. The reverse is true in the presence of high circulating concentrations of thyroid hormones. The TSH response to a bolus
+injection of TRH has been used to diagnose the exact cause of hypo- and hyper-thyroidism, but measurement of thyroid hormones and TSH, using sensitive modem assays, is usually sufficient for
+diagnosis. Thus, in Clinical Case 3,1 concentrations of thyroid hormones in peripheral blood were high and the negative feedback resulted in unmeasurably low serum concentration of TSH.
+
+This regulatory loop is affected by internal and external factors that alter the rate at which TSH is secreted. It is secreted in a pulsatile fashion with a diurnal variation, peaking around midnight.
+Environmental temperature may stimulate or inhibit the release of TSH by adjusting TRH secretion. Thus, after 24 h exposure to a cold environment, the plasma concentrations of thyroid hormones
+increase with a consequent rise in basal metabolic rate and an increase in the endogenous production of body heat. This effect is more marked in rats than humans. Pharmacological doses of
+glucocorticoids, as prescribed in anti-inflammatory therapy, or seen in Cushing's syndrome inhibit thyroid hormone secretions by reducing the TSH secretory response to TRH. In contrast, estrogens have
+the opposite effect, increasing TSH secretion and, hence, increasing the activity of the thyroid gland.
+
+Hyperthyroidism — Graves' disease
+
+ 
+
+The importance of the TSH receptor in regulating the activity of the thyroid gland is exemplified by Clinical Case 3.2. This patient has Graves' disease, an autoimmune disease resulting in the production
+of autoantibodies that stimulate the TSH receptor. This highly unusual action of an antibody (most block receptor activation) not only stimulates thyroid hormone synthesis and secretion but also thyroid
+growth. Autoantibodies to thyroglobulin and TPO may also be present.
+
+Clinical Case 3.2
+
+A 35-year-old woman came to the outpatient clinic with her 5-month-old child, She had noted increasing tenseness and irritability with her baby, poor sleep, weight loss and palpitations. Her husband
+was concerned that she had post-natal depression and had taken time off work to look after the family. She had an unremarkable past medical history and had sailed through pregnancy without any
+problems; she denied depression but felt exhausted all the time. She recalled that her late mother had an operation on her neck in her twenties and that her younger sister had regular vitamin injections for
+anemia. She ruefully admitted that the recent strain had led her to restart smoking ten cigarettes daily. On examination, she had a moderate diffuse goiter with an audible bruit, a tremor and a resting
+tachycardia of 100/min. Her eyes were prominent and puffy (see Box 3.16).
+
+Like Clinical Case 3.1, this patient with hyperthyroidism is also a young woman with cardiac problems and a diffuse goiter indicating that the pathology was affecting all parts of the gland. The
+differences between these two cases are that in the second case there was a suggestive family history of thyroid disease, a recent pregnancy, evidence of eye problems and no evidence of an excess intake
+of iodine.
+
+Incidence and diagnosis of Graves' disease
+
+Graves’ disease is the most common cause of hyperthyroidism and other causes are uncommon or, indeed, rare (Box 3.13). For reasons that remain unknown, it is much commoner in women, particularly
+those aged 30-50. It affects approximately 3% women and 0.3% men. The family history indicates a genetic predisposition to autoimmune disease. In Clinical Case 3.2, the patient's mother had had
+Graves’ disease and her sister pernicious anemia (also considered to be autoimmune in nature). The exact nature of this genetic predilection remains uncertain but experimental studies have suggested
+linkage with a number of other genes. These include a linkage with certain histocompatibility complex genes (on chromosome 6) and associations with other diseases that are characterized by markers of
+autoimmunity, suggesting a primary genetic defect in immune function. The familial associations include pernicious anemia, Sjogren's syndrome, Addison's disease, type | diabetes mellitus and primary
+biliary cirrhosis.
+
+ 
+
+The relationship of thyroid disease to a recent pregnancy is noteworthy for several reasons. First, pregnancy alters thyroid physiology and, overall, increases circulating concentrations of thyroid
+hormones (Box 3.14). Second, pregnancy is associated with an amelioration of symptoms associated with autoimmune diseases (i.e. immunosuppression) although the causes of this are not understood.
+Third, the immunological changes that occur post-partum induce a recrudescence of (or, indeed, first appearance of) autoimmune hyperthyroidism or hypothyroidism; it is likely that this caused the
+hyperthyroidism seen in Clinical Case 3,2. It is estimated the 215% women become hyperthyroid (often transiently) post-partum.
+
+ 
+
+ 
+
+   
+
+Graves’ disease may be distinguished from other causes of hyperthyroidism because it is associated with abnormalities of the eyes and integument. The diagnosis may be confirmed by the detection of
+autoantibodies to the TSH receptor (Box 3.15). However, the presence of such antibodies is not essential to the diagnosis; indeed, the absence of autoantibodies is usually attributed to the assay.
+
+    
+
+Ophthalmopathy and dermopathy of Graves' disease
+
+ 
+
+The patient in Clinical C: presented with prominent and puffy eyes and, indeed, eye disease is the most common associated feature of Graves' disease. Since the ophthalmopathy is linked to Graves’
+disease rather than other autoimmune diseases of the thyroid (such as Hashimoto's disease, see below), it is generally considered that the eye disease results from autoimmune interactions within the orbit
+involving the TSH receptor. However, attempts to identify the expression of the TSH receptor protein or receptor fragments within the eye have been problematical. In addition, the eye disease may arise
+
+before, during or after raised thyroid hormone secretions. Thus, its etiology appears to be independent of thyroid function
+
+The features of Graves’ ophthalmopathy are given in Box 3.16. There are three phases to the eye disease; an active period of inflammation is followed by regression and a third inactive or ‘burnt out”
+period. Those elements of the disease that are expressed within the orbit are far more serious than those expressed extraorbitally because they can endanger vision. Within the orbit, antibodies stimulate
+the production of glycosaminoglycans by the fibroblasts, These attract large amounts of water and, thus, increase retro-orbital pressure causing bulging of the eyes (proptosis). The increased pressure may
+jeopardize the vascular supply to the eye. Inflammatory activity within the orbit (involving T lymphocytes, macrophages and local production of cytokines) may lead to muscle fibrosis and cause diplopia
+(double vision). In contrast, the extra-orbital lid retraction and chemosis do not threaten vision though they may be awkward for the patient.
+
+  
+
+ 
+
+‘Treatment of the severe symptoms of eye disease (Box 3,17) are problematic although minor symptoms such as grittiness or sensitivity can be treated with synthetic tears or darkened and wind protective
+glasses. An interesting point about Clinical Case 3.2 is that she was a smoker. Smoking increases the risk of thyroid eye disease some 7-fold, although the relationship to the number (or duration) of
+cigarettes smoked is poorly defined and the cause unknown.
+
+The effects of Graves' disease on the integument are shown in Box 3.18. Graves’ dermopathy is the least frequent of all the associated symptoms and even less is known about its etiology. Like the
+ophthalmopathy it is associated with an increased production of glycosaminoglycans (predominantly hyaluronic acid and chondroitin sulfate) that causes edema, as in the orbit.
+
+ 
+
+‘Treatment of hyperthyroidism
+
+There are three methods of treating hyperthyroidism — drugs, surgery and radioisotopes. None is ideal; each has its own advantages and disadvantages (Box 3.19); none is exclusive and, not
+infrequently, a combination of therapies is used
+
+ 
+
+Antithyr
+
+ 
+
+drugs
+There are three types of drugs used to inhibit thyroid hormone synthesis and release
+‘Thiocarbamides
+
+These are the most widely used and were developed after the discovery that feeding certain plants (particularly those of the genus Brassica) to animals caused goiter formation. Thiocarbamides reduce
+thyroid hormone synthesis by inhibiting TPO. The synthetic thiocarbamides now used are carbimazole (or its main metabolite methimazole in the US) and propylthiouacil (abbreviated to PTU) (Box
+3.19). They have short half-lives, particularly so in the case of PTU, and for this reason carbimazole is more widely used. However, PTU tends to be prescribed to pregnant and lactating women because
+it binds to plasma proteins and less crosses the placenta or enters the breast milk. It also has the added advantage of reducing the hepatic conversion of the less active T, to T3 (Box 3.29).
+
+High doses of anti-thyroid drugs are initially prescribed to patients with Graves’ disease and the dose gradually reduced whilst aiming to keep the patient euthyroid, Alternatively some clinicians use the
+“block and replace’ regimen in which patients are maintained on high doses of anti-thyroid drugs with replacement thyroxine as appropriate.
+
+Anti-thyroid treatment is continued for a somewhat arbitrary length of time (about 18 months) with the hope that the patients will be ‘cured’ (in remission) after a single course. Unfortunately, many
+patients relapse after stopping the drug.
+
+Iodine
+The fastest acting anti-thyroid agent is iodine itself, reducing thyroid hormone synthesis within three days through a presumed autoregulatory mechanism. It may be given as drops of “Lugol's solution of
+
+iodine’ or a saturated solution of potassium iodide for 10 days or so. This form of treatment is no longer widely used but is particularly useful in the short term in hyperthyroid ‘storm’ where the degree
+of thyrotoxicosis becomes life threatening (with, for example, cardiac failure). It has also been used prior to thyroid surgery to reduce the high blood supply to the gland.
+
+ 
+
+Perchlorate
+
+Perchlorate reduces thyroid hormone synthesis by competing with iodine for uptake into the thyroid gland and discharging iodine from the trapped pool. It is no longer used routinely because it is
+relatively toxic with adverse effects on bone marrow. However, it is used in cases such as that of Clinical Case 3.1 in which there has been an acute excess of iodine.
+
+The patient in Clinical Case 3.1 was treated with a combination of perchlorate and carbimazole and her anti-arrhythmic drug was changed to one that did not contain iodine, a -adrenergic receptor
+blocker that has additional benefits in hyperthyroidism, particularly on cardiac symptoms.
+
+Destruction of thyroid tissue is the alternative to drug therapy. This can be done using radioactive isotopes of iodine or surgically.
+
+Radioiodine
+
+Radioactive isotopes of iodine have been in use for over 50 years and today !3!T, with a radioactive half-life of 8 days is the most commonly used for therapy. Since it has proved almost impossible to
+calculate a dose of the isotope that would result in euthyroidism in individual patients and !3!J treatment is remarkably safe, many clinicians now use a fixed dose of isotope (for example 15mCi or
+550MBgq) and aim to produce hypothyroidism. Once hypothyroidism is induced, such patients can be treated with oral thyroxine that is cheap, effective and easy to monitor. '*!J js also used to treat
+euthyroid goiters (so as to avoid surgery) and such treatment usually results in a reduction of about 40% in the volume of the thyroid gland.
+
+Thyroid surgery
+The ancient Egyptians considered that a goiter added grace and beauty to a female neck. Whilst most women in the 20th century might not agree with this view, they are often reluctant to exchange a
+
+goiter for a 7 cm scar on the neck. Thus, unless the goiter is malignant, surgery is usually restricted to large and unsightly goiters that are not treatable medically or with radioiodine. It is important to note
+that, prior to surgery, the patient must be rendered euthyroid with drugs because of the increased risks of anesthesia and surgery in the hyperthyroid patient.
+
+ 
+
+ 
+
+Surgical anatomy and embryology of the thyroid gland
+
+The surgical anatomy of the thyroid gland is complex and important because of its proximity to the common carotid artery and internal jugular vein, the laryngeal and vagus nerves and its close
+association with the parathyroid glands (Box 3.20). The thyroid gland is the first endocrine gland to develop in the embryo and begins to form about 24 days after fertilization. Like Rathke's pouch, that
+develops into the anterior pituitary gland (see Box 7.2), the thyroid gland also develops from an outgrowth of the pharyngeal endoderm. As the embryo grows the thyroid gland descends into the neck
+and for a short time the gland is connected to the developing tongue by a narrow tube, the thyroglossal duct. At around 7 weeks, the gland has assumed its definitive shape and has reached its final
+destination in the neck. By this time the thyroglossal duct has normally disappeared although its remnants persist as a small pit, the foramen cecum (Box 3.21C).
+
+The parathyroid glands that are closely associated with the thyroid gland also develop from the pharyngeal endoderm, in this case the 3rd and 4th pharyngeal pouches (see Box 3.21B). The inferior
+parathyroid glands (sitting at the lower poles of the two lobes of the thyroid gland) migrate with the thymus gland, and the superior parathyroids from the 4th pharyngeal pouch migrate laterally.
+
+The embryology of these glands results in three important clinical sequelae (Box 3.21). First, the thyroglossal duct may not disappear completely and this may result in mid-line thyroglossal cysts. The
+connection with the tongue means that such cysts move upwards when the tongue is protruded. Second, ectopic thyroid and parathyroid tissue may be found in a number of positions from the tongue to
+the chest. Third, surgery to the thyroid gland may result in the removal of parathyroid tissue and subsequent hypoparathyroidism.
+
+Primary hypothyroidism — Hashimoto's disease and myxedema
+
+The most common causes of hypothyroidism are autoimmune in etiology (Box 3,22). Like Graves’ disease they may have a number of autoimmune markers, including the presence of autoantibodies.
+However, unlike Graves’ disease, T-cell mediated actions result in thyroid gland destruction rather than stimulation. The symptoms of hypothyroidism are vividly demonstrated in the next case.
+
+Clinical Case 3.3
+
+‘A 19-year-old young man presented to the Emergency Room with pain in the left hip and knee. X-rays showed that he had a slipped femoral epiphysis A . At the age of 19.7 years, he was 1.544 m tall
+and weighed 57 kg. His mother, who had type | diabetes mellitus and hypothyroidism, reported him to be a ‘lazy sod ... difficult to get out of bed in the morning’. His schoolwork had been poor and he
+had worn sweaters even during the summer. He looked much younger than his age C and, indeed, his bone age (an index of skeletal development) was markedly delayed at 13.4 years. His pubertal
+development was also delayed by several years (Tanner stage 3) and his serum testosterone concentration was low at 4 nmol/l (NR 9-25 nmol/l). A moderate size goiter was palpable.
+
+  
+
+Image ch3fbq3a,jpz
+
+Image delecA jpg X-ray appearances of the hips at presentation. Comparison of the epiphyses of the right and left femurs
+(arrowed)
+
+  
+
+hows that the left has ‘slipped’ sideways at the junction with the diaphysis
+
+Image ch3fbq3b jpg
+Image delecB ,jpg X-ray appearances of the hips after surgical correction.
+
+Image ch3fbq3c.jpz
+Image ch3fbq3d jpg
+
+Image delecC jpg Facial appearance at presentation (eft) and after 7 months treatment of T, (right).
+
+Hashimoto's disease is similar to Graves’ disease in that it occurs with about the same incidence and with the same sex bias, peak age of presentation and family history of thyroid disease or related
+autoimmune diseases. In this regard, Clinical Case 3.3 was atypical in being male and younger, but serves to illustrate the catastrophic effects of the lack of thyroid hormones.
+
+Etiology and clinical features of Hashimoto's disease
+
+The cause of the autoimmunity is unknown and since the autoimmune processes in Hashimoto's disease induce destruction of the thyroid gland, it may be surprising to note that it is marked by goiter
+formation. The goiter is the result of diffuse lymphocytic infiltration (which gives it a number of alternative names such as chronic lymphocytic thyroiditis), together with TSH-stimulated hyperplasia of
+surviving thyroid tissue due to loss of feedback inhibition from the thyroid hormones. The goiter is usually diffuse with a characteristic — at least to the experienced clinician — ‘rubbery’ feel to
+
+palpation. It is rare for it to be painful or problematic by its size and surgery is infrequently required. Other features of this disease are antibodies against TPO and thyroglobulin (usually in much higher
+titers than in Graves’). Some patients are affected by a period of hyperthyroidism, in which case it is termed “Hashitoxicosis’, but the degree of hyperthyroidism is usually milder than in Graves' disease.
+
+Hypothyroidism is also associated with primary thyroid atrophy and termed primary myxedema. The relationship between Hashimoto's disease and myxedema has been much discussed but it seems
+highly likely that non-goitrous myxedema is simply an end-stage of autoimmune destruction leaving only fibrous remnants. A role for antibodies to the TSH receptor that block the actions of TSH (rather
+than stimulating the receptor as in Graves' disease) has also been proposed.
+
+ 
+
+The symptoms of hypothyroidism are extremely diverse — as might be predicted (Box 3.23). Clinical Case 3.3 showed a number of classic features including those affecting mental processes, gut
+motility, metabolic rate and the skeleton, He also presented with pubertal delay, though it is to be noted that hypothyroidism can occasionally present in the teenage years with precocious puberty.
+
+Diagnosis of hypothyroidism
+
+The diagnosis of Hashimoto's disease is usually easy, based on the presence of goiter, circulating thyroid autoantibodies and low circulating concentrations of thyroid hormones with high TSH
+concentrations. Biochemical investigation in Clinical Case 3.3 was performed to investigate the cause of his poor growth and pubertal delay that culminated in his presentation to orthopedic surgeons
+with a slipped femoral epiphysis. These revealed total serum T, to be unmeasurable at <10 nmol/l (NR 70-150 nmol/l) with a very high serum TSH (110 mU/l), NR 0.54 mU/l. Anti-TPO antibodies
+were positive in high concentration, Surgical procedures in hypothyroidism are associated with increased risk of morbidity and mortality. He was started on oral thyroxine therapy and subsequently
+underwent surgery. After some 7 months, he was seen in the out-patient department complaining that his friends did not recognize him (Clinical Case 3.3, C). His growth and pubertal development
+matched the change in his facial appearance.
+
+   
+
+‘Treatment of primary hypothyroidism
+
+Use of the prohormone thyroxine in the treatment of primary hypothyroidism is cheap and easy to monitor. The conversion of Tg to T3 is physiologically regulated and the dose can be altered according
+to serum TSH concentrations. No attempt is made to treat the underlying immune disorder. Severe hypothyroidism resulting in ‘myxedema coma’ is not often seen nowadays but may require parenteral
+T, or T; in addition to general supportive measures and hydrocortisone.
+
+It is to be noted that some physiological conditions such as pregnancy may increase T requirements whilst gastrointestinal diseases or drugs such as sucralfate may decrease its absorption. Requirements
+may also be increased by drugs increasing its clearance such as rifampicin whilst some such as amiodarone may decrease Tg to T3 conversion. Diseases such as cirrhosis of the liver or the natural
+processes of ageing may decrease requirements.
+
+ 
+
+The terms ‘compensated hypothyroidism’ or “decreased thyroid reserve’ have been used to indicate the situation in which circulating Ty or T3 concentrations are low-normal but serum TSH
+concentrations are elevated. There has been discussion over when such patients should be treated with Ty. In this controversial area, some have argued that patients with serological evidence of anti-
+thyroid antibodies are likely to develop clinical hypothyroidism and should be treated.
+
+Other forms of thyroiditis
+
+The term thyroiditis is a term applied to a number of conditions that arise as a result of inflammation of the thyroid gland and, as has been seen, Hashimoto's chronic lymphocytic thyroiditis is the most
+common. Others are thought to result from infections and give rise to very different clinical features.
+
+Bacterial or fungal infections may precipitate acute thyroiditis whilst subacute thyroiditis, such as De Quervain's, has been attributed to a viral illness. De Quervain's is usually self-limiting, but with a
+tendency to recur and the diagnosis is made on clinical features (general malaise and a painful thyroid gland). If fine-needle aspiration cytological examination (FNA, see Box 3.33) is performed it may
+reveal the presence of inflammatory cells. The disease process is associated with evidence of an acute phase reaction (a non-specific reaction leading to the high erythrocyte sedimentation rate) and the
+release of thyroid hormones from damaged cells. It is not due to hyperfunctioning thyroid tissue and "Te scans show reduced or absent iodine uptake (Box 3.6) and thiocarbamides play no part in
+treatment.
+
+ 
+
+Some affected patients (approximately 50%) may have some symptoms of hyperthyroidism and, in a later phase of the illness, a temporary period of hypothyroidism may be experienced. During the
+acute phase, anti-inflammatory oral glucocorticoids (c.g. prednisolone) bring about rapid symptomatic relief.
+
+  
+
+Riede!’s thyroiditis is not associated with features of inflammation but has additional features of fibrotic reaction elsewhere (c.g. retroperitoneal fibrosis in the abdomen). Like Hashimoto's disease, it
+results in progressive destruction of the thyroid gland that may necessitate Ty replacement therapy.
+
+Secondary hypothyroidism
+
+Less often, hypothyroidism may result from a loss of trophic stimulation due to damage or disease of the hypothalamic-pituitary axis. Thus, in the absence of the TRH and/or TSH drive, thyroid function
+
+is reduced. Clinical Case 3.4 illustrates some of the clinical features of hypothyroidism and indicates how secondary hypothyroidism can be distinguished from primary hypothyroidism
+
+ 
+
+Clinical Case 3.4
+
+‘A 28-year-old man was seen in the outpatient clinic with his wife. He had noted gradually worsening tiredness and fatigability, making his job difficult to maintain. He had gained weight (approximately
+3 kg) and his wife had noted that he had worn an extra sweater during the winter months. His feet had been cold in bed and his hair and skin dry. His wife has had to take time off from work to bring her
+husband to the clinic (because her husband's car was being repaired following damage to both the near- and offside wings) and was naturally keen to see things sorted out quickly. The blood tests showed
+that the serum Ty was low and the TSH was normal. Thyroid autoantibodies were negative.
+
+This patient had clinical features typical of hypothyroidism. Whilst autoimmunity is the commonest cause of both primary hyper- and hypothyroidism, two noteworthy features indicate that this was not
+the cause of the hypothyroidism seen in this case. First, the patient was a young male and second, the serum TSH concentration was normal in the face of a low T, concentration. Thus, in the absence of
+raised concentrations of TSH with low concentrations of thyroid hormones (as seen in primary hypothyroidism) the cause lay at the level of the hypothalamus or pituitary gland. The fact that the patient
+had damaged both front wings of his car was another clinical indicator. He has a visual field defect (see Box 7.1) caused by a large benign pituitary tumor that extended above the pituitary fossa and
+pressed on the optic chiasm. The patient had secondary hypothyroidism due to hypopituitarism.
+
+ 
+
+ 
+
+‘Treatment of secondary hypothyroidism
+
+Clinical Case 3.4 raised the clinical problem of how much T, should be given to replace a deficit. Over the last 20-30 years (and as assays for TSH have improved), the daily dose of T, has been reduced
+from 300-400 ig to about 125-175 jig (approximately 1.5 jig/kg ideal weight in adults). In a patient with primary hypothyroidism, there is general agreement that the amount of thyroxine given should
+be titrated against measurements of the serum TSH, aiming to keep this parameter within the normal range. This, of course, assumes normal function of the enzyme that converts Ty to T3 and is
+important in mediating the feedback effects of thyroid hormones on the pituitary gland. However, in a patient without an intact feedback loop and in the absence of a cheap, reliable measure of T3 action
+in peripheral tissues, the replacement dose is generally guessed in the range 100-200 ig. The question of combined T; and T, replacement (mimicking the natural secretion of the thyroid gland) is under
+active discussion.
+
+Hypothyroidism in infancy and childhood
+
+Clinical Case 3,3 illustrated the dramatic effects of hypothyroidism during pubertal development. However the effects are worse (and permanent) when hypothyroidism occurs in fetal, neonatal and early
+childhood. An athyroidal or hypothyroidal neonate occurs in approximately 1:4000 live births and, since thyroid hormones are essential for normal development of the nervous and skeletal systems,
+neonatal screening programmes are used (Box 3.24). These involve measuring serum concentrations of TSH by a sensitive immunoradiometric assay (Box 3.25) and such tests ensure that all affected
+neonates receive T replacement as early as possible after birth
+
+ 
+
+The most severely affected infants will, however, be left with a permanent decrease in psycho-neurological function, probably reflecting intrauterine events. If there is any doubt about thyroid status (for
+example, with borderline results), itis better to replace thyroxine up to the age of, say, 2 years when treatment can be stopped under supervision and reassessment performed. The usual dose given is up
+to ten times the adult mean dose calculated on surface area. In childhood, acquired hypothyroidism (usually autoimmune) characteristically presents, as has been seen, with poor growth, epiphyseal
+dysplasia or poor school attainment. All features respond very well to T, replacement,
+
+ 
+
+ 
+
+Goitrous hypothyroidism in childhood may be due to defects in the synthesis of thyroid hormones. The best recognised of these is Pendred's syndrome that is associated with congenital deafness and a
+defect in the synthesis of a protein (pendrin) thought to be involved in sulfate transport
+
+Thyroid hormone resistance
+
+The inability of target cells to respond to a hormone is known as hormone resistance and this is a common cause of endocrine disorders. Resistance can result from a reduction or loss of hormone
+receptors, or an aberrant receptor or signalling molecule.
+
+Thyroid hormone resistance does exist but, compared to the millions of people exhibiting insulin resistance, the number of people showing resistance to thyroid hormones is minute. Complete resistance
+to thyroid hormone has never been recorded (it may be incompatible with life) and mutations causing resistance have only been found in the TR-B receptor (Box 3.9).
+
+The key clinical features of thyroid hormone resistance are attention deficit hyperactivity disorder, developmental delay, learning disability, deafness and impaired growth in children with goiters. Patients
+with a generalized resistance and with signs and symptoms of hypothyroidism are treated with doses of thyroxine that facilitate normal growth and development. Paradoxically, some patients with thyroid
+hormone resistance exhibit symptoms and signs of hyperthyroidism. This may result from relatively greater resistance at the pituitary gland than in peripheral target tissues resulting in TSH secretion
+inappropriately high for these tissues. In such patients, beneficial effects have been seen with TRIAC (see Box 3.29) or with the D isomer of Ty that have a higher affinity for the thyroid hormone
+receptor than T3.
+
+Non-thyroid illness (‘sick euthyroid’ syndrome)
+
+ 
+
+Measurements of serum thyroid hormone and/or TSH concentrations are often abnormal in patients hospitalized for acute illness (Box 3.26). These are usually reversible disturbances detected by
+biochemical assays but without associated symptoms of hypo- or hyperthyroidism. Such a condition has been termed ‘sick euthyroid’ syndrome, although a better term is “non-thyroid illness’. It is
+considered to result from the effects of acute illness and/or the drugs treating the illness (Box 3.27) on the synthesis, transport and metabolism of hormones. To understand these it is necessary to discuss
+
+the transport and metabolism of thyroid hormones and the concept of ‘total’ and “free” circulating hormone concentrations.
+
+Transport and metabolism of thyroid hormones
+
+The iodothyronines are virtually insoluble in water and, once released from thyroglobulin, they are very rapidly bound to the plasma proteins, transthyretin (previously called thyroxine-binding
+prealbumin), thyroxine-binding globulin (TBG) and albumin. These vary in their capacity and affinity for T3 and Ty (Box 3,28); about 70% of circulating thyroid hormones are bound to TBG. Only a
+tiny fraction (<0.5%) of released thyroid hormones exist in a free form in the circulation and this is in equilibrium with the bound forms of thyroid hormones. The free-hormone hypothesis states that it is
+only the free thyroid hormones that act on target cells. The bound forms are considered to act as a circulating reservoir. There remains controversy as to whether the ratio of bound to free hormone
+changes as blood passes through the capillary bed of an organ
+
+Assays for thyroid hormones (see below) may measure the ‘total’ Ty or T3 or the respective ‘free’ fractions. Any reduction of serum TBG concentration (e.g. reduced synthesis in liver disease or
+increased loss in kidney disease) reduces the concentrations of total T, and total T3. The feedback loop ‘senses’ changes in free hormone concentration and TSH secretion is modulated to maintain this.
+Similar compensations occur when TBG concentrations increase, most commonly as a result of pregnancy or estrogen administration
+
+Eighty per cent of the total thyroid hormones secreted each day is T, but this is relatively inactive at nuclear receptors and, thus, considered to be a prohormone. Approximately 70-80% of released Ty is
+converted by deiodinases to the biologically active T3, the remainder to reverse-T3 (rT3) which has no significant biological activity. Deiodinases are unusual selenium-containing enzymes that are
+present in a number of tissues and are responsible for the metabolism of thyroid hormones (Box
+
+ 
+
+Removal of an iodine atom from the Sth carbon atom (5') of the outer tyrosine ring of Ty by Type | and Type 2 deiodinases produces T3 whilst deiodination of the inner (5) tyrosine ring by Type | and
+‘Type 3 deiodinases produces rT3. Further deiodinations at the 3rd and Sth carbon atoms of both outer and inner tyrosine rings produce increasingly inactive diiodo- and monoiodo-thyronines and at the
+same time conserving iodine. Iodothyronines are excreted in the urine although some 3 and Ty is conjugated with glucuronide and excreted via the bile in the feces.
+
+The decreased circulating concentrations of T3 in the severely ill may be due to a reduction in 5’ deiodinase activity as a result of the low calorie intake and the raised glucocorticoid secretions in
+response to stress. This reduces the conversion of Ty to T3 and, concomitantly, the conversion of T3 to Tp.
+
+The term ‘sick euthyroid syndrome” presupposes that the results of all the biochemical changes are neutral with regard to thyroid hormone function. There is, in fact, little evidence to support this.
+However, it can be said that generally thyroid hormone treatment for the severely ill does not bring any clinical benefits.
+
+Biochemical measurements of thyroid hormone status
+
+Assays of circulating thyroid hormone concentrations are usually referred to as ‘thyroid function tests’, often abbreviated to “TFTS’. It is clear that they do not measure thyroid ‘function’ since this,
+implies a measure of the effectiveness of thyroid hormone on peripheral tissues, but they are used as surrogate measures. Total (bound plus free) thyroid hormones can be measured by a competitive
+binding assay after chemically removing the binding proteins. As discussed above, this measurement may not reflect the physiological state since changes in the concentration of binding proteins alter the
+total hormone concentration. It is possible to measure the concentration of free thyroid hormones in serum samples by an indirect assay method (Box 3,30).
+
+It is to be emphasized that, in the presence of an intact feedback loop, serum TSH concentration reflects the effects of thyroid hormones on the pituitary gland. For this reason serum TSH concentration
+has been recommended as first-line assay of ‘thyroid function’.
+
+ 
+
+The results of the biochemical tests obtained in the clinical cases may now be interpreted. In Clinical Case 3.1 (iodide-induced hyperthyroidism), the concentrations of circulating thyroid hormones were
+high (total Ty 310 nmol/l, NR 55-150 nmol/l) and, as a result of negative feedback, the peripheral concentration of TSH was low (<0.05 mU/l, NR 0.54.0 mU/l). There were no detectable anti-thyroid
+autoantibodies. In Clinical Case 3.2 (Graves' disease), the concentrations of thyroid hormones were again high (total-Ty 320 nmol/l, NR 70-150 nmol/l) and the serum TSH concentration suppressed
+
+(<0.05 mU/I, NR 0.5-4.0 mU/). The autoantibody titers (measured by the binding assay — see Box 3.15) were high, not only those against the TSH receptor but also to thyroid peroxidase and
+
+   
+
+thyroglobulin. In Clinical Case 3.3 (primary hypothyroidism), the operative hypothalamo-pituitary feedback loop led to high circulating TSH concentrations (>110 mU/l, NR 0.5-4.0 mU/l) in response to
+
+ 
+
+the unmeasurable total-Ty (<5 nmol/l, NR 70-150 nmol/l). In contrast, Clinical Case 3.4 (secondary hypothyroidism) the loss of the feedback loop resulted in a normal circulating concentration of TSH,
+2.5 mU/I (NR 0.5-4.0 mU/1), despite low circulating concentrations of thyroid hormones (free-T4 4 pmol/l, NR 11-23 pmol/l).
+
+Thyroid growth
+
+It has been seen that activation of the TSH receptor (whether by the hormone itself or by autoantibodies) is a potent stimulator to thyroid growth; since the receptors are present on every follicular cell,
+such growth tends to be diffuse
+
+Experimental studies, however, have shown that numerous cytokines and growth factors can affect thyroid function and these may have clinical implications. For example, they may exert overall
+inhibitory effects on the hypothalamic-pituitary-thyroid axis and could account for some of the effects seen in non-thyroidal illness. Cytokines may also be involved in the etiology of autoimmune
+responses and it is noteworthy that the thyroid gland produces more cytokines than any other endocrine gland. Like cytokines, growth factors are present at all levels of the axis and there is evidence that
+insulin-like growth factor potentiates TSH action on thyrotrophs. This could account for the growth of some nodules.
+
+Nodular thyroid disease
+
+In contrast to diffuse goiters, sometimes focal abnormalities arise that affect only certain cells in the thyroid gland and give rise to nodules. These may be “hot’ (i.e. take up radioactive iodine and show
+increased thyroid hormone synthesis) or ‘cold’ (i.e. non-functional) (see Box 3.6).
+
+Clinical Case 3.5
+
+A.53-year-old woman came to the outpatient clinic. She had no symptoms but gave a history of a lump in her neck being noticed by her primary care physician during a routine ‘well-woman’ check.
+There was no family history of thyroid disease and she had a blameless past medical history. She was a nonsmoker and was on no medication apart from estrogen replacement therapy for menopausal hot
+flushes, She had not noticed any change in her voice, or difficulty swallowing or breathing. Examination was entirely normal except for a 3 x 2 cm single nodule in the left lower thyroid pole. Blood tests,
+showed that her total Ty was 196 nmol/l (NR 70-150nmo/1), free T3 7.8 pmol/I (NR 4.0-8.1pmol/l), TSH 2 mU/l (NR 0.5-4.0 mU/I) and thyroid autoantibodies were not present in serum.
+
+In this patient, the serum total T was raised whilst free T3 and TSH were normal, indicating that she was euthyroid. The high concentration of total T was due to an estrogen-induced increase in TBG.
+Estrogen increases glycosylation of this protein and, thus, reduces its metabolism. This resulted in an increase in bound T, and a consequent increase in T, secretion to maintain normal concentrations of
+‘free’ Ty. The °°™Te scan showed normal uptake of the radioactivity but with an area of decreased uptake in the region of the nodule (Box 3,6). This indicated that the nodule lacked the iodide symporter
+and, thus, it was a non-functional or ‘cold’ nodule.
+
+Prevalence and etiology of benign nodular disease
+
+Studies of populations (such as Whickham in Northern England or Framingham in the US) have indicated that multinodular thyroids occur in around 5% of the population with a marked female
+preponderance (10:1). Autopsy studies have indicated a much higher incidence of nodular thyroid disease, indeed up to 50%, with multinodular disease outnumbering single nodules by about 4 to 1. The
+incidence increases markedly in people over 50 years of age. It is much higher in areas of iodine deficiency indicating the importance of iodine in the etiology of nodularity.
+
+The etiology of benign nodular disease is not well understood although in some cases it is due to activating mutations of the TSH receptor or G-protein signalling system (Box 3.12). When such
+activating mutations of the TSH receptor are in the germ line (which is very rare) these will be passed on to succeeding generations appearing as familial hyperthyroidism.
+
+The clinical index of a nodule, which makes no assumption of the underlying pathology, is the ability to detect one by palpation. Generally, (fat necks notwithstanding) this needs a lump 1 cm in diameter
+before it can be felt. However, if ultrasound scanning is used, it is more often than not that nodules some 2-3 mm in diameter are detected. The clinical relevance of such micronodularity detected on an
+ultrasound scan is very doubtful. However, the detection of a thyroid nodule(s) by palpation raises the important clinical question; is the lump malignant?
+
+Thyroid cancer
+
+Tumors of the thyroid gland may be primary (arising from cells within the thyroid gland) or secondary due to malignant cells which have spread from other tissues (Box 3.31). Those arising from
+parafollicular cells which secrete calcitonin (giving rise to medullary cell carcinomas) are discussed. Lymphomas may arise from infiltrating lymphocytes and, though they are much more common in
+Hashimoto's disease, they are still very rare. Other tumors such as sarcomas from smooth muscle cells within the gland are also exceedingly rare.
+
+The majority of primary tumors arise from epithelial cells of the thyroid gland and are, therefore, termed adenomas if benign and carcinomas if malignant. The epithelial cell tumors are sub-classified as
+cither papillary or follicular according to their histological appearance. These tumors are found more often in women (2 to 4 fold more often than men), aged 45-50 years. In areas with adequate iodine
+intake, the commonest tumor is papillary, accounting for some 80% of all tumors. Where iodine intake is low there is a relative increase in follicular and anaplastic carcinomata, though no overall
+
+increase in frequency. A number of factors, both genetic and environmental has been implicated in the etiology of epithelial tumors (Box 3.3
+
+ 
+
+Thyroid cancer conundra
+
+There are three conundra. The first is that, whilst nodular thyroid disease is common in the general population, only about 30 people in a million are diagnosed clinically with thyroid cancer annually and
+6 people in a million die each year of the disease. This is a minute fraction of all cancer deaths and the risk of thyroid cancer causing death is extremely low.
+
+The second conundrum arises because it is difficult to differentiate benign from malignant primary epithelial tumors by their histological appearances. The commonly used criteria of histological
+malignancy are invasion of blood vessels or lymphatics and breach of the capsule containing the nodule cells. When thyroid glands are examined at autopsy the histological features of papillary cancer
+are seen in 5 to 25% of thyroid glands examined. Thus, thyroid nodules and histological appearances of thyroid cancer are extremely common yet clinical disease is rare
+
+Clinical suspicion of malignancy may be raised by the speed of growth of a nodule or the involvement of the esophagus, trachea or recurrent laryngeal nerve (giving a hoarse voice and difficulty in
+breathing or swallowing). However, the only certain clinical benchmark is the behavior of the tumor; if it spreads (or metastasizes) it is malignant.
+
+Differentiating the few malignant tumors from a large number of benign nodules has exercised clinicians for many years and, though various imaging techniques have been used, most centers now use
+fine needle aspiration cytological examination (Box 3.33). Typically, FNA cytology is used to separate diagnoses into five categories.
+
+The third conundrum arises because death rates from differentiated thyroid cancer are extremely ow and distinguishing malignant from benign nodules is problematic; how should individual patients be
+treated? Prognosis is the most important consideration and whilst various staging systems have been used to predict this, none seems better than the long established Tumor (T), Node (N), Metastasis (M)
+or TNM classification (Box 3.31). In general, the bigger the tumor, and the less well differentiated it is the worse the prognosis. Age is the other very important factor and patients under about 45 years
+have a better prognosis.
+
+ 
+
+  
+
+There is no general agreement on the degree of surgery and post-operative radioiodine or radiotherapy but, given the risks of thyroid surgery (Box 3.19), it has been argued that low risk patients should
+have less aggressive surgery (e.g. lobectomy rather than total thyroidectomy). Although the experimental data were obtained from studies on rodents, there is general agreement that patients with
+differentiated thyroid cancer are treated with T, to suppress TSH secretion (via the negative feedback effect). Measurements of serum thyroglobulin (an index of TSH stimulation on the thyroid gland)
+may be used to monitor the effects of exogenous Ty,
+
+ 
+
+ 
+
+The patient in Clinical Case 3.5 underwent FNA. Cyst fluid was removed with resolution of symptoms. Cytological examination showed no evidence of malignancy.
+
+Clinical case questions
+
+Clinical Case Study Q3.1
+
+‘A.43-year-old old female nurse was referred to the endocrine clinic. She weighed 110 kg and was 1.67 m tall. Her primary care physician had taken her blood for routine tests and had found the total Ty
+to be 257 nmol/l (NR 70-150 nmol/l) with a free T3 of 12.7 pmol/l (NR 4.0-8.1 pmol/l) and a TSH of <0.05 mU/l (NR 0.5-4.0 mU/I). There was no family history of any endocrine disease and her
+serum thyroid autoantibodies were normal. The primary care physician had treated the patient for several months with carbimazole 30 mg daily with no change in her biochemical tests of thyroid
+function. He therefore stopped the carbimazole and referred the patient for further investigation. A °°" Te scan of the thyroid gland was performed 4 weeks after cessation of the carbimazole (see Box
+
+Q3.1a)
+Question 1: Using your knowledge of the hypothalamo-pituitary-thyroid axis feedback loop, how may the serum assays be interpreted and what are the possible diagnoses?
+
+Question 2: How would you distinguish between these possibilities?
+Clinical Case Study Q3.2
+
+‘A.59-year-old old Pakistani woman was admitted via the Emergency Room with a 4-week history of fever (with profuse night sweats), malaise, nausea, but no vomiting. Her symptoms had not
+responded to two courses of antibiotics prescribed by the primary care physician, Over the same time, she had noted a sore throat with pain radiating to the ears, There was a strong family history of type
+2 diabetes mellitus and no family or contact history of TB. On examination, she had a temperature of 38.5°C, a pulse rate of 120 beats/min and a tender diffuse goiter (Box Q3.2a). She was noted to be
+mildly anemic (Hb 10.9g/dl) with an elevated peripheral blood white cell count (14.3 x 10/1). A number of investigations were performed to find a source of infection to no avail. Her free T4 was 55,
+pmol/1 and the serum TSH was unmeasurable (<0.05 mU/l). (Box Q3.2a) 9°™Te scan of the thyroid was performed (Box Q3.2a)
+
+ 
+
+Question 1: Given the clinical features and the serum assay results, what is the most likely diagno:
+Question 2: In light of your answer to question 1, how should the 9°™Te scan of the thyroid be interpreted?
+Question 3: How should she be treated?
+
+Clinical Case Study Q3.3
+
+ 
+
+‘A 34-year-old patient on the post-natal ward requested that her midwives send urgently for the duty pediatrician because of concems for her 5-h-old baby. He was feeding poorly and his respiratory rate
+was rapid, Five years previously she had been treated for Graves’ disease with courses of carbimazole and later radioactive iodine. The pediatrician found her son (Box Q3.3) to have a characteristic
+facial appearance with staring eyes, a marked tachycardia and fever.
+
+ 
+
+Question 1: What is the diagnosis and how is it related to the mothers previous medical history?
+Question 2: How can it be confirmed and treated?
+
+Question 3: Could it have been predicted and what is the likely prognosis?
+Boxes
+
+Box 3.1Structures of hormones derived from tyrosine
+Image ch3fb1 jpg
+Box 3.2Structure of amiodarone
+Image ch3fb2.jpg
+Box 3.3Multinodular goiter due to a dietary deficiency of iodine in Kashmir
+Image ch3fb3 jpg
+In the mountains of Kashmir patients such as this are said to find it easy going up mountains, but much more difficult negotiating an accurate descent.
+Box 3.4Gross anatomy and histology of a normal thyroid gland. WHO classification of a goitre
+Image ch3fb4a jpg
+Gross anatomy
+Image ch3fb4b jpg
+Histological appearance of normal thyroid follicles
+Image ch3fb4c jpg
+WHO classification of goiter.
+This classification is useful for epidemiological studies but not for routine clinical practice
+Image ch3tu! jpg
+Box 3.5Uptake and organification of iodine by the thyroid gland
+Image ch3fb5 jpg
+Image delcc| ,jpg Active uptake of iodide (I*) in exchange for Na*.
+Image delec2,jpg Iodide may be discharged from the follicular cell by administration of competing ions such as perchlorate, bromide or chlorate.
+Image delcc3 jpg Iodide uptake, the main control point for hormone synthesis, is stimulated by TSH.
+Image dlec4.jpg Oxidation of iodide by hydrogen peroxide (H>0>) to form active iodine. The reaction is catalyzed by thyroid peroxidase (TPO)
+Image delec5 jpg Active transport of iodine across the apical surface of the follicular cell
+Image delec6 jpg Incorporation of active iodine into the tyrosine residues of thyroglobulin molecules to form mono- and di-iodotyrosines (MIT and DIT)
+Image delcc7 jpg Uptake of the thyroglobulin into the lumen of the follicle and lining of iodinated tyrosine residues.
+Image delec8 jpg About 1% of stored colloid is removed each day. When the gland is very active this may rise to nearly 100% and colloid stores are depleted.
+Box 3.6Radioisotopic scanning of the thyroid gland
+Uptake of a radioactive isotope by the thyroid gland is used to determine:
+* localization of the gland
++ approximate size
++ overall or regional function of the gland.
+
+Isotopes. !251 has a radioactive half-life (ty/2) of 60 days, !3'I a typ of 8 days and !231 a ty) of 13 hours. A radioisotope of technetium (°°™pertechnetate) is often used because it has a usefully short
+radioactive ty,» (approximately 6-h) and, unlike radioactive iodine, is not organified in the thyroid gland. Radiation dose to the thyroid is thus low.
++ Localization and size. Uptake of isotope in a normal gland Image delcc | jpg and in a patient whose left lobe was surgically removed Image delec2.jpg . Arrow indicates uptake of iodine in the
+salivary glands,
++ Overall function. More rapid and increased uptake of the isotope in primary hyperthyroidism Image delcc3 jpg compared with normal thyroid activity Image delcc| jpg and slower, reduced
+uptake in hypothyroidism Image dclec4.jpg .
++ Regional function. ‘Hot’ nodule in upper left lobe of the thyroid gland (arrow) showing increased isotope uptake and suppression of uptake in surrounding tissue Image delecS.jpg . “Cold” nodule
+in lower left lobe (arrow) showing reduced isotope uptake Image delec6 jpg.
+Image ch3fb6 jpg
+
+Box 3.7Secretion of thyroid hormones
+
+Image ch3fb7 jpg
+
+Image delcc| jpg Under the influence of TSH, colloid droplets consisting of thyroid hormones within the thyroglobulin molecules are taken back up into the follicular cells by pinocytosis.
+Image delec2,jpg Fusion of colloid droplets with lysosomes causes hydrolysis of thyroglobulin and release of T3 and Ty.
+
+Image delec3.jpg About 10% of Ty undergoes mono-deiodination to T3 before it is secreted. The released iodide is reutilized. Several-fold more iodide is reused than is taken from the blood each day but
+in states of iodide excess there is loss from the thyroid.
+
+Image delec4.jpg On average approximately 100 jig Ty and about 10 pg T3 are secreted per day.
+
+Box 3.8Clinical manifestations of thyroid hormone deficiency and excess
+
+Tissue/organ Deficiency Excess
+
+Skin/hair Pale, dry, puffy skin (myxedema) Dry, brittle hair, brittle nails Pink, warm, moist skin Onycholysis of nails
+
+Cardiovascular Decreased blood volume and cardiac output; dilated, pale, poorly contractile myocardium; pericardial Increased cardiac output, decreased peripheral resistance; supraventricular
+effusion; sinus bradycardia tachycardia/atrial fibrillation
+
+Respiratory Pleural effusions (small), alveolar hypoventilation in severe hypothyroidism, obstructive sleep apnea Decreased vital capacity (myopathy of respiratory muscles)
+
+Gut Modest weight gain, decreased motility (ileus or constipation), small ascites, associated pernicious _Increased appetite, weight loss, increased motility (loose motions), nausea and
+anemia and achlorhydria vomiting (especially in pregnancy), associated pernicious anemia and
+
+achlorhydria or celiac disease
+CNS In childhood — poor neuronal development and myelination (cretinism) Nervousness, emotional lability, hyperkinesia, tremor
+
+In adulthood — slowed intellectual functions, paranoid or depressive psychiatric disorder, perceptive
+deafness, night blindness, cerebellar ataxia, slow-relaxing reflexes, carpal tunnel syndrome
+Muscle Stiffness and aching (especially in cold), firm, tender muscles, myoclonus, loss of type I muscle fibres Weakness and fatigability; proximal myopathy with loss of type 2 myocytes; may
+be associated with myasthenia gravis; hypokalemic periodic paralysis may be
+seen especially in Chinese
+
+Skeleton Poor growth and maturation of bone, decreased urinary excretion of Ca2* Demineralization of bone; increased urinary excretion of Ca?* and PO4?;
+hypercalcemia
+
+Kidney Renal blood flow, glomerular filtration rate and tubular resorption and secretory functions all decreased; Renal blood flow, glomerular filtration rate and tubular resorption and secretory
+decrease in urinary free water excretion functions all increased
+
+Bone marrow Decreased red cell mass; normochromic normocytic anemia; associated pernicious anemia and Increased red cell mass; associated pernicious anemia and macrocytic anemia
+macrocytic anemia
+
+Gonad In childhood — delayed puberty but occasional paradoxical precocious sexual development In childhood — delayed puberty, though physical development is normal
+In adulthood — menorthagia, decreased libido, erectile dysfunction, infertility In adulthood — increased libido, oligomenorthea, pregnancy loss
+
+Metabolic Low resting metabolic rate (RMR), decreased appetite, weight gain, cold intolerance, reduced body __ Increased RMR, and appetite; weight loss; decreased glucose tolerance; increased
+
+ 
+
+temperature, flat glucose tolerance curve with delayed insulin response; increased insulin sensitivity
+decreased synthesis and degradation of lipids
+
+synthesis and degradation of both lipids and proteins
+
+Box 3.9Thyroid hormone receptors
+
++ There are two genes which code for T3-receptors; one on chromosome 17 coding for the « receptor, the other on chromosome 3 coding for the i receptor. There are at least two alternative
+messenger RNA splice products for each gene and thus four major T3 receptors — cil, a2, fs1 and 2. Unusually, the «2 receptor does not bind T3, but T3 receptors have functions in the absence of
+the hormone.
+
+Image ch3fb9a jpg
+
++ Binding of T3 to its receptor (TR) causes formation of homo- or heterodimers.
+Image ch3fb9b jpg
+
++ As dimers, the zinc fingers of the DNA binding domain slot into a hormone response elements (HRE) on the DNA helix. Along with other transcription factors (co-activators/repressors), they
+regulate gene expression
+Image ch3fb9c jpg
+
+ 
+
+ 
+
+Box 3.10Clinical features of excess thyroid hormone
+
+Symptoms Signs
+Common
+Anxiety and irritability (~ >90%) Tachycardia (~ 100%)
+Palpitations (~ 90%) Tremor (~ 95%)
+Increased perspiration and heat intolerance (~ 90%) Goiter (~ 100%)
+Fatigability (~ 80%) ‘Warm moist skin (~ 95%)
+‘Weakness (~ 70%)
+Increased appetite and weight loss (~ 85%)
+Less common
+Dyspnoea (~ 65%) Atrial fibrillation (~ 10%)
+Increased bowel frequency (~ 30%) Onycholysis (~ <5%)
+Anorexia (~ 10%) ‘Liver palms’ (~ 5%)
+Weight gain (~ <5%) Heart failure (~ 5%)
+Oligomenorthea (~ 25%)
+Rare
+
+Pruritus (~ <1%)
+Periodic paralysis (~<1%)
+
+Box 3.11Control of the thyroid gland ac
+
+ 
+
+Image ch3fb1 1 jpg
+Box 3.12TSH receptor mechanisms
+
+Image ch3fb12.jpg
+
+Interaction of TSH with the extracellular amino-terminal domain of its receptor activates its associated G-protein. Bound GDP is replaced by GTP and the t sub-unit of the G protein dissociates. The «
+sub-unit of a Gs-protein activates adenylate cyclase while that of the Gq-protein phosphorylates and activates phospholipase C. The adenylate cyclase stimulates the conversion of ATP to cAMP which,
+in turn, phosphorylates and activates protein kinase A (PKA). Phospholipase C stimulates the conversion of phosphatidyl inositol 4,5-bisphosphate (PIP) to inositol 1, 4, 5-trisphosphate (IP3) and
+
+diacylglycerol (DAG). These release Ca** from intracellular stores and activate protein kinase C respectively. In the human, much higher concentrations of TSH are required to activate the inositol
+pathway.
+
+Box 3.13Causes of hyperthyroidism
+Common
+
++ Graves’ disease (~80%) — autoimmune with stimulating antibodies to the TSH receptor.
++ Toxic multinodular goitre (~ 15%).
+
+Uncommon
+
++ Toxic adenoma (‘hot nodule, ~ 2%)
++ Thyroiditis (~ 1%).
+
+Rare
+
++ TSH secreting pituitary tumor (<0.01%) — biochemically this must be distinguished from thyroid hormone resistance when TSH secretion is high due to |
++ Trophoblastic tumors (<0.001%) — high concentrations of the homologous chorionic gonadotrophin hormone interacting with the TSH receptor.
+
++ Thyrotoxicosis factitia (<1%) — excess thyroxine ingestion in patients who perceive weight loss and other benefits
++ Thyroid follicular carcinoma (<0.01%)..
+
+   
+
+s of negative feedback effects.
+
+        
+
+Box 3.14Effect of pregnancy on thyroid gland physiology
+
++ Increased renal I” clearance (increasing dietary requirements in deficient areas).
+
++ Increased serum TBG increasing total Ty and T3 concentrations (see Box 3.28).
+
++ Increased plasma volume that increases Ty and T3 pool size.
+
+* Increased inner-ring deiodination of Ty and T3 (see Box 3.29) by placenta, increasing hormone degradation
+
++ Increase in free thyroid hormone concentrations and reduction in TSH concentrations. The first trimester increase in human chorionic gonadotrophin (hCG, a glycoprotein hormone with structural
+similarities to TSH) has been implicated in this effect.
+
+Box 3.15Assay of antibodies to the human TSH receptor — competitive binding assay
+Principle:
+Image ch3fb15a,jpg
+Image delcc| ,jpg Patient's serum containing antibodies (Abs) is incubated with TSH receptors.
+Image dclcc2.jpg !?5I-bovine TSH is added that competes with Abs for binding to TSH receptors.
+Image delec3 jpg Receptors precipitated with polyethylene glycol, supernatant removed and radioactivity in pellet counted.
+Image ch3fb15b,jpg
+NOTE
++ It is a heterologous assay and not all human antibodies may react with the poreine receptor or compete with bovine TSH
+* It does not measure function of the Ab, just its ability to bind to the porcine receptors.
++ The assay uses TSH rather than a standard human IgG preparation to prepare a standard curve.
+
++ Activating TSH receptor antibodies in serum can be assessed by bioassay e.g. measuring radioactive thymidine uptake by thyroid cells as an index of growth or colloid droplet production by
+thyroid slices.
+
+  
+
+Box 3.16Associated features of Graves' disease — the eye
+Image ch3fb16,jpg
+Extraorbital features
+
++ Periorbital edema — swelling around the eye, the result of accumulation of mucopolysaccharides and associated water.
++ Chemosis — swelling and redness of the conjunctivae Image delec! jpg Lachrymal glands may show mononuclear cell infiltration.
++ Lid retraction — the upper lid is above the junction of the sclera and cornea Image delcc2 jpg
+
++ Lid lag — as the eye travels from up-gaze to down-gaze the upper lid lags behind.
+
+Intraorbital features
+
++ Proptosis or exophthalmos — the 2 MR scans of the orbits are not technically identically but it can be seen that the globes of the eyes in Image delecB pg (lower) are pushed forward compared
+with those in Image delecA jpg (upper, normal). There is infiltration of retro-orbital tissues by lymphocytes, macrophages and plasma cells, together with the accumulation of mucopolysaccharides.
+
++ Extraocular muscle involvement — the muscles are affected by the retro-orbital accumulation of cells, inflammatory cytokines and mucopolysaccharides. This can be seen particularly in the
+inferior rectus in Image delecB jpg (arrowed).
+
++ The resultant fibrosis impairs function (seen here with the patient looking up) leading to diplopia.
+
+ 
+
+ 
+
+ 
+
+Box 3.17Treatment of thyroid disease
+
+Medical
+
+Drug Use Advantages Disadvantages/side effects
+
+Thiocarbamides (e.g. carbimazole) Maintenance of euthyroid state (see Box Cheap, effective Rashes, pruritis (~ 4%), neutropenia (~ 0.4%), hepatitis or
+
+pneumonitis (~ <0.1%)
+
+Glucocorticoid (e.g. prednisolone) Immunosuppression Cheap, effective Cushing's syndrome (see Chapter 4)
+
+Azathioprine Adjunct to glucocorticoids Cheap, steroid sparing effect Few in low doses (c.g. 2 mg/kg/d)
+
+Somatostatin analog (c.g. octreotide Suppression of lymphocytes Less side effects than glucocorticoids Expensive; gastrointestinal side effects; Gall stones
+
+or lanreotide)
+
+Plasmaphoresis Reduce circulating autoantibodies Short term effects, Expensive
+
+Surgical
+
+Procedure Use Advantages Disadvantages/side effects
+
+Lid suture Maintain corneal integrity Simple Does not address essential orbital disease
+
+Orbital decompression Decompress the orbit when retro-orbital pressures are Effective in reducing pressure and Risks of anesthesia and surgery (~<1% mortality, ~ 10%
+high. Relieve proptosis proptosis (by about 6 mm) morbidity). Infection
+
+Strabismus (squint) correction _ Corrects diplopia Cosmetic and functional benefits Only used when the inflammatory process has settled
+
+Lowering upper lid To reduce lid retraction Cosmetic benefit
+
+Radiotherapy
+
+Procedure Use Advantages Disadvantages/side effects
+
+2000cGy “Co photons in 10 Reduce retro-orbital inflammatory proces Reduces steroid dependency/ dose Side effects include cataract formation, optic neuropathy and long-
+
+fractions term risk of malignancy (~ <1%)
+
+Box 3.18Associated features of Graves' disease — The Integument
+Image ch3fb18a,jpz
+
+Onycholysis — fingernails detached from the nail beds at the free margins
+
+Image ch3fb18b jpg
+
+Viti
+
+ 
+
+0 — patchy depigmentation of the skin (seen here in an Asian patient), often occuring peripherally and symmetrically. There may also be a streak of leucotrichia — white hair.
+Image ch3fb18c,jpg
+
+Acropachy — a form of finger clubbing.
+
+Image ch3fb18d jpg
+
+ 
+
+— localized firm red thickening of skin. There is marked accumulation of glycosaminoglycans and water.
+
+Box 3.19 Treatments of hyperthyroidism
+
+ 
+
+Medical
+Drug Use Advantages Disadvantages/side effects
+Thiocarbamides e.g. Patients with mild thyroid disease and small Cheap, effective Rashes, pruritis (~ 4%), neutropenia (~ 0.4%), hepatitis or pneumonitis (~ <0.1%)
+PTU, carbimazole goiter or those with eye disease, cardio-
+respiratory disease, pregnancy, children
+B-adrenergic receptor Symptomatic relief (especially cardiac), Propranolol inhibits hepatic Asthma, heart failure
+blockers (e.g. hyperthyroid storm conversion of Ty to T3,
+propranolol)
+Glucocorticoids (e.g. Hyperthyroid storm Prednisolone inhibits hepatic Iatrogenic Cushing's syndrome
+prednisolone) conversion of Ty to T3
+Iodine (e.g. Lugol's Hyperthyroid storm Prior to surgery to reduce Rapid inhibition of thyroid “Escape” occurs with time
+solution) blood flow hormone synthesis (Wolff-
+Chaikoff effect)
+Perchlorate Iodine-induced hyperthyroidism Discharge iodide excess from Rash, gastric upset, lymphadenopathy (~ 5%). Agranulocytosis or aplastic anaemia (~ 0.5%)
+thyroid gland
+Lithium Second-line alternative to thiocarbamides Inhibits Ty and T3 release Lithium toxicity* (tremor, ataxia, coma); polydipsia, polyuria (~10%)
+Surgical
+Procedure Use Advantages Disadvantages/side effects
+Partial thyroidectomy Patients with large goiter, severe disease, “Definitive” Expensive and scarring. Recurrent laryngeal nerve palsy (~ 0.5%) hypoparathyroidism (~ 5%),
+nodular disease, relapsed after medical hypothyroidism (~ 540%), recurrent hyperthyroidism (~ 5%), carotid/jugular damage and
+treatment hemorthage (~ 0.5%). Relative contraindications include previous surgery and pregnancy
+Radioisotope
+Procedure Use Advantages Disadvantages/side effects
+'31odine Patients with cardio-respiratory disease, severe Cheap, effective, shrinks _Sialadenitis, worsening eye disease, hypothyroidism
+
+disease, previous thyroid surgery, toxic nodule goiter without a sear
+Absolute contraindication: pregnancy. Relative contraindication: youth and eye disease —
+many clinicians do not treat <18 years old and eye disease may be treated with glucocorticoids
+
+Lithium toxicity is related to the blood concentration of the ion.
+Box 3.20Schematic views of the surgical anatomy of the thyroid gland
+Image delecA jpg Anterior of the blood supply and relationship to other important vessels
+Image ch3b20a,jpg
+
+Image delecB ,jpg Left lateral view of the relationship to important nerves
+
+ 
+
+Image ch3fb20b jpg
+Image delecC jpg Transverse view of the relationship to other important structures in the neck
+Image ch3fb20c,jpg
+
+Image delecL. jpg left; Image dcleeR jpg right; Image delecAnt jpg anterior; Image dclecPost.jpg posterior.
+Box 3.21Embryology of the thyroid and parathyroid glands
+Diagrammatic view of sagittal Image delccA jpg and transverse Image dclecB .jpg views of the pharyngeal regions of a human embryo during the fifth week of gestation, showing the endodermal
+
+pharyngeal pouches and mesodermal pharyngeal arches. Diagrams show the embryonic origin of the thyroid gland and parathyroid glands. Migration of the thyroid gland and parathyroid glands (anterior
+view) is shown in Image delecC,jpg . Diagram Image delecD ,jpg illustrates various abnormalities which can occur during embryonic development. Each diagram is not drawn to relative scale.
+
+ 
+
+ 
+
+Image ch3fb21 jpg
+Box 3.22Causes of hypothyroidism*
+Primary disorders
+
++ Common (~ 95%)
+© Hashimoto's disease — autoimmune thyroid destruction
+> Primary (atrophic) hypothyroidism (Probably endstage Hashimoto's disease)
+© Post-radioiodine therapy which destroys thyroid tissue
+Post-surgery of the gland
++ Uncommon (~ 5%)
+> Thyroiditis (non-lymphocytic)
+© Impaired T, synthesis due to genetic defect
+> Antithyroid drugs
++ Rare (<1%)
+© Loss of function TSH receptor mutations
+© Thyroid hormone resistance
+
+ 
+
+ 
+
+ 
+
+ 
+
+Secondary (or pituitary, ~
+
+ 
+
++ Hypopituitarism caused by e.g. tumors, surgery, radiotherapy
++ Impaired TSH synthesis
+
+Tertiary (or hypothalamic, ~<1%)
+
+ 
+
+orders
+
++ Hypothalamic damage due to tumors, radiotherapy or trauma
+
+In most Western countries iodide deficiency is not a cause of hypothyroidism. It is a major cause in known deficient areas.
+
+Box 3.23Clinical features of hypothyroidism
+
+Symptoms Signs
+Common
+Fatigue (~ 90%) Dry, scaly skin (~ 90%)
+Cold intolerance (~ 80%) Coarse, brittle thinning hair (~ 60%)
+Depression (~ 70%) Bradycardia (~ 40%)
+Poor concentration (~ 65%) Hair loss or dryness (~ 70%)
+Musculoskeletal aches and pains (~ 25%) Anemia
+Carpal tunnel syndrome (~ 15%) Puffy eyes (~ 90%)
+Less common
+Constipation (~ 50%) Edema (~ 30%)
+Hoarse voice (~ 40%) Cerebellar signs*
+Menorthagia (~ 30%) Deafness*
+Psychiatric*
+
+Note: Myxedema madness, cerebellar ataxia and deafness are always cited in thyroid texts but are usually only seen in very severe cases, unusual in modern practice
+Box 3.24Neonatal thyroid screening
+
++ Screening is performed on capillary blood that is also used for phenylketonuria screening (the Guthrie test).
++ Thyroid ‘function’ is assessed by measuring circulating TSH concentrations using an IRMA assay (see Box 3.25).
++ Note that marked changes in thyroid physiology occur immediately after birth:
+
+© Circulating TSH increases to approximately 70 mU/I within minutes
+
+© Ty and T secretions consequently rise over the next 24h
+
+© There is a gradual decrease in the concentration of these hormones during infancy and childhood
++ The test results are, therefore, dependent on the time after birth when it is performed together with factors such as prematurity and illness.
++ It does not diagnose cases of secondary hypothyroidism (low TSH due to hypothalamic or pituitary dysfunction).
+
+  
+
+Box 3.25Measurement of serum TSH concentrations — immunoradiometric (IRMA) and enzyme-linked immunoabsorbent assays (ELISA)
+These assays use two mouse monoclonal antibodies. They are very sensitive and specific
+
+Image delcc| ,jpg The first antibody (Ab), attached to the sides of the incubation well, captures TSH in the serum sample.
+
+Image delcc2,jpg A second Ab labelled with a radioactive, fluorescent or enzyme marker binds to a second site on the TSH molecule.
+
+Image delcc3 jpg When the second antibody carries an enzyme marker, a substrate is added and the enzyme will induce a color reaction.
+
+Image delec4.jpg The concentration of the hormone will be directly proportional to the amount of radioactivity (IRMA), fluorescence or color intensity (ELISA).
+
+There is an international standard for human TSH so the reliability and reproducibility of the assays can be monitored world-wide.
+
+Image ch3fb25a,jpg
+Image ch3fb25b jpg
+
+ 
+
+ 
+
+Box 3.26Non-thyroid illness
+Definition: Disturbances in the circulating concentrations of thyroid hormones and TSH assays arising in systemic non-thyroid illnesses and normalizing after recovery.
+Classification
+
++ Low serum Ts, normal T. The most common biochemical abnormality, itis seen in approximately 70% hospitalized patients. T3 reduced by about 50%, T increased (except in renal failure) due
+to its decreased clearance as a result of reduced activity/production of 5’ mono-deiodinase Type 1
+
++ Low serum total T; and Ty. Usually seen in severely ill patients. Free T, is normal owing to inhibition of T, binding or production of altered TBG.
+
++ High serum total T, normal total T3. Seen in patients with liver disease producing increased quantities of TBG. Free T3 low or low-normal, rT high.
+
++ Increased serum total-T, and TBG, normal T3 and paradoxical decreases in rT3. Seen in patients with HIV infection.
+
+ 
+
+-al considerations
+
++ Drugs, used to treat the severely ill, affect thyroid physiology (see Box 3.28).
+
++ Radiology investigations of sick patients may utilize radiographic agents containing high concentrations of iodine.
+
++ Diagnosis of ‘true’ thyroid disease in severely ill patients is difficult; no single investigation is reliable. A serum TSH >20mU/ is indicative of primary hypothyroidism (particularly when
+autoantibodies are present) and a TSH <0.05mU/l is suggestive of hyperthyroidism.
+
+Box 3.27Drugs and the thyroid gland
+
+Drugs can alter thyroid hormone status by affecting thyroid hormone synthesis, transport or metabolism. They act at a number of sites to:
+
+ 
+
++ Block I uptake, e.g. lithium,
+
++ Decrease iodination of the tyrosine molecules in thyroglobulin, e.g. some sulfonamides and sulfonylureas.
+
++ Inhibit hormone secretion, e.g. lithium
+
++ Alter thyroid binding globulin concentration and, thus, concentrations of ‘free’ thyroid hormones, e.g. estrogens, clofibrate increase TBG whilst androgens, glucocorticoids and l-asparginase
+decrease TBG.
+
++ Alter binding to TBG or transthyretin, e.g. salicylates, phenytoin and some non-steroidal anti-inflammatories such as fenclofenac.
+
++ Decrease conversion of Ty to T3, e.g. glucocorticoids, propranolol, amiodarone, some iodinated radiographic contrast agents.
+
++ Increase hormone degradation or excretion, e.g. phenytoin, carbamazepine, cholestyramine
+
+Box 3.28Thyroid hormone transport
++ Over 99% circulating thyroid hormones are bound to plasma proteins of which about 70% is bound to TBG, 10-15% to transthyretin and 20-15% to albumin. Only a tiny fraction is in the ‘free’
+form.
+
++ The interation of T, with TBG can be expressed by the following equation:
+Image ch3fb28a,jpg
+
+where
+
+ 
+
+s the equilibrium constant (a measure of affinity) and TBG the unoccupied binding sites. Thus:
+Image ch3fb28b jpg
+
++ Binding of hormones to plasma proteins provides a reservoir of active free hormone and delays metabolism of hormones.
++ Changes in the concentration of binding proteins alters total hormone concentration and free hormone concentration.
+
+Comparison of the serum concentrations of Ty and T
+
+1% T3
+Serum concentration Total 100 nmol/l 2nmol/I
+Free (%) 20 pmol/l (0.02%) 5 pmol/l (0.4%)
+
+Box 3.29Metabolism of thyroid hormones
+Image ch3fb29 jpg
+
++ Thyroid hormones are metabolized by a series of deiodinations which involve three types of deiodinases (indicated by numbers in brackets)
+© Type I: deiodinates at both the 5’ and 5 carbon atoms and is found in the liver, kidney, thyroid, pituitary gland and central nervous system. With a high Ky, for Ty, itis the only isoenzyme
+inhibited by PTU. Its activity is increased in hyperthyroidism and reduced in hypothyroidism.
+‘Type 2: deiodinates only at the 5’ position and is found in brain, brown fat, placenta and pituitary gland. With a lower Ky, than Type 1, it is considered to maintain intracellular concentrations
+of Ts. This is important in the negative feedback actions of Ty on the pituitary gland. Its activity is decreased in hyperthyroidism and increased in hypothyroidism
+© Type 3: deiodinates only at the 5 position and is found only in brain and placenta. As it is incapable of converting T, to the active T3, it may protect the brain and fetus from excess active T3.
++ Some T, is metabolised by being sulfated, decarboxylated, deaminated or conjugated with glucuronide (other pathways).
++ Some T3 may be sulfated (T3S) or converted to the acetic acid derivative triiodoacetic acid (TRIAC) that is more potent than its parent Ts.
++ Serum half lives: T, — 7 days, T3 — | day,rT3 — 4 hours.
+
+Box 3.30Measurement of ‘free’ thyroxine — indirect binding assay
+Image ch3#b30 jpg
+
+Image delec| jpg Free T, in patient's serum is captured on antibodies, and hormones bound to plasma globulins are removed. Latex particles are recovered by binding to an inert glass fiber matrix.
+Image delec2,jpg Latex particles are incubated with T, labelled with alkaline phosphatase. The T, binds to any unoccupied antibody binding sites on the latex particles. Excess Ty is removed.
+Image delec3 jpg Latex particles are incubated with 4-methylumberlliferyl phosphate which fluoresces when its phosphate group is removed by the alkaline phosphatase on the Ts.
+
+Image delec4.jpg The intensity of fluorescence is indirectly proportional to the concentration of free hormone in the serum sample and comparison of the results with those from tubes containing known
+amount of T, allows calculation of the original concentration of free hormone.
+
+Note
+
++ There is no international standard for Ty or T3 assays.
+
++ The direct measurement of free T, and T requires physical removal of bound hormones by dialysis or unfiltration. Such assays are expensive and labor intensive and, though used for research
+studies, are not suitable for routine laboratory use:
+
++ Total serum concentrations of T3 and T, are measured by direct competitive binding assays.
+
+Box 3.31Classification of thyroid epithelial cell tumors
+
+These are classified according to histological features
+Primary
+
++ Adenomata
+> Follicular — including colloid, Hurthle cell and other variants
+> Papillary — this may include some follicular elements
+© Teratoma
++ Carcinomata
+o Differentiated
+= Papillary
+= Pure papillary
+= Mixed papillary and follicular
+«= Follicular
+© Undifferentiated
++ Other — e.g. lymphoma, fibrosarcoma
+
+ 
+
+Secondary
+
++ TNM Grading
++ T — primary tumor
+© TO — no palpable tumor
+TI — single tumor confined to the gland
+> T2 — multiple tumors confined to the gland
+© T3 — tumor extending beyond the gland
++N — regional lymph nodes
+© NO — no palpable nodes
+NI — moveable nodes on one side
+> N2 — moveable bilateral nodes
+© N3 — fixed nodes
++ M — distant metastases
+© MO — none
+MI — distant metastases
+
+Clinically, the dominant factor in governing prognosis in thyroid epithelial cell cancer is age. Others factors include size of primary tumor, degree of invasiveness, histological grade and the presence of
+metastases. Of these, all except histological grade are incorporated into the TNM classification.
+
+Image ch3fb31 jpg
+Box 3.32Etiological factors in thyroid cancer
+
+Growth factors — the role of such known thyroid growth factors as TGF-at, EGF, VEGF and IGF-1 in neoplasia remains uncertain.
+‘Oncogenes -
+
+« retis a gene coding for a tyrosine kinase receptor for neurotrophic growth factor. It is not normally expressed in thyroid follicular cell tumors. The ret genes express C-terminal fragments of the
+receptor which leads to unregulating signalling. Rer oncogenes have been designated rer/ptc1 , ret/ptc2, ret/ptc3 (where pte stands for papillary séhyroid carcinoma). The rearrangements of ret are
+particularly seen in patients who have had tumors after irradiation e.g. papillary tumors post-Chernobyl. rer is also a factor in medullary cell carcinoma of the thyroid gland.
+
++ ras is a membrane associated monomeric G protein involved in signal transduction processes. Activating mutations of ras genes are found with a similar frequency in follicular adenomas and
+carcinomas
+
++ p53 is a tumor-suppressor gene. Mutations of p53 are seen in anaplastic cancers.
+
+ 
+
+ 
+
+Thyroid irradiation — External irradiation dose-dependently increases the incidence of thyroid cancer and is marked in younger patients. Therapeutic doses of radioiodine do not appear to result in an
+increased risk of thyroid malignancy.
+
+Other — Familial cases of thyroid cancer have been reported in familial adenomatosis coli, Gardner's disease and Cowden's syndrome. There is controversy over the association with certain
+histocompatibility antigens,
+
+Box 3.33Fine needle aspiration (FNA) cytological examination
+This technique has transformed the investigation of thyroid nodules and has largely replaced ultrasound and 9°"Te scans . It is easy to perform in the out-patient clinic and well accepted by patients.
++ Image ch3fb33a.jpg
+A hypodermic needle is inserted into the nodule and cells in the nodule are aspirated by negative pressure in the hypodermic syrings as the needle is passed repeatedly through the nodule.
++ Image ch31b33b.jpg
+Aspirated material is discharged onto glass slides, spread thinly, dried then fixed and stained. The stained cells are examined under the microscope for diagnosis and subsequent clinical
+
+management.
+
+‘Suggested management
+
+ 
+
+Follow up. Possible thyroxine therapy*
+
+Probably malignant Surgery
+Follicular neoplasm Surgery. Recommended since distinguishing between benign and malignant follicular cells is difficult on histological grounds alone
+Technically unsatisfactory Reaspirate
+
+Cyst Aspiration may cure
+
+a
+
+Evidence for efficacy is poor.
+
++ False positive and negative rates are usually given as about 5%.
++ FNA itself can cause abnormalities in the morphology of thyroid cells that may make histological examination of subsequently removed surgical material difficult to interpret.
+
+Box Q3.1a
+Image ch3fbq1 jpg
+
+This Te scan of Clinical Case Study Q3.1 taken at a time when the patient denied taking any medications for several months. (Compare the image with a normal scan (shown in Box 3.6).
+Box Q3.2a
+
+Image ch3fbq2a,jpg
+
+The small diffusely enlarged thyroid gland.
+
+Image ch3fbq2b jpg
+
+The °°™Te scan of the patient performed during her admission.
+
+Box Q3.3
+
+Image ch3fbq3 jpg
+
+Photograph of the child in Clinical case study Q3.3 taken by his mother a few weeks after birth
+
+Copyright © 2001, BIOS Scientific Publishers Limited
+
+Bookshelf ID: NBK28
+
+Content
+<PrevNext >
+

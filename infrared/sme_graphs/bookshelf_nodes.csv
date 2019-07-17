@@ -1,0 +1,312 @@
+uri,name,categories
+C1709767,Publisher,other
+C0036397,Science,other
+C0009170,Cocaine,other
+C0040128,Thyroid Diseases,dsyn
+C1413336,CEL gene,other
+C0040649,"Transcription, Genetic",other
+C0040135,Thyroid Hormones,aapp
+C0012634,Disease,dsyn
+C0014563,Epinephrine,other
+C0007412,Catecholamines,other
+C0041485,Tyrosine,aapp
+C0002520,Amino Acids,aapp
+C0021968,Iodine,other
+C0596715,hormone biosynthetic process,other
+C0002598,Amiodarone,other
+C0013227,Pharmaceutical Preparations,other
+C0871489,teams,other
+C3842523,Heart condition,fndg
+C0600140,Does run (finding),fndg
+C0015576,Family,other
+C0228176,Left cerebral hemisphere,bpoc
+C0038454,Cerebrovascular accident,dsyn
+C0004238,Atrial Fibrillation,dsyn
+C0018787,Heart,bpoc
+C0019247,Hereditary Diseases,dsyn
+C0012155,Diet,other
+C0020676,Hypothyroidism,dsyn
+C1328840,Autoimmune Lymphoproliferative Syndrome,dsyn
+C0241315,Swiss,other
+C0010308,Congenital Hypothyroidism,other
+C2348268,Dietary Iodine,other
+C0018021,Goiter,dsyn
+C0205156,Previous,other
+C1274040,Result,other
+C0040160,Thyrotropin,aapp
+C0032015,Pituitary Hormones,aapp
+C1285092,Gland,bpoc
+C0229666,Capillary blood,other
+C0021966,Iodides,other
+C0030705,Patients,other
+C0006222,Bromides,other
+C0022023,Ions,other
+C0008173,Chlorates,other
+C0032105,Plasma,other
+C0040132,Thyroid Gland,bpoc
+C0027361,Persons,other
+C0474395,Behavior showing increased motor activity,fndg
+C0225338,Columnar epithelial cell,other
+C1182695,Anagen hair follicle,bpoc
+C0007634,Cells,other
+C0205148,Surface,other
+C0040123,Thyroglobulin,aapp
+C0017968,Glycoproteins,aapp
+C1527250,"Colloid, body substance",other
+C1571705,Follicle,bpoc
+C0033684,Proteins,aapp
+C0021996,Monoiodotyrosine,aapp
+C0040165,Thyroxine,aapp
+C0229671,Serum,other
+C0206588,"Receptors, Nuclear",aapp
+C0221284,Leptocyte,other
+C0041016,"Receptors, Triiodothyronine",aapp
+C0040648,TRANSCRIPTION FACTOR,aapp
+C0597519,steroid hormone receptor,aapp
+C0017262,Gene Expression,other
+C0034843,Thyroid Hormone Receptor,aapp
+C0012854,DNA,other
+C0596448,dimer,other
+C0017428,Genome,other
+C0870882,metabolic rates,other
+C0014442,Enzymes,other
+C0001473,Adenosine Triphosphatases,aapp
+C0040300,Body tissue,other
+C1457887,Symptoms,other
+C0020550,Hyperthyroidism,dsyn
+C0596235,Calcium ion,other
+C0425560,Cardiovascular finding,fndg
+C0013931,"Embolization, Therapeutic",other
+C0040162,Thyrotropin-Releasing Hormone,aapp
+C0205054,Hepatic,other
+C0935624,Capillary vessel,bpoc
+C0030956,Peptides,aapp
+C0019932,Hormones,other
+C2611225,thyroid-stimulating hormone secretion,other
+C0032008,"Pituitary Gland, Anterior",bpoc
+C0086418,Homo sapiens,other
+C0312438,Glycoprotein hormone,other
+C0034800,"Receptors, Cell Surface",aapp
+C0597357,receptor,aapp
+C0086376,GTP-Binding Proteins,aapp
+C0175996,Protoplasm,other
+C0034844,Thyrotropin Receptor,aapp
+C0001492,Adenylate Cyclase,aapp
+C0031669,Phospholipase C,aapp
+C0010531,Cyclic AMP-Dependent Protein Kinases,aapp
+C0020291,Hydrolysis,other
+C0043791,"1,2-diacylglycerol",other
+C0033634,Protein Kinase C,aapp
+C0031727,Phosphotransferases,aapp
+C0037083,Signal Transduction,other
+C0020663,Hypothalamic structure,bpoc
+C1519513,Pituitary TSH-Secreting Cells,other
+C1533685,Injection procedure,other
+C0011900,Diagnosis,fndg
+C0229664,peripheral blood,other
+C0017710,Glucocorticoids,other
+C0010481,Cushing Syndrome,dsyn
+C0014939,Estrogens,other
+C0004364,Autoimmune Diseases,dsyn
+C0004358,Autoantibodies,aapp
+C0018213,Graves Disease,dsyn
+C0003241,Antibodies,aapp
+C0022107,Irritable Mood,fndg
+C0008059,Child,other
+C0235108,Feeling tense,other
+C0221074,"Depression, Postpartum",other
+C0242664,husband,other
+C0543467,Operative Surgical Procedures,other
+C0724000,twenty twenty,other
+C0848106,vitamin injection,other
+C0002871,Anemia,dsyn
+C0262402,cardiac problem,fndg
+C0043210,Woman,other
+C0342114,Diffuse goiter,dsyn
+C0002892,"Anemia, Pernicious",dsyn
+C0337514,Sister,other
+C1334545,Major histocompatibility complex gene,other
+C0004368,Autoimmunity,other
+C0032961,Pregnancy,other
+C2242456,thyroid function,other
+C0015397,Disorder of eye,dsyn
+C1278884,Entire orbital region,other
+C0015392,Eye,bpoc
+C0017973,Glycosaminoglycans,other
+C0043047,Water,other
+C0039194,T-Lymphocyte,other
+C0079189,cytokine,aapp
+C0008466,Chondroitin Sulfates,other
+C0013604,Edema,other
+C0020196,Hyaluronic Acid,other
+C3687832,Drugs,other
+C0087111,Therapeutic procedure,other
+C0006983,Carbimazole,other
+C0039958,Thiourea,other
+C3668831,Lactation established in non-human animal,fndg
+C0871685,Clinician,other
+C0040808,Treatment Protocols,other
+C0136082,perchlorate,other
+C0301380,Cardiac depressant drug,other
+C0310367,Today,other
+C0022262,Isotopes,other
+C1848783,Euthyroidism,fndg
+C0027530,Neck,other
+C0030518,Parathyroid gland,bpoc
+C0023078,Larynx,bpoc
+C0042276,Vagus nerve structure,bpoc
+C0162859,Common carotid artery,bpoc
+C1269025,Entire internal jugular vein,bpoc
+C0040113,Thymus Gland,bpoc
+C0447650,Inferior parathyroid gland,bpoc
+C0447651,Superior parathyroid gland,bpoc
+C0796494,lobe,bpoc
+C0040408,Tongue,bpoc
+C0266283,Ectopic thyroid tissue (disorder),other
+C0185115,Extraction,other
+C0022122,Bone structure of ischium,bpoc
+C0030193,Pain,other
+C0022742,Knee,bpoc
+C0015811,Femur,bpoc
+C0014571,"Epiphyses, Slipped",dsyn
+C0443146,Autoimmune reaction,other
+C0677607,Hashimoto Disease,dsyn
+C1262091,lymphocytic infiltration,dsyn
+C0004258,Primary atrophy,other
+C0027145,Myxedema,dsyn
+C0523376,Anti-thyroid antibody measurement,other
+C0334891,Orthopedic surgeon,other
+C1624602,Anti-Antibodies,aapp
+C0700502,Acquired hypothyroidism,dsyn
+C0271791,Severe hypothyroidism,dsyn
+C0238298,Myxedema coma,dsyn
+C0038633,Sucralfate,other
+C0023884,Liver,bpoc
+C1623038,Cirrhosis,dsyn
+C0021368,Inflammation,other
+C0040147,Thyroiditis,dsyn
+C0026946,Mycoses,dsyn
+C0001360,Acute thyroiditis,dsyn
+C0029126,Optic Chiasms,bpoc
+C0836913,Fossa,other
+C0020635,Hypopituitarism,dsyn
+C3665349,Secondary hypothyroidism,dsyn
+C0032005,Pituitary Gland,bpoc
+C1627769,Pubertal,fndg
+C0005615,Birth,other
+C0027767,Nervous System Physiological Phenomena,other
+C0520983,Hormonal resistance,fndg
+C0014130,Endocrine System Diseases,dsyn
+C0339789,Congenital deafness,other
+C0271829,Pendred's syndrome,dsyn
+C3814410,"Thioredoxin Reductase 1, Cytoplasmic",aapp
+C0018270,Growth,other
+C0311392,Physical findings,fndg
+C0046882,tiratricol,other
+C0025519,Metabolism,other
+C3814864,SERPINA7 wt Allele,other
+C1516559,Circulatory Process,other
+C0014653,Equilibrium,other
+C0023895,Liver diseases,dsyn
+C0022658,Kidney Diseases,dsyn
+C1260969,Ring device,other
+C0015733,Feces,other
+C0812407,glucuronide,other
+C2986608,Thyroid Hormone Treatment,other
+C0231218,Malaise,other
+C1550100,Specimen Type - Serum,other
+C0018284,Growth Factor,aapp
+C0004366,Autoimmune Response,other
+C0037657,Somatomedins,aapp
+C1515441,Thyroid Gland Tissue,other
+C3875007,Nodular thyroid disease,dsyn
+C1281592,Entire neck,bpoc
+C0577559,Mass of body structure,fndg
+C0014935,Estrogen Replacement Therapy,other
+C0011168,Deglutition Disorders,dsyn
+C0600142,Hot flushes,other
+C0017982,glycosylation,other
+C0017473,Germ Line,other
+C0007115,Malignant neoplasm of thyroid,other
+C0027651,Neoplasms,other
+C0027627,Neoplasm Metastasis,other
+C0206693,Medullary carcinoma,other
+C0006668,Calcitonin,aapp
+C0333386,Chronic lymphocytic inflammation,other
+C1261473,Sarcoma,other
+C1135918,"Myocytes, Smooth Muscle",other
+C0014597,Epithelial Cells,other
+C0677930,primary tumor,other
+C1368683,Epithelioma,other
+C1333132,Common Neoplasm,other
+C0683971,general population,other
+C0005847,Blood Vessel,bpoc
+C0229889,Lymphatic vessel,bpoc
+C0006826,Malignant Neoplasms,other
+C0040137,Thyroid Nodule,other
+C0028259,Nodule,other
+C0334590,Anaplastic Oligodendroglioma,other
+C1337013,Differentiated Thyroid Gland Carcinoma,other
+C3272281,American College of Cardiology/American Heart Association Lesion Complexity Score A,fndg
+C1510483,Fine needle aspiration biopsy,other
+C0033131,Primary Care Physicians,other
+C2826292,Related to Cancer,fndg
+C0234254,Radiating pain,other
+C0237433,Pediatrician (occupation),other
+C0162429,Malnutrition,dsyn
+C0020281,Hydrogen Peroxide,other
+C1441129,radioactive iodine,other
+C0036098,Salivary Glands,bpoc
+C1334045,Hot Nodule,fndg
+C1333077,Cold Nodule,fndg
+C0005767,Blood,other
+C3245470,GeneticObservationValue <HOMO>,fndg
+C0050063,8-chloro-cyclic adenosine monophosphate,other
+C0041182,Trophoblastic Neoplasms,other
+C2362538,Thyroid stimulating hormone-producing pituitary tumor,other
+C0232478,Ingestion,other
+C0858451,serum immunoglobulin a,other
+C0424810,Periorbital swelling,other
+C0029180,Ocular orbit,other
+C0441633,Scanning,other
+C0035204,Respiration Disorders,dsyn
+C0004096,Asthma,dsyn
+C0033497,Propranolol,other
+C0015230,Exanthema,other
+C3280118,Mild disorder,fndg
+C0238242,lithium toxicity,other
+C1510438,Assay,other
+C0359168,Mouse monoclonal antibody,aapp
+C0853041,reaction to colouring,dsyn
+C0442893,Systemic disease,dsyn
+C1704258,Abnormality,fndg
+C0870668,hospitalized patients,other
+C0019693,HIV Infections,dsyn
+C0221423,Illness (finding),fndg
+C0279175,Thyroid preparations,aapp
+C0023870,Lithium,other
+C0017649,Globulins,aapp
+C0009002,Clofibrate,other
+C0060161,fenclofenac,other
+C0003211,"Anti-Inflammatory Agents, Non-Steroidal",other
+C0032120,Plasma Proteins,aapp
+C0006104,Brain,bpoc
+C0032043,Placenta,other
+C0011946,Dialysis procedure,other
+C1441554,Direct assay,other
+C0040136,Thyroid Neoplasm,other
+C0024299,Lymphoma,other
+C0260037,Multiple tumors,other
+C0021665,Insulin-Like Growth Factor I,aapp
+C3537152,biological signaling,other
+C1511695,DNA Sequence Rearrangement,other
+C1514850,Replication Error,other
+C0751984,Monomeric GTP-Binding Proteins,aapp
+C1516359,Intracellular Signaling Process,other
+C0079419,TP53 gene,other
+C0079427,Tumor Suppressor Genes,other
+C0034677,"Genes, ras",other
+C0205647,Follicular adenoma,other
+C1332287,Anaplastic Malignant Neoplasm,other
+C0221093,Hypodermic Needles,other
+C0181839,Microscopes,other

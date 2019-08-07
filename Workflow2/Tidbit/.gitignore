@@ -1,0 +1,3 @@
+# ignore Tidbit WF2 generated disease analysis results
+*/*.json
+*/*.html

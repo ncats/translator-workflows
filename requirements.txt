@@ -2,3 +2,6 @@ pandas>=0.23.4
 requests>=2.21.0
 scipy>=1.2.1
 mvp-module-library
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
